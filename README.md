@@ -1,5 +1,6 @@
 # Balsamine.be web repo
 Balsamine rebuild 2017
+![logo-balsa](/content/images/logo-balsa-16-17-large.svg)
 
 ## Development environment
 The new balsamine website is based on [Pelican](https://blog.getpelican.com/), a static site generator. It's built in Python, and thus, we'll use a virtual environment.
