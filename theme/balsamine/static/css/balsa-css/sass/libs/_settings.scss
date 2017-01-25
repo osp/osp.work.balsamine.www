@@ -1,0 +1,45 @@
+// ------------------------------------------------------------
+// Settings
+
+// :: Breakpoints
+// :: Border widths for grid
+// :: Grid variables
+
+// ------------------------------------------------------------
+
+
+// ------------------------------------------------------------
+// :: Breakpoints
+// ------------------------------------------------------------
+
+// a-z viewports. Place where design should change, not always on device widths
+// Hat-tip to @hereinthehive for getting us thinking about naming suggestions
+
+$a-vp								: 300px;	// first viewport
+$b-vp								: 420px;	// up one
+$c-vp								: 600px;	// up two
+$d-vp								: 900px;	// up three
+$e-vp								: 1100px;	// up four
+$f-vp								: 1300px;	// up five
+$ie-fixed-vp						: 980px;    // Viewport for IE fixed width
+
+$max-vp 							: $f-vp; 	// max viewport. Syntactically makes for a nicer option
+
+
+// At some point, you'll want to switch from a one column view to multi-column.
+// This variable is used in the grid to dictate when you make that switch
+$start-columns 						: $b-vp;
+
+// ------------------------------------------------------------
+// :: Border widths
+// ------------------------------------------------------------
+
+$default-border-width 				: 1px;
+
+
+// ------------------------------------------------------------
+// :: Grid variables
+// ------------------------------------------------------------
+
+$internal-spacing-percent 			: 3%;		// Used by grid system
+$internal-spacing	: 40px; 	// Space internally with fixed measure

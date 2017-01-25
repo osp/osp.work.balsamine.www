@@ -1,0 +1,18 @@
+// Compass components
+@import "compass/reset";
+
+// Import libraries
+@import "settings";
+@import "mixins";
+
+// Import partials
+@import "grid";
+@import "typography";
+@import "menus";
+@import "home";
+
+
+// General styles
+html{
+  margin-top: 16px;
+}

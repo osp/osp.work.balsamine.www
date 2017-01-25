@@ -1,0 +1,39 @@
+html{
+  font-family: ume_p_gothic_balsaregular;
+}
+
+@font-face {
+    font-family: 'ume_p_gothic_balsaregular';
+    src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'),
+         url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ume_p_gothic_verticalregular';
+    src: url('../fonts/ume-p-gothic-vertical-webfont.woff2') format('woff2'),
+         url('../fonts/ume-p-gothic-vertical-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ume_vertical_wideregular';
+    src: url('../fonts/ume-vertical-wide-webfont.woff2') format('woff2'),
+         url('../fonts/ume-vertical-wide-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ume_vertical_wide-bridgeRg';
+    src: url('../fonts/ume-vertical-wide-bridge-webfont.woff2') format('woff2'),
+         url('../fonts/ume-vertical-wide-bridge-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ume_vertical_wideregular';
+    src: url('../fonts/ume-vertical-wide-oblique-webfont.woff2') format('woff2'),
+         url('../fonts/ume-vertical-wide-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
