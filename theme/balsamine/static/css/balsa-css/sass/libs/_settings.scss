@@ -4,6 +4,7 @@
 // :: Breakpoints
 // :: Border widths for grid
 // :: Grid variables
+// :: Typesizes/scale
 
 // ------------------------------------------------------------
 
@@ -43,3 +44,25 @@ $default-border-width 				: 1px;
 
 $internal-spacing-percent 			: 3%;		// Used by grid system
 $internal-spacing	: 40px; 	// Space internally with fixed measure
+
+// ------------------------------------------------------------
+// :: Typesizes/scale
+// ------------------------------------------------------------
+
+// Greek alphabet naming system. Obscure, yet hierarchical.
+// Allows us to avoid naming based on html object.
+// Eg. A h1 can be smaller visually, than a h4.
+$alpha   	: 42px;
+$beta		: 32px;
+$gamma		: 28px;
+$delta		: 26px;
+$epsilon	: 24px;
+$zeta		: 20px;
+$eta		: 18px;
+$theta		: 16px;
+$iota 		: 14px;
+$kappa 		: 12px;
+
+
+$para		: $theta; 	// Paragraph size
+$quote		: $beta;	// Quote size

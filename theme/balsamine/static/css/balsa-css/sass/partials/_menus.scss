@@ -6,3 +6,10 @@ header#banner{
     font-size: 32px;
   }
 }
+nav#menu{
+  li{
+    font-size: $eta;
+    line-height: $eta + 4px;
+
+  }
+}
