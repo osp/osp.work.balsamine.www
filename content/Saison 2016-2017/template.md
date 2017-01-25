@@ -8,7 +8,6 @@ Piece_author:
 Event_type: 
 Reservation_link: 
 
-<!--
 # Un titre
 ## Un titre de niveau 2
 Du contenu, du texte.
@@ -20,4 +19,3 @@ Un nouveau paragraphe
 ![une image](images/shouldistay.jpg)
 
 Un autre paragraphe, *du texte en italique* **du texte en bold**
--->
