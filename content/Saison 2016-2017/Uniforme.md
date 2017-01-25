@@ -1,6 +1,6 @@
 Title: Uniforme
 Date: 2017/01/26
-Status: Draft
+Status: Published
 Start_date: 2017/02/12
 End_date: 2017/02/24
 Time: 20h30
