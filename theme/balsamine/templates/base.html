@@ -37,7 +37,6 @@
       <div class="colspan12-3 as-grid">
         <header id="banner" class="body">
                 <a href="{{ SITEURL }}/"><img class="nav-logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa-16-17-large.svg"></a>
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
         </header><!-- /#banner -->
         <nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
@@ -47,12 +46,11 @@
           {% for p in pages %}
             <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
           {% endfor %}
-        {% else %}
-          {% if DISPLAY_CATEGORIES_ON_MENU %}
-            {% for cat, null in categories %}
-              <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-            {% endfor %}
-          {% endif %}
+        {% endif %}
+        {% if DISPLAY_CATEGORIES_ON_MENU %}
+          {% for cat, null in categories %}
+            <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+          {% endfor %}
         {% endif %}
         </ul></nav><!-- /#menu -->
       </div>
