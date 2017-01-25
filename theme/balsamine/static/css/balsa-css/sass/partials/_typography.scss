@@ -37,3 +37,38 @@ html{
     font-weight: normal;
     font-style: normal;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+p, span, cite, ol, ul, pre, label, input, textarea {
+  font-size: $para;
+}
+
+h1{
+  font-size: $alpha;
+  font-family: ume_p_gothic_verticalregular;
+}
+
+h2{
+  font-size: $beta;
+  font-family: ume_p_gothic_verticalregular;
+}
+
+h3{
+  font-size: $gamma;
+}
+
+h4{
+  font-size: $delta;
+}
+
+h5{
+  font-size: $epsilon;
+}
+
+h6{
+  font-size: $zeta;
+}

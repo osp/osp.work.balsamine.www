@@ -4,9 +4,8 @@ Start_date: 2017/01/25
 End_date: 2017/01/27
 Time: 20h30
 Piece_author: Clément Thirion
-Event_type Reprise danse-théâtre
-Image:
-Reservation-link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=4&cntnt01returnid=44
+Event_type: Reprise danse-théâtre
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=4&cntnt01returnid=44
 
 Et si nous n’étions pas seuls ? Et si nous trouvions des preuves d’autres vies dans le cosmos ? Ce fantasme d’une vie extraterrestre est le point de départ de Fractal.
 
