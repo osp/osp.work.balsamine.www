@@ -33,7 +33,10 @@
 </head>
 
 <body id="index" class="home">
+  <div class="row">
+      <div class="colspan12-3 as-grid">
         <header id="banner" class="body">
+                <a href="{{ SITEURL }}/"><img class="nav-logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa-16-17-large.svg"></a>
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
         </header><!-- /#banner -->
         <nav id="menu"><ul>
@@ -52,13 +55,13 @@
           {% endif %}
         {% endif %}
         </ul></nav><!-- /#menu -->
+      </div>
+      <div class="colspan12-9 as-grid"
         {% block content %}
         {% endblock %}
         <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
         </footer><!-- /#contentinfo -->
+      </div>
+    </div>
 </body>
 </html>
