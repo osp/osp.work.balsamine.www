@@ -2,3 +2,4 @@ venv/
 *.pyc
 *.pid
 output/*
+.sass-cache/
