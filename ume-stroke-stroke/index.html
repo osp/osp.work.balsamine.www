@@ -33,7 +33,7 @@ height: auto;
     text-decoration: none;
   }
   .container > .cadra{
-    background: url('svg/guide.svg');
+    /* background: url('svg/guide.svg'); */
     background-repeat: repeat-x;
     background-size: auto 100%;
   }
@@ -48,9 +48,27 @@ height: auto;
 <script type="text/javascript" charset="utf-8">
 
 
+function grad(){
+  var pathEle = $('svg');
+  var stt = 240;
+  var scl = .1
+  pathEle.each(function () {
+    // $(this).css('stroke-width', stt);
+    trs = scl*10;
+  // $(this).attr('transform', 'scale(1,'+scl+') translate(0, 0)');
+    // $(this).css('stroke-width', stt);
+    stt = stt - 6;
+    scl = scl + 0.1;
+  });
+}
+
 // var word = ['M', 'A', 'I', 'B', 'L', 'b', 'a', 'l', 's', 'a-ext', 'm', 'i', 'n', 'e', 'A'];
-var word = ['B', 'A', 'L', 'S', 'A', 'M', 'I', 'N', 'E', 'b', 'a','l', 's', 'a', 'm', 'i', 'n', 'e'];
-// var word = ['A'];
+var word = ['B', 'A', 'L', 'S', 'A', 'M', 'I', 'N', 'E', 'b', 'a','l', 's', 'a-ext', 'm', 'i', 'n', 'e'];
+// var word = ['B-test', 'A', 'L', 'S', 'A', 'M', 'I', 'N', 'E'];
+// var word = ['D-ext', 'A','N'];
+
+// var word = ['C', 'A', 'D', 'B', 'N', 'E'];
+// var word = ['A', 'A-ext'];
 
 for (var i = 0, l = word.length; i < l; i++) {
   var v = word[i];
@@ -64,21 +82,24 @@ for (var i = 0, l = word.length; i < l; i++) {
 
 $(document).ready(function(){
   var start = 100;
-  $('.cadra').css('height', '280');
+  $('.cadra').css('height', '370');
   $('path.int').css('stroke-width', '100');
   $('path.ext').css('stroke-width', start);
   $('path.serif').css('stroke-width', '0');
   $('path.intrap').css('stroke-width', '50');
   $('.soleil').css('stroke-width', '0');
+  // $('path').css('filter', 'url(#filter237)');
+  // $('.int').attr('transform', 'scale(1.5,1) translate(-20, 0)'  );
   // $('path').css('stroke-linejoin','bevel');
   // $('path').css('stroke-linecap','round');
+  grad();
 })
 
 function range(idStroke, valStart, valMax, propri, attri){
   var html = '<li>'+idStroke+' | '+propri+'<br><input data-attri="'+attri+'" data-propri="'+propri+'" type="range"  min="0" max="'+valMax+'" value="'+valStart+'" name="discount_credits" class="discount_credits" id="'+idStroke+'" /><span>'+valStart+'</span></li>';
   $("footer").append(html);
 }
-range('cadra', 2800, 10000, 'height', 'css');
+range('cadra', 3700, 10000, 'height', 'css');
 range('int', 1000, 3000, 'stroke-width', 'css');
 range('ext', 1000, 3000, 'stroke-width', 'css');
 range('int', 10, 10, 'stroke-opacity', 'css');
@@ -95,7 +116,7 @@ $('.discount_credits').on("change mousemove", function() {
     var propri = $(this).attr('data-propri');
     $(this).next().html($(this).val());
 
-    var calc = (1550 - valStroke/10/2) / 1500;
+    var calc = (1550 - valStroke/10/1) / 1450;
 
     var test = valStroke/(20*calc ) - 50;
     // $('.'+idStroke).attr('transform', 'scale(1,'+calc+') translate(0, '+test+')'  );
