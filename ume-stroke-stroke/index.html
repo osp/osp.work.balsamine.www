@@ -5,10 +5,10 @@
   <title></title>
   <script src="js/jquery-3.1.1.min.js" ></script>
 <style type="text/css" media="all">
-.container{
-width: 80%;
-height: auto;
-}
+  .container{
+    width: 80%;
+    height: auto;
+  }
   .cadra{
     height: 280px;
     width: auto;
@@ -21,6 +21,7 @@ height: auto;
     overflow: visible
   }
   footer{
+
     position: fixed;
     right: 0px;
     background: white;
@@ -33,7 +34,7 @@ height: auto;
     text-decoration: none;
   }
   .container > .cadra{
-    /* background: url('svg/guide.svg'); */
+    background: url('svg/marg/guide.svg');
     background-repeat: repeat-x;
     background-size: auto 100%;
   }
@@ -47,6 +48,7 @@ height: auto;
 </body>
 <script type="text/javascript" charset="utf-8">
 
+var word = ['B', 'a', 'k', 'o', 'i', 'm', 'e'];
 
 function grad(){
   var pathEle = $('svg');
@@ -55,20 +57,13 @@ function grad(){
   pathEle.each(function () {
     // $(this).css('stroke-width', stt);
     trs = scl*10;
-  // $(this).attr('transform', 'scale(1,'+scl+') translate(0, 0)');
+    // $(this).attr('transform', 'scale(1,'+scl+') translate(0, 0)');
     // $(this).css('stroke-width', stt);
     stt = stt - 6;
     scl = scl + 0.1;
   });
 }
 
-// var word = ['M', 'A', 'I', 'B', 'L', 'b', 'a', 'l', 's', 'a-ext', 'm', 'i', 'n', 'e', 'A'];
-var word = ['B', 'A', 'L', 'S', 'A', 'M', 'I', 'N', 'E', 'b', 'a','l', 's', 'a-ext', 'm', 'i', 'n', 'e'];
-// var word = ['B-test', 'A', 'L', 'S', 'A', 'M', 'I', 'N', 'E'];
-// var word = ['D-ext', 'A','N'];
-
-// var word = ['C', 'A', 'D', 'B', 'N', 'E'];
-// var word = ['A', 'A-ext'];
 
 for (var i = 0, l = word.length; i < l; i++) {
   var v = word[i];
@@ -105,8 +100,6 @@ range('ext', 1000, 3000, 'stroke-width', 'css');
 range('int', 10, 10, 'stroke-opacity', 'css');
 range('ext', 10, 10, 'stroke-opacity', 'css');
 range('serif', 0, 120, 'stroke-width', 'css');
-
-
 
 $('.discount_credits').on("change mousemove", function() {
     var dataOver = $('.ext[data-over]');
