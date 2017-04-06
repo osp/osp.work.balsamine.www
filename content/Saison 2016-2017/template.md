@@ -1,12 +1,12 @@
 Title:
 Date:
 Status: Hidden
-Start_date: 
-End_date: 
-Time: 
-Piece_author: 
-Event_type: 
-Reservation_link: 
+Start_date:
+End_date:
+Time:
+Piece_author:
+Event_type:
+Reservation_link:
 
 # Un titre
 ## Un titre de niveau 2
