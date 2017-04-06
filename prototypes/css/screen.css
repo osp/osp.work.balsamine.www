@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'ume_p_gothic_balsaregular';
+    src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'),
+         url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-header {
+    display: none;
+
+    padding: 1em;
+    outline: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.scrollbar {
+    width: 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom,  #1e5799 0%,#ff3232 25%,#ff328e 50%,#32c5ff 75%,#2989d8 100%,#207cca 100%,#7db9e8 100%);
+}
+
+.logo {
+    width: 50%;
+}
+
+.show {
+    font-family: 'ume_p_gothic_balsaregular';
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 1em;
+    margin-top: -2em;
+    margin-bottom: -2em;
+    margin-right: 2em;
+}
+
+.show:nth-child(odd) { background: linear-gradient(to right, #ff8080, transparent); }
+.show:nth-child(even) { background: linear-gradient(to left, #d1ff18, transparent); }
+
+.show h1 {
+    font-size: 2em;
+}
