@@ -10,7 +10,7 @@
     height: auto;
   }
   .cadra{
-    height: 280px;
+    height: 370px;
     width: auto;
     float: left;
   }
@@ -34,7 +34,7 @@
     text-decoration: none;
   }
   .container > .cadra{
-    background: url('svg/marg/guide.svg');
+    /* background: url('svg/marg/guide.svg'); */
     background-repeat: repeat-x;
     background-size: auto 100%;
   }
@@ -44,11 +44,15 @@
 <div class="container"></div>
 
 
-<footer></footer>
+<footer>
+  <input type="text" id="chaine" value="Abcde" />
+</footer>
 </body>
 <script type="text/javascript" charset="utf-8">
 
-var word = ['B', 'a', 'k', 'o', 'i', 'm', 'e'];
+
+
+
 
 function grad(){
   var pathEle = $('svg');
@@ -64,15 +68,27 @@ function grad(){
   });
 }
 
+function onInput(){
+  $('.cadra').remove();
+  var word = $('#chaine').val();
+  var nb_car = word.length;
+  var letter = word.split("");
 
-for (var i = 0, l = word.length; i < l; i++) {
-  var v = word[i];
-  jQuery('<div/>', {
-      id: v+'_'+i,
-      class: 'cadra',
-  }).appendTo('.container');
-  $('#'+v+'_'+i).load('svg/'+v+'.svg');
-};
+  for (var i = 0, l = word.length; i < l; i++) {
+    var v = letter[i];
+    jQuery('<div/>', {
+        id: v+'_'+i,
+        class: 'cadra',
+    }).appendTo('.container');
+    $('#'+v+'_'+i).load('svg/'+v+'.svg');
+  };
+}
+
+onInput();
+
+$('#chaine').keyup(function(){
+  onInput();
+})
 
 
 $(document).ready(function(){

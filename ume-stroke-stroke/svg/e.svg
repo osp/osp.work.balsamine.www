@@ -41,10 +41,10 @@
      inkscape:window-height="730"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="0.92187499"
-     inkscape:cx="320.16318"
-     inkscape:cy="569.16019"
-     inkscape:window-x="1920"
+     inkscape:zoom="0.19287126"
+     inkscape:cx="-336.53503"
+     inkscape:cy="618.38491"
+     inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer2"
@@ -129,14 +129,14 @@
      style="display:inline">
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 848.589,1511.7184 c 0,49.1881 -84.00792,219.9025 -292.25908,216.6432 -241.07136,0 -376.42092,-190.0124 -376.42092,-502.4346 -1.33333,-33.1395 -2,-99.4185 -2,-99.4185 0,0 0.66667,-61.5319 2,-92.2978 0,-201.99779 116.99524,-387.41496 294.95086,-390.45096 h 84.59879 c 193.08602,0 286.98835,209.67649 286.98835,390.92096 v 141.1075 H 179.38146"
+       d="m 846.589,1511.7184 c 0,49.1881 -82.00792,219.9025 -290.25908,216.6432 -241.07136,0 -376.42092,-190.0124 -376.42092,-502.4346 -1.33333,-33.1395 -2,-99.4185 -2,-99.4185 0,0 0.66667,-61.5319 2,-92.2978 C 179.909,832.21291 296.90424,648.036 474.85986,645 h 84.59879 C 752.54467,645 846.447,853.43623 846.447,1034.6807 v 141.1075 H 179.38146"
        id="path5546-0-3-2-5-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc"
        class="ext" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 801.169,1511.7939 c 0,68.3928 -103.78835,196.9239 -243.35669,196.9239 -181.00915,0 -343.18793,-153.9244 -343.18793,-471.013 l -2.06877,-173.5397 c 0,-264.73248 120.2195,-405.47096 301.73873,-404.41499 189.11701,0 297.97916,140.64796 297.97916,405.38849 l -0.033,87.1951 H 213.53403"
+       d="M 799.169,1511.7939 C 799.169,1580.1867 691.38065,1710 551.81231,1710 370.80316,1710 214.62438,1554.7934 214.62438,1237.7048 l -2.06877,-173.5397 c 0,-264.73248 120.2195,-400.22107 301.73873,-399.1651 189.11701,0 297.97916,135.39807 297.97916,400.1386 l -0.033,87.1951 H 213.53403"
        id="path5546-1-6-6-0-9-4"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cscccccc"
