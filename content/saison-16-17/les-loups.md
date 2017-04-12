@@ -1,5 +1,5 @@
-Title: Les loups 
-Date: 2017/xx/xx
+Title: Les loups
+Date: 2017/03/26
 Start_date: 2017/03/26
 End_date: 2017/03/30
 Time: 20h30
@@ -16,11 +16,11 @@ Trois biologistes en Antarctique, éloignés de leur campement afin d’élargir
 C’est dans cette urgence, sous le joug de la survie que Les Loups nous parlent de leur choix. Des choix qui impliquent des orientations, des stratégies, des questions éthiques, des renoncements et qui témoignent de notre étourdissement devant le vide.
 
 
-Texte et mise en scène 
+Texte et mise en scène
 :   Jean Le Peltier
 Avec
 :   Pierrick De Luca, David Koczij, Jean Le Peltier, Cécile Maidon
-Scénographie 
+Scénographie
 :   Vincent Glowinsky
 Lumière
 :   Émily Brassier
@@ -28,6 +28,5 @@ Costumes
 :   Agathe Thomas
 Diffusion
 :   Entropie
- 
-Une production IVES & PONY en coproduction avec le Théâtre la Balsamine.{. production}
 
+Une production IVES & PONY en coproduction avec le Théâtre la Balsamine.{. production}

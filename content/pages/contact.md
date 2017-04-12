@@ -1,2 +1,2 @@
-Title: contact page
+Title: contact
 Date: 2017

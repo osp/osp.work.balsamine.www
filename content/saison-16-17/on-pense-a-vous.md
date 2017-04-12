@@ -1,5 +1,5 @@
-Title: On pense à vous 
-Date: 2017/xx/xx
+Title: On pense à vous
+Date: 2017/05/04
 Start_date: 2017/05/04
 End_date: 2017/05/05
 Time: xxhxx
@@ -10,15 +10,15 @@ Reservation_link: http://balsamine.billetterie.it/index.php?...
 
 La dame de la Yourte est de retour, une dernière fois !{. phrase_intro}
 
-> Un pinceau, un crayon 
-> Mes mains courent sur la feuille 
+> Un pinceau, un crayon
+> Mes mains courent sur la feuille
 > Une forme, un œil, une tête
 > Un quelqu’un qui se montre…
-> Qui es-tu ? 
+> Qui es-tu ?
 > Qui êtes-vous ?
 > D’où venez-vous ?
-> Du fond de ma caboche ? 
-> Comme des portraits… 
+> Du fond de ma caboche ?
+> Comme des portraits…
 > De moi, d’amis connus ou inconnus ?
 
 « *Elle nous accueille chez elle, dans son nid : une yourte nomade, ronde et chaleureuse où la vie circule librement, sans se blesser aux angles de la bienséance.

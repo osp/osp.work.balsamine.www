@@ -1,5 +1,5 @@
 Title: Les mardis contemporains
-Date: 2017/xx/xx
+Date: 2017/11/14
 Start_date: 2017/11/14
 End_date: 2017/11/21
 Time: 20h30
@@ -16,20 +16,20 @@ Pour deux concerts-rencontres, **Les mardis contemporains** prennent leurs quart
 
 Invités
 :    Francis Metzger (sous réserves) et François Schuiten
-Œuvres interprétées 
+Œuvres interprétées
 :    Tetras de Iannis Xenakis, Quatuor à cordes n°2 de Luis Naon extrait du cycle Urbana, City Life de Steve Reich, une création inédite de Stéphane Orlando
 Direction
 :    Thomas Van Haeperen
 Interpretation
-:    Quatuor TANA / Ensemble Sturm & Klang 
+:    Quatuor TANA / Ensemble Sturm & Klang
 
-##Cirque 
+##Cirque
 ??? Date2:  Le 21 novembre à 20h30   
 
 Invités
 :    Pascal Jacob, auteur de « Une histoire du cirque » aux éditions du Seuil.
 Œuvres interprétées
-:    Sonate n°2 pour violoncelle de Gyorgy Ligeti, Circus Polka d’Igor Stravinsky, March for Piano: The Circus Band de Charles Ives et une création inédite de Stefan Hejdrowski 
+:    Sonate n°2 pour violoncelle de Gyorgy Ligeti, Circus Polka d’Igor Stravinsky, March for Piano: The Circus Band de Charles Ives et une création inédite de Stefan Hejdrowski
 Violoncelle
 :    Guy Danel
 Piano

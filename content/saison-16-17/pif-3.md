@@ -1,5 +1,5 @@
-Title: PIF 3 - Pauvre et Informe Festival 3 
-Date: 2017/xx/xx
+Title: PIF 3 - Pauvre et Informe Festival 3
+Date: 2017/06/21
 Start_date: 2017/06/21
 End_date: 2017/06/23
 Time: 20h30
