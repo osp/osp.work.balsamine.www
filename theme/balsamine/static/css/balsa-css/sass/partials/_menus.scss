@@ -1,7 +1,7 @@
 div.menu-space{
   position: fixed;
   background-color: white;
-  width: 10%;
+  width: 60px;
   height: 100%;
   @include respond-to($c-vp){
     position: fixed;
@@ -11,7 +11,7 @@ div.menu-space{
     width: 75%;
     height: $para*4;
     padding-top: $para;
-  };
+  }
   header#banner{
     padding-left: $para*2;
     transform: rotate(90deg);
@@ -67,15 +67,17 @@ div.menu-space{
 
 div.secondary-nav{
   //display: none;
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   height: 100vh;
   outline: 1px solid blue;
+  //width: $para*4;
+  float: left;
   @include respond-to($c-vp){
+    position: fixed;
     z-index: -9999;
     padding-top: $para*6;
-    width: $para*4;
   }
   nav#secondary-menu{
     ul.second-nav{

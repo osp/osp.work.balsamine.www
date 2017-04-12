@@ -822,7 +822,7 @@ h6 {
 div.menu-space {
   position: fixed;
   background-color: white;
-  width: 10%;
+  width: 60px;
   height: 100%;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
@@ -945,48 +945,65 @@ div.menu-space nav#menu li {
 
 /* line 68, balsa-css/sass/partials/_menus.scss */
 div.secondary-nav {
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   height: 100vh;
   outline: 1px solid blue;
+  float: left;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
 .lt-ie9 div.secondary-nav {
+  position: fixed;
   z-index: -9999;
   padding-top: 96px;
-  width: 64px;
 }
 @media screen and (min-width: 600px) {
   /* line 68, balsa-css/sass/partials/_menus.scss */
   div.secondary-nav {
+    position: fixed;
     z-index: -9999;
     padding-top: 96px;
-    width: 64px;
   }
 }
 
 /* line 1, balsa-css/sass/partials/_indexes.scss */
 ol#event-list {
-  position: absolute;
   right: 0;
   min-height: 110vh;
-  width: 90%;
   outline: 1px solid blue;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
 .lt-ie9 ol#event-list {
   width: 25%;
+  position: absolute;
 }
 @media screen and (min-width: 600px) {
   /* line 1, balsa-css/sass/partials/_indexes.scss */
   ol#event-list {
     width: 25%;
+    position: absolute;
   }
+}
+/* line 9, balsa-css/sass/partials/_indexes.scss */
+ol#event-list li {
+  border-bottom: 1px solid blue;
 }
 /* line 12, balsa-css/sass/partials/_indexes.scss */
 ol#event-list li article.entry {
-  padding: 16px;
   min-height: 160px;
-  border-bottom: 1px solid blue;
+  width: 100%;
+  max-width: 100%;
+  padding: 16px;
+  margin-left: 64px;
+}
+/* line 9, balsa-css/sass/libs/_mixins.scss */
+.lt-ie9 ol#event-list li article.entry {
+  margin-left: 0;
+}
+@media screen and (min-width: 600px) {
+  /* line 12, balsa-css/sass/partials/_indexes.scss */
+  ol#event-list li article.entry {
+    margin-left: 0;
+  }
 }

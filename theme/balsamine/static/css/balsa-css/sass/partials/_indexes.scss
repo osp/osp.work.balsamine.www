@@ -1,18 +1,23 @@
 ol#event-list{
-  position: absolute;
   right: 0;
   min-height: 110vh;
-  width: 90%;
   outline: 1px solid blue;
-  //padding: $para*2;
   @include respond-to($c-vp){
     width: 25%;
+    position: absolute;
   }
   li{
+    border-bottom: 1px solid blue;
+    //margin: $para;
     article.entry{
-      padding: $para;
       min-height: 160px;
-      border-bottom: 1px solid blue;
+      width: 100%;
+      max-width: 100%;
+      padding: $para;
+      margin-left: $para*4;
+      @include respond-to($c-vp){
+        margin-left: 0;
+      };
     }
   }
 }

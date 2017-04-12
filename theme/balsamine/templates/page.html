@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 {% block content %}
-    <div class="colspan12-6 as-grid">
+
+
+    <div class="">
     <h1>{{ page.title }}</h1>
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
