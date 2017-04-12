@@ -60,3 +60,21 @@ The dev server is now also running, so you can visit your website locally at loc
 That should be it to start off.
 
 OSP will most lightly define it's own guidelines for working in templates and css, which will result in other wiki-readme-documents.
+
+### Working on the theme
+
+Templates are managed with Jinja2 http://jinja.pocoo.org/
+
+### Working on the css
+
+The stylesheets are preprocessed by Compass, and written in Sass. This is subject to change as the project progresses. Installation of Compass deploys as a Ruby Gem:
+
+* if you don't have Ruby Gems installed ( check by testing `gem -v` ) install like so:
+  * `sudo apt-get install rubygems build-essential`
+* to install compass run
+  * `gem update --system`
+  * `gem install compass`
+* finally, before you start working on the css, start the compass watcher:
+  * `cd work.balsamine.www/theme/balsamine/static/balsa-css/`
+  * `compass watch`
+  * that last command reads the configs written in `config.rb`, listens for changes in the css files and compiles screen.css to the right location when something is changed
