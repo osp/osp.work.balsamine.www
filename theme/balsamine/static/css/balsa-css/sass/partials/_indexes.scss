@@ -1,6 +1,18 @@
-ol#post-list{
-  div.item{
-    //outline: 1px dotted grey;
-    margin-right: $para;
+ol#event-list{
+  position: absolute;
+  right: 0;
+  min-height: 110vh;
+  width: 90%;
+  outline: 1px solid blue;
+  //padding: $para*2;
+  @include respond-to($c-vp){
+    width: 25%;
+  }
+  li{
+    article.entry{
+      padding: $para;
+      min-height: 160px;
+      border-bottom: 1px solid blue;
+    }
   }
 }

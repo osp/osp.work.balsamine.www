@@ -7,18 +7,16 @@
 -->
 {% endblock %}
 
-<ol id="post-list">
+<ol id="event-list">
 {% for article in articles_page.object_list %}
-<div class="row">
-        <li><article class="hentry">
-                <div class="item colspan12-2 as-grid">
+        <li><article class="entry">
+                <div class="timeline-item">
                 <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
                 {% if article.start_date %}<time class="published" datetime="{{ article.start_date }}"> {{ article.locale_date }} </time>{% endif %}{% if article.end_date %} &rarr; <time class="published" datetime="{{ article.end_date }}"> {{ article.locale_date }} </time>{% endif %}
                 {% if article.time %}<br>{{ article.time }}{% endif %}
                 {% if article.image %}<a href="{{ SITEURL }}/{{ article.url }}" title="Permalink to {{ article.title|striptags }}"><img class="listing-header-image" src="/{{ article.image }}"></a>{% endif %}
                 </div>
         </article></li>
-</div>
 {% endfor %}
 </ol><!-- /#posts-list -->
 {% if articles_page.has_other_pages() %}

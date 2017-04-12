@@ -1,15 +1,87 @@
-header#banner{
-  img.nav-logo{
-    width: 80%;
+div.menu-space{
+  position: fixed;
+  background-color: white;
+  width: 10%;
+  height: 100%;
+  @include respond-to($c-vp){
+    position: fixed;
+    transform: none;
+    width: 100%;
+    border-bottom: 1px solid blue;
+    width: 75%;
+    height: $para*4;
+    padding-top: $para;
+  };
+  header#banner{
+    padding-left: $para*2;
+    transform: rotate(90deg);
+    @include respond-to($c-vp){
+      transform: none;
+      position: relative;
+      width: auto;
+      float: left;
+      padding-left: $para*6;
+    }
+    img.nav-logo{
+      width: 150px;
+    }
+    h1{
+      font-size: 32px;
+    }
   }
-  h1{
-    font-size: 32px;
+  nav#menu{
+    top: 200px;
+    left: 0;
+    height: 100vh;
+    @include respond-to($c-vp){
+      height: auto;
+      top: $para;
+      position: relative;
+      height: auto;
+    }
+    ul.mainnav{
+      margin-top: 200px;
+      @include respond-to($c-vp){
+        margin-top: 0;
+        position: relative;
+        display: inline-block;
+      };
+    }
+    li{
+      margin-top:100px;
+      transform: rotate(90deg);
+      display: inline-block;
+      //width: 100px;
+      //padding-left: 100px;
+      font-size: $eta;
+      line-height: $eta + 4px;
+      @include respond-to($c-vp){
+        transform: none;
+        position: relative;
+        margin-top: 0;
+        margin-left: 75px;
+      }
+    }
   }
 }
-nav#menu{
-  li{
-    font-size: $eta;
-    line-height: $eta + 4px;
 
+div.secondary-nav{
+  //display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  outline: 1px solid blue;
+  @include respond-to($c-vp){
+    z-index: -9999;
+    padding-top: $para*6;
+    width: $para*4;
+  }
+  nav#secondary-menu{
+    ul.second-nav{
+      li{
+
+      }
+    }
   }
 }
