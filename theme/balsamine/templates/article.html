@@ -14,16 +14,41 @@
 {% block content %}
 <div class="central-content">
 <section id="content" class="article-body">
+  <div class="hooks left">
   <header>
     <h2 class="entry-title">{{ article.title }}</h2>
   </header>
-  <footer class="post-info">
-    <time class="published" datetime="{{ article.date.isoformat() }}">
-      {{ article.locale_date }}
+    <time>
+      {# date var #}
+      {% if article.end_date %}
+        du {{article.start_date}} → {{article.end_date}}
+      {% else %}
+        le {{article.locale_date}}
+      {% endif %}
+      {# time var #}
+      {% if article.time %}
+        {% if article.time|length > 5 %}
+        <br>horaire: {{article.time}}
+        {% else %}
+        <br>à: {{article.time}}
+        {% endif %}
+      {% else %}
+      {% endif %}
+      {# author var #}
+      {% if article.piece_author %}
+        <br>{{article.piece_author}}
+      {% endif %}
+      {# event type var #}
+      {% if article.event_type %}
+        <br>{{article.event_type}}
+      {% endif %}
+      {# reservation var #}
+      {% if article.reservation_link %}
+        <br><a class="reservation-link" href="{{article.reservation_link}}">Réservation</a>
+      {% endif %}
     </time>
-  </footer><!-- /.post-info -->
-  <hr>
-  <div class="entry-content">
+  </div>
+  <div class="entry-content right">
     {{ article.content }}
   </div><!-- /.entry-content -->
 </section>

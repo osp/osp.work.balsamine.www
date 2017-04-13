@@ -1073,3 +1073,21 @@ div.central-content {
 div.central-content section#content.article-body {
   padding: 32px;
 }
+/* line 9, balsa-css/sass/libs/_mixins.scss */
+.lt-ie9 div.central-content div.hooks, .lt-ie9 div.central-content div.entry-content {
+  width: 45%;
+  float: left;
+  margin-left: 2%;
+  overflow: scroll;
+  max-height: 70vh;
+}
+@media screen and (min-width: 600px) {
+  /* line 17, balsa-css/sass/partials/_article.scss */
+  div.central-content div.hooks, div.central-content div.entry-content {
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+    overflow: scroll;
+    max-height: 70vh;
+  }
+}
