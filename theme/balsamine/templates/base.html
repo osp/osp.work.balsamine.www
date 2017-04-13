@@ -2,6 +2,9 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
         {% block head %}
+        <meta charset="utf-8">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		    <meta name="viewport" content="initial-scale=1">
         <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
         <meta charset="utf-8" />
@@ -31,17 +34,39 @@
       </div>
       <div class="secondary-nav">
         <nav id="secondary-menu"><ul class="second-nav">
-          <li><a>search</a></li>
-          <li><a>facebook</a></li>
-          <li><a>map</a></li>
+          <li><a href="#">search</a></li>
+          <li><a href="#">facebook</a></li>
+          <li><a href="#">map</a></li>
+          <li><a href="#">contact info address</a></li>
         </ul>
         </nav>
       </div>
       <div class="">
         {% block content %}
         {% endblock %}
+        {% block sidebar %}
+        <ol id="event-list">
+        {% for article in articles %}
+                <li id="#{{article.url}}"><article class="entry"><a href="{{ SITEURL }}/{{ article.url }}">
+                        <div class="timeline-item">
+                        <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
+                        {% if article.start_date %}<time class="published" datetime="{{ article.start_date }}"> {{ article.locale_date }} </time>{% endif %}{% if article.end_date %} &rarr; <time class="published" datetime="{{ article.end_date }}"> {{ article.locale_date }} </time>{% endif %}
+                        {% if article.time %}<br>{{ article.time }}{% endif %}
+                        {% if article.image %}<a href="{{ SITEURL }}/{{ article.url }}" title="Permalink to {{ article.title|striptags }}"><img class="listing-header-image" src="/{{ article.image }}"></a>{% endif %}
+                        <br><a href="#{{article.url}}" class="expand-content">expand content</a>
+                        <div class="expanded-content" id="#{{article.url}}">
+                          {{article.content}}
+                        </div>
+                        </div>
+                </a></article></li>
+        {% endfor %}
+        </ol><!-- /#posts-list -->
+
+        {% endblock %}
         <footer id="contentinfo" class="body">
         </footer><!-- /#contentinfo -->
       </div>
+      <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+$left-menu: $para*3;
+$right-list: 25%;
+div.central-content{
+  visibility: hidden;
+  position: absolute;
+  position: fixed;
+  top: $para*5;
+  width: calc(75% - 48px);
+  margin-left: $left-menu;
+  //background-color: blue;
+  @include respond-to($c-vp){
+    visibility: visible;
+  }
+  section#content.article-body{
+    padding: $para*2;
+  }
+}

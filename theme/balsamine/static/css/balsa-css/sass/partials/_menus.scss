@@ -1,21 +1,23 @@
 div.menu-space{
   position: fixed;
   background-color: white;
-  width: 60px;
+  width: $para*3;
   height: 100%;
+  outline: 1px solid blue;
   @include respond-to($c-vp){
     position: fixed;
     transform: none;
     width: 100%;
-    border-bottom: 1px solid blue;
+    //border-bottom: 1px solid blue;
     width: 75%;
     height: $para*4;
     padding-top: $para;
   }
   header#banner{
-    padding-left: $para*2;
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
+    margin-top: $para*5;
     @include respond-to($c-vp){
+      margin-top: 0;
       transform: none;
       position: relative;
       width: auto;
@@ -23,7 +25,7 @@ div.menu-space{
       padding-left: $para*6;
     }
     img.nav-logo{
-      width: 150px;
+      width: 13vh;
     }
     h1{
       font-size: 32px;
@@ -40,7 +42,7 @@ div.menu-space{
       height: auto;
     }
     ul.mainnav{
-      margin-top: 200px;
+      //margin-top: 10vh;
       @include respond-to($c-vp){
         margin-top: 0;
         position: relative;
@@ -48,8 +50,8 @@ div.menu-space{
       };
     }
     li{
-      margin-top:100px;
-      transform: rotate(90deg);
+      margin-top:12vh;
+      transform: rotate(-90deg);
       display: inline-block;
       //width: 100px;
       //padding-left: 100px;
@@ -66,23 +68,33 @@ div.menu-space{
 }
 
 div.secondary-nav{
-  //display: none;
-  position: relative;
+  position: fixed;
   left: 0;
-  top: 0;
-  height: 100vh;
+  bottom: 0;
   outline: 1px solid blue;
-  //width: $para*4;
+  float: left;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
   float: left;
   @include respond-to($c-vp){
     position: fixed;
     z-index: -9999;
     padding-top: $para*6;
+    bottom: none;
+    top: 0;
+    width: $para*3;
+    height: 100vh;
   }
   nav#secondary-menu{
+    bottom: $para;
     ul.second-nav{
+      text-align: center;
       li{
-
+        display: inline-block;
+        padding: $para;
+        font-size: 6px;
+        max-width: 10px;
       }
     }
   }
