@@ -1,4 +1,4 @@
-/* line 5, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -822,15 +822,15 @@ h6 {
 div.menu-space {
   position: fixed;
   background-color: white;
-  width: 60px;
+  width: 48px;
   height: 100%;
+  outline: 1px solid blue;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
 .lt-ie9 div.menu-space {
   position: fixed;
   transform: none;
   width: 100%;
-  border-bottom: 1px solid blue;
   width: 75%;
   height: 64px;
   padding-top: 16px;
@@ -841,19 +841,19 @@ div.menu-space {
     position: fixed;
     transform: none;
     width: 100%;
-    border-bottom: 1px solid blue;
     width: 75%;
     height: 64px;
     padding-top: 16px;
   }
 }
-/* line 15, balsa-css/sass/partials/_menus.scss */
+/* line 16, balsa-css/sass/partials/_menus.scss */
 div.menu-space header#banner {
-  padding-left: 32px;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
+  margin-top: 80px;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
 .lt-ie9 div.menu-space header#banner {
+  margin-top: 0;
   transform: none;
   position: relative;
   width: auto;
@@ -861,8 +861,9 @@ div.menu-space header#banner {
   padding-left: 96px;
 }
 @media screen and (min-width: 600px) {
-  /* line 15, balsa-css/sass/partials/_menus.scss */
+  /* line 16, balsa-css/sass/partials/_menus.scss */
   div.menu-space header#banner {
+    margin-top: 0;
     transform: none;
     position: relative;
     width: auto;
@@ -870,15 +871,15 @@ div.menu-space header#banner {
     padding-left: 96px;
   }
 }
-/* line 25, balsa-css/sass/partials/_menus.scss */
+/* line 27, balsa-css/sass/partials/_menus.scss */
 div.menu-space header#banner img.nav-logo {
-  width: 150px;
+  width: 13vh;
 }
-/* line 28, balsa-css/sass/partials/_menus.scss */
+/* line 30, balsa-css/sass/partials/_menus.scss */
 div.menu-space header#banner h1 {
   font-size: 32px;
 }
-/* line 32, balsa-css/sass/partials/_menus.scss */
+/* line 34, balsa-css/sass/partials/_menus.scss */
 div.menu-space nav#menu {
   top: 200px;
   left: 0;
@@ -892,17 +893,13 @@ div.menu-space nav#menu {
   height: auto;
 }
 @media screen and (min-width: 600px) {
-  /* line 32, balsa-css/sass/partials/_menus.scss */
+  /* line 34, balsa-css/sass/partials/_menus.scss */
   div.menu-space nav#menu {
     height: auto;
     top: 16px;
     position: relative;
     height: auto;
   }
-}
-/* line 42, balsa-css/sass/partials/_menus.scss */
-div.menu-space nav#menu ul.mainnav {
-  margin-top: 200px;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
 .lt-ie9 div.menu-space nav#menu ul.mainnav {
@@ -911,17 +908,17 @@ div.menu-space nav#menu ul.mainnav {
   display: inline-block;
 }
 @media screen and (min-width: 600px) {
-  /* line 42, balsa-css/sass/partials/_menus.scss */
+  /* line 44, balsa-css/sass/partials/_menus.scss */
   div.menu-space nav#menu ul.mainnav {
     margin-top: 0;
     position: relative;
     display: inline-block;
   }
 }
-/* line 50, balsa-css/sass/partials/_menus.scss */
+/* line 52, balsa-css/sass/partials/_menus.scss */
 div.menu-space nav#menu li {
-  margin-top: 100px;
-  transform: rotate(90deg);
+  margin-top: 12vh;
+  transform: rotate(-90deg);
   display: inline-block;
   font-size: 18px;
   line-height: 22px;
@@ -934,7 +931,7 @@ div.menu-space nav#menu li {
   margin-left: 75px;
 }
 @media screen and (min-width: 600px) {
-  /* line 50, balsa-css/sass/partials/_menus.scss */
+  /* line 52, balsa-css/sass/partials/_menus.scss */
   div.menu-space nav#menu li {
     transform: none;
     position: relative;
@@ -943,13 +940,16 @@ div.menu-space nav#menu li {
   }
 }
 
-/* line 68, balsa-css/sass/partials/_menus.scss */
+/* line 70, balsa-css/sass/partials/_menus.scss */
 div.secondary-nav {
-  position: relative;
+  position: fixed;
   left: 0;
-  top: 0;
-  height: 100vh;
+  bottom: 0;
   outline: 1px solid blue;
+  float: left;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
   float: left;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
@@ -957,14 +957,37 @@ div.secondary-nav {
   position: fixed;
   z-index: -9999;
   padding-top: 96px;
+  bottom: none;
+  top: 0;
+  width: 48px;
+  height: 100vh;
 }
 @media screen and (min-width: 600px) {
-  /* line 68, balsa-css/sass/partials/_menus.scss */
+  /* line 70, balsa-css/sass/partials/_menus.scss */
   div.secondary-nav {
     position: fixed;
     z-index: -9999;
     padding-top: 96px;
+    bottom: none;
+    top: 0;
+    width: 48px;
+    height: 100vh;
   }
+}
+/* line 89, balsa-css/sass/partials/_menus.scss */
+div.secondary-nav nav#secondary-menu {
+  bottom: 16px;
+}
+/* line 91, balsa-css/sass/partials/_menus.scss */
+div.secondary-nav nav#secondary-menu ul.second-nav {
+  text-align: center;
+}
+/* line 93, balsa-css/sass/partials/_menus.scss */
+div.secondary-nav nav#secondary-menu ul.second-nav li {
+  display: inline-block;
+  padding: 16px;
+  font-size: 6px;
+  max-width: 10px;
 }
 
 /* line 1, balsa-css/sass/partials/_indexes.scss */
@@ -972,6 +995,7 @@ ol#event-list {
   right: 0;
   min-height: 110vh;
   outline: 1px solid blue;
+  word-break: break-all;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
 .lt-ie9 ol#event-list {
@@ -985,25 +1009,67 @@ ol#event-list {
     position: absolute;
   }
 }
-/* line 9, balsa-css/sass/partials/_indexes.scss */
+/* line 10, balsa-css/sass/partials/_indexes.scss */
 ol#event-list li {
   border-bottom: 1px solid blue;
 }
-/* line 12, balsa-css/sass/partials/_indexes.scss */
+/* line 13, balsa-css/sass/partials/_indexes.scss */
 ol#event-list li article.entry {
   min-height: 160px;
-  width: 100%;
   max-width: 100%;
-  padding: 16px;
   margin-left: 64px;
 }
 /* line 9, balsa-css/sass/libs/_mixins.scss */
 .lt-ie9 ol#event-list li article.entry {
   margin-left: 0;
+  width: 100%;
 }
 @media screen and (min-width: 600px) {
-  /* line 12, balsa-css/sass/partials/_indexes.scss */
+  /* line 13, balsa-css/sass/partials/_indexes.scss */
   ol#event-list li article.entry {
     margin-left: 0;
+    width: 100%;
   }
+}
+/* line 23, balsa-css/sass/partials/_indexes.scss */
+ol#event-list li article.entry div.expanded-content {
+  display: none;
+}
+/* line 26, balsa-css/sass/partials/_indexes.scss */
+ol#event-list li article.entry div.expanded-content.visible {
+  display: block;
+}
+/* line 9, balsa-css/sass/libs/_mixins.scss */
+.lt-ie9 ol#event-list li article.entry a.expand-content {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  /* line 29, balsa-css/sass/partials/_indexes.scss */
+  ol#event-list li article.entry a.expand-content {
+    display: none;
+  }
+}
+
+/* line 3, balsa-css/sass/partials/_article.scss */
+div.central-content {
+  visibility: hidden;
+  position: absolute;
+  position: fixed;
+  top: 80px;
+  width: calc(75% - 48px);
+  margin-left: 48px;
+}
+/* line 9, balsa-css/sass/libs/_mixins.scss */
+.lt-ie9 div.central-content {
+  visibility: visible;
+}
+@media screen and (min-width: 600px) {
+  /* line 3, balsa-css/sass/partials/_article.scss */
+  div.central-content {
+    visibility: visible;
+  }
+}
+/* line 14, balsa-css/sass/partials/_article.scss */
+div.central-content section#content.article-body {
+  padding: 32px;
 }
