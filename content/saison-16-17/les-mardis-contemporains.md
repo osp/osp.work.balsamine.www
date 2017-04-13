@@ -3,6 +3,7 @@ Date: 2017/11/14
 Start_date: 2017/11/14
 End_date: 2017/11/21
 Time: 20h30
+Key_image:
 Piece_author: En partenariat avec Ars musica
 Event_type: Musique
 Reservation_link: http://balsamine.billetterie.it/index.php?...
@@ -24,7 +25,7 @@ Interpretation
 :    Quatuor TANA / Ensemble Sturm & Klang
 
 ##Cirque
-??? Date2:  Le 21 novembre à 20h30   
+??? Date2:  Le 21 novembre à 20h30
 
 Invités
 :    Pascal Jacob, auteur de « Une histoire du cirque » aux éditions du Seuil.

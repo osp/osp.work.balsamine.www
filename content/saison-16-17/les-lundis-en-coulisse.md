@@ -2,6 +2,7 @@ Title: Les Lundis en coulisse
 Date: 2017/12/11
 Start_date: 2017/12/11
 Time: 14h00 à 18h00
+Key_image:
 Piece_author:
 Event_type: À la rencontre des écritures dramatiques contemporaines
 Reservation_link: http://balsamine.billetterie.it/index.php?...

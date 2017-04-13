@@ -3,6 +3,7 @@ Date: 2017/02/14
 Start_date: 2017/02/14
 End_date: 2017/02/15
 Time: 20h30
+Key_image:
 Piece_author:
 Event_type: Cycle nouvelles écritures
 Reservation_link: http://balsamine.billetterie.it/index.php?...

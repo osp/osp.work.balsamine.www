@@ -3,6 +3,7 @@ Date: 2017/09/28
 Start_date: 2017/09/28
 End_date: 2017/09/30
 Time: 20h30
+Key_image:
 Piece_author: Albert Dupont
 Event_type: Création transversale danse / vidéo / musique / texte
 Reservation_link: http://balsamine.billetterie.it/index.php?...

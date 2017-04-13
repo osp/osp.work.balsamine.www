@@ -3,6 +3,7 @@ Date: 2017/10/24
 Start_date: 2017/10/24
 End_date: 2017/10/26
 Time: 20h30
+Key_image: 
 Piece_author: Lara Barsacq
 Event_type: Création danse
 Reservation_link: http://balsamine.billetterie.it/index.php?...

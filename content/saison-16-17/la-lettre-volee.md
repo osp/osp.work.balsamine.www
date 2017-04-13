@@ -3,6 +3,7 @@ Date: 2017/11/09
 Start_date: 2017/11/09
 End_date: 2017/11/11
 Time: 20h30
+Key_image:
 Piece_author: En coproduction avec Ars Musica
 Event_type: Vidéopéra
 Reservation_link: http://balsamine.billetterie.it/index.php?...
@@ -30,4 +31,4 @@ Arts Visuels
 Scénographie et vidéo
 :    Helga Dejaegher
 
-Une production Quart de Ton – Janine Al-Asswad en coproduction avec le Théâtre la Balsamine et Ars musica, avec les soutiens de la Fédération Wallonie-Bruxelles  - conseil de la musique contemporaine,de Sturm und Klang, du Forum des compositeurs et du Festival Loop . En collaboration avec ARTS2, Ecole Supérieure des Arts de Mons (Domaine Arts visuels – Musique et Théâtre).{. production}     
+Une production Quart de Ton – Janine Al-Asswad en coproduction avec le Théâtre la Balsamine et Ars musica, avec les soutiens de la Fédération Wallonie-Bruxelles  - conseil de la musique contemporaine,de Sturm und Klang, du Forum des compositeurs et du Festival Loop . En collaboration avec ARTS2, Ecole Supérieure des Arts de Mons (Domaine Arts visuels – Musique et Théâtre).{. production}

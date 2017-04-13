@@ -3,6 +3,7 @@ Date: 2017/03/07
 Start_date: 2017/03/07
 End_date: 2017/03/08
 Time: 20h30
+Key_image:
 Piece_author: Thi-Mai Nguyen
 Event_type: Création danse
 Reservation_link: http://balsamine.billetterie.it/index.php?...
