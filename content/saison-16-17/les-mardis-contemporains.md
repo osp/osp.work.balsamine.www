@@ -4,7 +4,7 @@ Start_date: 2017/11/14
 End_date: 2017/11/21
 Time: 20h30
 Key_image:
-Piece_author: En partenariat avec Ars musica
+Subhead: En partenariat avec Ars musica
 Event_type: Musique
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 

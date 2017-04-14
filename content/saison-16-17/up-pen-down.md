@@ -7,4 +7,4 @@ Event_type: Création transversale danse / vidéo / musique / texte
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 
 
- (à développer)
+(à développer)

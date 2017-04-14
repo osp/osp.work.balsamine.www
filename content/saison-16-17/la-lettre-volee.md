@@ -4,7 +4,7 @@ Start_date: 2017/11/09
 End_date: 2017/11/11
 Time: 20h30
 Key_image:
-Piece_author: En coproduction avec Ars Musica
+Subhead: En coproduction avec Ars Musica
 Event_type: Vidéopéra
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 
