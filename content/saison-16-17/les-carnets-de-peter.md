@@ -1,13 +1,14 @@
 Title: Les carnets de Peter
 Date: 2017/03
-Start_date: Dates et horaire à confirmer
-End_date: 2017/xx/xx
-Time: 20h30 (relâche le dimanche)
 Key_image:
 Piece_author: Le théâtre du Tilleul
 Event_type: Théâtre pour tous, à partir de 7 ans
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 
+
+<!-- Start_date: Dates et horaire à confirmer -->
+<!-- End_date: 2017/xx/xx -->
+<!-- Time: 20h30 (relâche le dimanche) -->
 
 Entre ombre et lumière, le petit Donald nous fait partager son amour des livres et ses aventures étranges et singulières.{. phrase_intro}
 
