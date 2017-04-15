@@ -1,6 +1,5 @@
 Title: Should i stay or should i stay
 Date: 2017/11/16
-Start_date: 2017/11/16
 End_date: 2017/11/24
 Time: 20h30
 Key_image: should-i-stay.png
@@ -10,7 +9,7 @@ Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Les quatre fantastiques reviennent et reprennent leur rengaine : Should I…
 
 
-????? Les 16, 20, 22, 23 et 24 Novembre à 20h30
+<!-- ????? Les 16, 20, 22, 23 et 24 Novembre à 20h30 -->
 
 
 Ils sont quatre, ils sont enfermés dans une pièce dont les portes ne sont pas verrouillées et pourtant ils ne peuvent pas sortir. Un casse-tête bien surréaliste et qui nous pose des questions très existentialistes.
@@ -25,6 +24,7 @@ Ils parlent de mort, d’exil sur Mars, d'accès à la vie éternelle, du temps 
 :    Simon Thomas
 
 Avec
-:    Jules Churin, Héloïse Jadoul, Manon Joannotéguy, Lucas Meister
+:    Jules Churin, Héloïse Jadoul, Manon Joannotéguy et Lucas Meister
 
-Premières élaborations au sein de l'Institut National Supérieur des Arts du Spectacle et des Techniques de Diffusion de la Fédération Wallonie-Bruxelles. Réalisé avec les soutiens du Théâtre la Balsamine, avec l'aide de la Fédération Wallonie-Bruxelles - Service du Théâtre et le soutien du Fonds Marie-Paule Delvaux Godenne, géré par la Fondation Roi Baudouin.{. production}
+Premières élaborations au sein de l'Institut National Supérieur des Arts du Spectacle et des Techniques de Diffusion de la Fédération Wallonie-Bruxelles. Réalisé avec les soutiens du Théâtre la Balsamine, avec l'aide de la Fédération Wallonie-Bruxelles - Service du Théâtre et le soutien du Fonds Marie-Paule Delvaux Godenne, géré par la Fondation Roi Baudouin.
+{: .production }
