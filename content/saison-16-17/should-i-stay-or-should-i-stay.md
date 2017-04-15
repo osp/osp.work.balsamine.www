@@ -3,15 +3,15 @@ Date: 2017/11/16
 Start_date: 2017/11/16
 End_date: 2017/11/24
 Time: 20h30
-Key_image:
+Key_image: should-i-stay.png
 Piece_author: Simon Thomas
 Event_type: Théâtre
 Reservation_link: http://balsamine.billetterie.it/index.php?...
+Intro: Les quatre fantastiques reviennent et reprennent leur rengaine : Should I…
 
 
 ????? Les 16, 20, 22, 23 et 24 Novembre à 20h30
 
-Les quatre fantastiques reviennent et reprennent leur rengaine : Should I…{. phrase_intro}
 
 Ils sont quatre, ils sont enfermés dans une pièce dont les portes ne sont pas verrouillées et pourtant ils ne peuvent pas sortir. Un casse-tête bien surréaliste et qui nous pose des questions très existentialistes.
 
@@ -23,6 +23,7 @@ Ils parlent de mort, d’exil sur Mars, d'accès à la vie éternelle, du temps 
 
 Écriture et mise en scène
 :    Simon Thomas
+
 Avec
 :    Jules Churin, Héloïse Jadoul, Manon Joannotéguy, Lucas Meister
 

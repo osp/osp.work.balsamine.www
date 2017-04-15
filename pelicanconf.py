@@ -27,7 +27,8 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'fr'
 
 THEME = "theme/balsamine"
-CSS_FILE = 'screen.css'
+#  CSS_FILE = 'screen.css'
+CSS_FILE = 'balsa.css'
 
 # Whether to display categories on the menu of the template. Templates may or
 # not honor this setting.
@@ -36,6 +37,10 @@ DISPLAY_CATEGORIES_ON_MENU = False
 # Whether to display pages on the menu of the template. Templates may or may
 # not honor this setting.
 DISPLAY_PAGES_ON_MENU = True
+
+
+ARTICLE_ORDER_BY = 'date'
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -59,3 +64,27 @@ DEFAULT_METADATA = {'color': '#CCCCCC'}
 
 # Extends pelican for our specific needs
 PLUGINS = ['pelican_balsa',]
+
+
+#  def tac_filter(value):
+#      return value[::-1]
+
+#  JINJA_FILTERS = {'tac': tac_filter }
+
+# Extra configuration settings for the Markdown processor. Refer to the Python
+# Markdown documentation’s Options section for a complete list of supported
+# options. The extensions option will be automatically computed from the
+# extension_configs option.
+
+#  MARKDOWN = {
+#      'extension_configs': {
+#          'markdown.extensions.codehilite': {'css_class': 'highlight'},
+#          'markdown.extensions.extra': {},
+#          'markdown.extensions.meta': {},
+#      },
+#      'output_format': 'html5',
+#  }
+
+# A list of metadata fields containing reST/Markdown content to be parsed and
+# translated to HTML.
+# FORMATTED_FIELDS = ['summary']

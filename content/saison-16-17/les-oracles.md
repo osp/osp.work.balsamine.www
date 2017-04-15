@@ -3,10 +3,11 @@ Date: 2017/09/28
 Start_date: 2017/09/28
 End_date: 2017/09/30
 Time: 20h30
-Key_image:
+Key_image: fractal-hichem-rgb.jpg 
 Piece_author: Albert Dupont
 Event_type: Création transversale danse / vidéo / musique / texte
 Reservation_link: http://balsamine.billetterie.it/index.php?...
+
 
 **Les oracles** est une création composée de deux parties distinctes et complémentaires **Percées** et **Prototype #1**. Ces deux pièces allient danse, poésie, création sonore et vidéo autour de thématiques à la fois féministes et intemporelles, traversées par les textes et la présence des écrivaines Catrine Godin et Martine Delvaux.
 
@@ -14,24 +15,33 @@ Retriturés, rebrassés, remixés et transposés en d’autres langages, gestes 
 
 Direction artistique et mise en scène
 :    Simon Dumas
+
 Création sonore
 :    Philippe Franck
+
 Création vidéo
 :    Thomas Israël
 
+
 ## Percées
+
 Auteure
 :    Catrine Godin
+
 Chorégraphie
 :    Karine Ledoyen
+
 Interprètes pour la vidéo
 :    Fabien Piché et Ariane Voineau
 
 ##Prototype no. 1
+
 Auteure
 :    Martine Delvaux
+
 Chorégraphie
 :    Manon Oligny
+
 Interprète et co-chorégraphe
 :    Marilyn Daoust
 

@@ -3,14 +3,12 @@ Date: 2017/03/26
 Start_date: 2017/03/26
 End_date: 2017/03/30
 Time: 20h30
-Key_image:
+Key_image: loups.png
 Piece_author: Jean Le Peltier
 Event_type: Création théâtre
 Reservation_link: http://balsamine.billetterie.it/index.php?...
+Intro: Une histoire loufoque sur la solidarité entre les espèces, sur la survie en milieu hostile.
 
-
-
-Une histoire loufoque sur la solidarité entre les espèces, sur la survie en milieu hostile.{. phrase_intro}
 
 Trois biologistes en Antarctique, éloignés de leur campement afin d’élargir leur champ de recherche, se perdent physiquement et mentalement. L’espace du désert blanc révèle soudainement leur animalité enfouie, leur esprit de meute refoulé.
 
@@ -19,15 +17,21 @@ C’est dans cette urgence, sous le joug de la survie que Les Loups nous parlent
 
 Texte et mise en scène
 :   Jean Le Peltier
+
 Avec
 :   Pierrick De Luca, David Koczij, Jean Le Peltier, Cécile Maidon
+
 Scénographie
 :   Vincent Glowinsky
+
 Lumière
 :   Émily Brassier
+
 Costumes
 :   Agathe Thomas
+
 Diffusion
 :   Entropie
 
-Une production IVES & PONY en coproduction avec le Théâtre la Balsamine.{. production}
+Une production Ives & Pony en coproduction avec le Théâtre la Balsamine.
+{. production}

@@ -3,14 +3,13 @@ Date: 2017/09/11
 Start_date: 2017/09/11
 End_date: 2017/09/11
 Time: 20h00 Entrée libre mais réservation conseillée !
-Key_image:
+Key_image: fractal-hichem-rgb.jpg 
 Piece_author: Albert Dupont
 Event_type: Théâtre
 Reservation_link: http://balsamine.billetterie.it/index.php?...
+Subhead: Transquinquennal
+Intro: On retourne à l’école avec Transquin, maître quinquin !
 
-??? Transquinquennal
-
-On retourne à l’école avec Transquin, maître quinquin !{. phrase_intro}
 
 Après deux semaines de résidence à Udine (Italie) et deux semaine à Bruxelles à  la Balsa, voici venu le temps de l’ouverture au public pour ces 15 jeunes artistes européens professionnels dirigés par Transquinquennal, le collectif le plus insolite et endurant de notre paysage culturel, passé maîtres pour l’occasion.
 
