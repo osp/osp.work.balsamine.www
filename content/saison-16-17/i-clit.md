@@ -3,16 +3,13 @@ Date: 2017/02/27
 Start_date: 2017/02/27
 End_date: 2017/02/28
 Time: 20h30
-Key_image:
-Piece_author: Mercedes Dassy
+Key_image: i-clit.png
+Piece_author: Mercedes Dassy 
 Event_type: Création danse
 Reservation_link: http://balsamine.billetterie.it/index.php?...
-
-
-??? Dans le cadre de Brussels, dance ! Focus on contemporary dance.
-
-
-Un spectacle manifeste du corps, de la chair et du sexe féminin.{. phrase_intro}
+Subhead: Dans le cadre de Brussels, dance ! Focus on contemporary dance.
+Intro: Un spectacle manifeste du corps, de la chair et du sexe féminin.
+Color: #284819
 
 **i-clit** tente un bilan chorégraphié de l’état du féminisme contemporain.
 
@@ -22,11 +19,14 @@ Une autre vague féministe est née – ultra-connectée, ultra-sexuée et plus 
 
 Concept, chorégraphie, interprétation
 :   Mercedes Dassy
+
 Dramaturgie, regard extérieur
 :   Sabine Cmelniski
+
 Scénographie et création lumière
 :   Caroline Mathieu
+
 Création sonore
 :   Clément Braive
 
-Une production  Hotenslig  en coproduction avec le Théâtre la Balsamine avec les soutiens du Théâtre Océan Nord, de l’Escaut, du B.A.M.P.{. production}
+Une production Hotenslig en coproduction avec le Théâtre la Balsamine avec les soutiens du Théâtre Océan Nord, de l’Escaut, du B.A.M.P.{. production}

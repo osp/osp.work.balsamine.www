@@ -1,0 +1,206 @@
+/* Font faces */
+
+@font-face {
+    font-family: 'Ume Vertical Wide Bridge';
+    src: url('../fonts/ume-vertical-wide-bridge-webfont.woff2') format('woff2'),
+         url('../fonts/ume-vertical-wide-bridge-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ume P Gothic Balsa';
+    src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'),
+         url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Extra resets */
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+/* layout */
+
+.main_header {
+    box-sizing: border-box;
+    padding-left: 40px;
+    position:fixed;
+    top: 100vh;
+    left: 0;
+    width: 100vh;
+    line-height: 40px;
+    height: 40px;
+    outline: 2px solid blue;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+
+    text-align: right;
+    direction: rtl;
+
+    font-size: 14px;
+    font-family: 'Ume Vertical Wide Bridge';
+}
+
+.logo {
+    max-height: 34px;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+/* mainmenu */
+
+.main_nav,
+.main_menu,
+.main_menu li {
+    display: inline;
+}
+
+.main_menu li + li:before {
+    content: '\2022 ';
+}
+
+/* .main_header { */
+/*     display: none; */
+/*     position: fixed; */
+/*     left: 0; */
+/*     top: 0; */
+/*     bottom: 0; */
+/*     width: 40px; */
+/*     box-sizing: border-box; */
+
+/*     border: 40px outset #c0febf; */
+
+/*     border-top: 0; */
+/*     border-right: 0; */
+/*     border-bottom-color: transparent; */
+/* } */
+
+.main_footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+
+    outline: 2px solid blue;
+
+    /* border: 40px outset #c0febf; */
+
+    /* border-top: 0; */
+    /* border-right: 0; */
+    /* border-left-color: transparent; */
+}
+
+.address {
+    text-align: right;
+    font-size: 10px;
+    line-height: 1;
+    width: 100vw;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Ume Vertical Wide Bridge';
+}
+
+.main_content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 40px;
+    left: 40px;
+}
+
+.show {
+    position: relative;
+}
+.show__list {
+    padding-right: 30px;
+}
+.show__timeline {
+    width: 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: calc(100vh - 40px);
+    background: linear-gradient(to bottom,  #1e5799 0%,#ff3232 25%,#ff328e 50%,#32c5ff 75%,#2989d8 100%,#207cca 100%,#7db9e8 100%);
+}
+.show__item {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 1em;
+
+    font-size: 10px;
+    line-height: 1.3;
+    font-family: 'Ume Vertical Wide Bridge';
+
+    color: blue;
+}
+.show__item + .show__item {
+    border-top: 2px solid blue;
+}
+.show__header {}
+.show__subhead {
+    font-family: 'Ume Vertical Wide Bridge';
+    line-height: 1;
+    margin-bottom: .4em;
+}
+.show__dates {
+    font-family: 'Ume P Gothic Balsa';
+    font-size: 2em;
+    line-height: 1;
+
+    float: right;
+}
+.show__title {
+    font-family: 'Ume Vertical Wide Bridge';
+    font-size: 2em;
+    line-height: 1;
+}
+.show__authors {
+    font-family: 'Ume Vertical Wide Bridge';
+    line-height: 1;
+    margin-top: .4em;
+    margin-bottom: .4em;
+}
+.show__main_image {
+    text-align: right;
+}
+.show__main_image img {
+    max-width: 75%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.show__body {
+    display: none;
+}
+.show__body:target {
+    display: block;
+}
+.show__body p + p,
+.show__body blockquote + p,
+.show__body p + blockquote {
+    margin-top: 1em;
+}
+.show__body blockquote {
+    padding-left: 2em;
+}
+.show__body blockquote footer:before {
+    content: "– ";
+}
+.show__body dl {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    padding-left: 25%;
+}
+.show__body dd {
+    padding-left: 1em;
+}
