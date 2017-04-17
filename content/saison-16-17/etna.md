@@ -10,8 +10,6 @@ Color: #F184A3
 Intro: Une femme errante et solitaire, tel un spectre hanté par ses débris de vie.
 
 
-ceci est un test
-
 **Etna** est une femme sans âge, sans domicile, harcelée par les sonorités de sa vie passée et dont le corps incarne une lassitude extrême. Elle squatte la scène du théâtre et l’habite au travers de ses obsessions et de ses souvenirs.
 
 > « La pauvreté est là, au-dessus de nos têtes, comme une épée de Damoclès. Et nous poursuivons notre route sans penser que cela nous concerne. La frontière est mince entre la raison et l’égarement.
