@@ -1,0 +1,35 @@
+$left-menu: $para*3;
+$right-list: 25%;
+div.central-content{
+  visibility: hidden;
+  position: absolute;
+  position: fixed;
+  top: $para*5;
+  width: calc(75% - 48px);
+  margin-left: $left-menu;
+  //background-color: blue;
+  @include respond-to($c-vp){
+    visibility: visible;
+  }
+  section#content.article-body{
+    padding: $para*2;
+  }
+  div.hooks, div.entry-content{
+    @include respond-to($c-vp){
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+    max-height: 70vh;
+    }
+  }
+  div.entry-content{
+    @include respond-to($c-vp){
+      overflow-y: scroll;
+    }
+  }
+  // div.entry-content{
+  //   @include respond-to($c-vp){
+  //
+  //   }
+  // }
+}
