@@ -12,12 +12,9 @@
 {% endblock %}
 
 {% block content %}
-<div class="central-content">
-<section id="content" class="article-body">
-  <div class="hooks left">
-  <header>
-    <h2 class="entry-title">{{ article.title }}</h2>
-  </header>
+<article class="show-detail">
+  <header class="show-detail__header">
+    <h1 class="show-detail__title">{{ article.title }}</h1>
     <time>
       {# date var #}
       {% if article.end_date %}
@@ -47,10 +44,15 @@
         <br><a class="reservation-link" href="{{article.reservation_link}}">Réservation</a>
       {% endif %}
     </time>
+
+    {% if article.key_image %}
+    <p class="show-detail__image"><img src="/images/{{ article.key_image }}" alt="Main image for {{ article.title }}"></p>
+    {% endif %}
+  </header>
+
+  <div class="show-detail__body">
+      {{ article.content }}
   </div>
-  <div class="entry-content right">
-    {{ article.content }}
-  </div><!-- /.entry-content -->
-</section>
-</div>
+</article>
+
 {% endblock %}

@@ -45,8 +45,6 @@ a {
 
     font-size: 14px;
     font-family: 'Ume Vertical Wide Bridge';
-
-    /* background: linear-gradient(to bottom,  #caeebf 0%, #f9cabf 100%); */
 }
 
 .logo {
@@ -67,22 +65,6 @@ a {
     content: '\00B7\00A0';
 }
 
-/* .main_header { */
-/*     display: none; */
-/*     position: fixed; */
-/*     left: 0; */
-/*     top: 0; */
-/*     bottom: 0; */
-/*     width: 40px; */
-/*     box-sizing: border-box; */
-
-/*     border: 40px outset #c0febf; */
-
-/*     border-top: 0; */
-/*     border-right: 0; */
-/*     border-bottom-color: transparent; */
-/* } */
-
 .main_footer {
     position: fixed;
     left: 0;
@@ -93,13 +75,6 @@ a {
     line-height: 40px;
 
     outline: 2px solid blue;
-
-    /* border: 40px outset #c0febf; */
-
-    /* border-top: 0; */
-    /* border-right: 0; */
-    /* border-left-color: transparent; */
-    /* background: linear-gradient(to top,  #caeebf 0%, #f9cabf 100%); */
 }
 
 .address {
@@ -135,6 +110,35 @@ a {
 .show {
     position: relative;
 }
+
+@media only screen and (min-width: 480px) {
+    .show-detail {
+        width: 70%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .show {
+        width: 30%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-left: 2px solid blue;
+        box-sizing: border-box;
+    }
+
+    .show-detail__header {
+        width: 40%;
+        float: left;
+    }
+
+    .show-detail__body {
+        width: 60%;
+        float: left;
+    }
+}
+
+
 .show__list {
     padding-right: 30px;
 }
@@ -219,6 +223,7 @@ a {
     padding-left: 1em;
 }
 
+/* timeline */
 
 .timeline__year {
     text-align: right;
@@ -257,4 +262,62 @@ a {
     border-radius: 5px;
     right: 15px;
     background-color: white;
+}
+
+
+/* article detail */
+
+.show-detail__header {
+    color: blue;
+    font-family: 'Ume Vertical Wide Bridge';
+    border-right: 2px solid blue;
+    box-sizing: border-box;
+    height: 100vh;
+
+    padding: 2rem;
+
+    background-color: #e6e6e6;
+}
+
+.show-detail__title {
+    font-size: 42px;
+}
+
+.show-detail__image img {
+    max-width: 75%;
+}
+
+.show-detail__body {
+    font-size: 10px;
+    line-height: 1.3;
+    font-family: 'Ume Vertical Wide Bridge';
+
+    color: blue;
+
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.show-detail__body p + p,
+.show-detail__body blockquote + p,
+.show-detail__body p + blockquote {
+    margin-top: 1em;
+}
+
+.show-detail__body blockquote {
+    padding-left: 2em;
+}
+
+.show-detail__body blockquote footer:before {
+    content: "– ";
+}
+
+.show-detail__body dl {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    padding-left: 25%;
+}
+
+.show-detail__body dd {
+    padding-left: 1em;
 }
