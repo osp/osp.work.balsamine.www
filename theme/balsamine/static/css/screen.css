@@ -990,6 +990,29 @@ div.secondary-nav nav#secondary-menu ul.second-nav li {
   max-width: 10px;
 }
 
+/* line 1, balsa-css/sass/partials/_home.scss */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+/* line 5, balsa-css/sass/partials/_home.scss */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle */
+/* line 10, balsa-css/sass/partials/_home.scss */
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+/* line 16, balsa-css/sass/partials/_home.scss */
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(100, 100, 100, 0.4);
+}
+
 /* line 1, balsa-css/sass/partials/_indexes.scss */
 ol#event-list {
   right: 0;
@@ -1078,7 +1101,6 @@ div.central-content section#content.article-body {
   width: 45%;
   float: left;
   margin-left: 2%;
-  overflow: scroll;
   max-height: 70vh;
 }
 @media screen and (min-width: 600px) {
@@ -1087,7 +1109,16 @@ div.central-content section#content.article-body {
     width: 45%;
     float: left;
     margin-left: 2%;
-    overflow: scroll;
     max-height: 70vh;
+  }
+}
+/* line 9, balsa-css/sass/libs/_mixins.scss */
+.lt-ie9 div.central-content div.entry-content {
+  overflow-y: scroll;
+}
+@media screen and (min-width: 600px) {
+  /* line 25, balsa-css/sass/partials/_article.scss */
+  div.central-content div.entry-content {
+    overflow-y: scroll;
   }
 }

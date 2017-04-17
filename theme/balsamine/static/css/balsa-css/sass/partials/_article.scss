@@ -19,8 +19,12 @@ div.central-content{
     width: 45%;
     float: left;
     margin-left: 2%;
-    overflow: scroll;
     max-height: 70vh;
+    }
+  }
+  div.entry-content{
+    @include respond-to($c-vp){
+      overflow-y: scroll;
     }
   }
   // div.entry-content{
