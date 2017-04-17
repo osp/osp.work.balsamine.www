@@ -1,6 +1,5 @@
 Title: Les carnets de Peter
 Date: 2017/03
-Key_image: fractal-hichem-rgb.jpg 
 Piece_author: Le théâtre du Tilleul
 Event_type: Théâtre pour tous, à partir de 7 ans
 Reservation_link: http://balsamine.billetterie.it/index.php?...
@@ -45,4 +44,5 @@ Conseil scénographie
 Conseil en ombres
 :   Fabrizio Montecchi
 
-Une production du Théâtre du Tilleul en coproduction avec le Théâtre la Balsamine. Avec la collaboration du Théâtre la montagne magique, du Centre Dramatique de Wallonie pour l'Enfance et la Jeunesse et de la Maison des Cultures et de la Cohésion Sociale de Molenbeek-Saint-Jean.{. production}
+Une production du Théâtre du Tilleul en coproduction avec le Théâtre la Balsamine. Avec la collaboration du Théâtre la montagne magique, du Centre Dramatique de Wallonie pour l'Enfance et la Jeunesse et de la Maison des Cultures et de la Cohésion Sociale de Molenbeek-Saint-Jean.
+{: .production }

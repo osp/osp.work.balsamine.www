@@ -1,6 +1,5 @@
 Title: Les loups
 Date: 2017/03/26
-Start_date: 2017/03/26
 End_date: 2017/03/30
 Time: 20h30
 Key_image: loups.png
@@ -19,7 +18,7 @@ Texte et mise en scène
 :   Jean Le Peltier
 
 Avec
-:   Pierrick De Luca, David Koczij, Jean Le Peltier, Cécile Maidon
+:   Pierrick De Luca, David Koczij, Jean Le Peltier et Cécile Maidon
 
 Scénographie
 :   Vincent Glowinsky
@@ -33,5 +32,5 @@ Costumes
 Diffusion
 :   Entropie
 
-Une production Ives & Pony en coproduction avec le Théâtre la Balsamine.
-{. production}
+Une production Ives &amp; Pony en coproduction avec le Théâtre la Balsamine.
+{: .production }

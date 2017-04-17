@@ -1,6 +1,5 @@
 Title: i-clit
 Date: 2017/02/27
-Start_date: 2017/02/27
 End_date: 2017/02/28
 Time: 20h30
 Key_image: i-clit.png
@@ -29,4 +28,5 @@ Scénographie et création lumière
 Création sonore
 :   Clément Braive
 
-Une production Hotenslig en coproduction avec le Théâtre la Balsamine avec les soutiens du Théâtre Océan Nord, de l’Escaut, du B.A.M.P.{. production}
+Une production Hotenslig en coproduction avec le Théâtre la Balsamine avec les soutiens du Théâtre Océan Nord, de l’Escaut, du B.A.M.P.
+{: .production }

@@ -1,6 +1,5 @@
 Title: Les fortunes de la viande
 Date: 2017/01/30
-Start_date: 2017/01/30
 End_date: 2017/02/10
 Time: 20h30 (relâche le dimanche)
 Key_image: fortunes-de-la-viande.png 
@@ -15,7 +14,7 @@ Color: #9C5C62
 
 
 Avec
-:   Marie Bos, Héloïse Jadoul, Claude Schmitz, Alexandre Trocky
+:   Marie Bos, Héloïse Jadoul, Claude Schmitz et Alexandre Trocky
 
 Écriture et mise en scène
 :   Martine Wijckaert
@@ -29,7 +28,7 @@ Scénographie
 Lumières
 :   Stéphanie Daniel
 
-Costumes ET accessoires
+Costumes et accessoires
 :   Laurence Villerot
 
 Image vidéo
@@ -44,4 +43,5 @@ Direction technique
 Régie spectacle
 :   Mathieu Bastyns
 
-Une production du Théâtre la Balsamine.{. production}
+Une production du Théâtre la Balsamine.
+{: .production }

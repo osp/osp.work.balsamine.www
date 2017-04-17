@@ -45,6 +45,8 @@ a {
 
     font-size: 14px;
     font-family: 'Ume Vertical Wide Bridge';
+
+    /* background: linear-gradient(to bottom,  #caeebf 0%, #f9cabf 100%); */
 }
 
 .logo {
@@ -62,7 +64,7 @@ a {
 }
 
 .main_menu li + li:before {
-    content: '\2022 ';
+    content: '\00B7\00A0';
 }
 
 /* .main_header { */
@@ -97,9 +99,12 @@ a {
     /* border-top: 0; */
     /* border-right: 0; */
     /* border-left-color: transparent; */
+    /* background: linear-gradient(to top,  #caeebf 0%, #f9cabf 100%); */
 }
 
 .address {
+    padding-right: 5px;
+    box-sizing: border-box;
     text-align: right;
     font-size: 10px;
     line-height: 1;
@@ -108,6 +113,15 @@ a {
     vertical-align: middle;
     font-family: 'Ume Vertical Wide Bridge';
 }
+
+.address > span {
+    display: block;
+}
+
+.address > span > span + span::before {
+    content: '\00B7\00A0';
+}
+
 
 .main_content {
     overflow: auto;
@@ -203,4 +217,44 @@ a {
 }
 .show__body dd {
     padding-left: 1em;
+}
+
+
+.timeline__year {
+    text-align: right;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    height: 30px;
+    padding-right: .5em;
+    line-height: 30px;
+    font-size: 10px;
+    font-family: 'Ume Vertical Wide Bridge';
+}
+
+.timeline__month {
+    border-right: 1px solid black;
+    text-align: right;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    padding-right: .5em;
+    line-height: 20px;
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: 'Ume Vertical Wide Bridge';
+}
+
+.timeline__point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    right: 15px;
+    background-color: white;
 }

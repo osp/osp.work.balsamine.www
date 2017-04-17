@@ -1,9 +1,7 @@
 Title: Etna
 Date: 2017/03/07
-Start_date: 2017/03/07
 End_date: 2017/03/08
 Time: 20h30
-Key_image: fractal-hichem-rgb.jpg 
 Piece_author: Thi-Mai Nguyen
 Subhead: Dans le cadre de Brussels, dance ! Focus on contemporary dance.
 Event_type: Création danse
@@ -26,4 +24,5 @@ Intro: Une femme errante et solitaire, tel un spectre hanté par ses débris de 
 > 
 > <footer>Thi-Mai Nguyen</footer>
 
-Une production de Thi-Mai Nguyen avec les soutiens du Théâtre la Balsamine.{. production}
+Une production de Thi-Mai Nguyen avec les soutiens du Théâtre la Balsamine.
+{: .production }

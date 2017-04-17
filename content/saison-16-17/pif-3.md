@@ -1,8 +1,6 @@
 Title: PIF 3 - Pauvre et Informe Festival 3
 Date: 2017/06/21
-Start_date: 2017/06/21
 End_date: 2017/06/23
-Key_image: fractal-hichem-rgb.jpg 
 Time: 20h30
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 

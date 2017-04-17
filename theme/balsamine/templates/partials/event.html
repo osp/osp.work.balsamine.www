@@ -23,8 +23,8 @@
             <p class="show__subhead">{{ article.subhead }}</p>
         {% endif %}
 
-        {% if article.start_date %}
-            <p class="show__dates"><time datetime="{{ article.start_date }}">{{ article.start_date|strftime('%d.%m') }}</time>
+        {% if article.date %}
+            <p class="show__dates"><time datetime="{{ article.date }}">{{ article.date|strftime('%d.%m') }}</time>
             {% if article.end_date %}
                 &rarr; <time datetime="{{ article.end_date }}">{{ article.end_date|strftime('%d.%m') }}</time>
             {% endif %}
