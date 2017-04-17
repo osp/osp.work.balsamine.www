@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="2048"
+   viewBox="0 0 211.66666 541.86668"
+   version="1.1"
+   id="svg4539"
+   sodipodi:docname="B-test.svg"
+   inkscape:version="0.92.1 r">
+  <defs
+     id="defs4533">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect5152"
+       is_visible="true"
+       weight="33.333333"
+       steps="10"
+       helper_size="7"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="true" />
+    <inkscape:path-effect
+       effect="transform_2pts"
+       start="33.261905,91.947903"
+       end="81.642856,91.947903"
+       id="path-effect5150"
+       is_visible="true"
+       first_knot="1"
+       last_knot="2"
+       helper_size="5"
+       stretch="2"
+       offset="192"
+       elastic="false"
+       from_original_width="true"
+       flip_vertical="false"
+       flip_horizontal="false"
+       lock_lenght="false"
+       lock_angle="false" />
+    <filter
+       inkscape:label="Oil painting"
+       inkscape:menu="Image Paint and Draw"
+       inkscape:menu-tooltip="Simulate oil painting style"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5740">
+      <feMorphology
+         radius="2"
+         in="SourceGraphic"
+         result="result0"
+         id="feMorphology5734" />
+      <feTurbulence
+         numOctaves="1"
+         baseFrequency="0.078"
+         result="result91"
+         id="feTurbulence5736" />
+      <feDisplacementMap
+         in="result0"
+         scale="6.3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         in2="result91"
+         id="feDisplacementMap5738" />
+    </filter>
+    <filter
+       inkscape:label="Oil painting"
+       inkscape:menu="Image Paint and Draw"
+       inkscape:menu-tooltip="Simulate oil painting style"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5748">
+      <feMorphology
+         radius="2"
+         in="SourceGraphic"
+         result="result0"
+         id="feMorphology5742" />
+      <feTurbulence
+         numOctaves="1"
+         baseFrequency="0.078"
+         result="result91"
+         id="feTurbulence5744" />
+      <feDisplacementMap
+         in="result0"
+         scale="6.3"
+         xChannelSelector="R"
+         yChannelSelector="G"
+         in2="result91"
+         id="feDisplacementMap5746" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.22627417"
+     inkscape:cx="-637.61937"
+     inkscape:cy="477.52769"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1364"
+     inkscape:window-height="730"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata4536">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,244.86668)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:26.45833397;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5748)"
+       d="M 180.975,-99.875014 H 33.072917 V 283.77082 H 180.975 Z"
+       id="path5084"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>
