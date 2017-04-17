@@ -65,6 +65,14 @@ DEFAULT_METADATA = {'color': '#CCCCCC'}
 # Extends pelican for our specific needs
 PLUGINS = ['pelican_balsa',]
 
+# URL settings
+ARTICLE_URL = '{category}/{slug}.html'
+ARTICLE_SAVE_AS = '{category}/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+# CATEGORY_URL = '{slug}.html'
+# CATEGORY_SAVE_AS = '{slug}.html'
+
 
 #  def tac_filter(value):
 #      return value[::-1]
