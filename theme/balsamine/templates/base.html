@@ -41,18 +41,19 @@
     <main class="main_content">
         {% block content %}{% endblock %}
 
-        {% block sidebar %}
-        <section class="show">
-            <div class="show__list">
-                {% for article in articles %}
-                    {% include 'partials/event.html' %}
-                {% endfor %}
-            </div>
-
-            <div class="show__timeline timeline"></div>
-        </section>
-        {% endblock %}
     </main>
+
+    {% block sidebar %}
+    <section class="show">
+        <div class="show__list">
+            {% for article in articles %}
+                {% include 'partials/event.html' %}
+            {% endfor %}
+        </div>
+
+        <div class="show__timeline timeline"></div>
+    </section>
+    {% endblock %}
 
     <footer class="main_footer">
         <p class="address" translate="no">
@@ -78,6 +79,7 @@
     </footer>
 
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-3.2.1.min.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mousewheel.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
 </body>
 </html>

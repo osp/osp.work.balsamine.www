@@ -105,3 +105,16 @@ $(function() {
         point.appendTo($(".show__timeline"));
     });
 });
+
+
+$(function() {
+    $(".show").on("mousewheel DOMMouseScroll", function(ev, delta) {
+        var scrollTop = $(this).scrollTop();
+        $(this).scrollTop(scrollTop-Math.round(ev.deltaY) * 30);
+
+        // this.scrollTop -= (delta * 60);
+
+        // event.preventDefault();
+
+    });
+});

@@ -48,28 +48,98 @@ Designers graphique associés
 
 ## Partenaires
 
-La Balsamine est subventionnée par la Fédération Wallonie-Bruxelles et fait partie du réseau des Scènes chorégraphiques de la Commission Communautaire française de la Région de Bruxelles-Capitale. La Balsamine reçoit aussi le soutien de Wallonie-Bruxelles Théâtre/Danse, de Wallonie-Bruxelles International et du Centre des Arts Scéniques.
+La Balsamine est subventionnée par la Fédération Wallonie-Bruxelles et
+fait partie du réseau des Scènes chorégraphiques de la Commission
+Communautaire française de la Région de Bruxelles-Capitale. La Balsamine
+reçoit aussi le soutien de Wallonie-Bruxelles Théâtre/Danse, de
+Wallonie-Bruxelles International et du Centre des Arts Scéniques.
 
-<!-- http://balsamine.be/uploads/Partenaires.Partenaires/logos2016.png -->
+![](http://balsamine.be/uploads/Partenaires.Partenaires/logos2016.png)
 
-![partenaires-logos](partenaires-logos.png)
+
+## Technique
 
 Ici, vous trouverez tous les plans techniques de la Balsamine.
-</p>
-<ul><li> <a href='http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf'>Balsa Petite salle.pdf</a><a rel='nofollow' class='createlink'
-        href='http://balsamine.be/index.php/Balsamine/Technique?action=upload&amp;upname=Balsa%20Petite%20salle.pdf'>&nbsp;&Delta;</a> ... 51,797 bytes ... 16/08/2011</li>
-<li> <a href='http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf'>Balsa sol amphi.pdf</a><a rel='nofollow' class='createlink'
-        href='http://balsamine.be/index.php/Balsamine/Technique?action=upload&amp;upname=Balsa%20sol%20amphi.pdf'>&nbsp;&Delta;</a> ... 621,377 bytes ... 16/08/2011</li>
-<li> <a href='http://balsamine.be/uploads/Balsamine.Technique/coupe%20grande%20salle.pdf'>coupe grande salle.pdf</a><a rel='nofollow' class='createlink'
-        href='http://balsamine.be/index.php/Balsamine/Technique?action=upload&amp;upname=coupe%20grande%20salle.pdf'>&nbsp;&Delta;</a> ... 80,747 bytes ... 16/08/2011</li>
-<li> <a href='http://balsamine.be/uploads/Balsamine.Technique/Grande%20Salle%20vierge.pdf'>Grande Salle vierge.pdf</a><a rel='nofollow' class='createlink'
-        href='http://balsamine.be/index.php/Balsamine/Technique?action=upload&amp;upname=Grande%20Salle%20vierge.pdf'>&nbsp;&Delta;</a> ... 94,759 bytes ... 16/08/2011</li>
-<li> <a href='http://balsamine.be/uploads/Balsamine.Technique/Grill%20grande%20salle.pdf'>Grill grande salle.pdf</a><a rel='nofollow' class='createlink'
-        href='http://balsamine.be/index.php/Balsamine/Technique?action=upload&amp;upname=Grill%20grande%20salle.pdf'>&nbsp;&Delta;</a> ... 129,744 bytes ... 16/08/2011</li>
-<li> <a href='http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf'>Grill petite salle.pdf</a><a rel='nofollow' class='createlink'
-        href='http://balsamine.be/index.php/Balsamine/Technique?action=upload&amp;upname=Grill%20petite%20salle.pdf'>&nbsp;&Delta;</a> ... 12,102 bytes ... 16/08/2011</li>
-<li> <a href='http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf'>sol grande salle.pdf</a><a rel='nofollow' class='createlink'
-        href='http://balsamine.be/index.php/Balsamine/Technique?action=upload&amp;upname=sol%20grande%20salle.pdf'>&nbsp;&Delta;</a> ... 208,729 bytes ... 16/08/2011</li>
-<li> <a href='http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf'>Sol petite salle.pdf</a><a rel='nofollow' class='createlink'
-        href='http://balsamine.be/index.php/Balsamine/Technique?action=upload&amp;upname=Sol%20petite%20salle.pdf'>&nbsp;&Delta;</a> ... 8,498 bytes ... 16/08/2011</li></ul>
-<p>
+
+- [Balsa Petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf) 
+- [Balsa sol amphi.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf)
+- [coupe grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/coupe%20grande%20salle.pdf)
+- [Grande Salle vierge.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grande%20Salle%20vierge.pdf)
+- [Grill grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20grande%20salle.pdf)
+- [Grill petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf)
+- [sol grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf)
+- [Sol petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf)
+
+
+## Archives
+
+- [Saison 2011-2012](http://balsamine.be/index.php/Archives/Saison2011-2012)
+- [Saison 2012-2013](http://balsamine.be/index.php/Archives/Saison2012-2013)
+- [Saison 2013-2014](http://balsamine.be/index.php/Archives/Saison2013-2014)
+- [Saison 2014-2015](http://balsamine.be/index.php/Archives/Saison2014-2015)
+- [Saison 2015-2016](http://balsamine.be/index.php/Archives/Saison2015-2016)
+
+
+## Historique
+
+Le théâtre de la Balsamine est fondé par [Martine
+Wijckaert](http://balsamine.be/index.php/Protagonistes/MartineWijckaert) en
+1974. Il s’agit au départ d’une simple structure juridique, une asbl,
+permettant l’obtention de subsides à la création.
+
+Le théâtre ainsi créé ne dispose d’aucun lieu ni forme de résidence au
+sein d’une autre structure existante. Il obtient cependant des subsides
+au coup par coup permettant la réalisation des premiers spectacles de
+[Martine Wijckaert](http://balsamine.be/index.php/Protagonistes/MartineWijckaert)
+Ces réalisations naissent d’un mode de nomadisme urbain : des sites à
+l’abandon deviennent autant de décors naturels sur lesquels les
+spectacles opèrent une intervention.
+
+En 1981, le théâtre de la Balsamine s’installe de manière provisoirement
+définitive dans la friche des anciennes casernes Dailly.
+
+![](http://balsamine.be/uploads/Balsamine.Historique/historique1.jpg)
+
+Ces casernes ont été abandonnées depuis plusieurs années et elles sont
+découvertes dans leur jus. Un impressionnant périmètre de bâtiments fin
+XIX^e^ cerne un parc intérieur redevenu sauvage. Le site a toutes les
+vertus d’une cité de la fiction et cette qualité invite le théâtre à s’y
+installer.
+
+Commence alors une période dite sauvage durant laquelle de très nombreux
+lieux seront investis pour leur valeur spatiale brute et où naîtront des
+spectacles sur mesure, comme autant d’interventions uniques et
+totalement éphémères sur l’architecture.
+
+Théâtre, art plastique et musique se mêlent et rassemblent sur le site
+de nombreux artistes y trouvant résidence de travail et
+d’expérimentation.
+
+Tout en dirigeant la Balsamine installée dans les casernes, [Martine
+Wijckaert](http://balsamine.be/index.php/Protagonistes/MartineWijckaert)
+y poursuit son travail artistique propre.
+
+L’activité va également se centraliser sur un lieu particulier de la
+caserne, baptisé « amphithéâtre » puis rapidement « amphi », en raison
+de ses caractéristiques architecturales : il s’agit en effet d’un ancien
+auditorium militaire, structuré en hémicycle.
+
+![](http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg)
+
+![](http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg)
+
+Les premiers aménagements de l’amphi se feront selon la technique du
+recyclage absolu, le matériel nécessaire et encore utilisable étant
+démonté dans d’autres ailes de la caserne et remonté après
+transformation dans l’amphi.
+
+En 1994, [Martine
+Wijckaert](http://balsamine.be/index.php/Protagonistes/MartineWijckaert)
+confie la direction artistique du théâtre à Christian Machiels et y
+demeure en qualité d’artiste associée. Le théâtre actuel, d'un style
+contemporain ayant conservé toutefois la singularité de la salle
+primitive, date de 2001 et est l'œuvre de l'architecte Francis Metzger,
+pour laquelle il a reçu le 3^e^ prix d’architecture à la biennale du
+Costa Rica. La programmation de Christian Machiels a été tout entière
+dévolue aux arts du spectacle et aux jeunes compagnies de théâtre et de
+danse contemporaine.
