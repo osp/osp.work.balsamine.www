@@ -15,7 +15,7 @@
 
 <body>
     <header class="main_header">
-        <a href="{{ SITEURL }}/"><img class="logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa-16-17-large.svg"></a>
+        <a href="{{ SITEURL }}/"><img class="logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa.svg"></a>
 
         <nav class="main_nav">
             <ul class="main_menu">
@@ -40,20 +40,20 @@
 
     <main class="main_content">
         {% block content %}{% endblock %}
+        {% block sidebar %}
+        <section class="show">
+            <div class="show__list">
+                {% for article in articles %}
+                    {% include 'partials/event.html' %}
+                {% endfor %}
+            </div>
+
+            <div class="show__timeline timeline"></div>
+        </section>
+        {% endblock %}
 
     </main>
 
-    {% block sidebar %}
-    <section class="show">
-        <div class="show__list">
-            {% for article in articles %}
-                {% include 'partials/event.html' %}
-            {% endfor %}
-        </div>
-
-        <div class="show__timeline timeline"></div>
-    </section>
-    {% endblock %}
 
     <footer class="main_footer">
         <p class="address" translate="no">
