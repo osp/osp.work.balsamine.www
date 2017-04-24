@@ -8,7 +8,7 @@ Event_type: Création danse
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Subhead: Dans le cadre de Brussels, dance ! Focus on contemporary dance.
 Intro: Un spectacle manifeste du corps, de la chair et du sexe féminin.
-Color: #284819
+Color: #f9c2eb
 
 **i-clit** tente un bilan chorégraphié de l’état du féminisme contemporain.
 

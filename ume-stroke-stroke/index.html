@@ -34,7 +34,7 @@
     text-decoration: none;
   }
   .container > .cadra{
-    /* background: url('svg/marg/guide.svg'); */
+    background: url('svg/marg/guide.svg');
     background-repeat: repeat-x;
     background-size: auto 100%;
   }
@@ -48,6 +48,7 @@
   <input type="text" id="chaine" value="Abcde" />
 </footer>
 </body>
+<script type="text/javascript" src="js/table.js" ></script>
 <script type="text/javascript" charset="utf-8">
 
 function grad(){
@@ -55,10 +56,7 @@ function grad(){
   var stt = 240;
   var scl = .1
   pathEle.each(function () {
-    // $(this).css('stroke-width', stt);
     trs = scl*10;
-    // $(this).attr('transform', 'scale(1,'+scl+') translate(0, 0)');
-    // $(this).css('stroke-width', stt);
     stt = stt - 6;
     scl = scl + 0.1;
   });
@@ -71,7 +69,7 @@ function onInput(){
   var letter = word.split("");
 
   for (var i = 0, l = word.length; i < l; i++) {
-    var v = letter[i];
+    var v = table[letter[i]];
     jQuery('<div/>', {
         id: v+'_'+i,
         class: 'cadra',

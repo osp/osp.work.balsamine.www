@@ -61,7 +61,7 @@ Wallonie-Bruxelles International et du Centre des Arts Scéniques.
 
 Ici, vous trouverez tous les plans techniques de la Balsamine.
 
-- [Balsa Petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf)
+- [Balsa Petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf) 
 - [Balsa sol amphi.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf)
 - [coupe grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/coupe%20grande%20salle.pdf)
 - [Grande Salle vierge.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grande%20Salle%20vierge.pdf)
@@ -120,8 +120,8 @@ Wijckaert](http://balsamine.be/index.php/Protagonistes/MartineWijckaert)
 y poursuit son travail artistique propre.
 
 L’activité va également se centraliser sur un lieu particulier de la
-caserne, baptisé « amphithéâtre » puis rapidement « amphi », en raison
-de ses caractéristiques architecturales : il s’agit en effet d’un ancien
+caserne, baptisé « amphithéâtre » puis rapidement « amphi », en raison
+de ses caractéristiques architecturales : il s’agit en effet d’un ancien
 auditorium militaire, structuré en hémicycle.
 
 ![](http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg)

@@ -15,7 +15,7 @@
 
 <body>
     <header class="main_header">
-        <a href="{{ SITEURL }}/"><img class="logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa-16-17-large.svg"></a>
+        <a href="{{ SITEURL }}/"><img class="logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa.svg"></a>
 
         <nav class="main_nav">
             <ul class="main_menu">
@@ -40,7 +40,6 @@
 
     <main class="main_content">
         {% block content %}{% endblock %}
-
         {% block sidebar %}
         <section class="show">
             <div class="show__list">
@@ -52,7 +51,9 @@
             <div class="show__timeline timeline"></div>
         </section>
         {% endblock %}
+
     </main>
+
 
     <footer class="main_footer">
         <p class="address" translate="no">
@@ -78,6 +79,7 @@
     </footer>
 
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-3.2.1.min.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mousewheel.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
 </body>
 </html>
