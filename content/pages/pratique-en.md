@@ -1,5 +1,7 @@
 Title: pratique
 Date: 2017
+Lang: en
+Translation: true
 
 ![carte](carte.png)
 
