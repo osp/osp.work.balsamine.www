@@ -56,13 +56,13 @@ Color: <valeur de la couleur: #9C5C62>
 
 
 ```
-titre
+Titre
 :   Texte tabulé 
 
 Direction générale et artistique
 :   Monica Gomes
 ```
-titre
+Titre
 :   Texte tabulé
 
 Direction générale et artistique
@@ -78,19 +78,25 @@ Direction générale et artistique
 
 
 ```
-
+1. Item one
+   1. Sub item one
+   1. Sub item two
+1. Item two
+1. Item three
 ```
+1. Item one
+   1. Sub item one
+   1. Sub item two
+1. Item two
+1. Item three
 
-```
-
-```
 
 ### Inserer des images
 
 ```
-![texte alternatif](/images/nom-de-l'image.png/)
+![texte alternatif](/images/nom-de-l'image.png)
 ```
-![logo-balsa](/images/logo-balsa-16-17-large.svg/)
+![logo-balsa](/images/logo-balsa-16-17-large.svg)
 
 ### Inserer des liens
 

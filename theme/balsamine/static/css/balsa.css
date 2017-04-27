@@ -9,6 +9,14 @@
 }
 
 @font-face {
+    font-family: 'Ume Vertical Wide Oblique';
+    src: url('../fonts/ume-vertical-wide-oblique-webfont.woff2') format('woff2'),
+         url('../fonts/ume-vertical-wide-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Ume P Gothic Balsa';
     src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'),
          url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
@@ -341,9 +349,9 @@ a {
     font-family: 'Ume Vertical Wide Bridge';
 }
 
-/* .page-detail h1 { */
-/*     font-size: 2em; */
-/* } */
+/* .page-detail h1 {
+/*     font-size: 2em;
+/* }
 
 /* .page-detail h2 { */
 /*     font-size: 1.5em; */
@@ -364,9 +372,15 @@ a {
 
 .page-detail img {
     max-width: 100%;
-    margin-left: -3em;
+
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.page-detail p + p img {
+
+    margin-left: -3em;
+
 }
 
 .page-detail p + p {
@@ -458,4 +472,22 @@ body, .body {
 
 .content li:before {
     content: "- ";
+}
+
+.content pre {
+	font-family: monospace;
+	color: black;	
+	border: 1px solid blue;
+	padding: 1em;
+	margin-top: 1em;
+	
+}
+
+.content em {
+    font-family: 'Ume Vertical Wide Oblique';
+	
+}
+
+.content strong {
+    font-weight: bold;
 }
