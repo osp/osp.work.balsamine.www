@@ -13,7 +13,7 @@
    sodipodi:docname="R.svg"
    width="1264"
    height="2048"
-   inkscape:version="0.92.1 r">
+   inkscape:version="0.92.0 r">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -41,17 +41,17 @@
      inkscape:window-height="730"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="0.21277329"
-     inkscape:cx="793.30344"
-     inkscape:cy="8.6560436"
+     inkscape:zoom="0.71225021"
+     inkscape:cx="751.11398"
+     inkscape:cy="909.73712"
      inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:measure-start="496.269,1540.2"
-     inkscape:measure-end="496.269,1389.86">
+     inkscape:measure-start="1047.03,3.8185"
+     inkscape:measure-end="1138.68,3.8185">
     <sodipodi:guide
        position="751.69046,763.96296"
        orientation="1,0"
@@ -134,14 +134,14 @@
        class="int" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 603.69601,919.90783 c 0,0 462.45149,822.23037 462.45149,840.09217"
+       d="m 603.69601,919.90783 c 0,0 458.45149,822.23037 458.45149,840.09217"
        id="path1014"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
        class="int" />
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 634.58246,920 c 0,0 480.02584,829.4618 480.02584,840"
+       d="m 633.82736,939.69425 c 0,0 486.68544,809.48115 486.68544,820.01935"
        id="path1014-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"

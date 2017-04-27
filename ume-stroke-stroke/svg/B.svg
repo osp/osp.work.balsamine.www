@@ -13,7 +13,7 @@
    sodipodi:docname="B.svg"
    width="1304"
    height="2048"
-   inkscape:version="0.92.1 r">
+   inkscape:version="0.92.0 r">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -41,10 +41,10 @@
      inkscape:window-height="730"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="0.32593203"
-     inkscape:cx="-154.45173"
-     inkscape:cy="1117.4526"
-     inkscape:window-x="1920"
+     inkscape:zoom="0.25072479"
+     inkscape:cx="-260.24293"
+     inkscape:cy="553.04141"
+     inkscape:window-x="0"
      inkscape:window-y="18"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer4"
@@ -129,7 +129,7 @@
        sodipodi:nodetypes="cccccccccc"
        inkscape:connector-curvature="0"
        id="path5236-72-2"
-       d="M 252.35323,940 H 634.657 C 824.86818,940 1047.0101,834.57982 1042.2034,579.2881 1042.2034,449.52327 945.4119,295 719.22034,295 h -467.0981 v 1370.6861 l 475.02627,-0.1898 c 278.68519,0 380.10459,-141.8556 376.66839,-365.3854 C 1103.8169,1023.8151 888.78938,940 634.58246,940 H 252.35323"
+       d="M 252.35323,940 H 634.657 C 824.86818,940 1047.0101,834.57982 1042.2034,579.2881 1042.2034,449.52327 945.4119,295 719.22034,295 h -467.0981 v 1375.0949 l 475.02627,-0.1898 c 278.68519,0 380.10459,-146.2644 376.66839,-369.7942 C 1103.8169,1023.8151 888.78938,940 634.58246,940 H 252.35323"
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        class="int" />
   </g>
