@@ -2,30 +2,57 @@
 {% block head %}
   {{ super() }}
   {% if article.description %}
-    <meta name="description" content="{{article.description}}" />
+    <meta name="description" content="{{ article.description }}" />
   {% endif %}
 
   {% for tag in article.tags %}
-    <meta name="tags" content="{{tag}}" />
+    <meta name="tags" content="{{ tag }}" />
   {% endfor %}
 
 {% endblock %}
 
 {% block content %}
-<div class="colspan12-6 as-grid">
-<section id="content" class="body">
-  <header>
-    <h2 class="entry-title">{{ article.title }}</h2>
-  </header>
-  <footer class="post-info">
-    <time class="published" datetime="{{ article.date.isoformat() }}">
-      {{ article.locale_date }}
+<article class="show-detail content">
+  <header class="show-detail__header">
+    <h1 class="show-detail__title">{{ article.title }}</h1>
+    <time>
+      {# date var #}
+      {% if article.end_date %}
+        du {{article.start_date}} → {{article.end_date}}
+      {% else %}
+        le {{article.locale_date}}
+      {% endif %}
+      {# time var #}
+      {% if article.time %}
+        {% if article.time|length > 5 %}
+        <br>horaire: {{article.time}}
+        {% else %}
+        <br>à: {{article.time}}
+        {% endif %}
+      {% else %}
+      {% endif %}
+      {# author var #}
+      {% if article.piece_author %}
+        <br>{{article.piece_author}}
+      {% endif %}
+      {# event type var #}
+      {% if article.event_type %}
+        <br>{{article.event_type}}
+      {% endif %}
+      {# reservation var #}
+      {% if article.reservation_link %}
+        <br><a class="reservation-link" href="{{article.reservation_link}}">Réservation</a>
+      {% endif %}
     </time>
-  </footer><!-- /.post-info -->
-  <hr>
-  <div class="entry-content">
-    {{ article.content }}
-  </div><!-- /.entry-content -->
-</section>
-</div>
+
+    {% if article.key_image %}
+    <p class="show-detail__image"><img src="/images/{{ article.key_image }}" alt="Main image for {{ article.title }}"></p>
+    {% endif %}
+  </header>
+
+  <div class="show-detail__body">
+      {{ article.content }}
+  </div>
+</article>
+
 {% endblock %}

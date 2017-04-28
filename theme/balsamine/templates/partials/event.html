@@ -1,0 +1,54 @@
+{#
+<article class="entry">
+    <a href="{{ SITEURL }}/{{ article.url }}">
+        <div class="timeline-item">
+            <header>
+                <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
+            {% if article.start_date %}<time class="published" datetime="{{ article.start_date }}"> {{ article.start_date|strftime('%d.%m') }} </time>{% endif %}{% if article.end_date %} &rarr; <time class="published" datetime="{{ article.end_date }}"> {{ article.end_date|strftime('%d.%m') }} </time>{% endif %}
+            {% if article.time %}<br>{{ article.time }}{% endif %}
+            {% if article.image %}<a href="{{ SITEURL }}/{{ article.url }}" title="Permalink to {{ article.title|striptags }}"><img class="listing-header-image" src="/{{ article.image }}"></a>{% endif %}
+            <br><a href="#{{article.url}}" class="expand-content">expand content</a>
+
+            <div class="expanded-content" id="#{{article.url}}">
+                {{article.content}}
+            </div>
+        </div>
+    </a>
+</article>
+#}
+
+<article class="show__item" style="background: linear-gradient(to left, {{ article.color }} 0%, {{ article.color }} 5%, transparent 20%);">
+    <header class="show__header">
+        {% if article.subhead %}
+            <p class="show__subhead">{{ article.subhead }}</p>
+        {% endif %}
+
+        {% if article.date %}
+            <p class="show__dates"><time datetime="{{ article.date }}">{{ article.date|strftime('%d.%m') }}</time>
+            {% if article.end_date %}
+                &rarr; <time datetime="{{ article.end_date }}">{{ article.end_date|strftime('%d.%m') }}</time>
+            {% endif %}
+            </p>
+        {% endif %}
+
+        <h1 class="show__title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+
+        <p class="show__authors">{{ article.piece_author }}</p>
+
+        {% if article.intro %}
+        <div class="show__intro">
+            {{ article.intro }}
+        </div>
+        {% endif %}
+
+        {% if article.key_image %}
+        <p class="show__main_image"><img src="/images/{{ article.key_image }}" alt="Main image for {{ article.title }}"></p>
+        {% endif %}
+
+        <p><a href="#{{ article.url }}" class="expand-content">+ En savoir plus</a></p>
+
+        <div class="show__body" id="{{ article.url }}">
+            {{ article.content }}
+        </div>
+    </header>
+</article>

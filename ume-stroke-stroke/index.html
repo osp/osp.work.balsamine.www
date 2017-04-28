@@ -5,12 +5,12 @@
   <title></title>
   <script src="js/jquery-3.1.1.min.js" ></script>
 <style type="text/css" media="all">
-.container{
-width: 80%;
-height: auto;
-}
+  .container{
+    width: 80%;
+    height: auto;
+  }
   .cadra{
-    height: 280px;
+    height: 100px;
     width: auto;
     float: left;
   }
@@ -21,6 +21,7 @@ height: auto;
     overflow: visible
   }
   footer{
+
     position: fixed;
     right: 0px;
     background: white;
@@ -33,7 +34,7 @@ height: auto;
     text-decoration: none;
   }
   .container > .cadra{
-    /* background: url('svg/guide.svg'); */
+    /* background: url('svg/marg/guide.svg'); */
     background-repeat: repeat-x;
     background-size: auto 100%;
   }
@@ -43,53 +44,59 @@ height: auto;
 <div class="container"></div>
 
 
-<footer></footer>
+<footer>
+  <input type="text" id="chaine" value="ARROWROOT BARLEY CHERVIL DUMPLING ENDIVE FLAXSEED GARBANZO HIJIKI ISHTU JICAMA KALE LYCHEE MARJORAM NECTARINE" />
+</footer>
 </body>
+<script type="text/javascript" src="js/table.js" ></script>
 <script type="text/javascript" charset="utf-8">
-
 
 function grad(){
   var pathEle = $('svg');
   var stt = 240;
   var scl = .1
   pathEle.each(function () {
-    // $(this).css('stroke-width', stt);
     trs = scl*10;
-  // $(this).attr('transform', 'scale(1,'+scl+') translate(0, 0)');
-    // $(this).css('stroke-width', stt);
     stt = stt - 6;
     scl = scl + 0.1;
   });
 }
 
-// var word = ['M', 'A', 'I', 'B', 'L', 'b', 'a', 'l', 's', 'a-ext', 'm', 'i', 'n', 'e', 'A'];
-var word = ['B', 'A', 'L', 'S', 'A', 'M', 'I', 'N', 'E', 'b', 'a','l', 's', 'a-ext', 'm', 'i', 'n', 'e'];
-// var word = ['B-test', 'A', 'L', 'S', 'A', 'M', 'I', 'N', 'E'];
-// var word = ['D-ext', 'A','N'];
+function onInput(){
+  $('.cadra').remove();
+  var word = $('#chaine').val();
+  var nb_car = word.length;
+  var letter = word.split("");
 
-// var word = ['C', 'A', 'D', 'B', 'N', 'E'];
-// var word = ['A', 'A-ext'];
+  for (var i = 0, l = word.length; i < l; i++) {
+    var v = table[letter[i]];
+    jQuery('<div/>', {
+        id: v+'_'+i,
+        class: 'cadra',
+    }).appendTo('.container');
+    $('#'+v+'_'+i).load('svg/'+v+'.svg');
+  };
+}
 
-for (var i = 0, l = word.length; i < l; i++) {
-  var v = word[i];
-  jQuery('<div/>', {
-      id: v+'_'+i,
-      class: 'cadra',
-  }).appendTo('.container');
-  $('#'+v+'_'+i).load('svg/'+v+'.svg');
-};
+onInput();
+
+$('#chaine').keyup(function(){
+  onInput();
+})
 
 
 $(document).ready(function(){
   var start = 100;
-  $('.cadra').css('height', '370');
+  $('.cadra').css('height', '120');
   $('path.int').css('stroke-width', '100');
   $('path.ext').css('stroke-width', start);
   $('path.serif').css('stroke-width', '0');
   $('path.intrap').css('stroke-width', '50');
   $('.soleil').css('stroke-width', '0');
+  // $('path').css('stroke-linecap','round')
+  // $('path').css('stroke-linejoin','round')
   // $('path').css('filter', 'url(#filter237)');
-  // $('.int').attr('transform', 'scale(1.5,1) translate(-20, 0)'  );
+  // $('path').attr('transform', 'scale(1,0.8)'  );
   // $('path').css('stroke-linejoin','bevel');
   // $('path').css('stroke-linecap','round');
   grad();
@@ -99,14 +106,12 @@ function range(idStroke, valStart, valMax, propri, attri){
   var html = '<li>'+idStroke+' | '+propri+'<br><input data-attri="'+attri+'" data-propri="'+propri+'" type="range"  min="0" max="'+valMax+'" value="'+valStart+'" name="discount_credits" class="discount_credits" id="'+idStroke+'" /><span>'+valStart+'</span></li>';
   $("footer").append(html);
 }
-range('cadra', 3700, 10000, 'height', 'css');
+range('cadra', 1200, 10000, 'height', 'css');
 range('int', 1000, 3000, 'stroke-width', 'css');
 range('ext', 1000, 3000, 'stroke-width', 'css');
 range('int', 10, 10, 'stroke-opacity', 'css');
 range('ext', 10, 10, 'stroke-opacity', 'css');
 range('serif', 0, 120, 'stroke-width', 'css');
-
-
 
 $('.discount_credits').on("change mousemove", function() {
     var dataOver = $('.ext[data-over]');
