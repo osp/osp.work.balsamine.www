@@ -116,7 +116,7 @@ a {
     left: 40px;
 }
 
-.show {
+.schedule {
     position: relative;
 }
 
@@ -129,7 +129,7 @@ a {
         left: 0;
         box-sizing: border-box;
     }
-    .show {
+    .schedule {
         width: 30%;
         position: fixed;
         top: 0;
@@ -149,18 +149,18 @@ a {
         width: 60%;
         float: left;
     }
-    .show__list {
+    .schedule__list {
         position: absolute;
 
     }
 }
 
 
-.show__list {
+.schedule__list {
     padding-right: 30px;
 
 }
-.show__timeline {
+.schedule__timeline {
     width: 30px;
     position: fixed;
     right: 0;
@@ -168,7 +168,7 @@ a {
     height: calc(100vh - 40px);
     background: linear-gradient(to bottom,  #1e5799 0%,#ff3232 25%,#ff328e 50%,#32c5ff 75%,#2989d8 100%,#207cca 100%,#7db9e8 100%);
 }
-.show__item {
+.schedule__item {
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 2em;
@@ -180,64 +180,64 @@ a {
 
     color: blue;
 }
-.show__item + .show__item {
+.schedule__item + .schedule__item {
     border-top: 2px solid blue;
 }
-.show__header {}
-.show__subhead {
+.schedule__header {}
+.schedule__subhead {
     font-family: 'Ume Vertical Wide Bridge';
     line-height: 1;
     margin-bottom: .4em;
 }
-.show__dates {
+.schedule__dates {
     font-family: 'Ume P Gothic Balsa';
     font-size: 2em;
     line-height: 1;
 
     float: right;
 }
-.show__title {
+.schedule__title {
     font-family: 'Ume Vertical Wide Bridge';
     font-size: 2em;
     line-height: 1;
 }
-.show__authors {
+.schedule__authors {
     font-family: 'Ume Vertical Wide Bridge';
     line-height: 1;
     margin-top: .4em;
     margin-bottom: .4em;
 }
-.show__main_image {
+.schedule__main_image {
     text-align: right;
 }
-.show__main_image img {
+.schedule__main_image img {
     max-width: 75%;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.show__body {
+.schedule__body {
     display: none;
 }
-.show__body:target {
+.schedule__body:target {
     display: block;
 }
-.show__body p + p,
-.show__body blockquote + p,
-.show__body p + blockquote {
+.schedule__body p + p,
+.schedule__body blockquote + p,
+.schedule__body p + blockquote {
     margin-top: 1em;
 }
-.show__body blockquote {
+.schedule__body blockquote {
     padding-left: 2em;
 }
-.show__body blockquote footer:before {
+.schedule__body blockquote footer:before {
     content: "– ";
 }
-.show__body dl {
+.schedule__body dl {
     margin-top: 1.3em;
     margin-bottom: 1.3em;
     padding-left: 25%;
 }
-.show__body dd {
+.schedule__body dd {
     padding-left: 1em;
 }
 
@@ -476,16 +476,16 @@ body, .body {
 
 .content pre {
 	font-family: monospace;
-	color: black;	
+	color: black;
 	border: 1px solid blue;
 	padding: 1em;
 	margin-top: 1em;
-	
+
 }
 
 .content em {
     font-family: 'Ume Vertical Wide Oblique';
-	
+
 }
 
 .content strong {

@@ -38,17 +38,19 @@
         </nav>
     </header>
 
-    <main class="main_content">
+    <main class="foo main_content">
+        <div class="bar">
         {% block content %}{% endblock %}
+        </div>
         {% block sidebar %}
-        <section class="show">
-            <div class="show__list">
+        <section class="baz schedule">
+            <div class="schedule__list">
                 {% for article in articles %}
                     {% include 'partials/event.html' %}
                 {% endfor %}
             </div>
 
-            <div class="show__timeline timeline"></div>
+            <div class="schedule__timeline timeline"></div>
         </section>
         {% endblock %}
 

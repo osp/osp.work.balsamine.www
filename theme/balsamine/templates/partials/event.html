@@ -17,37 +17,37 @@
 </article>
 #}
 
-<article class="show__item" style="background: linear-gradient(to left, {{ article.color }} 0%, {{ article.color }} 5%, transparent 20%);">
-    <header class="show__header">
+<article class="schedule__item" style="background: linear-gradient(to left, {{ article.color }} 0%, {{ article.color }} 5%, transparent 20%);">
+    <header class="schedule__header">
         {% if article.subhead %}
-            <p class="show__subhead">{{ article.subhead }}</p>
+            <p class="schedule__subhead">{{ article.subhead }}</p>
         {% endif %}
 
         {% if article.date %}
-            <p class="show__dates"><time datetime="{{ article.date }}">{{ article.date|strftime('%d.%m') }}</time>
+            <p class="schedule__dates"><time datetime="{{ article.date }}">{{ article.date|strftime('%d.%m') }}</time>
             {% if article.end_date %}
                 &rarr; <time datetime="{{ article.end_date }}">{{ article.end_date|strftime('%d.%m') }}</time>
             {% endif %}
             </p>
         {% endif %}
 
-        <h1 class="show__title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+        <h1 class="schedule__title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
 
-        <p class="show__authors">{{ article.piece_author }}</p>
+        <p class="schedule__authors">{{ article.piece_author }}</p>
 
         {% if article.intro %}
-        <div class="show__intro">
+        <div class="schedule__intro">
             {{ article.intro }}
         </div>
         {% endif %}
 
         {% if article.key_image %}
-        <p class="show__main_image"><img src="/images/{{ article.key_image }}" alt="Main image for {{ article.title }}"></p>
+        <p class="schedule__main_image"><img src="/images/{{ article.key_image }}" alt="Main image for {{ article.title }}"></p>
         {% endif %}
 
         <p><a href="#{{ article.url }}" class="expand-content">+ En savoir plus</a></p>
 
-        <div class="show__body" id="{{ article.url }}">
+        <div class="schedule__body" id="{{ article.url }}">
             {{ article.content }}
         </div>
     </header>
