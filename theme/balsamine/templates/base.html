@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <header class="main_header">
+    <header class="main-header">
         <a href="{{ SITEURL }}/"><img class="logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa.svg"></a>
 
-        <nav class="main_nav">
-            <ul class="main_menu">
+        <nav class="main-nav">
+            <ul class="main-menu">
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
@@ -38,7 +38,7 @@
         </nav>
     </header>
 
-    <main class="foo main_content">
+    <main class="foo main-content">
         <div class="bar">
         {% block content %}{% endblock %}
         </div>
@@ -57,7 +57,7 @@
     </main>
 
 
-    <footer class="main_footer">
+    <footer class="main-footer">
         <p class="address" translate="no">
             <span>Théâtre La Balsamine</span>
             <span>

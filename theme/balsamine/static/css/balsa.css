@@ -1,335 +1,350 @@
-/* Font faces */
+/*------------------------------------*\
+  #FONTS
+\*------------------------------------*/
 
 @font-face {
     font-family: 'Ume Vertical Wide Bridge';
-    src: url('../fonts/ume-vertical-wide-bridge-webfont.woff2') format('woff2'),
-         url('../fonts/ume-vertical-wide-bridge-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+    src: url('../fonts/ume-vertical-wide-bridge-webfont.woff2') format('woff2'), url('../fonts/ume-vertical-wide-bridge-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Ume Vertical Wide Oblique';
-    src: url('../fonts/ume-vertical-wide-oblique-webfont.woff2') format('woff2'),
-         url('../fonts/ume-vertical-wide-oblique-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+    src: url('../fonts/ume-vertical-wide-oblique-webfont.woff2') format('woff2'), url('../fonts/ume-vertical-wide-oblique-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Ume P Gothic Balsa';
-    src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'),
-         url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+    src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'), url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
 }
 
 
-/* Extra resets */
+/*------------------------------------*\
+  #RESET
+\*------------------------------------*/
+
+html {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+body {
+    font-family: 'Ume Vertical Wide Bridge';
+    font-size: 1em;
+    line-height: 1.375em;
+}
 
 a {
-  text-decoration: inherit;
-  color: inherit;
+    text-decoration: inherit;
+
+    color: inherit;
 }
 
+em { font-family: 'Ume Vertical Wide Oblique'; }
 
-/* layout */
+strong { font-weight: bold; }
 
-.main_header {
-    position:fixed;
+
+/*------------------------------------*\
+  #STYLES
+\*------------------------------------*/
+
+.main-header {
+    position: fixed;
     top: 100vh;
     left: 0;
 
     box-sizing: border-box;
-    padding-left: 40px;
     width: 100vh;
     height: 40px;
-    outline: 2px solid blue;
-
-    font-size: 14px;
-    font-family: 'Ume Vertical Wide Bridge';
-    line-height: 40px;
+    padding-left: 40px;
 
     transform: rotate(-90deg);
     transform-origin: top left;
     text-align: right;
+
+    outline: 2px solid blue;
+
+    font-size: 14px;
+    line-height: 40px;
+
     direction: rtl;
 }
 
 .logo {
     max-height: 34px;
-    vertical-align: middle;
     padding-left: 10px;
+
+    vertical-align: middle;
 }
 
 /* mainmenu */
 
-.main_nav,
-.main_menu,
-.main_menu li {
-    display: inline;
-}
+.main-nav,
+.main-menu,
+.main-menu li { display: inline; }
 
-.main_menu li + li:before {
-    content: '\00B7\00A0';
-}
+.main-menu li + li:before { content: '\00B7\00A0'; }
 
-.main_footer {
+.main-footer {
     position: fixed;
-    left: 0;
     right: 0;
     bottom: 0;
-    height: 40px;
+    left: 0;
+
     box-sizing: border-box;
-    line-height: 40px;
+    height: 40px;
 
     outline: 2px solid blue;
+
+    line-height: 40px;
 }
 
 .address {
-    padding-right: 5px;
+    display: inline-block;
+
     box-sizing: border-box;
+    width: 100vw;
+    padding-right: 5px;
+
     text-align: right;
+    vertical-align: middle;
+
     font-size: 10px;
     line-height: 1;
-    width: 100vw;
-    display: inline-block;
-    vertical-align: middle;
-    font-family: 'Ume Vertical Wide Bridge';
 }
 
-.address > span {
-    display: block;
-}
+.address > span { display: block; }
 
-.address > span > span + span::before {
-    content: '\00B7\00A0';
-}
+.address > span > span + span::before { content: '\00B7\00A0'; }
 
 
-.main_content {
-    overflow: auto;
+
+
+
+
+
+.foo {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 40px;
     left: 40px;
-}
 
-.schedule {
-    position: relative;
+    overflow: auto;
 }
 
 @media only screen and (min-width: 480px) {
-    .page-detail,
-    .show-detail {
-        width: 70%;
+    .bar {
         position: absolute;
         top: 0;
         left: 0;
+
         box-sizing: border-box;
+        width: 70%;
     }
-    .schedule {
-        width: 30%;
+    .show-detail__header {
+        float: left;
+
+        width: 40%;
+    }
+    .show-detail__body {
+        float: left;
+
+        width: 60%;
+    }
+}
+
+
+/* Schedule */
+
+.baz { position: relative; }
+
+@media only screen and (min-width: 480px) {
+    .baz {
         position: fixed;
         top: 0;
         right: 0;
         bottom: 40px;
+
         overflow: hidden;
-        border-left: 2px solid blue;
+
         box-sizing: border-box;
-    }
+        width: 30%;
 
-    .show-detail__header {
-        width: 40%;
-        float: left;
+        border-left: 2px solid blue;
     }
-
-    .show-detail__body {
-        width: 60%;
-        float: left;
-    }
-    .schedule__list {
-        position: absolute;
-
-    }
+    .schedule__list { position: absolute; }
 }
 
+.schedule__list { padding-right: 30px; }
 
-.schedule__list {
-    padding-right: 30px;
-
-}
 .schedule__timeline {
-    width: 30px;
     position: fixed;
-    right: 0;
     top: 0;
+    right: 0;
+
+    width: 30px;
     height: calc(100vh - 40px);
-    background: linear-gradient(to bottom,  #1e5799 0%,#ff3232 25%,#ff328e 50%,#32c5ff 75%,#2989d8 100%,#207cca 100%,#7db9e8 100%);
+
+    background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
 }
+
 .schedule__item {
     padding-top: 1em;
+    padding-right: 1em;
     padding-bottom: 1em;
     padding-left: 2em;
-    padding-right: 1em;
+
+    color: blue;
 
     font-size: 10px;
     line-height: 1.3;
-    font-family: 'Ume Vertical Wide Bridge';
+}
 
-    color: blue;
-}
-.schedule__item + .schedule__item {
-    border-top: 2px solid blue;
-}
-.schedule__header {}
+.schedule__item + .schedule__item { border-top: 2px solid blue; }
+
 .schedule__subhead {
-    font-family: 'Ume Vertical Wide Bridge';
-    line-height: 1;
     margin-bottom: .4em;
+
+    line-height: 1;
 }
+
 .schedule__dates {
+    float: right;
+
     font-family: 'Ume P Gothic Balsa';
     font-size: 2em;
     line-height: 1;
-
-    float: right;
 }
+
 .schedule__title {
-    font-family: 'Ume Vertical Wide Bridge';
     font-size: 2em;
     line-height: 1;
 }
+
 .schedule__authors {
-    font-family: 'Ume Vertical Wide Bridge';
-    line-height: 1;
     margin-top: .4em;
     margin-bottom: .4em;
+
+    line-height: 1;
 }
-.schedule__main_image {
-    text-align: right;
-}
-.schedule__main_image img {
+
+.schedule__main-image { text-align: right; }
+
+.schedule__main-image img {
     max-width: 75%;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.schedule__body {
-    display: none;
-}
-.schedule__body:target {
-    display: block;
-}
+
+.schedule__body { display: none; }
+
+.schedule__body:target { display: block; }
+
 .schedule__body p + p,
 .schedule__body blockquote + p,
-.schedule__body p + blockquote {
-    margin-top: 1em;
-}
-.schedule__body blockquote {
-    padding-left: 2em;
-}
-.schedule__body blockquote footer:before {
-    content: "– ";
-}
+.schedule__body p + blockquote { margin-top: 1em; }
+
+.schedule__body blockquote { padding-left: 2em; }
+
+.schedule__body blockquote footer:before { content: "– "; }
+
 .schedule__body dl {
     margin-top: 1.3em;
     margin-bottom: 1.3em;
     padding-left: 25%;
 }
-.schedule__body dd {
-    padding-left: 1em;
-}
+
+.schedule__body dd { padding-left: 1em; }
 
 /* timeline */
 
 .timeline__year {
-    text-align: right;
-    transform: rotate(-90deg);
-    transform-origin: top right;
     position: absolute;
     top: 0px;
     right: 30px;
+
     height: 30px;
     padding-right: .5em;
-    line-height: 30px;
+
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    text-align: right;
+
     font-size: 10px;
-    font-family: 'Ume Vertical Wide Bridge';
+    line-height: 30px;
 }
 
 .timeline__month {
-    border-right: 1px solid black;
-    text-align: right;
-    transform: rotate(-90deg);
-    transform-origin: top right;
     position: absolute;
     top: 30px;
     right: 30px;
+
     height: 30px;
-    padding-right: .5em;
-    line-height: 20px;
     padding-top: 10px;
+    padding-right: .5em;
+
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    text-align: right;
+
+    border-right: 1px solid black;
+
     font-size: 10px;
-    font-family: 'Ume Vertical Wide Bridge';
+    line-height: 20px;
 }
 
 .timeline__point {
     position: absolute;
+    right: 15px;
+
     width: 10px;
     height: 10px;
+
     border-radius: 5px;
-    right: 15px;
     background-color: white;
 }
 
 
-/* article detail */
+
+
+
+/* Show details */
 
 .show-detail__header {
-    color: blue;
-    font-family: 'Ume Vertical Wide Bridge';
-    border-right: 2px solid blue;
     box-sizing: border-box;
     height: 100vh;
-
     padding: 2rem;
-
-    /* background-color: #e6e6e6; */
-    /* z-index: -1; */
-}
-
-.show-detail__title {
-    /* font-size: 42px; */
-}
-
-.show-detail__image img {
-    max-width: 75%;
-}
-
-.show-detail__body {
-    /* font-size: 10px; */
-    /* line-height: 1.3; */
-    font-family: 'Ume Vertical Wide Bridge';
 
     color: blue;
+    border-right: 2px solid blue;
+}
 
+.show-detail__image img { max-width: 75%; }
+
+.show-detail__body {
     box-sizing: border-box;
     padding: 2rem;
+
+    color: blue;
 }
 
 .show-detail__body p + p,
 .show-detail__body blockquote + p,
-.show-detail__body p + blockquote {
-    margin-top: 1em;
-}
+.show-detail__body p + blockquote { margin-top: 1em; }
 
-.show-detail__body blockquote {
-    padding-left: 2em;
-}
+.show-detail__body blockquote { padding-left: 2em; }
 
-.show-detail__body blockquote footer:before {
-    content: "– ";
-}
+.show-detail__body blockquote footer:before { content: "– "; }
 
 .show-detail__body dl {
     margin-top: 1.3em;
@@ -337,157 +352,130 @@ a {
     padding-left: 25%;
 }
 
-.show-detail__body dd {
-    padding-left: 1em;
-}
+.show-detail__body dd { padding-left: 1em; }
 
 
-.page-detail {
-    color: blue;
-    /* font-size: 16px; */
-    /* line-height: 1.3; */
-    font-family: 'Ume Vertical Wide Bridge';
-}
+/* General pages */
 
-/* .page-detail h1 {
-/*     font-size: 2em;
-/* }
+.page-detail { color: blue; }
 
-/* .page-detail h2 { */
-/*     font-size: 1.5em; */
-/*     margin-top: 1em; */
-/* } */
+.page-detail dl { column-width: 15em; }
 
-/* .page-detail dd { */
-/*     text-indent: 3em; */
-/* } */
-
-/* .page-detail dd + dt { */
-/*     margin-top: 1em; */
-/* } */
-
-.page-detail dl {
-    column-count: 3;
-}
+.page-detail dt { break-after: avoid-column; }
+.page-detail dd { break-before: avoid-column; }
+.page-detail dd { break-inside: avoid-column; }
 
 .page-detail img {
     max-width: 100%;
-
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.page-detail p + p img {
-
-    margin-left: -3em;
-
-}
-
-.page-detail p + p {
-    /* text-indent: 3em; */
-}
+.page-detail p + p img { margin-left: -3em; }
 
 
-html, .root {
-  font-size: 16px;
-  line-height: 22px;
+
+/* To be refactored */
+
+
+.content h1 {
+    margin-top: 0em;
+    margin-bottom: 0.40740741em;
+
+    font-size: 3.375em;
+    line-height: 0.81481482em;
 }
-body, .body {
-    font-family: 'Ume Vertical Wide Bridge';
-  font-size: 1em;
-  line-height: 1.375em;
-  /* max-width: 560px; */
-  /* margin: auto; */
+
+.content h2 {
+    margin-top: 0.91666667em;
+    margin-bottom: 0em;
+
+    font-size: 1.5em;
+    line-height: 1.83333334em;
 }
-.content h1, .h1 {
-  font-size: 3.375em;
-  line-height: 0.81481482em;
-  margin-top: 0em;
-  margin-bottom: 0.40740741em;
+
+.content h3 {
+    margin-top: 0.91666667em;
+    margin-bottom: 0em;
+
+    font-size: 1.5em;
+    line-height: 1.83333333em;
 }
-.content h2, .h2 {
-  font-size: 1.5em;
-  line-height: 1.83333334em;
-  margin-top: 0.91666667em;
-  margin-bottom: 0em;
+
+.content h4 {
+    margin-top: 1.375em;
+    margin-bottom: 0em;
+
+    font-size: 1em;
+    line-height: 1.375em;
 }
-.content h3, .h3 {
-  font-size: 1.5em;
-  line-height: 1.83333333em;
-  margin-top: 0.91666667em;
-  margin-bottom: 0em;
+
+.content h5 {
+    margin-top: 1.375em;
+    margin-bottom: 0em;
+
+    font-size: 1em;
+    line-height: 1.375em;
 }
-.content h4, .h4 {
-  font-size: 1em;
-  line-height: 1.375em;
-  margin-top: 1.375em;
-  margin-bottom: 0em;
+
+.content p,
+.content ul,
+.content ol,
+.content pre,
+.content table,
+.content blockquote {
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
-.content h5, .h5 {
-  font-size: 1em;
-  line-height: 1.375em;
-  margin-top: 1.375em;
-  margin-bottom: 0em;
-}
-.content p, .content ul, .content ol, .content pre, .content table, .content blockquote {
-  margin-top: 0em;
-  margin-bottom: 0em;
-}
-.content p + p {
-  text-indent: 3em;
-}
-.content ul ul, .content ol ol, .content ul ol, .content ol ul {
-  margin-top: 0em;
-  margin-bottom: 0em;
+
+.content p + p { text-indent: 3em; }
+
+.content ul ul,
+.content ol ol,
+.content ul ol,
+.content ol ul {
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
 
 /* Let's make sure all's aligned */
-.content hr, .hr {
-  border: 1px solid;
-  margin: -1px 0;
+.content hr {
+    margin: -1px 0;
+
+    border: 1px solid;
 }
-.content a, .content b, .content i, .content strong, .content em, .content small, .content code {
-  line-height: 0;
-}
-.content sub, .content sup {
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
+
+.content a,
+.content b,
+.content i,
+.content strong,
+.content em,
+.content small,
+.content code { line-height: 0; }
+
+.content sub,
 .content sup {
-  top: -0.5em;
-}
-.content sub {
-  bottom: -0.25em;
+    position: relative;
+
+    vertical-align: baseline;
+
+    line-height: 0;
 }
 
+.content sup { top: -0.5em; }
 
-.content dd {
-    padding-left: 3em;
-}
+.content sub { bottom: -0.25em; }
 
-.content dd + dt {
-    /* margin-top: 1.375em; */
-}
+.content dd { padding-left: 3em; }
 
-.content li:before {
-    content: "- ";
-}
+.content li:before { content: "- "; }
 
 .content pre {
-	font-family: monospace;
-	color: black;
-	border: 1px solid blue;
-	padding: 1em;
-	margin-top: 1em;
+    margin-top: 1em;
+    padding: 1em;
 
-}
+    color: black;
+    border: 1px solid blue;
 
-.content em {
-    font-family: 'Ume Vertical Wide Oblique';
-
-}
-
-.content strong {
-    font-weight: bold;
+    font-family: monospace;
 }
