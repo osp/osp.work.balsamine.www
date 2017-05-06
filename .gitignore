@@ -3,4 +3,5 @@ venv/
 *.pid
 output/*
 .sass-cache/
+/.sass-cache/
 output/
