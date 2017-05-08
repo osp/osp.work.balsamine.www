@@ -1,4 +1,5 @@
 var table = []
+
 table["0"] = "0";
 table["1"] = "1";
 table["2"] = "2";
