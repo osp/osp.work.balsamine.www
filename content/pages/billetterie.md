@@ -15,6 +15,7 @@ Tarif réduit
 :  prévente 7€
 
 Étudiants, + de 60 ans, demandeurs d’emploi, professionnels du spectacle, schaerbeekois
+: ???
 
 Tarif enfant ( - de 12 ans )
 :  5 €
@@ -26,6 +27,7 @@ Tarif Noël à la Balsa
 :  7.50€
 
 Art. 27 et Arsène 50
+:  ???
 
 ### Tarifs de groupe (à partir de 10 personnes) :
 
