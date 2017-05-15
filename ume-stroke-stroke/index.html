@@ -45,7 +45,7 @@
 
 
 <footer>
-  <input type="text" id="chaine" value="ARROWROOT BARLEY CHERVIL DUMPLING ENDIVE FLAXSEED GARBANZO HIJIKI ISHTU JICAMA KALE LYCHEE MARJORAM NECTARINE" />
+  <input type="text" id="chaine" value="Les oracles" />
 </footer>
 </body>
 <script type="text/javascript" src="js/table.js" ></script>
@@ -87,14 +87,20 @@ $('#chaine').keyup(function(){
 
 $(document).ready(function(){
   var start = 100;
+  var PP = $('path.ext');
   $('.cadra').css('height', '120');
   $('path.int').css('stroke-width', '100');
   $('path.ext').css('stroke-width', start);
   $('path.serif').css('stroke-width', '0');
   $('path.intrap').css('stroke-width', '50');
   $('.soleil').css('stroke-width', '0');
-  // $('path').css('stroke-linecap','round')
-  // $('path').css('stroke-linejoin','round')
+  $('path').css('stroke-linecap','round')
+  $('path').css('stroke-linejoin','round')
+  $('path').attr('d', )
+  // PP.each(function(){
+  //   // Update the 'rules[0]' part of the name attribute to contain the latest count
+  //   $(this).attr('d', $(this).attr('d').replace('c','C'));
+  // });
   // $('path').css('filter', 'url(#filter237)');
   // $('path').attr('transform', 'scale(1,0.8)'  );
   // $('path').css('stroke-linejoin','bevel');

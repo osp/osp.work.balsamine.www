@@ -4,7 +4,7 @@ import fontforge
 import glob
 import sys
 
-SVG_DIR = glob.glob('svg/simple/clean/*.svg')
+SVG_DIR = glob.glob('svg/fat/*.svg')
 font = fontforge.open('tmp/ume-gothic.sfd')
 
 for glyph in SVG_DIR:
@@ -21,6 +21,6 @@ for glyph in SVG_DIR:
 #     letter_char= font.createMappedChar(letter)
 #     letter_char.width = 600
 #     letter_char.importOutlines(glyph)
-font.fontname = 'ume-stroke-stroke'
-font.familyname = 'ume-stroke-stroke'
-font.generate('FINAL/ume-stroke-stroke-v1.sfd')
+font.fontname = 'ume-stroke-stroke-fat-fat'
+font.familyname = 'ume-stroke-stroke-fat-fat'
+font.generate('FINAL/ume-stroke-stroke-fat-fat.sfd')
