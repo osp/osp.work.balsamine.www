@@ -1,0 +1,21 @@
+{
+  "name": "work.balsamine.www",
+  "version": "1.0.0",
+  "description": "Balsamine rebuild 2017 ![logo-balsa](content/images/logo-balsa-16-17-large.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.constantvzw.org:osp/work.balsamine.www.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "caniuse-db": "^1.0.30000670",
+    "postcss": "^6.0.1",
+    "postcss-cli": "^4.0.0",
+    "postcss-cssnext": "^2.11.0"
+  }
+}
