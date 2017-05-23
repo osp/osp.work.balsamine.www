@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+
 from __future__ import unicode_literals
+
+from mdx_figcaption import FigcaptionExtension
 
 
 # Default author (usually your name).
@@ -84,14 +87,18 @@ PAGE_SAVE_AS = '{slug}.html'
 # options. The extensions option will be automatically computed from the
 # extension_configs option.
 
-#  MARKDOWN = {
-#      'extension_configs': {
-#          'markdown.extensions.codehilite': {'css_class': 'highlight'},
-#          'markdown.extensions.extra': {},
-#          'markdown.extensions.meta': {},
-#      },
-#      'output_format': 'html5',
-#  }
+
+MARKDOWN = {
+    'extensions': [
+        FigcaptionExtension()
+    ],
+    'extension_configs': {
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        #  'markdown.extensions.attr_list': {},
+    },
+    'output_format': 'html5',
+}
 
 # A list of metadata fields containing reST/Markdown content to be parsed and
 # translated to HTML.

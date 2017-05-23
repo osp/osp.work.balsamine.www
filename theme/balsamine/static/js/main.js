@@ -1,9 +1,9 @@
 // $(function() {
 //     // The total height
-//     var totalHeight = $(".show__list").outerHeight() - $(".show").last().outerHeight();
+//     var totalHeight = $(".schedule__list").outerHeight() - $(".schedule").last().outerHeight();
 
-//     var firstDate = Date.parse($(".show__item").first().find("time").attr("datetime"));
-//     var lastDate = Date.parse($(".show__item").last().find("time").attr("datetime"));
+//     var firstDate = Date.parse($(".schedule__item").first().find("time").attr("datetime"));
+//     var lastDate = Date.parse($(".schedule__item").last().find("time").attr("datetime"));
 
 //     console.log("firstDate", firstDate);
 //     console.log("lastDate", lastDate);
@@ -14,7 +14,7 @@
 //     console.log(firstPos);
 //     console.log(lastPos);
 
-//     $(".show__item").each(function() {
+//     $(".schedule__item").each(function() {
 //         var size = $(this).outerHeight();
 //         // console.log(size);
 //         var currentDate = Date.parse($(this).find("time").attr("datetime"));
@@ -35,7 +35,7 @@
 //             backgroundColor: "white"
 //         });
 
-//         point.appendTo($(".show__timeline"));
+//         point.appendTo($(".schedule__timeline"));
 //     });
 // });
 
@@ -66,8 +66,8 @@ $(function() {
         return months;
     }
 
-    var firstDate = Date.parse($(".show__item").first().find("time").attr("datetime"));
-    var lastDate = Date.parse($(".show__item").last().find("time").attr("datetime"));
+    var firstDate = Date.parse($(".schedule__item").first().find("time").attr("datetime"));
+    var lastDate = Date.parse($(".schedule__item").last().find("time").attr("datetime"));
 
     var firstDate = new Date(firstDate);
     var lastDate = new Date(lastDate);
@@ -77,7 +77,7 @@ $(function() {
 
     var foo = monthsWithinDateRange(firstDate, lastDate);
 
-    var totalHeight = $('show_timeline').outerHeight();
+    var totalHeight = $('schedule_timeline').outerHeight();
 
     for (var i=0, len=foo.length - 1; i < len; i++) {
         var currentDate = foo[i];
@@ -92,23 +92,23 @@ $(function() {
             top: pc + "%",
         });
 
-        point.appendTo($(".show__timeline"));
+        point.appendTo($(".schedule__timeline"));
     }
     
-    $(".show__item").each(function() {
+    $(".schedule__item").each(function() {
         var currentDate = Date.parse($(this).find("time").attr("datetime"));
 
         var pc = (1 - (lastDate - currentDate) / (lastDate - firstDate)) * 100;
 
         var point = $("<div>").addClass("timeline__point").css('top', pc + "%");
 
-        point.appendTo($(".show__timeline"));
+        point.appendTo($(".schedule__timeline"));
     });
 });
 
 
 $(function() {
-    $(".show").on("mousewheel DOMMouseScroll", function(ev, delta) {
+    $(".schedule").on("mousewheel DOMMouseScroll", function(ev, delta) {
         var scrollTop = $(this).scrollTop();
         $(this).scrollTop(scrollTop-Math.round(ev.deltaY) * 30);
 

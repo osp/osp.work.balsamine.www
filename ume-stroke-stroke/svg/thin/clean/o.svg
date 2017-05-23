@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 -288 1040 2048"
+   id="svg6"
+   sodipodi:docname="o.svg"
+   width="1040"
+   height="2048"
+   inkscape:version="0.92.1 r">
+  <metadata
+     id="metadata12">
+    <rdf:rdf>
+      <cc:work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:work>
+    </rdf:rdf>
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1364"
+     inkscape:window-height="730"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.2282643"
+     inkscape:cx="-522.727"
+     inkscape:cy="296.77203"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer3"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:measure-start="1224.51,1052.2"
+     inkscape:measure-end="1228.18,1052.2">
+    <sodipodi:guide
+       position="1065.0344,577.42827"
+       orientation="0,1"
+       id="guide44"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="513.26958,889.05623"
+       orientation="1,0"
+       id="guide61"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="286.55127,7.1488883"
+       orientation="1,0"
+       id="guide48"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="852.93056,248.53885"
+       orientation="0,1"
+       id="guide50"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="860.39849,906.5684"
+       orientation="0,1"
+       id="guide52"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="748.77593,1110.8423"
+       orientation="1,0"
+       id="guide54"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="trace">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="M 470.85938 919.25977 A 12.50125 12.50125 0 0 0 470.64648 919.26172 C 369.69914 920.98387 291.9877 977.23307 241.90625 1073.2051 C 191.8248 1169.1771 167.4082 1304.74 167.4082 1470.4492 C 167.4082 1636.1935 193.99794 1774.0593 250.61914 1872.0215 C 307.24034 1969.9836 395.53226 2027.3408 512.64062 2028.1211 C 630.15814 2028.9041 718.77802 1971.5526 775.54297 1873.2324 C 832.30792 1774.9123 858.94727 1636.307 858.94727 1470.4492 C 858.94727 1304.7029 834.53436 1168.339 784.45117 1071.9609 C 734.36799 975.58283 656.52667 919.25977 555.45898 919.25977 L 470.85938 919.25977 z M 580.69922 945.5332 C 659.98097 953.72667 719.54742 1001.2793 762.26758 1083.4883 C 809.40706 1174.2017 833.94727 1307.1826 833.94727 1470.4492 C 833.94727 1591.9952 819.11759 1697.7635 789.50195 1782.0078 C 813.93226 1702.1509 826.54492 1599.5291 826.54492 1470.4492 C 826.54492 1277.2234 799.06531 1145.4331 745.67383 1060.4316 C 704.95117 995.59945 648.47771 959.17176 580.69922 945.5332 z M 447.67383 945.73242 C 382.30492 959.56909 326.19604 996.0762 284.8457 1060.3066 C 230.01463 1145.477 200.05469 1277.6332 200.05469 1470.4492 C 200.05469 1600.1127 212.74889 1703.0847 237.44531 1783.1016 C 207.43576 1698.9013 192.4082 1592.8731 192.4082 1470.4492 C 192.4082 1307.22 216.93912 1175.0842 264.06836 1084.7695 C 307.11299 1002.2823 367.37451 954.58002 447.67383 945.73242 z M 514.2207 964.25 A 12.50125 12.50125 0 0 0 514.29492 964.25 C 605.88683 964.25 675.29963 995.39323 724.50391 1073.7285 C 773.70818 1152.0638 801.54492 1279.6239 801.54492 1470.4492 C 801.54492 1660.7187 773.1498 1790.3123 723.55078 1870.8691 C 673.95177 1951.426 604.4551 1984.6484 514.29492 1984.6484 C 422.96919 1984.6484 352.98506 1951.3962 303.1875 1870.8555 C 253.38994 1790.3147 225.05469 1660.7309 225.05469 1470.4492 C 225.05469 1280.2488 255.20675 1152.5269 305.86523 1073.8379 C 356.52374 995.14888 426.61573 963.74037 514.2207 964.25 z "
+       transform="translate(0,-288)"
+       id="path5546-1-6-6-0-9-4" />
+  </g>
+</svg>

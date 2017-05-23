@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 
-for gly in svg/simple/*.svg;
+for gly in svg/fat/*.svg;
 do
 
   file=`basename $gly .svg`
-  cp $gly svg/simple/clean/
+  cp $gly svg/fat/clean/
   inkscape \
     --verb EditSelectAllInAllLayers \
     --verb SelectionUnGroup \
@@ -14,7 +14,7 @@ do
     --verb FileSave \
     --verb FileClose \
     --verb FileQuit \
-  svg/simple/clean/$file.svg
+  svg/fat/$file.svg
 
   # echo $file
   # inkscape $gly --export-ps="simple/$file.ps"
