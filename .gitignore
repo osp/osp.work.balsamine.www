@@ -5,3 +5,4 @@ output/*
 .sass-cache/
 /.sass-cache/
 output/
+node_modules/
