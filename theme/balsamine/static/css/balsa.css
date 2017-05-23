@@ -1,6 +1,7 @@
-/*------------------------------------*\
-  #FONTS
-\*------------------------------------*/
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
 
 @font-face {
     font-family: 'Ume Vertical Wide Bridge';
@@ -27,13 +28,17 @@
 }
 
 
-/*------------------------------------*\
-  #RESET
-\*------------------------------------*/
+
+
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
 
 html {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.375em;
 }
 
 body {
@@ -53,9 +58,17 @@ em { font-family: 'Ume Vertical Wide Oblique'; }
 strong { font-weight: bold; }
 
 
-/*------------------------------------*\
-  #STYLES
-\*------------------------------------*/
+
+
+
+/* ==========================================================================
+   General structure
+   ========================================================================== */
+
+
+/* Main Header
+   ========================================================================== */
+
 
 .main-header {
     position: fixed;
@@ -94,6 +107,13 @@ strong { font-weight: bold; }
 
 .main-menu li + li:before { content: '\00B7\00A0'; }
 
+
+
+
+
+/* Main Footer
+   ========================================================================== */
+
 .main-footer {
     position: fixed;
     right: 0;
@@ -130,9 +150,15 @@ strong { font-weight: bold; }
 
 
 
+/* Main area
+   ========================================================================== */
 
+/**
+ * The main area of the page is everything but the main header and footer. In
+ * other words, this is everything inside the "box".
+ */
 
-.foo {
+.main-area {
     position: fixed;
     top: 0;
     right: 0;
@@ -142,8 +168,23 @@ strong { font-weight: bold; }
     overflow: auto;
 }
 
+@media only screen and (max-width: 479px) {
+    .main-area {
+        font-size: .75em;
+        line-height: 1.375em;
+    }
+}
+
+
+
+
+
+/* Main content
+   ========================================================================== */
+
+
 @media only screen and (min-width: 480px) {
-    .bar {
+    .main-content {
         position: absolute;
         top: 0;
         left: 0;
@@ -151,52 +192,34 @@ strong { font-weight: bold; }
         box-sizing: border-box;
         width: 70%;
     }
-    .show-detail__header {
-        float: left;
-
-        width: 40%;
-    }
-    .show-detail__body {
-        float: left;
-
-        width: 60%;
-    }
 }
 
 
-/* Schedule */
 
-.baz { position: relative; }
 
-@media only screen and (min-width: 480px) {
-    .baz {
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 40px;
 
-        overflow: hidden;
+/* ==========================================================================
+   Schedule
+   ========================================================================== */
 
-        box-sizing: border-box;
-        width: 30%;
+/**
+ * The schedule module is made out has two parts:
+ *
+ * 1. the list of events;
+ * 2. a timeline widget onto which is plotted the dates of the events.
+ *
+ * Below is the toplevel structure of the module
+ *
+ *      <section class="schedule">
+ *          <div class="schedule__list">...</div>
+ *          <div class="schedule__timeline timeline"></div>
+ *      </section>
+ */
 
-        border-left: 2px solid blue;
-    }
-    .schedule__list { position: absolute; }
-}
+
+.schedule { position: relative; }
 
 .schedule__list { padding-right: 30px; }
-
-.schedule__timeline {
-    position: fixed;
-    top: 0;
-    right: 0;
-
-    width: 30px;
-    height: calc(100vh - 40px);
-
-    background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
-}
 
 .schedule__item {
     padding-top: 1em;
@@ -266,6 +289,34 @@ strong { font-weight: bold; }
 
 .schedule__body dd { padding-left: 1em; }
 
+.schedule__timeline {
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+
+    width: 30px;
+    height: calc(100vh - 40px);
+
+    background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
+}
+
+@media only screen and (min-width: 480px) {
+    .schedule {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 40px;
+
+        overflow: hidden;
+
+        box-sizing: border-box;
+        width: 30%;
+
+        border-left: 2px solid blue;
+    }
+    .schedule__list { position: absolute; }
+}
+
 /* timeline */
 
 .timeline__year {
@@ -318,7 +369,10 @@ strong { font-weight: bold; }
 
 
 
-/* Show details */
+/* ==========================================================================
+   Show detail
+   ========================================================================== */
+
 
 .show-detail__header {
     box-sizing: border-box;
@@ -354,15 +408,36 @@ strong { font-weight: bold; }
 
 .show-detail__body dd { padding-left: 1em; }
 
+@media only screen and (min-width: 480px) {
+    .show-detail__header {
+        float: left;
 
-/* General pages */
+        width: 40%;
+    }
+
+    .show-detail__body {
+        float: left;
+
+        width: 60%;
+    }
+}
+
+
+/* ==========================================================================
+   General pages
+   ========================================================================== */
+
+
+.page-detail { padding: 1em; }
 
 .page-detail { color: blue; }
 
 .page-detail dl { column-width: 15em; }
 
 .page-detail dt { break-after: avoid-column; }
+
 .page-detail dd { break-before: avoid-column; }
+
 .page-detail dd { break-inside: avoid-column; }
 
 .page-detail img {
@@ -375,7 +450,11 @@ strong { font-weight: bold; }
 
 
 
-/* To be refactored */
+
+
+/* ==========================================================================
+   ???
+   ========================================================================== */
 
 
 .content h1 {
@@ -479,3 +558,91 @@ strong { font-weight: bold; }
 
     font-family: monospace;
 }
+
+
+
+
+
+/* ==========================================================================
+   Slideshow
+   ========================================================================== */
+
+
+.jcarousel {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+
+.jcarousel-inner {
+    position: relative;
+
+    width: 10000%;
+}
+
+.jcarousel-item {
+    float: left;
+
+    width: 1%;
+}
+
+.jcarousel-item img { width: 100%; }
+
+.jcarousel-item figcaption {
+}
+
+.jcarousel-controls {
+    position: absolute;
+    top: 50%;
+
+    width: 100%;
+
+    background-color: yellow;
+}
+
+.jcarousel-control-prev,
+.jcarousel-control-next {
+    position: absolute;
+    top: -15px;
+
+    display: block;
+
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    background-color: @color;
+
+    font-weight: bold;
+}
+
+.jcarousel-control-prev:hover,
+.jcarousel-control-next:hover {
+    color: black;
+    background-color: aliceblue;
+}
+
+.jcarousel-control-prev { left: 10px; }
+
+.jcarousel-control-next { right: 10px; }
+
+.jcarousel-control-prev.inactive,
+.jcarousel-control-next.inactive {
+    cursor: default;
+
+    opacity: .5;
+}
+
+.nojcarousel-item {
+    opacity: 0.5;
+    border-bottom: 1px dotted red;
+}
+
+.nojcarousel-item.active { opacity: 1; }
+
+.jcarousel-inner a { border: none !important; }

@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/reset.css">
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
+    <!-- <link rel="stylesheet" href="http://sorgalla.com/jcarousel/examples/basic/jcarousel.basic.css"> -->
     {% endblock head %}
 </head>
 
@@ -38,12 +39,13 @@
         </nav>
     </header>
 
-    <main class="foo main-content">
-        <div class="bar">
+    <main class="main-area">
+        <div class="main-content">
         {% block content %}{% endblock %}
         </div>
+
         {% block sidebar %}
-        <section class="baz schedule">
+        <section class="schedule">
             <div class="schedule__list">
                 {% for article in articles %}
                     {% include 'partials/event.html' %}
@@ -82,6 +84,7 @@
 
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-3.2.1.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mousewheel.min.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.jcarousel.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
 </body>
 </html>

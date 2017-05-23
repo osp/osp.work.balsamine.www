@@ -118,3 +118,117 @@ $(function() {
 
     });
 });
+
+
+// $(function() {
+//     $(".slideshow").each(function() {
+//         $(this)
+//             .addClass("jcarousel__inner")
+//             .wrap( "<div class='jcarousel'></div>" )
+//             .children()
+//                 .addClass("jcarousel__item")
+//         ;
+
+//         var nav = $('<nav class="jcarousel-controls"></nav>');
+//         var prev = $('<a href="#" class="jcarousel-control-prev">‹</a>');
+//         var next = $('<a href="#" class="jcarousel-control-next">›</a>');
+
+//         nav.append(prev, next);
+//         $(this).parent().append(nav);
+
+//         $(this).jcarousel({
+//             // wrap: wrap,
+//             animation: {
+//                 duration: 1000,
+//                 //easing:   'easeOutCubic',
+//                 complete: function() {}
+//             }
+//         })
+//         .jcarouselAutoscroll({
+//             interval: 5000,
+//             target: '+=1',
+//             autostart: true
+//         });
+
+//         $(this).parent().find('.jcarousel-control-prev').jcarouselControl({
+//             target: '-=1',
+//         });
+
+//         $(this).parent().find('.jcarousel-control-next').jcarouselControl({
+//             target: '+=1',
+//         });
+//     });
+// });
+
+// <nav class="jcarousel-controls">
+//     <a href="#" class="jcarousel-control-prev">‹</a>
+//     <a href="#" class="jcarousel-control-next">›</a>
+// </nav>
+
+$(function() {
+    $('.jcarousel').each(function() {
+        var wrap = $(this).attr('data-wrap') || null;
+        $(this).jcarousel({
+            wrap: true,
+            animation: {
+                duration: 1000,
+                //easing:   'easeOutCubic',
+                complete: function() {}
+            }
+        });
+    })
+    .filter('[data-autoscroll]')
+    .jcarouselAutoscroll({
+        interval: 5000,
+        target: '+=1',
+        autostart: true
+    });
+
+    $('.jcarousel-control-prev').jcarouselControl({
+        target: '-=1',
+    });
+
+    $('.jcarousel-control-next').jcarouselControl({
+        target: '+=1',
+    });
+});
+
+
+
+
+// (function($) {
+//     $(function() {
+//         $('.jcarousel').jcarousel();
+
+//         $('.jcarousel-control-prev')
+//             .on('jcarouselcontrol:active', function() {
+//                 $(this).removeClass('inactive');
+//             })
+//             .on('jcarouselcontrol:inactive', function() {
+//                 $(this).addClass('inactive');
+//             })
+//             .jcarouselControl({
+//                 target: '-=1'
+//             });
+
+//         $('.jcarousel-control-next')
+//             .on('jcarouselcontrol:active', function() {
+//                 $(this).removeClass('inactive');
+//             })
+//             .on('jcarouselcontrol:inactive', function() {
+//                 $(this).addClass('inactive');
+//             })
+//             .jcarouselControl({
+//                 target: '+=1'
+//             });
+
+//         $('.jcarousel-pagination')
+//             .on('jcarouselpagination:active', 'a', function() {
+//                 $(this).addClass('active');
+//             })
+//             .on('jcarouselpagination:inactive', 'a', function() {
+//                 $(this).removeClass('active');
+//             })
+//             .jcarouselPagination();
+//     });
+// })(jQuery);
