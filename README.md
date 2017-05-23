@@ -67,14 +67,7 @@ Templates are managed with Jinja2 http://jinja.pocoo.org/
 
 ### Working on the css
 
-The stylesheets are preprocessed by Compass, and written in Sass. This is subject to change as the project progresses. Installation of Compass deploys as a Ruby Gem:
+We're trying out [postcss](http://postcss.org/) for the management of the css in this project. Postcss translates css with JavaScript, so it's managed with the NodePacketManager `npm`
+The repo contains a `package.json` so whomever needs to work on the css must `$ npm install` in the root of the repo.
 
-* if you don't have Ruby Gems installed ( check by testing `gem -v` ) install like so:
-  * `sudo apt-get install rubygems build-essential`
-* to install compass run
-  * `gem update --system`
-  * `gem install compass`
-* finally, before you start working on the css, start the compass watcher:
-  * `cd work.balsamine.www/theme/balsamine/static/balsa-css/`
-  * `compass watch`
-  * that last command reads the configs written in `config.rb`, listens for changes in the css files and compiles screen.css to the right location when something is changed
+
