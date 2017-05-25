@@ -1,8 +1,8 @@
 Title: Les fortunes de la viande
-Date: 2017/01/30
-End_date: 2017/02/10
+Date: 2018/01/30
+End_date: 2018/02/10
 Time: 20h30 (relâche le dimanche)
-Key_image: fortunes-de-la-viande.png 
+Key_image: illus-Julie-17-18/4-Les-Fortunes-de-la-Viande/sheep-weightpaint2.png
 Piece_author: Martine Wijckaert
 Event_type: Création théâtre
 Reservation_link: http://balsamine.billetterie.it/index.php?...

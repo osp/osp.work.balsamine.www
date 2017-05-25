@@ -3,6 +3,7 @@ Date: 2017/09/11
 Time: 20h00 Entrée libre mais réservation conseillée !
 Piece_author: Albert Dupont
 Event_type: Théâtre
+Key_image: illus-Julie-17-18/10-Ecole-des-Maitres/billet.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Subhead: Transquinquennal
 Intro: On retourne à l’école avec Transquin, maître quinquin !

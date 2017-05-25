@@ -4,6 +4,7 @@ End_date: 2017/11/21
 Time: 20h30
 Subhead: En partenariat avec Ars musica
 Event_type: Musique
+Key_image: illus-Julie-17-18/1-Helpers/helper-wind-grid.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 
 

@@ -27,28 +27,7 @@
     src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'), url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
 }
 
-@font-face {
-    font-family: 'Ume double stroke Balsa';
-    font-weight: normal;
-    font-style: normal;
 
-    src: url('../fonts/ume-stroke-stroke.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Ume double stroke double fat Balsa';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/ume-stroke-stroke-fat-fat.woff') format('woff');
-}
-@font-face {
-    font-family: 'Ume double stroke double thin Balsa';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/ume-stroke-stroke-thin-thin.woff') format('woff');
-}
 
 
 
@@ -63,7 +42,7 @@ html {
 }
 
 body {
-    font-family: 'Ume double stroke Balsa';
+    font-family: 'Ume Vertical Wide Bridge';
     font-size: 1em;
     line-height: 1.375em;
 }
@@ -74,9 +53,9 @@ a {
     color: inherit;
 }
 
-em { font-family: 'Ume double stroke double thin Balsa'; }
+em { font-family: 'Ume Vertical Wide Oblique'; }
 
-strong { font-family: 'Ume double stroke double fat Balsa';}
+strong { font-weight: bold; }
 
 
 
@@ -250,7 +229,7 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
     color: blue;
 
-    /*font-size: 10px;*/
+    font-size: 10px;
     line-height: 1.3;
 }
 
@@ -263,12 +242,11 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 }
 
 .schedule__dates {
-    /*float: right;*/
+    float: right;
 
-    /*font-family: 'Ume P Gothic Balsa';*/
-    /*font-size: 2em;*/
-    /*line-height: 1;*/
-    padding-left: 2em;
+    font-family: 'Ume P Gothic Balsa';
+    font-size: 2em;
+    line-height: 1;
 }
 
 .schedule__title {
@@ -282,14 +260,7 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
     line-height: 1;
 }
-.schedule__intro {
-  float: left;
-  position: relative;
-  font-size: 1.5em;
-  padding-left: 2em;
 
-
-}
 .schedule__main-image { text-align: right; }
 
 .schedule__main-image img {
@@ -463,7 +434,7 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
 .page-detail dl { column-width: 15em; }
 
-.page-detail dt { font-family: 'Ume double stroke double thin Balsa'; }
+.page-detail dt { break-after: avoid-column; }
 
 .page-detail dd { break-before: avoid-column; }
 
@@ -487,7 +458,6 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
 
 .content h1 {
-  font-family: 'Ume double stroke double thin Balsa';
     margin-top: 0em;
     margin-bottom: 0.40740741em;
 
@@ -575,18 +545,7 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
 .content sub { bottom: -0.25em; }
 
-.content dt {
-  font-family: 'Ume double stroke double thin Balsa';
-  display: inline;
-  float: left;
-  position: relative;
-  margin: 0pt;
-  padding-left: 0pt;
-  padding-right:4pt;
-}
-.content dd {
-  padding-left: 2em;
-}
+.content dd { padding-left: 3em; }
 
 .content li:before { content: "- "; }
 
@@ -687,3 +646,5 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 .nojcarousel-item.active { opacity: 1; }
 
 .jcarousel-inner a { border: none !important; }
+
+/*# sourceMappingURL=post-balsa.css.map */

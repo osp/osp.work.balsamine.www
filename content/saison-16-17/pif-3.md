@@ -1,7 +1,8 @@
 Title: PIF 3 - Pauvre et Informe Festival 3
-Date: 2017/06/21
-End_date: 2017/06/23
+Date: 2018/06/21
+End_date: 2018/06/23
 Time: 20h30
+Key_image: illus-Julie-17-18/1-Helpers/helper-cam-alone.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 
 

@@ -19,10 +19,29 @@
     height: 100%;
     width: auto;
   }
+  .minia{
+    text-align: center;
+    float: left;
+    width: 40px;
+    height:40px;
+    margin-right: -1px;
+    border: 1px solid grey;
+    overflow: visible;
+  }
+  .minia{
+    background: yellow;
+  }
+.minia img {height: 80%; width: auto}
 </style>
 </head>
 
 <body>
+
+<?php include 'function/generate.php'; ?>
+
+
+
+
 <div data-glyph="<?php echo $nameGlyph; ?>" class="container" name="svg" >sss</div>
 
 <form action="#" method="post">
@@ -36,20 +55,15 @@
 var cont = $('.container');
 var nameGlyph = cont.attr('data-glyph');
 $('.container').load('simple/'+nameGlyph+'.svg');
-// alert(nameGlyph);
 $(document).ready(function(){
-  $('path.int').css('stroke-width', '200');
-  $('path.ext').css('stroke-width', '230');
+  $('path.int').css('stroke-width', '100');
+  $('path.ext').css('stroke-width', '100');
   $('path').css('stroke-linecap','round')
   $('path').css('stroke-linejoin','round')
   var contSvg = $('.container').html();
-  // alert(contSvg);
   $('textarea').html(contSvg);
 });
 
-
-// function load2text(){
-// }
 
 
 </script>
