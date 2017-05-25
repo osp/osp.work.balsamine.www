@@ -1,9 +1,9 @@
 Title: i-clit
-Date: 2017/02/27
-End_date: 2017/02/28
+Date: 2018/02/27
+End_date: 2018/02/28
 Time: 20h30
-Key_image: i-clit.png
-Piece_author: Mercedes Dassy 
+Key_image: illus-Julie-17-18/5-i-clit/shoes.png
+Piece_author: Mercedes Dassy
 Event_type: Création danse
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Subhead: Dans le cadre de Brussels, dance ! Focus on contemporary dance.

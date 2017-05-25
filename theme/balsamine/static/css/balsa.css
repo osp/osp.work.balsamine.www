@@ -27,7 +27,28 @@
     src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'), url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Ume double stroke Balsa';
+    font-weight: normal;
+    font-style: normal;
 
+    src: url('../fonts/ume-stroke-stroke.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ume double stroke double fat Balsa';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/ume-stroke-stroke-fat-fat.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ume double stroke double thin Balsa';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/ume-stroke-stroke-thin-thin.woff') format('woff');
+}
 
 
 
@@ -42,7 +63,7 @@ html {
 }
 
 body {
-    font-family: 'Ume Vertical Wide Bridge';
+    font-family: 'Ume double stroke Balsa';
     font-size: 1em;
     line-height: 1.375em;
 }
@@ -53,9 +74,9 @@ a {
     color: inherit;
 }
 
-em { font-family: 'Ume Vertical Wide Oblique'; }
+em { font-family: 'Ume double stroke double thin Balsa'; }
 
-strong { font-weight: bold; }
+strong { font-family: 'Ume double stroke double fat Balsa';}
 
 
 
@@ -229,7 +250,7 @@ strong { font-weight: bold; }
 
     color: blue;
 
-    font-size: 10px;
+    /*font-size: 10px;*/
     line-height: 1.3;
 }
 
@@ -242,11 +263,12 @@ strong { font-weight: bold; }
 }
 
 .schedule__dates {
-    float: right;
+    /*float: right;*/
 
-    font-family: 'Ume P Gothic Balsa';
-    font-size: 2em;
-    line-height: 1;
+    /*font-family: 'Ume P Gothic Balsa';*/
+    /*font-size: 2em;*/
+    /*line-height: 1;*/
+    padding-left: 2em;
 }
 
 .schedule__title {
@@ -260,7 +282,14 @@ strong { font-weight: bold; }
 
     line-height: 1;
 }
+.schedule__intro {
+  float: left;
+  position: relative;
+  font-size: 1.5em;
+  padding-left: 2em;
 
+
+}
 .schedule__main-image { text-align: right; }
 
 .schedule__main-image img {
@@ -434,7 +463,7 @@ strong { font-weight: bold; }
 
 .page-detail dl { column-width: 15em; }
 
-.page-detail dt { break-after: avoid-column; }
+.page-detail dt { font-family: 'Ume double stroke double thin Balsa'; }
 
 .page-detail dd { break-before: avoid-column; }
 
@@ -458,6 +487,7 @@ strong { font-weight: bold; }
 
 
 .content h1 {
+  font-family: 'Ume double stroke double thin Balsa';
     margin-top: 0em;
     margin-bottom: 0.40740741em;
 
@@ -545,7 +575,18 @@ strong { font-weight: bold; }
 
 .content sub { bottom: -0.25em; }
 
-.content dd { padding-left: 3em; }
+.content dt {
+  font-family: 'Ume double stroke double thin Balsa';
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0pt;
+  padding-left: 0pt;
+  padding-right:4pt;
+}
+.content dd {
+  padding-left: 2em;
+}
 
 .content li:before { content: "- "; }
 

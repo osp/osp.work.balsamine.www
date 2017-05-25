@@ -4,6 +4,7 @@ End_date: 2017/11/11
 Time: 20h30
 Subhead: En coproduction avec Ars Musica
 Event_type: Vidéopéra
+Key_image: illus-Julie-17-18/6-La-Lettre-Volee/inkwell-hd.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Une enquête palpitante à la recherche d’une lettre perdue. Lyrique et atypique.
 
