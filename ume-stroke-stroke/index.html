@@ -93,13 +93,12 @@ $(document).ready(function(){
   $('path.ext').css('stroke-width', start);
   $('path.serif').css('stroke-width', '0');
   $('path.intrap').css('stroke-width', '50');
-  $('.soleil').css('stroke-width', '0');
-  $('path').css('stroke-linecap','round')
-  $('path').css('stroke-linejoin','round')
-  $('path').attr('d', )
+  // $('path').css('stroke-linecap','round')
+  // $('path').css('stroke-linejoin','round')
+  // $('path').attr('d', )
   // PP.each(function(){
   //   // Update the 'rules[0]' part of the name attribute to contain the latest count
-  //   $(this).attr('d', $(this).attr('d').replace('c','C'));
+  //   $(this).attr('d', $(this).attr('d').replace('c','l'));
   // });
   // $('path').css('filter', 'url(#filter237)');
   // $('path').attr('transform', 'scale(1,0.8)'  );
@@ -117,7 +116,7 @@ range('int', 1000, 3000, 'stroke-width', 'css');
 range('ext', 1000, 3000, 'stroke-width', 'css');
 range('int', 10, 10, 'stroke-opacity', 'css');
 range('ext', 10, 10, 'stroke-opacity', 'css');
-range('serif', 0, 120, 'stroke-width', 'css');
+range('soleil', 0, 120, 'fill-opacity', 'css');
 
 $('.discount_credits').on("change mousemove", function() {
     var dataOver = $('.ext[data-over]');
@@ -141,7 +140,6 @@ $('.discount_credits').on("change mousemove", function() {
         var valD = $(this).attr('d');
         var newValOver = valD.replace(valOver, '60');
         $(this).attr('d', newValOver);
-        console.log(newValOver);
 
       });
     }

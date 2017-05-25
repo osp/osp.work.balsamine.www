@@ -2,6 +2,7 @@ import os
 from pelican import signals
 from pelican.readers import METADATA_PROCESSORS
 from pelican.utils import get_date
+import subprocess, shlex
 
 
 def add_metadata_processors(arg):
@@ -19,7 +20,13 @@ def test(pelican):
                 #  call("yuicompressor {} --charset utf-8 {} -o {}".format(
                 #      verbose, filepath, filepath), shell=True)
 
+def process_css(pelican):
+    cssfile = str(pelican.settings['OUTPUT_PATH'] + '/theme/css/' + pelican.settings['CSS_FILE'])
+    cssout = str(pelican.settings['OUTPUT_PATH'] + '/theme/css/post-' + pelican.settings['CSS_FILE'])
+    cmd = str("postcss " + cssfile + " -m --output " + cssout)
+    call_params = shlex.split(cmd)
+    subprocess.call(call_params)
 
 def register():
     signals.initialized.connect(add_metadata_processors)
-    #  signals.finalized.connect(test)
+    signals.finalized.connect(process_css)
