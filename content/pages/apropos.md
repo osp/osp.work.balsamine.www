@@ -61,9 +61,55 @@ Tout en dirigeant la Balsamine installée dans les casernes, [Martine Wijckaert]
 
 L’activité va également se centraliser sur un lieu particulier de la caserne, baptisé « amphithéâtre » puis rapidement « amphi », en raison de ses caractéristiques architecturales : il s’agit en effet d’un ancien auditorium militaire, structuré en hémicycle.
 
+<div class="slideshow" markdown>
+
 ![](http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg)
+:   -
 
 ![](http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg)
+:   -
+
+</div>
+
+
+<aside class="jcarousel" data-wrap="both">
+    <div class="jcarousel-inner">
+        <figure class="jcarousel-item">
+            <img src="http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg">
+            <figcaption>1/2</figcaption>
+        </figure>
+
+        <figure class="jcarousel-item">
+            <img src="http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg">
+            <figcaption>2/2</figcaption>
+        </figure>
+    </div>
+
+    <nav class="jcarousel-controls">
+        <a href="#" class="jcarousel-control-prev">‹</a>
+        <a href="#" class="jcarousel-control-next">›</a>
+    </nav>
+</aside>
+
+<!-- <div class="jcarousel-wrapper"> -->
+<!--     <div class="jcarousel"> -->
+<!--         <ul> -->
+<!--             <li><img src="http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg" width="600" height="400" alt=""></li> -->
+<!--             <li><img src="http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg" width="600" height="400" alt=""></li> -->
+<!--         </ul> -->
+<!--     </div> -->
+
+<!--     <p class="photo-credits"> -->
+<!--         Photos by <a href="http://www.mw-fotografie.de">Marc Wiegelmann</a> -->
+<!--     </p> -->
+
+<!--     <a href="#" class="jcarousel-control-prev">&lsaquo;</a> -->
+<!--     <a href="#" class="jcarousel-control-next">&rsaquo;</a> -->
+
+<!--     <p class="jcarousel-pagination"> -->
+
+<!--     </p> -->
+<!-- </div> -->
 
 Les premiers aménagements de l’amphi se feront selon la technique du recyclage absolu, le matériel nécessaire et encore utilisable étant démonté dans d’autres ailes de la caserne et remonté après
 transformation dans l’amphi.
@@ -77,3 +123,11 @@ La Balsamine est subventionnée par la Fédération Wallonie-Bruxelles et fait p
 reçoit aussi le soutien de Wallonie-Bruxelles Théâtre/Danse, de Wallonie-Bruxelles International et du Centre des Arts Scéniques.
 
 ![](http://balsamine.be/uploads/Partenaires.Partenaires/logos2016.png)
+
+![](http://lorempixel.com/350/150/)
+:   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Praesent at consequat magna, faucibus ornare eros. Nam et
+    mattis urna. Cras sodales, massa id gravida
+
+![](http://lorempixel.com/350/150/)
+:   
