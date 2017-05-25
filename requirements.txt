@@ -1,3 +1,6 @@
 pelican==3.7.1
 markdown>=2,<3
 git+https://github.com/aleray/markdown-figures.git
+
+
+minchin.pelican.plugins.image_process
