@@ -48,7 +48,7 @@ Le théâtre ainsi créé ne dispose d’aucun lieu ni forme de résidence au se
 
 En 1981, le théâtre de la Balsamine s’installe de manière provisoirement définitive dans la friche des anciennes casernes Dailly.
 
-![](http://balsamine.be/uploads/Balsamine.Historique/historique1.jpg)
+!["historique 1"](http://balsamine.be/uploads/Balsamine.Historique/historique1.jpg)
 
 Ces casernes ont été abandonnées depuis plusieurs années et elles sont découvertes dans leur jus. Un impressionnant périmètre de bâtiments fin XIX^e^ cerne un parc intérieur redevenu sauvage. Le site a toutes les vertus d’une cité de la fiction et cette qualité invite le théâtre à s’y installer.
 
@@ -63,10 +63,10 @@ L’activité va également se centraliser sur un lieu particulier de la caserne
 
 <div class="slideshow" markdown>
 
-![](http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg)
+!["historique 2"](http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg)
 :   -
 
-![](http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg)
+!["historiaue 3"](http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg)
 :   -
 
 </div>
