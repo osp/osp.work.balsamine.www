@@ -192,6 +192,9 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     left: 42px;
 
     overflow: auto;
+
+    background-size: 15px;
+
 }
 
 @media only screen and (max-width: 479px) {
@@ -217,6 +220,7 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
         box-sizing: border-box;
         width: 70%;
+        background-color: white;
     }
 }
 
@@ -243,7 +247,10 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
  */
 
 
-.schedule { position: relative; }
+.schedule {
+  position: relative;
+background-color: white;
+}
 
 .schedule__list { padding-right: 30px; }
 
@@ -253,10 +260,17 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     padding-bottom: 1em;
     padding-left: 2em;
 
-    color: blue;
+    color: white;
 
     /*font-size: 2em;*/
     line-height: 1.3;
+
+}
+.schedule__item:nth-of-type(odd) {
+  background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important;
+}
+.schedule__item:nth-of-type(even) {
+  background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important;
 }
 
 .schedule__item + .schedule__item { border-top: 2px solid blue; }
@@ -291,8 +305,7 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     line-height: 1;
 }
 .schedule__intro {
-  float: left;
-  position: relative;
+
   font-size: 1.5em;
   padding-left: 2em;
   font-family: 'Ume double stroke double thin Balsa';
@@ -302,6 +315,8 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 p.schedule__main-image {
   text-align: right;
   width: 50%;
+  /*float: right;
+  position: relative;*/
 }
 
 .schedule__main-image img {
@@ -334,11 +349,12 @@ p.schedule__main-image {
     /* position: fixed; */
     top: 0;
     right: 0;
-
     width: 30px;
     height: calc(100vh - 42px);
 
-    background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
+    background: linear-gradient(to bottom, blue 0%, grey 25%, blue 50%, grey 75%, blue 100%);
+
+    /*background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);*/
 }
 
 @media only screen and (min-width: 480px) {
@@ -422,7 +438,7 @@ header.show-detail__header {
 
     color: blue;
     /* border-right: 2px solid blue; */
-    background-size: 5%;
+    background-size: 15px;
 }
 
 .show-detail__image-body img {
@@ -457,6 +473,13 @@ header.show-detail__header {
     margin-top: 1.3em;
     margin-bottom: 1.3em;
     padding-left: 25%;
+}
+.show-detail__body p.production {
+  text-indent: 0pt;
+}
+.show-detail__body p.production + p.production {
+  margin-top: 0em;
+  text-indent: 3em;
 }
 
 .show-detail__body dd { padding-left: 1em; }
@@ -511,12 +534,11 @@ header.show-detail__header {
 
 
 .content h1 {
-  font-family: 'Ume double stroke double thin Balsa';
     margin-top: 0em;
     margin-bottom: 0.40740741em;
 
     font-size: 3.375em;
-    line-height: 0.81481482em;
+    line-height: 1em;
 }
 
 .content h2 {
@@ -549,6 +571,14 @@ header.show-detail__header {
 
     font-size: 1em;
     line-height: 1.375em;
+}
+.show-detail__body p {
+  font-size: 1.3em;
+line-height: 1.3em;
+}
+.show-detail__body p.production {
+  font-size: 1em;
+  line-height: 1.4em;
 }
 
 .content p,
