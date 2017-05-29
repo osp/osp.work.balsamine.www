@@ -66,6 +66,11 @@ body {
     font-family: 'Ume double stroke Balsa';
     font-size: 1em;
     line-height: 1.375em;
+
+     background-image: url('../imgs/coin-de-boite.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
 }
 
 a {
@@ -98,17 +103,17 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
     box-sizing: border-box;
     width: 100vh;
-    height: 40px;
-    padding-left: 40px;
+    height: 42px;
+    padding-left: 42px;
 
     transform: rotate(-90deg);
     transform-origin: top left;
     text-align: right;
 
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
 
     font-size: 14px;
-    line-height: 40px;
+    line-height: 42px;
 
     direction: rtl;
 }
@@ -142,11 +147,11 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     left: 0;
 
     box-sizing: border-box;
-    height: 40px;
+    height: 42px;
 
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
 
-    line-height: 40px;
+    line-height: 42px;
 }
 
 .address {
@@ -183,8 +188,8 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 40px;
-    left: 40px;
+    bottom: 42px;
+    left: 42px;
 
     overflow: auto;
 }
@@ -331,7 +336,7 @@ p.schedule__main-image {
     right: 0;
 
     width: 30px;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 42px);
 
     background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
 }
@@ -341,14 +346,14 @@ p.schedule__main-image {
         position: fixed;
         top: 0;
         right: 0;
-        bottom: 40px;
+        bottom: 42px;
 
         overflow: hidden;
 
         box-sizing: border-box;
         width: 30%;
 
-        border-left: 2px solid blue;
+        /* border-left: 2px solid blue; */
     }
     .schedule__list { position: absolute; }
 }
@@ -416,7 +421,7 @@ header.show-detail__header {
     padding: 2rem;
 
     color: blue;
-    border-right: 2px solid blue;
+    /* border-right: 2px solid blue; */
     background-size: 5%;
 }
 
