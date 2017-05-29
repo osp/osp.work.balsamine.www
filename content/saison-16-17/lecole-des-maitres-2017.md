@@ -1,5 +1,6 @@
 Title: L’École des Maîtres 2017
 Date: 2017/09/11
+End_date: 2017/09/12
 Time: 20h00 Entrée libre mais réservation conseillée !
 Piece_author: Albert Dupont
 Event_type: Théâtre
