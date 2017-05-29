@@ -6,7 +6,7 @@ Balsamine rebuild 2017
 The new balsamine website is based on [Pelican](https://blog.getpelican.com/), a static site generator. It's built in Python, and thus, we'll use a virtual environment.
 
 ```
-$ virtualenv venv
+$ virtualenv --python=python3 venv
 $ . venv/bin/activate
 $ (venv) pip install -r requirements.txt
 ```
@@ -14,20 +14,17 @@ $ (venv) pip install -r requirements.txt
 With these three steps, you should have setup most of the development space needed for this pelican project. Here is what was installed by pip reading requirements.txt:
 
 ```
-Jinja2==2.8
-Markdown==2.6.7
-MarkupSafe==0.23
-Pygments==2.1.3
-Unidecode==0.04.19
-argparse==1.2.1
-blinker==1.4
-docutils==0.12
-feedgenerator==1.9
-pelican==3.6.3
-python-dateutil==2.5.3
-pytz==2016.7
-six==1.10.0
-wsgiref==0.1.2
+pelican==3.7.1
+markdown>=2,<3
+git+https://github.com/aleray/markdown-figures.git
+
+# For some reasons the pip hosted version contains support for animated images,
+# whereas the github version does not. But is is buggy.
+# Additionally, in the original repo there is a typo in setup.py so installing
+# from my own fork on Github
+
+#minchin.pelican.plugins.image_process
+git+https://github.com/aleray/minchin.pelican.plugins.image_process.git@2e5aa07
 ```
 
 ## Running and using pelican

@@ -67,7 +67,7 @@ DEFAULT_METADATA = {'color': '#CCCCCC'}
 
 # Extends pelican for our specific needs
 PLUGINS = [
-    'minchin.pelican.plugins.image_process',
+    #  'minchin.pelican.plugins.image_process',
     'pelican_balsa',
 ]
 
