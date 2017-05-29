@@ -19,7 +19,6 @@
 
 <article class="schedule__item" style="background: linear-gradient(to left, {{ article.color }} 0%, {{ article.color }} 5%, transparent 20%);">
     <header class="schedule__header">
-
       <h1 class="schedule__title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
       <p class="schedule__authors">{{ article.piece_author }}</p>
       {% if article.subhead %}
@@ -35,9 +34,8 @@
             </p>
         {% endif %}
 
-
         {% if article.key_image %}
-        <p class="schedule__main-image"><img src="/images/{{ article.key_image }}" alt="Main image for {{ article.title }}"></p>
+        <p class="schedule__main-image"><img src="/images/{{ article.key_image }}" class="image-process-crisp" alt="Main image for {{ article.title }}"></p>
         {% endif %}
 
 
@@ -47,9 +45,7 @@
         </div>
         {% endif %}
 
-        {% if article.key_image %}
-        <p class="schedule__main-image"><img src="/images/{{ article.key_image }}" class="image-process-crisp" alt="Main image for {{ article.title }}"></p>
-        {% endif %}
+
 
         <p><a href="#{{ article.url }}" class="expand-content">+ En savoir plus</a></p>
 

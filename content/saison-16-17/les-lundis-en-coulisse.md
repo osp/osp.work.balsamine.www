@@ -5,6 +5,7 @@ Piece_author:
 Event_type: À la rencontre des écritures dramatiques contemporaines
 Key_image: illus-Julie-17-18/1-Helpers/helper-cuble-grid.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
+Color: #00da4b
 
 
 **Les lundis en coulisse** sont un moment de rencontre informel permettant de découvrir à chaque séance des textes dramatiques contemporains qui n'ont jamais été présentés, et qui sont les coups de coeur d'un invité, dit "Le Passeur".

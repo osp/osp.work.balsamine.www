@@ -7,6 +7,7 @@ Event_type: Vidéopéra
 Key_image: illus-Julie-17-18/6-La-Lettre-Volee/inkwell-hd.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Une enquête palpitante à la recherche d’une lettre perdue. Lyrique et atypique.
+Color: #00da4b
 
 
 **La lettre volée**, opéra librement inspiré de la nouvelle éponyme d'Edgar Poe, convoque à la fois public, chanteurs et musiciens au coeur d’une action dramatique sur un même plateau et dans une vidéo filmée et projetée en direct. Un vidéopéra à la poursuite d’une lettre volée qui rend fous ceux qui la désirent. Pour échapper à la démence annoncée, une seule issue, incertaine, retrouver cette lettre secrète et extraordinaire en raisonnant juste. Mais qu’est-ce que raisonner ? Et comment raisonner juste ? Les mathématiciens raisonnent-ils juste ? Ou bien les poètes ? Ou bien finalement, seraient-ce les fous ?
