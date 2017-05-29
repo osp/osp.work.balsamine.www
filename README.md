@@ -3,15 +3,23 @@ Balsamine rebuild 2017
 ![logo-balsa](content/images/logo-balsa-16-17-large.svg)
 
 ## Development environment
-The new balsamine website is based on [Pelican](https://blog.getpelican.com/), a static site generator. It's built in Python, and thus, we'll use a virtual environment.
+The new balsamine website is based on [Pelican](https://blog.getpelican.com/), a static site generator. It's built in Python, and thus, we'll use a virtual environment. It also relies on nodejs and npm for the css post-processing.
 
 ```
+$ apt install python3-dev
+$ apt install libjpeg-dev
+$ apt install libpng-dev
+$ apt install npm
+$ apt install nodejs-legacy
+
+$ npm install
+
 $ virtualenv --python=python3 venv
 $ . venv/bin/activate
 $ (venv) pip install -r requirements.txt
 ```
 
-With these three steps, you should have setup most of the development space needed for this pelican project. Here is what was installed by pip reading requirements.txt:
+With the steps above, you should have setup most of the development space needed for this pelican project. Here is what was installed by pip reading requirements.txt:
 
 ```
 pelican==3.7.1

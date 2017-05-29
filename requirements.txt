@@ -9,3 +9,5 @@ git+https://github.com/aleray/markdown-figures.git
 
 #minchin.pelican.plugins.image_process
 git+https://github.com/aleray/minchin.pelican.plugins.image_process.git@2e5aa07
+
+html5lib
