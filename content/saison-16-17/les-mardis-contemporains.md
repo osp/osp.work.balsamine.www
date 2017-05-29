@@ -6,6 +6,7 @@ Subhead: En partenariat avec Ars musica
 Event_type: Musique
 Key_image: illus-Julie-17-18/1-Helpers/helper-wind-grid.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
+Color: #00da4b
 
 
 Les langages musicaux se métamorphosent et s’anamorphosent depuis 50 ans. Les compositeurs ont esquissé mille chemins en quête d’un langage au service de leur expression. **Les Mardis contemporains** proposent aux oreilles curieuses de découvrir ces facettes de la musique d’aujourd’hui, dans un programme pluriel qui dialogue avec l’histoire, la philosophie, la sociologie, mais aussi le cirque, le cinéma, la science ou l’architecture… Car loin d’être passive, la création musicale sait s’immiscer dans le débat en proposant une approche parfois décalée, parfois questionnante.

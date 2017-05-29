@@ -11,6 +11,8 @@ Key_image_detail_body: illus-Julie-17-18/10-Ecole-des-Maitres/alambic-bake-2-con
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Subhead: Transquinquennal
 Intro: On retourne à l’école avec Transquin, maître quinquin !
+<!-- Color: #00da4b -->
+
 
 
 Après deux semaines de résidence à Udine (Italie) et deux semaine à Bruxelles à  la Balsa, voici venu le temps de l’ouverture au public pour ces 15 jeunes artistes européens professionnels dirigés par Transquinquennal, le collectif le plus insolite et endurant de notre paysage culturel, passé maîtres pour l’occasion.

@@ -7,6 +7,7 @@ Event_type: Création théâtre
 Key_image: illus-Julie-17-18/3-Trilogie-de-Rome/renders-hd/lupa-capitolina-back.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Qu’est devenue l’antiquité sinon une surface de projection ? L’histoire d’un crime qui s’est trouvé une scène.
+Color: #00da4b
 
 
 Nous sommes dans les traces d’un continent englouti : le XXIème siècle. Un monde où le connu est devenu un horizon permanent. Que faire de la question que ce monde pose aux nouveaux fils de Rome ? Qui fonde les empires ? Le croyant ou l’athée ? Si **Trilogie de Rome** n’est pas un mythe fondateur, elle voudrait en être l’IRM. Carambolage d’êtres et de systèmes politiques à la suite de quoi l’Empire est devenu – et pour quelques siècles- un horizon indépassable.

@@ -7,6 +7,7 @@ Event_type: Théâtre
 Key_image: illus-Julie-17-18/7-should-i-stay-or-should-i-stay/chat-3-queues-transparent.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Les quatre fantastiques reviennent et reprennent leur rengaine : Should I…
+Color: #00da4b
 
 
 <!-- ????? Les 16, 20, 22, 23 et 24 Novembre à 20h30 -->
