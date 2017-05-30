@@ -23,7 +23,6 @@
     font-family: 'Ume P Gothic Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'), url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
 }
 
@@ -31,7 +30,6 @@
     font-family: 'Ume double stroke Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-stroke-stroke.woff') format('woff');
 }
 
@@ -39,14 +37,13 @@
     font-family: 'Ume double stroke double fat Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-stroke-stroke-fat-fat.woff') format('woff');
 }
+
 @font-face {
     font-family: 'Ume double stroke double thin Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-stroke-stroke-thin-thin.woff') format('woff');
 }
 
@@ -66,7 +63,6 @@ body {
     font-family: 'Ume double stroke Balsa';
     font-size: 1em;
     line-height: 1.375em;
-
     background-image: url('../imgs/coin-de-boite.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -75,13 +71,12 @@ body {
 
 a {
     text-decoration: inherit;
-
     color: inherit;
 }
 
 em { font-family: 'Ume double stroke double thin Balsa'; }
 
-strong { font-family: 'Ume double stroke double fat Balsa';}
+strong { font-family: 'Ume double stroke double fat Balsa'; }
 
 
 
@@ -100,12 +95,10 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     position: fixed;
     top: 100vh;
     left: 0;
-
     box-sizing: border-box;
     width: 100vh;
     height: 42px;
     padding-left: 42px;
-
     transform: rotate(-90deg);
     transform-origin: top left;
     text-align: right;
@@ -114,14 +107,12 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
     font-size: 14px;
     line-height: 42px;
-
     direction: rtl;
 }
 
 .logo {
     max-height: 34px;
     padding-left: 10px;
-
     vertical-align: middle;
 }
 
@@ -145,7 +136,6 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     right: 0;
     bottom: 0;
     left: 0;
-
     box-sizing: border-box;
     height: 42px;
 
@@ -156,14 +146,11 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
 .address {
     display: inline-block;
-
     box-sizing: border-box;
     width: 100vw;
     padding-right: 5px;
-
     text-align: right;
     vertical-align: middle;
-
     font-size: 10px;
     line-height: 1;
 }
@@ -190,7 +177,6 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     right: 0;
     bottom: 42px;
     left: 42px;
-
     background-size: 15px;
 }
 
@@ -218,7 +204,6 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
         height: 100%;
         width: 70%;
         overflow-y: scroll;
-
         box-sizing: border-box;
         background-color: white;
     }
@@ -248,8 +233,8 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
 
 .schedule {
-  position: relative;
-background-color: white;
+    position: relative;
+    background-color: white;
 }
 
 /* .schedule__list { padding-right: 30px; } */
@@ -259,26 +244,21 @@ background-color: white;
     padding-right: 1em;
     padding-bottom: 1em;
     padding-left: 2em;
-
     color: white;
 
     /*font-size: 2em;*/
     line-height: 1.3;
+}
 
-}
-.schedule__item:nth-of-type(odd) {
-  background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important;
-}
-.schedule__item:nth-of-type(even) {
-  background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important;
-}
+.schedule__item:nth-of-type(odd) { background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important; }
+
+.schedule__item:nth-of-type(even) { background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important; }
 
 .schedule__item + .schedule__item { border-top: 2px solid blue; }
 
 .schedule__subhead {
     margin-bottom: .4em;
     font-size: 1em;
-
     line-height: 1;
 }
 
@@ -290,7 +270,6 @@ background-color: white;
     /*line-height: 1;*/
     /*padding-left: 2em;*/
     font-size: 1em;
-
 }
 
 .schedule__title {
@@ -301,21 +280,19 @@ background-color: white;
 .schedule__authors {
     margin-top: .4em;
     margin-bottom: .4em;
-
     line-height: 1;
 }
+
 .schedule__intro {
-
-  font-size: 1.5em;
-  padding-left: 2em;
-  font-family: 'Ume double stroke double thin Balsa';
-
-
+    font-size: 1.5em;
+    padding-left: 2em;
+    font-family: 'Ume double stroke double thin Balsa';
 }
+
 p.schedule__main-image {
-  text-align: right;
-  width: 50%;
-  /*float: right;
+    text-align: right;
+    width: 50%;
+    /*float: right;
   position: relative;*/
 }
 
@@ -345,9 +322,7 @@ p.schedule__main-image {
 
 .schedule__body dd { padding-left: 1em; }
 
-.schedule__timeline {
-    background: linear-gradient(to bottom, blue 0%, grey 25%, blue 50%, grey 75%, blue 100%);
-}
+.schedule__timeline { background: linear-gradient(to bottom, blue 0%, grey 25%, blue 50%, grey 75%, blue 100%); }
 
 @media only screen and (min-width: 480px) {
     .schedule {
@@ -355,23 +330,22 @@ p.schedule__main-image {
         top: 0;
         right: 0;
         height: 100%;
-
         overflow: hidden;
-
         box-sizing: border-box;
         width: 30%;
 
         /* border-left: 2px solid blue; */
     }
+
     .schedule__list {
         position: absolute;
         top: 0;
         left: 0;
         right: 30px;
         height: 100%;
-
         overflow-y: scroll;
     }
+
     .schedule__timeline {
         position: absolute;
         top: 0;
@@ -387,14 +361,11 @@ p.schedule__main-image {
     position: absolute;
     top: 0px;
     right: 30px;
-
     height: 30px;
     padding-right: .5em;
-
     transform: rotate(-90deg);
     transform-origin: top right;
     text-align: right;
-
     font-size: 10px;
     line-height: 30px;
 }
@@ -403,17 +374,13 @@ p.schedule__main-image {
     position: absolute;
     top: 30px;
     right: 30px;
-
     height: 30px;
     padding-top: 10px;
     padding-right: .5em;
-
     transform: rotate(-90deg);
     transform-origin: top right;
     text-align: right;
-
     border-right: 1px solid black;
-
     font-size: 10px;
     line-height: 20px;
 }
@@ -421,10 +388,8 @@ p.schedule__main-image {
 .timeline__point {
     position: absolute;
     right: 15px;
-
     width: 10px;
     height: 10px;
-
     border-radius: 5px;
     background-color: white;
 }
@@ -442,24 +407,23 @@ header.show-detail__header {
     box-sizing: border-box;
     height: 100vh;
     padding: 2rem;
-
     color: blue;
     /* border-right: 2px solid blue; */
     background-size: 15px;
 }
 
 .show-detail__image-body img {
-  float: left;
-  max-width: 150px;
-  position: relative;
+    float: left;
+    max-width: 150px;
+    position: relative;
 }
+
 .show-detail__image img {
-  max-width: 75%;
-      text-align: center;
+    max-width: 75%;
+    text-align: center;
 }
-.show-detail__image-body:last-of-type img {
-  float: none;
-}
+
+.show-detail__image-body:last-of-type img { float: none; }
 
 .show-detail__body {
     box-sizing: border-box;
@@ -481,12 +445,12 @@ header.show-detail__header {
     margin-bottom: 1.3em;
     padding-left: 25%;
 }
-.show-detail__body p.production {
-  text-indent: 0pt;
-}
+
+.show-detail__body p.production { text-indent: 0pt; }
+
 .show-detail__body p.production + p.production {
-  margin-top: 0em;
-  text-indent: 3em;
+    margin-top: 0em;
+    text-indent: 3em;
 }
 
 .show-detail__body dd { padding-left: 1em; }
@@ -494,13 +458,11 @@ header.show-detail__header {
 @media only screen and (min-width: 480px) {
     .show-detail__header {
         float: left;
-
         width: 40%;
     }
 
     .show-detail__body {
         float: left;
-
         width: 60%;
     }
 }
@@ -543,7 +505,6 @@ header.show-detail__header {
 .content h1 {
     margin-top: 0em;
     margin-bottom: 0.40740741em;
-
     font-size: 3.375em;
     line-height: 1em;
 }
@@ -551,7 +512,6 @@ header.show-detail__header {
 .content h2 {
     margin-top: 0.91666667em;
     margin-bottom: 0em;
-
     font-size: 1.5em;
     line-height: 1.83333334em;
 }
@@ -559,7 +519,6 @@ header.show-detail__header {
 .content h3 {
     margin-top: 0.91666667em;
     margin-bottom: 0em;
-
     font-size: 1.5em;
     line-height: 1.83333333em;
 }
@@ -567,7 +526,6 @@ header.show-detail__header {
 .content h4 {
     margin-top: 1.375em;
     margin-bottom: 0em;
-
     font-size: 1em;
     line-height: 1.375em;
 }
@@ -575,17 +533,18 @@ header.show-detail__header {
 .content h5 {
     margin-top: 1.375em;
     margin-bottom: 0em;
-
     font-size: 1em;
     line-height: 1.375em;
 }
+
 .show-detail__body p {
-  font-size: 1.3em;
-line-height: 1.3em;
+    font-size: 1.3em;
+    line-height: 1.3em;
 }
+
 .show-detail__body p.production {
-  font-size: 1em;
-  line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.4em;
 }
 
 .content p,
@@ -611,7 +570,6 @@ line-height: 1.3em;
 /* Let's make sure all's aligned */
 .content hr {
     margin: -1px 0;
-
     border: 1px solid;
 }
 
@@ -626,9 +584,7 @@ line-height: 1.3em;
 .content sub,
 .content sup {
     position: relative;
-
     vertical-align: baseline;
-
     line-height: 0;
 }
 
@@ -637,27 +593,24 @@ line-height: 1.3em;
 .content sub { bottom: -0.25em; }
 
 .content dt {
-  font-family: 'Ume double stroke double thin Balsa';
-  display: inline;
-  float: left;
-  position: relative;
-  margin: 0pt;
-  padding-left: 0pt;
-  padding-right:4pt;
+    font-family: 'Ume double stroke double thin Balsa';
+    display: inline;
+    float: left;
+    position: relative;
+    margin: 0pt;
+    padding-left: 0pt;
+    padding-right: 4pt;
 }
-.content dd {
-  padding-left: 2em;
-}
+
+.content dd { padding-left: 2em; }
 
 .content li:before { content: "- "; }
 
 .content pre {
     margin-top: 1em;
     padding: 1em;
-
     color: black;
     border: 1px solid blue;
-
     font-family: monospace;
 }
 
@@ -672,21 +625,17 @@ line-height: 1.3em;
 
 .jcarousel {
     position: relative;
-
     overflow: hidden;
-
     width: 100%;
 }
 
 .jcarousel-inner {
     position: relative;
-
     width: 10000%;
 }
 
 .jcarousel-item {
     float: left;
-
     width: 1%;
 }
 
@@ -698,9 +647,7 @@ line-height: 1.3em;
 .jcarousel-controls {
     position: absolute;
     top: 50%;
-
     width: 100%;
-
     background-color: yellow;
 }
 
@@ -708,18 +655,13 @@ line-height: 1.3em;
 .jcarousel-control-next {
     position: absolute;
     top: -15px;
-
     display: block;
-
     width: 30px;
     height: 30px;
-
     text-align: center;
     text-decoration: none;
-
     color: white;
     background-color: @color;
-
     font-weight: bold;
 }
 
@@ -736,7 +678,6 @@ line-height: 1.3em;
 .jcarousel-control-prev.inactive,
 .jcarousel-control-next.inactive {
     cursor: default;
-
     opacity: .5;
 }
 
