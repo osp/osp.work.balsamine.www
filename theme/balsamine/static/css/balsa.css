@@ -67,7 +67,7 @@ body {
     font-size: 1em;
     line-height: 1.375em;
 
-     background-image: url('../imgs/coin-de-boite.svg');
+    background-image: url('../imgs/coin-de-boite.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
@@ -191,16 +191,14 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     bottom: 42px;
     left: 42px;
 
-    overflow: auto;
-
     background-size: 15px;
-
 }
 
 @media only screen and (max-width: 479px) {
     .main-area {
         font-size: .75em;
         line-height: 1.375em;
+        overflow-y: scroll;
     }
 }
 
@@ -217,9 +215,11 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
         position: absolute;
         top: 0;
         left: 0;
+        height: 100%;
+        width: 70%;
+        overflow-y: scroll;
 
         box-sizing: border-box;
-        width: 70%;
         background-color: white;
     }
 }
@@ -252,7 +252,7 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 background-color: white;
 }
 
-.schedule__list { padding-right: 30px; }
+/* .schedule__list { padding-right: 30px; } */
 
 .schedule__item {
     padding-top: 2em;
@@ -346,23 +346,15 @@ p.schedule__main-image {
 .schedule__body dd { padding-left: 1em; }
 
 .schedule__timeline {
-    /* position: fixed; */
-    top: 0;
-    right: 0;
-    width: 30px;
-    height: calc(100vh - 42px);
-
     background: linear-gradient(to bottom, blue 0%, grey 25%, blue 50%, grey 75%, blue 100%);
-
-    /*background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);*/
 }
 
 @media only screen and (min-width: 480px) {
     .schedule {
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 0;
-        bottom: 42px;
+        height: 100%;
 
         overflow: hidden;
 
@@ -371,7 +363,22 @@ p.schedule__main-image {
 
         /* border-left: 2px solid blue; */
     }
-    .schedule__list { position: absolute; }
+    .schedule__list {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 30px;
+        height: 100%;
+
+        overflow-y: scroll;
+    }
+    .schedule__timeline {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30px;
+        height: 100%;
+    }
 }
 
 /* timeline */
