@@ -107,17 +107,17 @@ $(function() {
 });
 
 
-$(function() {
-    $(".schedule").on("mousewheel DOMMouseScroll", function(ev, delta) {
-        var scrollTop = $(this).scrollTop();
-        $(this).scrollTop(scrollTop-Math.round(ev.deltaY) * 30);
+// $(function() {
+//     $(".schedule").on("mousewheel DOMMouseScroll", function(ev, delta) {
+//         var scrollTop = $(this).scrollTop();
+//         $(this).scrollTop(scrollTop-Math.round(ev.deltaY) * 30);
 
-        // this.scrollTop -= (delta * 60);
+//         // this.scrollTop -= (delta * 60);
 
-        // event.preventDefault();
+//         // event.preventDefault();
 
-    });
-});
+//     });
+// });
 
 
 // $(function() {

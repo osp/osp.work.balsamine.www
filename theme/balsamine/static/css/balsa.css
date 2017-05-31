@@ -3,27 +3,10 @@
    ========================================================================== */
 
 
-/*@font-face {
-    font-family: 'Ume Vertical Wide Bridge';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/ume-vertical-wide-bridge-webfont.woff2') format('woff2'), url('../fonts/ume-vertical-wide-bridge-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Ume Vertical Wide Oblique';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/ume-vertical-wide-oblique-webfont.woff2') format('woff2'), url('../fonts/ume-vertical-wide-oblique-webfont.woff') format('woff');
-}*/
-
 @font-face {
     font-family: 'Ume P Gothic Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'), url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
 }
 
@@ -31,7 +14,6 @@
     font-family: 'Ume double stroke Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-stroke-stroke.woff') format('woff');
 }
 
@@ -39,14 +21,13 @@
     font-family: 'Ume double stroke double fat Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-stroke-stroke-fat-fat.woff') format('woff');
 }
+
 @font-face {
     font-family: 'Ume double stroke double thin Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-stroke-stroke-thin-thin.woff') format('woff');
 }
 
@@ -63,6 +44,11 @@ html {
 }
 
 body {
+    background-image: url('../imgs/coin-de-boite.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+
     font-family: 'Ume double stroke Balsa';
     font-size: 1em;
     line-height: 1.375em;
@@ -76,7 +62,7 @@ a {
 
 em { font-family: 'Ume double stroke double thin Balsa'; }
 
-strong { font-family: 'Ume double stroke double fat Balsa';}
+strong { font-family: 'Ume double stroke double fat Balsa'; }
 
 
 
@@ -98,18 +84,15 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
     box-sizing: border-box;
     width: 100vh;
-    height: 40px;
-    padding-left: 40px;
+    height: 42px;
+    padding-left: 42px;
 
     transform: rotate(-90deg);
     transform-origin: top left;
     text-align: right;
 
-    outline: 2px solid blue;
-
     font-size: 14px;
-    line-height: 40px;
-
+    line-height: 42px;
     direction: rtl;
 }
 
@@ -142,11 +125,9 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     left: 0;
 
     box-sizing: border-box;
-    height: 40px;
+    height: 42px;
 
-    outline: 2px solid blue;
-
-    line-height: 40px;
+    line-height: 42px;
 }
 
 .address {
@@ -183,17 +164,16 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 40px;
-    left: 40px;
-
-    overflow: auto;
+    bottom: 42px;
+    left: 42px;
 
     background-size: 15px;
-
 }
 
 @media only screen and (max-width: 479px) {
     .main-area {
+        overflow-y: scroll;
+
         font-size: .75em;
         line-height: 1.375em;
     }
@@ -213,8 +193,12 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
         top: 0;
         left: 0;
 
+        overflow-y: scroll;
+
         box-sizing: border-box;
         width: 70%;
+        height: 100%;
+
         background-color: white;
     }
 }
@@ -243,11 +227,10 @@ strong { font-family: 'Ume double stroke double fat Balsa';}
 
 
 .schedule {
-  position: relative;
-background-color: white;
-}
+    position: relative;
 
-.schedule__list { padding-right: 30px; }
+    background-color: white;
+}
 
 .schedule__item {
     padding-top: 2em;
@@ -257,36 +240,23 @@ background-color: white;
 
     color: blue;
 
-    /*font-size: 2em;*/
     line-height: 1.3;
+}
 
-}
-.schedule__item:nth-of-type(odd) {
-  background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important;
-}
-.schedule__item:nth-of-type(even) {
-  background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important;
-}
+.schedule__item:nth-of-type(odd) { background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important; }
+
+.schedule__item:nth-of-type(even) { background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important; }
 
 .schedule__item + .schedule__item { border-top: 2px solid blue; }
 
 .schedule__subhead {
     margin-bottom: .4em;
-    font-size: 1em;
 
+    font-size: 1em;
     line-height: 1;
 }
 
-.schedule__dates {
-    /*float: right;*/
-
-    /*font-family: 'Ume P Gothic Balsa';*/
-    /*font-size: 2em;*/
-    /*line-height: 1;*/
-    /*padding-left: 2em;*/
-    font-size: 1em;
-
-}
+.schedule__dates { font-size: 1em; }
 
 .schedule__title {
     font-size: 1.5em;
@@ -299,19 +269,18 @@ background-color: white;
 
     line-height: 1;
 }
+
 .schedule__intro {
+    padding-left: 2em;
 
-  font-size: 1.5em;
-  padding-left: 2em;
-  font-family: 'Ume double stroke double thin Balsa';
-
-
+    font-family: 'Ume double stroke double thin Balsa';
+    font-size: 1.5em;
 }
-p.schedule__main-image {
-  text-align: right;
-  width: 50%;
-  /*float: right;
-  position: relative;*/
+
+.schedule__main-image {
+    width: 50%;
+
+    text-align: right;
 }
 
 .schedule__main-image img {
@@ -353,20 +322,39 @@ div.schedule__timeline {
     /*background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);*/
 }
 
+
 @media only screen and (min-width: 480px) {
     .schedule {
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 0;
-        bottom: 40px;
 
         overflow: hidden;
 
         box-sizing: border-box;
         width: 30%;
-        border-left: 2px solid blue;
+        height: 100%;
     }
-    .schedule__list { position: absolute; }
+
+    .schedule__list {
+        position: absolute;
+        top: 0;
+        right: 30px;
+        left: 0;
+
+        overflow-y: scroll;
+
+        height: 100%;
+    }
+
+    .schedule__timeline {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 30px;
+        height: 100%;
+    }
 }
 
 /* timeline */
@@ -426,33 +414,36 @@ div.schedule__timeline {
    ========================================================================== */
 
 
-header.show-detail__header {
+.show-detail__header {
     box-sizing: border-box;
     height: 100vh;
     padding: 2rem;
 
     color: blue;
-    border-right: 2px solid blue;
     background-size: 15px;
 }
 
 .show-detail__image-body img {
-  float: left;
-  max-width: 150px;
-  position: relative;
+    position: relative;
+
+    float: left;
+
+    max-width: 150px;
 }
+
 .show-detail__image img {
-  max-width: 75%;
-      text-align: center;
+    max-width: 75%;
+
+    text-align: center;
 }
-.show-detail__image-body:last-of-type img {
-  float: none;
-}
+
+.show-detail__image-body:last-of-type img { float: none; }
 
 .show-detail__body {
     box-sizing: border-box;
-    padding: 2rem;
     margin-top: 2em;
+    padding: 2rem;
+
     color: blue;
 }
 
@@ -469,12 +460,13 @@ header.show-detail__header {
     margin-bottom: 1.3em;
     padding-left: 25%;
 }
-.show-detail__body p.production {
-  text-indent: 0pt;
-}
+
+.show-detail__body p.production { text-indent: 0pt; }
+
 .show-detail__body p.production + p.production {
-  margin-top: 0em;
-  text-indent: 3em;
+    margin-top: 0em;
+
+    text-indent: 3em;
 }
 
 .show-detail__body dd { padding-left: 1em; }
@@ -567,13 +559,15 @@ header.show-detail__header {
     font-size: 1em;
     line-height: 1.375em;
 }
+
 .show-detail__body p {
-  font-size: 1.3em;
-line-height: 1.3em;
+    font-size: 1.3em;
+    line-height: 1.3em;
 }
+
 .show-detail__body p.production {
-  font-size: 1em;
-  line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.4em;
 }
 
 .content p,
@@ -625,17 +619,19 @@ line-height: 1.3em;
 .content sub { bottom: -0.25em; }
 
 .content dt {
-  font-family: 'Ume double stroke double thin Balsa';
-  display: inline;
-  float: left;
-  position: relative;
-  margin: 0pt;
-  padding-left: 0pt;
-  padding-right:4pt;
+    position: relative;
+
+    display: inline;
+    float: left;
+
+    margin: 0pt;
+    padding-right: 4pt;
+    padding-left: 0pt;
+
+    font-family: 'Ume double stroke double thin Balsa';
 }
-.content dd {
-  padding-left: 2em;
-}
+
+.content dd { padding-left: 2em; }
 
 .content li:before { content: "- "; }
 
