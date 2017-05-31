@@ -333,9 +333,10 @@ div.schedule__timeline {
     /* position: fixed; */
     top: 0;
     right: 0;
-    width: 30px ;
-    margin-left: calc(100% - 30px) ;
-    height: calc(100%) ;
+
+    width: 30px;
+    height: calc(100%);
+    margin-left: calc(100% - 30px);
 
     background: linear-gradient(to bottom, blue 0%, grey 11.1%, blue 22.2%, grey 33.3%, blue 44.4%, grey 50%, blue 58.3%, grey 66.6%, blue 75%, grey 83.3%, blue 91.6%, grey 100%);
 
@@ -385,19 +386,19 @@ div.schedule__timeline {
         position: absolute;
         top: 0;
         right: 0;
+
         height: 100%;
     }
 
-    .schedule__list {
-        display: none;
-    }
+    .schedule__list { display: none; }
 
     .schedule__timeline {
-        height: 100%;
         position: absolute;
         top: 0;
         right: 0;
+
         width: 30px;
+        height: 100%;
     }
 }
 
@@ -456,11 +457,11 @@ div.schedule__timeline {
 }
 
 .timeline__month {
-    box-sizing: border-box;
     position: absolute;
     top: 30px;
     right: 30px;
 
+    box-sizing: border-box;
     height: 30px;
     padding-top: 10px;
     padding-right: .5em;
@@ -497,10 +498,11 @@ div.schedule__timeline {
 
 .show-detail__header {
     box-sizing: border-box;
-    background-image: url('../imgs/damier.png');
-    color: blue;
-    background-size: 15px;
     padding: 1em;
+
+    color: blue;
+    background-image: url('../imgs/damier.png');
+    background-size: 15px;
 }
 
 .show-detail__image-body img {
@@ -552,9 +554,7 @@ div.schedule__timeline {
 .show-detail__body dd { padding-left: 1em; }
 
 @media (--mobile) {
-    .show-detail__header {
-        border-bottom: 2px solid;
-    }
+    .show-detail__header { border-bottom: 2px solid; }
 }
 
 @media (--desktop) {
@@ -565,7 +565,6 @@ div.schedule__timeline {
         height: 100vh;
         padding: 2rem;
     }
-
 
     .show-detail__body {
         float: left;
