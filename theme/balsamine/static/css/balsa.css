@@ -54,7 +54,7 @@ html {
 }
 
 body {
-    background-image: url('../imgs/coin-de-boite.svg');
+    background-image: url('../imgs/coin-de-boite-cuivre.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
@@ -86,7 +86,13 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 /* Main Header
    ========================================================================== */
 
+.main-header, .main-footer {
+  /*background-color: #6C3425;*/
+  /*background-color: #853820;*/
+  color:white;
 
+
+}
 .main-header {
     position: fixed;
     top: 100vh;
@@ -183,6 +189,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 @media (--mobile) {
     .main-area {
         overflow-y: hidden;
+
 
         font-size: .75em;
         line-height: 1.375em;
@@ -339,9 +346,12 @@ div.schedule__timeline {
     height: calc(100%);
     margin-left: calc(100% - 30px);
 
-    background: linear-gradient(to bottom, blue 0%, grey 11.1%, blue 22.2%, grey 33.3%, blue 44.4%, grey 50%, blue 58.3%, grey 66.6%, blue 75%, grey 83.3%, blue 91.6%, grey 100%);
+    /*background: linear-gradient(to bottom, blue 0%, blue 8.2%, grey 8.3%, grey 16.5%, blue 16.6%, blue 25%, blue 58.3%, grey 66.6%, blue 75%, grey 83.3%, blue 91.6%, grey 100%);*/
 
-    /*background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);*/
+    /*background: linear-gradient(to bottom, blue 0%, #904e3b 100%);*/
+    /*background: linear-gradient(to bottom, blue 0%, grey 100%);*/
+background-color: blue;
+color:white;
 }
 
 
@@ -457,11 +467,17 @@ div.schedule__timeline {
     line-height: 30px;
 }
 
-.timeline__month {
+div.timeline__month {
     position: absolute;
-    top: 30px;
+    /*top: 30px;
     right: 30px;
 
+    padding-top: 10px;*/
+    height: 80px;
+    word-break: break-all;
+    padding: 1.5em;
+text-align: center;
+    /*transform: rotate(-90deg);
     box-sizing: border-box;
     height: 30px;
     padding-top: 10px;
@@ -469,23 +485,25 @@ div.schedule__timeline {
 
     transform: rotate(-90deg);
     transform-origin: top right;
-    text-align: right;
-
-    border-right: 1px solid black;
-
-    font-size: 10px;
-    line-height: 20px;
+    text-align: right;*/
+    width:0px;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    font-size: .6em;
+    line-height: 10px;
+    padding-left: 15pt;
 }
 
 .timeline__point {
     position: absolute;
     right: 15px;
 
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 25px;
 
     border-radius: 5px;
     background-color: white;
+    opacity: 0.7;
 }
 
 
