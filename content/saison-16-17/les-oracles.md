@@ -19,7 +19,7 @@ Une proposition artistique belgo-québécoise.
 Direction artistique et mise en scène
 :    Simon Dumas
 
-Création sonore
+Conception sonore
 :    Philippe Franck
 
 Création vidéo
