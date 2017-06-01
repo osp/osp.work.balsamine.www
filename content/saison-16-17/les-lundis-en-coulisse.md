@@ -15,5 +15,4 @@ Les rôles des pièces sont distribués au cours de la séance à ceux qui ont e
 
 Une coproduction de
 :   Atelier Théâtre Jean Vilar, Centre d’études théâtrales de l’UCL, ARTS² – Conservatoire de Mons, La Bellone, Rideau de Bruxelles, Théâtre la Balsamine, Théâtre de Liège, Théâtre des Martyrs, Théâtre Varia, SACD  en partenariat avec le Centre des Écritures Dramatiques – Wallonie Bruxelles.
-
 {: .production }
