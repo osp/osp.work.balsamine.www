@@ -38,16 +38,16 @@
         <p class="schedule__main-image"><img src="/images/{{ article.key_image }}" class="image-process-crisp" alt="Main image for {{ article.title }}"></p>
         {% endif %}
 
-
+<!--
         {% if article.intro %}
         <div class="schedule__intro">
             {{ article.intro }}
         </div>
-        {% endif %}
+        {% endif %} -->
 
 
 
-        <p><a href="#{{ article.url }}" class="expand-content">+ En savoir plus</a></p>
+        <!-- <p><a href="#{{ article.url }}" class="expand-content">+ En savoir plus</a></p> -->
 
         <div class="schedule__body" id="{{ article.url }}">
             {{ article.content }}
