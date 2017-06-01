@@ -1,4 +1,14 @@
 /* ==========================================================================
+   Custom medias definitions
+   ========================================================================== */
+
+
+@custom-media --mobile only screen and (max-width: 767px);
+
+@custom-media --desktop only screen and (min-width: 768px);
+
+
+/* ==========================================================================
    Fonts
    ========================================================================== */
 
@@ -176,9 +186,9 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     background-size: 15px;
 }
 
-@media only screen and (max-width: 479px) {
+@media (--mobile) {
     .main-area {
-        overflow-y: scroll;
+        overflow-y: hidden;
 
 
         font-size: .75em;
@@ -194,7 +204,19 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
    ========================================================================== */
 
 
-@media only screen and (min-width: 480px) {
+@media (--mobile) {
+    .main-content {
+        position: absolute;
+        top: 0;
+        right: 30px;
+
+        overflow-y: scroll;
+
+        height: 100%;
+    }
+}
+
+@media (--desktop) {
     .main-content {
         position: absolute;
         top: 0;
@@ -205,8 +227,6 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         box-sizing: border-box;
         width: 70%;
         height: 100%;
-
-        background-color: white;
     }
 }
 
@@ -320,9 +340,10 @@ div.schedule__timeline {
     /* position: fixed; */
     top: 0;
     right: 0;
-    width: 30px ;
-    margin-left: calc(100% - 30px) ;
-    height: calc(100%) ;
+
+    width: 30px;
+    height: calc(100%);
+    margin-left: calc(100% - 30px);
 
     /*background: linear-gradient(to bottom, blue 0%, blue 8.2%, grey 8.3%, grey 16.5%, blue 16.6%, blue 25%, blue 58.3%, grey 66.6%, blue 75%, grey 83.3%, blue 91.6%, grey 100%);*/
 
@@ -333,7 +354,65 @@ color:white;
 }
 
 
-@media only screen and (min-width: 480px) {
+/* @media only screen and (max-width: 479px) { */
+/*     .schedule { */
+/*         position: absolute; */
+/*         top: 0; */
+/*         right: 0; */
+
+/*         overflow: hidden; */
+
+/*         box-sizing: border-box; */
+/*         [> width: 30%; <] */
+/*         height: 100%; */
+
+/*         border-left: 2px solid blue; */
+/*     } */
+
+/*     .schedule__list { */
+/*         position: absolute; */
+/*         width: 0; */
+/*         top: 0; */
+/*         right: 30px; */
+/*         left: 0; */
+
+/*         overflow-y: scroll; */
+
+/*         height: 100%; */
+/*     } */
+
+/*     .schedule__timeline { */
+/*         position: absolute; */
+/*         top: 0; */
+/*         right: 0; */
+
+/*         width: 30px; */
+/*         height: 100vh; */
+/*     } */
+/* } */
+
+@media (--mobile) {
+    .schedule {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        height: 100%;
+    }
+
+    .schedule__list { display: none; }
+
+    .schedule__timeline {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 30px;
+        height: 100%;
+    }
+}
+
+@media (--desktop) {
     .schedule {
         position: absolute;
         top: 0;
@@ -344,6 +423,8 @@ color:white;
         box-sizing: border-box;
         width: 30%;
         height: 100%;
+
+        border-left: 2px solid blue;
     }
 
     .schedule__list {
@@ -396,6 +477,12 @@ div.timeline__month {
     padding: 1.5em;
 text-align: center;
     /*transform: rotate(-90deg);
+    box-sizing: border-box;
+    height: 30px;
+    padding-top: 10px;
+    padding-right: .5em;
+
+    transform: rotate(-90deg);
     transform-origin: top right;
     text-align: right;*/
     width:0px;
@@ -429,10 +516,10 @@ text-align: center;
 
 .show-detail__header {
     box-sizing: border-box;
-    height: 100vh;
-    padding: 2rem;
+    padding: 1em;
 
     color: blue;
+    background-image: url('../imgs/damier.png');
     background-size: 15px;
 }
 
@@ -455,7 +542,7 @@ text-align: center;
 .show-detail__body {
     box-sizing: border-box;
     margin-top: 2em;
-    padding: 2rem;
+    padding: 1rem;
 
     color: blue;
 }
@@ -484,11 +571,17 @@ text-align: center;
 
 .show-detail__body dd { padding-left: 1em; }
 
-@media only screen and (min-width: 480px) {
+@media (--mobile) {
+    .show-detail__header { border-bottom: 2px solid; }
+}
+
+@media (--desktop) {
     .show-detail__header {
         float: left;
 
         width: 40%;
+        height: 100vh;
+        padding: 2rem;
     }
 
     .show-detail__body {
