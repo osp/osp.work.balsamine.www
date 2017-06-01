@@ -17,6 +17,7 @@ Le temps de 3 concerts-rencontres, Les Mardis Contemporains prennent leurs quart
 
 Invité
 :    Jean-Jacques Marie (historien, auteur de Lénine, la révolution permanente, Ed. Payot)
+
 Œuvres
 :    Deux pièces pour quatuor à cordes / Elégie – Polka de Dmitri Chostakovitch (1974)
 :    Quatuor à cordes n°1 de Dmitri Kabalevski – extrait (1928)
@@ -24,6 +25,7 @@ Invité
 :    Quatuor n°3 de Nikolai Roslavets (1920)
 :    Trio à cordes d’Edison Denisov (1969)
 :    Création de Alice Hebborn pour quatuor à cordes (commande Ars Musica 2017)
+
 Interpretation
 :    Quatuor Amôn
 
