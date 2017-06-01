@@ -4,146 +4,123 @@
   <meta charset="UTF-8">
   <title></title>
   <script src="js/jquery-3.1.1.min.js" ></script>
-<style type="text/css" media="all">
-  .container{
-    width: 80%;
-    height: auto;
-  }
-  .cadra{
-    height: 100px;
-    width: auto;
-    float: left;
-  }
-  .cadra svg {
-    height: 100%;
-    width: auto;
-    margin-bottom: 100px;
-    overflow: visible
-  }
-  footer{
+  <style type="text/css" media="all">
+    body{
+      font-size: 10px;
+    }
+    .container{
+      margin: -10px;
+      width: 80%;
+      height: auto;
+      position: absolute;
+    }
+    .cadra{
+      height: 400px;
+      width: auto;
+      float: left;
+    }
+    .cadra_set{
+      height: 100px;
+      width: 100px;
+      float: left;
+      outline: white solid 1px;
+      background: #c6ffdf;
+      text-align: center
+    }
+    .cadra svg
+    {
+      height: 100%;
+      width: auto;
+      margin-bottom: 100px;
+      overflow: visible
+    }
+    .cadra_set svg{
+      height: 70%;
+      width: auto;
+      margin-bottom: 100px;
+      overflow: visible
+    }
+    .caseSet{
+      width: auto;
+      height: auto;
+    }
+    .formSet textarea{
+      display: none;
+    }
 
-    position: fixed;
-    right: 0px;
-    background: white;
-    width: 20%;
-  }
-  footer li{
-    font-family: monospace;
-    font-size: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-  }
-  .container > .cadra{
-    /* background: url('svg/marg/guide.svg'); */
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-  }
-</style>
+    footer{
+      position: fixed;
+      right: 0px;
+      top: 0px;
+      background: white;
+      width: 20%;
+      /* border-left: black 1px solid; */
+      padding-left: 37px;
+      padding-top: 20px;
+      background: #c6ffdf;
+      height: 100%;
+    }
+    footer li,
+    footer button,
+    footer input {
+      display: flex;
+      font-family: monospace;
+      font-size: 10px;
+      margin-bottom: 15px;
+      text-decoration: none;
+    }
+    button, input.chaine{
+      background: #c6ffdf;
+      outline: 1px solid black;
+      border: none;
+      margin-bottom: 35px;
+    }
+    input.chaine{
+      width: 80%;
+      padding: 5px;
+
+    }
+    input.save{
+      font-size: 10px;
+      margin: 15px;
+      background: #c6ffdf;
+      outline: 1px solid black;
+      border: none;
+    }
+    input.form{
+      width: 100%;
+        height: 30px;
+      font-size: 10px;
+      background: #c6ffdf;
+      outline: 1px solid black;
+      border: none;
+    }
+    button:hover, input.chaine:hover, input.save:hover{
+      background: white;
+    }
+    .container > .cadra{
+      background: url('SVG-MASTER/guide.svg');
+      background-repeat: repeat-x;
+      background-size: auto 100%;
+    }
+    .formSet{
+      width: 100%;
+      background: #c6ffdf;
+      height: 50px;
+    }
+  </style>
 </head>
 <body>
-<div class="container"></div>
-
-
-<footer>
-  <input type="text" id="chaine" value="Les oracles" />
-</footer>
+  <div class="container"></div>
+  <footer>
+    <button onclick="reLoad()">version</button>
+    <button onclick="setAll()">allset</button>
+    <input type="text" class="chaine" id="chaine" value="Sphinx of black quartz, judge my vow." />
+  </footer>
 </body>
+
 <script type="text/javascript" src="js/table.js" ></script>
-<script type="text/javascript" charset="utf-8">
+<script type="text/javascript" src="js/tableSet.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
 
-function grad(){
-  var pathEle = $('svg');
-  var stt = 240;
-  var scl = .1
-  pathEle.each(function () {
-    trs = scl*10;
-    stt = stt - 6;
-    scl = scl + 0.1;
-  });
-}
-
-function onInput(){
-  $('.cadra').remove();
-  var word = $('#chaine').val();
-  var nb_car = word.length;
-  var letter = word.split("");
-
-  for (var i = 0, l = word.length; i < l; i++) {
-    var v = table[letter[i]];
-    jQuery('<div/>', {
-        id: v+'_'+i,
-        class: 'cadra',
-    }).appendTo('.container');
-    $('#'+v+'_'+i).load('svg/'+v+'.svg');
-  };
-}
-
-onInput();
-
-$('#chaine').keyup(function(){
-  onInput();
-})
-
-
-$(document).ready(function(){
-  var start = 100;
-  var PP = $('path.ext');
-  $('.cadra').css('height', '120');
-  $('path.int').css('stroke-width', '100');
-  $('path.ext').css('stroke-width', start);
-  $('path.serif').css('stroke-width', '0');
-  $('path.intrap').css('stroke-width', '50');
-  // $('path').css('stroke-linecap','round')
-  // $('path').css('stroke-linejoin','round')
-  // $('path').attr('d', )
-  // PP.each(function(){
-  //   // Update the 'rules[0]' part of the name attribute to contain the latest count
-  //   $(this).attr('d', $(this).attr('d').replace('c','l'));
-  // });
-  // $('path').css('filter', 'url(#filter237)');
-  // $('path').attr('transform', 'scale(1,0.8)'  );
-  // $('path').css('stroke-linejoin','bevel');
-  // $('path').css('stroke-linecap','round');
-  grad();
-})
-
-function range(idStroke, valStart, valMax, propri, attri){
-  var html = '<li>'+idStroke+' | '+propri+'<br><input data-attri="'+attri+'" data-propri="'+propri+'" type="range"  min="0" max="'+valMax+'" value="'+valStart+'" name="discount_credits" class="discount_credits" id="'+idStroke+'" /><span>'+valStart+'</span></li>';
-  $("footer").append(html);
-}
-range('cadra', 1200, 10000, 'height', 'css');
-range('int', 1000, 3000, 'stroke-width', 'css');
-range('ext', 1000, 3000, 'stroke-width', 'css');
-range('int', 10, 10, 'stroke-opacity', 'css');
-range('ext', 10, 10, 'stroke-opacity', 'css');
-range('soleil', 0, 120, 'fill-opacity', 'css');
-
-$('.discount_credits').on("change mousemove", function() {
-    var dataOver = $('.ext[data-over]');
-    var valStroke = $(this).val();
-    var idStroke = $(this).attr('id');
-    var attri = $(this).attr('data-attri');
-    var propri = $(this).attr('data-propri');
-    $(this).next().html($(this).val());
-
-    var calc = (1550 - valStroke/10/1) / 1450;
-
-    var test = valStroke/(20*calc ) - 50;
-    // $('.'+idStroke).attr('transform', 'scale(1,'+calc+') translate(0, '+test+')'  );
-    $('.'+idStroke).css(propri, ''+valStroke/10+'');
-
-
-    if ( dataOver.length != 0 ) {
-      dataOver.each(function () {
-        var valOver = $(this).data('over');
-        var valOver = new RegExp(valOver, 'g')
-        var valD = $(this).attr('d');
-        var newValOver = valD.replace(valOver, '60');
-        $(this).attr('d', newValOver);
-
-      });
-    }
-});
-
-</script>
 </html>

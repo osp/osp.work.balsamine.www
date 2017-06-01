@@ -64,7 +64,7 @@ table["z"] = "z";
 table["Z"] = "Z";
 
 table[" "] = "space";
-table["."] = "full_stop";
+table["."] = "period";
 table[";"] = "semicolon";
 table[":"] = "colon";
 table["?"] = "question";
