@@ -14,8 +14,6 @@ Delvaux.
 La question du genre dans nos perceptions et nos imaginaires contemporains est ici poétisée. Une proposition artistique belgo-québécoise.
 Une proposition artistique belgo-québécoise.
 
-{: .production }
-
 Direction artistique et mise en scène
 :    Simon Dumas
 
@@ -24,7 +22,7 @@ Conception sonore
 
 Création vidéo
 :    Thomas Israël
-
+{: .production }
 
 ## Percées
 
