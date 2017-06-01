@@ -210,7 +210,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         top: 0;
         right: 30px;
 
-        overflow-y: scroll;
+        overflow:hidden ;
 
         height: 100%;
     }
