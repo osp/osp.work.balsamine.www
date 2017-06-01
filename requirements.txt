@@ -1,3 +1,17 @@
 pelican==3.7.1
 markdown>=2,<3
 git+https://github.com/aleray/markdown-figures.git
+
+# For some reasons the pip hosted version contains support for animated images,
+# whereas the github version does not. But is is buggy.
+# Additionally, in the original repo there is a typo in setup.py so installing
+# from my own fork on Github
+
+#minchin.pelican.plugins.image_process
+git+https://github.com/aleray/minchin.pelican.plugins.image_process.git@2e5aa07
+
+html5lib
+
+# Python-Markdown extension to wrap the document logical sections (as implied
+# by h1-h6 headings). Makes the collapsed sections easier
+mdx_outline

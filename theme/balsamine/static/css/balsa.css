@@ -1,33 +1,45 @@
 /* ==========================================================================
+   Custom medias definitions
+   ========================================================================== */
+
+
+@custom-media --mobile only screen and (max-width: 767px);
+
+@custom-media --desktop only screen and (min-width: 768px);
+
+
+/* ==========================================================================
    Fonts
    ========================================================================== */
 
 
 @font-face {
-    font-family: 'Ume Vertical Wide Bridge';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/ume-vertical-wide-bridge-webfont.woff2') format('woff2'), url('../fonts/ume-vertical-wide-bridge-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Ume Vertical Wide Oblique';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/ume-vertical-wide-oblique-webfont.woff2') format('woff2'), url('../fonts/ume-vertical-wide-oblique-webfont.woff') format('woff');
-}
-
-@font-face {
     font-family: 'Ume P Gothic Balsa';
     font-weight: normal;
     font-style: normal;
-
     src: url('../fonts/ume-p-gothic_balsa-webfont.woff2') format('woff2'), url('../fonts/ume-p-gothic_balsa-webfont.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Ume double stroke Balsa';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke.woff') format('woff');
+}
 
+@font-face {
+    font-family: 'Ume double stroke double fat Balsa';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-fat-fat.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ume double stroke double thin Balsa';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-thin-thin.woff') format('woff');
+}
 
 
 
@@ -42,7 +54,12 @@ html {
 }
 
 body {
-    font-family: 'Ume Vertical Wide Bridge';
+    background-image: url('../imgs/coin-de-boite.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+
+    font-family: 'Ume double stroke Balsa';
     font-size: 1em;
     line-height: 1.375em;
 }
@@ -53,9 +70,9 @@ a {
     color: inherit;
 }
 
-em { font-family: 'Ume Vertical Wide Oblique'; }
+em { font-family: 'Ume double stroke double thin Balsa'; }
 
-strong { font-weight: bold; }
+strong { font-family: 'Ume double stroke double fat Balsa'; }
 
 
 
@@ -69,7 +86,6 @@ strong { font-weight: bold; }
 /* Main Header
    ========================================================================== */
 
-
 .main-header {
     position: fixed;
     top: 100vh;
@@ -77,18 +93,15 @@ strong { font-weight: bold; }
 
     box-sizing: border-box;
     width: 100vh;
-    height: 40px;
-    padding-left: 40px;
+    height: 42px;
+    padding-left: 42px;
 
     transform: rotate(-90deg);
     transform-origin: top left;
     text-align: right;
 
-    outline: 2px solid blue;
-
     font-size: 14px;
-    line-height: 40px;
-
+    line-height: 42px;
     direction: rtl;
 }
 
@@ -121,11 +134,9 @@ strong { font-weight: bold; }
     left: 0;
 
     box-sizing: border-box;
-    height: 40px;
+    height: 42px;
 
-    outline: 2px solid blue;
-
-    line-height: 40px;
+    line-height: 42px;
 }
 
 .address {
@@ -162,14 +173,16 @@ strong { font-weight: bold; }
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 40px;
-    left: 40px;
+    bottom: 42px;
+    left: 42px;
 
-    overflow: auto;
+    background-size: 15px;
 }
 
-@media only screen and (max-width: 479px) {
+@media (--mobile) {
     .main-area {
+        overflow-y: hidden;
+
         font-size: .75em;
         line-height: 1.375em;
     }
@@ -183,14 +196,34 @@ strong { font-weight: bold; }
    ========================================================================== */
 
 
-@media only screen and (min-width: 480px) {
+@media (--mobile) {
+    .main-content {
+        position: absolute;
+        top: 0;
+        right: 30px;
+        left: 0;
+
+        overflow:hidden ;
+
+        height: 100%;
+    }
+
+    .is-swiped .main-content {
+        display: none;
+    }
+}
+
+@media (--desktop) {
     .main-content {
         position: absolute;
         top: 0;
         left: 0;
 
+        overflow-y: scroll;
+
         box-sizing: border-box;
         width: 70%;
+        height: 100%;
     }
 }
 
@@ -217,40 +250,40 @@ strong { font-weight: bold; }
  */
 
 
-.schedule { position: relative; }
+.schedule {
+    position: relative;
 
-.schedule__list { padding-right: 30px; }
+    background-color: white;
+}
 
 .schedule__item {
-    padding-top: 1em;
+    padding-top: 2em;
     padding-right: 1em;
     padding-bottom: 1em;
     padding-left: 2em;
 
     color: blue;
 
-    font-size: 10px;
     line-height: 1.3;
 }
+
+.schedule__item:nth-of-type(odd) { background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important; }
+
+.schedule__item:nth-of-type(even) { background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important; }
 
 .schedule__item + .schedule__item { border-top: 2px solid blue; }
 
 .schedule__subhead {
     margin-bottom: .4em;
 
+    font-size: 1em;
     line-height: 1;
 }
 
-.schedule__dates {
-    float: right;
-
-    font-family: 'Ume P Gothic Balsa';
-    font-size: 2em;
-    line-height: 1;
-}
+.schedule__dates { font-size: 1em; }
 
 .schedule__title {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1;
 }
 
@@ -261,7 +294,18 @@ strong { font-weight: bold; }
     line-height: 1;
 }
 
-.schedule__main-image { text-align: right; }
+.schedule__intro {
+    padding-left: 2em;
+
+    font-family: 'Ume double stroke double thin Balsa';
+    font-size: 1.5em;
+}
+
+.schedule__main-image {
+    width: 50%;
+
+    text-align: right;
+}
 
 .schedule__main-image img {
     max-width: 75%;
@@ -290,31 +334,89 @@ strong { font-weight: bold; }
 .schedule__body dd { padding-left: 1em; }
 
 .schedule__timeline {
-    /* position: fixed; */
     top: 0;
     right: 0;
 
     width: 30px;
-    height: calc(100vh - 40px);
+    height: calc(100%);
+    margin-left: calc(100% - 30px);
 
-    background: linear-gradient(to bottom, #1e5799 0%, #ff3232 25%, #ff328e 50%, #32c5ff 75%, #2989d8 100%, #207cca 100%, #7db9e8 100%);
+    background: linear-gradient(to bottom, blue 0%, grey 100%);
 }
 
-@media only screen and (min-width: 480px) {
+@media (--mobile) {
     .schedule {
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 0;
-        bottom: 40px;
+
+        height: 100%;
+    }
+
+    .is-swiped .schedule {
+        width: 100%;
+    }
+
+    .schedule__list {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 30px;
+        left: 0;
+
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+
+    .is-swiped .schedule__list {
+        display: block;
+    }
+
+    .schedule__timeline {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 30px;
+        height: 100%;
+    }
+}
+
+@media (--desktop) {
+    .schedule {
+        position: absolute;
+        top: 0;
+        right: 0;
 
         overflow: hidden;
 
         box-sizing: border-box;
         width: 30%;
+        height: 100%;
 
         border-left: 2px solid blue;
     }
-    .schedule__list { position: absolute; }
+
+    .schedule__list {
+        position: absolute;
+        top: 0;
+        right: 30px;
+        left: 0;
+
+        overflow-y: scroll;
+
+        height: 100%;
+    }
+
+    .schedule__timeline {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 30px;
+        height: 100%;
+    }
 }
 
 /* timeline */
@@ -340,6 +442,7 @@ strong { font-weight: bold; }
     top: 30px;
     right: 30px;
 
+    box-sizing: border-box;
     height: 30px;
     padding-top: 10px;
     padding-right: .5em;
@@ -348,10 +451,12 @@ strong { font-weight: bold; }
     transform-origin: top right;
     text-align: right;
 
-    border-right: 1px solid black;
+    border-right: 1px solid;
 
-    font-size: 10px;
-    line-height: 20px;
+    color: white;
+
+    font-size: 14px;
+    line-height: 23px;
 }
 
 .timeline__point {
@@ -368,7 +473,6 @@ strong { font-weight: bold; }
 
 
 
-
 /* ==========================================================================
    Show detail
    ========================================================================== */
@@ -376,18 +480,33 @@ strong { font-weight: bold; }
 
 .show-detail__header {
     box-sizing: border-box;
-    height: 100vh;
-    padding: 2rem;
+    padding: 1em;
 
     color: blue;
-    border-right: 2px solid blue;
+    background-image: url('../imgs/damier.png');
+    background-size: 15px;
 }
 
-.show-detail__image img { max-width: 75%; }
+.show-detail__image-body img {
+    position: relative;
+
+    float: left;
+
+    max-width: 150px;
+}
+
+.show-detail__image img {
+    max-width: 75%;
+
+    text-align: center;
+}
+
+.show-detail__image-body:last-of-type img { float: none; }
 
 .show-detail__body {
     box-sizing: border-box;
-    padding: 2rem;
+    margin-top: 2em;
+    padding: 1rem;
 
     color: blue;
 }
@@ -406,13 +525,27 @@ strong { font-weight: bold; }
     padding-left: 25%;
 }
 
+.show-detail__body p.production { text-indent: 0pt; }
+
+.show-detail__body p.production + p.production {
+    margin-top: 0em;
+
+    text-indent: 3em;
+}
+
 .show-detail__body dd { padding-left: 1em; }
 
-@media only screen and (min-width: 480px) {
+@media (--mobile) {
+    .show-detail__header { border-bottom: 2px solid; }
+}
+
+@media (--desktop) {
     .show-detail__header {
         float: left;
 
         width: 40%;
+        height: 100vh;
+        padding: 2rem;
     }
 
     .show-detail__body {
@@ -434,7 +567,7 @@ strong { font-weight: bold; }
 
 .page-detail dl { column-width: 15em; }
 
-.page-detail dt { break-after: avoid-column; }
+.page-detail dt { font-family: 'Ume double stroke double thin Balsa'; }
 
 .page-detail dd { break-before: avoid-column; }
 
@@ -448,7 +581,11 @@ strong { font-weight: bold; }
 
 .page-detail p + p img { margin-left: -3em; }
 
+@media (--mobile) {
+    .section2 h2 ~ * { display: none; }
 
+    .section2 h2:target ~ * { display: block; }
+}
 
 
 
@@ -462,7 +599,7 @@ strong { font-weight: bold; }
     margin-bottom: 0.40740741em;
 
     font-size: 3.375em;
-    line-height: 0.81481482em;
+    line-height: 1em;
 }
 
 .content h2 {
@@ -495,6 +632,16 @@ strong { font-weight: bold; }
 
     font-size: 1em;
     line-height: 1.375em;
+}
+
+.show-detail__body p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+.show-detail__body p.production {
+    font-size: 1em;
+    line-height: 1.4em;
 }
 
 .content p,
@@ -545,7 +692,20 @@ strong { font-weight: bold; }
 
 .content sub { bottom: -0.25em; }
 
-.content dd { padding-left: 3em; }
+.content dt {
+    position: relative;
+
+    display: inline;
+    float: left;
+
+    margin: 0pt;
+    padding-right: 4pt;
+    padding-left: 0pt;
+
+    font-family: 'Ume double stroke double thin Balsa';
+}
+
+.content dd { padding-left: 2em; }
 
 .content li:before { content: "- "; }
 

@@ -43,13 +43,28 @@
       {% if article.reservation_link %}
         <br><a class="reservation-link" href="{{article.reservation_link}}">Réservation</a>
       {% endif %}
+      {% if article.key_image_detail_body %}
+      <p class="show-detail__image"><img src="/images/{{ article.key_image_detail_body }}" alt="Main image for {{ article.title }}"></p>
+      {% endif %}
     </time>
 
-    {% if article.key_image %}
-    <p class="show-detail__image"><img src="/images/{{ article.key_image }}" alt="Main image for {{ article.title }}"></p>
-    {% endif %}
+
   </header>
 
+  <div class="show-detail__body-images">
+    {% if article.key_image_detail_1 %}
+    <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_1 }}" alt="Main image for {{ article.title }}"></p>
+    {% endif %}
+    {% if article.key_image_detail_2 %}
+    <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_2 }}" alt="Main image for {{ article.title }}"></p>
+    {% endif %}
+    {% if article.key_image_detail_3 %}
+    <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_3 }}" alt="Main image for {{ article.title }}"></p>
+    {% endif %}
+    {% if article.key_image_detail_4 %}
+    <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_4 }}" alt="Main image for {{ article.title }}"></p>
+    {% endif %}
+  </div>
   <div class="show-detail__body">
       {{ article.content }}
   </div>
