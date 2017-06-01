@@ -4,6 +4,7 @@
 from __future__ import unicode_literals
 
 from mdx_figcaption import FigcaptionExtension
+from mdx_outline import OutlineExtension
 
 
 # Default author (usually your name).
@@ -93,11 +94,13 @@ PAGE_SAVE_AS = '{slug}.html'
 
 MARKDOWN = {
     'extensions': [
-        FigcaptionExtension()
+        FigcaptionExtension(),
+        OutlineExtension({"wrapper_tag": "div", "wrapper_cls": 'level%(LEVEL)d'})
     ],
     'extension_configs': {
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {"anchorlink": True}
         #  'markdown.extensions.attr_list': {},
     },
     'output_format': 'html5',
