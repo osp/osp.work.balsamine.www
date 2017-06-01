@@ -11,3 +11,7 @@ git+https://github.com/aleray/markdown-figures.git
 git+https://github.com/aleray/minchin.pelican.plugins.image_process.git@2e5aa07
 
 html5lib
+
+# Python-Markdown extension to wrap the document logical sections (as implied
+# by h1-h6 headings). Makes the collapsed sections easier
+mdx_outline

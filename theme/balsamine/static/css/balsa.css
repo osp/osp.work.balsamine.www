@@ -202,6 +202,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         position: absolute;
         top: 0;
         right: 30px;
+        left: 0;
 
         overflow-y: scroll;
 
@@ -599,7 +600,11 @@ div.schedule__timeline {
 
 .page-detail p + p img { margin-left: -3em; }
 
+@media (--mobile) {
+    .section2 h2 ~ * { display: none; }
 
+    .section2 h2:target ~ * { display: block; }
+}
 
 
 
