@@ -3,16 +3,17 @@ Date: 2017/11/09
 End_date: 2017/11/11
 Time: 20h30
 Subhead: En coproduction avec Ars Musica
-Event_type: Vidéopéra
+Piece_author: Denis Bosse / Pascal Nottet / Thomas Van Haeperen / Frédéric Dussenne
+Event_type: Création Vidéopéra<br/>En coproduction avec Ars Musica
 Key_image: illus-Julie-17-18/6-La-Lettre-Volee/inkwell-hd.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Une enquête palpitante à la recherche d’une lettre perdue. Lyrique et atypique.
 Color: #00da4b
 
 
-**La lettre volée**, opéra librement inspiré de la nouvelle éponyme d'Edgar Poe, convoque à la fois public, chanteurs et musiciens au coeur d’une action dramatique sur un même plateau et dans une vidéo filmée et projetée en direct. Un vidéopéra à la poursuite d’une lettre volée qui rend fous ceux qui la désirent. Pour échapper à la démence annoncée, une seule issue, incertaine, retrouver cette lettre secrète et extraordinaire en raisonnant juste. Mais qu’est-ce que raisonner ? Et comment raisonner juste ? Les mathématiciens raisonnent-ils juste ? Ou bien les poètes ? Ou bien finalement, seraient-ce les fous ?
-
-Six chanteurs, l’ensemble Sturm und Klang dirigé par Thomas van Haeperen et la jeune vidéaste Helga Dejaegher dans une mise en scène de Frédéric Dussenne et une musique de Denis Bosse deviendront à la fois mathématiciens, poètes et fous. Ils entraineront ainsi le public avec eux dans une vertigineuse, dramatique et existentielle mise en abîme.
+Une enquête palpitante à la recherche d'une lettre perdue. Lyrique et atypique.
+**La lettre volée**, opéra librement inspiré de la nouvelle éponyme d’Edgar Poe, convoque à la fois public, chanteurs et musiciens au coeur d’une action dramatique : la poursuite d’une lettre volée qui rend fous ceux qui la désirent.
+Une vertigineuse, dramatique, musicale et existentielle mise en abîme.
 
 Directeur artistique et compositeur
 :    Denis Bosse
@@ -27,16 +28,33 @@ Metteur en scène
 :    Frédéric Dussenne
 
 Chanteurs
-:    Lorenzo Carola, Sarah Defrise, Anne Matic, Shadi Torbey et Thomas Van Caekenberghe
+:    Nicolas Ziélinski (Contre-ténor - Dupin)
+:    Sarah Defrise (Soprano – Le fou)
+:    Lorenzo Carola (Ténor - Le préfet de Police)
+:    Shadi Torbey (Baryton Basse - Ministre)
+:    Anne Matic (Mezzo Soprano - Reine)
+:    Thomas Van Caekenberghe (Baryton – Narrateur)
 
-Musiciens
-:    Loris Douyez, Olivier Douyez, Amaury Geens, Sturm & Klang, Pierre Thomas et Thomas Van Haeperen
+Musiciens : Ensemble Sturm und Klang sous la direction de Thomas Van Haeperen avec la participation d’étudiants et professeur d’ART²
+:    Violon 1 Maxime Stasyk
+:    Violon 2 Loris Douyez
+:    Alto Dominica Eyckmans
+:    Violoncelle Catherine Lebrun
+:    Contrebasse Natacha Save
+:    Clarinette Justine Debeer
+:    Saxphones Amaury Geens
+:    Cor SzeFong Yeong
+:    Percussions Jean-Louis Maton
+:    Accordéon Olivier Douyez
+:    Piano Pierre Thomas
 
-Arts Visuels
-:    Jean-François Octave
+Arts Visuels 
+:    Étudiants d'ARTS²
+:    Jean-François Octave (direction)
 
 Scénographie et vidéo
 :    Helga Dejaegher
+:    2 assistants étudiants ARTS²: Dimitri Baheux et Emmanuel Selva.
 
-Une production Quart de Ton – Janine Al-Asswad en coproduction avec le Théâtre la Balsamine et Ars musica, avec les soutiens de la Fédération Wallonie-Bruxelles  - conseil de la musique contemporaine,de Sturm und Klang, du Forum des compositeurs et du Festival Loop . En collaboration avec ARTS2, Ecole Supérieure des Arts de Mons (Domaine Arts visuels – Musique et Théâtre).
+Une production Quart de Ton – Janine Al-Asswad en coproduction avec le Théâtre la Balsamine et Ars musica, avec les soutiens de la Fédération Wallonie-Bruxelles  - conseil de la musique contemporaine,de Sturm und Klang, du Forum des compositeurs et du Festival Loop . En collaboration avec ARTS², Ecole Supérieure des Arts de Mons (Domaine Arts visuels – Musique et Théâtre).
 {: .production }
