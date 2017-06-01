@@ -10,4 +10,4 @@ Color: #00da4b
 
 Les typographes d’Open Source Publishing et la chorégraphe Adva ZakaÏ reviennent avec un nouvel épisode de leur recherche entre corps et écriture — danse et typographie qui oscille entre des
 moments de type conférence, de prototypage de mouvement, de monstration de processus logiciels et de mouvements de traceurs (plotters).
-(Distri ? + mentions de production)
+*(Distri ? + mentions de production)*
