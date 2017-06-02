@@ -3,15 +3,16 @@ Date: 2017/11/09
 End_date: 2017/11/11
 Time: 20h30
 Subhead: En coproduction avec Ars Musica
-Piece_author: Denis Bosse / Pascal Nottet / Thomas Van Haeperen / Frédéric Dussenne
+Piece_author: Denis Bosse
+              Pascal Nottet
+              Thomas Van Haeperen
+              Frédéric Dussenne
 Event_type: Création Vidéopéra<br/>En coproduction avec Ars Musica
 Key_image: illus-Julie-17-18/6-La-Lettre-Volee/inkwell-hd.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Une enquête palpitante à la recherche d’une lettre perdue. Lyrique et atypique.
 Color: #00da4b
 
-
-Une enquête palpitante à la recherche d'une lettre perdue. Lyrique et atypique.
 **La lettre volée**, opéra librement inspiré de la nouvelle éponyme d’Edgar Poe, convoque à la fois public, chanteurs et musiciens au coeur d’une action dramatique : la poursuite d’une lettre volée qui rend fous ceux qui la désirent.
 Une vertigineuse, dramatique, musicale et existentielle mise en abîme.
 
