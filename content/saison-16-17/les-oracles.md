@@ -2,8 +2,9 @@ Title: Les oracles
 Date: 2017/09/28
 End_date: 2017/09/30
 Time: 20h30
-Piece_author: Albert Dupont
-Event_type: Création transversale danse / vidéo / musique / texte<br/>En partenariat avec Rhizome et Transcultures
+Piece_author:
+Event_type: Création transversale danse / vidéo / musique / texte
+Subhead: En partenariat avec Rhizome et Transcultures
 Key_image: illus-Julie-17-18/12-Les-Oracles/les-oracles-compo.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Color: #ffaa4d
