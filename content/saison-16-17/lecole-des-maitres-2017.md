@@ -1,8 +1,8 @@
 Title: L’École des Maîtres 2017
 Date: 2017/09/11
 End_date: 2017/09/12
-Time: 20h00 Entrée libre mais réservation conseillée !
-Piece_author: XXVI^e édition Transquinquennal
+Time: 20h00 Entrée libre mais réservation conseillée&nbsp;!
+Piece_author: XXVI^e^ édition Transquinquennal
 Event_type: Théâtre
 Key_image: illus-Julie-17-18/10-Ecole-des-Maitres/billet.png
 Key_image_detail_1: illus-Julie-17-18/10-Ecole-des-Maitres/alambic-3.png
@@ -11,7 +11,7 @@ Key_image_detail_3: illus-Julie-17-18/10-Ecole-des-Maitres/banknote-bake-tex.png
 Key_image_detail_body: illus-Julie-17-18/10-Ecole-des-Maitres/alambic-bake-2-contrasted.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Subhead: Une organisation du CREPA avec le soutien du Théâtre de Liège, du Centre des Arts Scéniques et de la Fédération Wallonie Bruxelles
-Intro: On retourne à l’école avec Transquin, maître quinquin !
+Intro: On retourne à l’école avec Transquin, maître quinquin&nbsp;!
 <!-- Color: #00da4b -->
 
 **L'École des Maîtres** est une académie théâtrale européenne itinérante, regroupant des comédiens venus de Belgique, d'Italie, de France et du Portugal. Quinze d’entre eux se retrouveront sous le regard du collectif Transquinquennal passé maître dans l’art de questionner nos identités.
