@@ -4,7 +4,7 @@ End_date: 2018/05/05
 Time: xxhxx
 Piece_author: Théâtre de Galafronie
 Event_type: Théâtre pour tous à partir de 6 ans
-Key_image: illus-Julie-17-18/8-On-pense-a-vous/grosses-carpettes-mongoles-corrected-gamma.png
+Key_image: shows/8-On-pense-a-vous/grosses-carpettes-mongoles-corrected-gamma.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: La dame de la Yourte est de retour, une dernière fois !
 Color: #00da4b

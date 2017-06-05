@@ -4,11 +4,11 @@ End_date: 2017/09/12
 Time: 20h00 Entrée libre mais réservation conseillée !
 Piece_author: Albert Dupont
 Event_type: Théâtre
-Key_image: illus-Julie-17-18/10-Ecole-des-Maitres/billet.png
-Key_image_detail_1: illus-Julie-17-18/10-Ecole-des-Maitres/alambic-3.png
-Key_image_detail_2: illus-Julie-17-18/10-Ecole-des-Maitres/calculette.png
-Key_image_detail_3: illus-Julie-17-18/10-Ecole-des-Maitres/banknote-bake-tex.png
-Key_image_detail_body: illus-Julie-17-18/10-Ecole-des-Maitres/alambic-bake-2-contrasted.png
+Key_image: shows/10-Ecole-des-Maitres/billet.png
+Key_image_detail_1: shows/10-Ecole-des-Maitres/alambic-3.png
+Key_image_detail_2: shows/10-Ecole-des-Maitres/calculette.png
+Key_image_detail_3: shows/10-Ecole-des-Maitres/banknote-bake-tex.png
+Key_image_detail_body: shows/10-Ecole-des-Maitres/alambic-bake-2-contrasted.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Subhead: Transquinquennal
 Intro: On retourne à l’école avec Transquin, maître quinquin !

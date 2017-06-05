@@ -4,7 +4,7 @@ End_date: 2018/04/27
 Time: 20h30
 Piece_author: Théâtre de Galafronie
 Event_type: Création théâtre
-Key_image: illus-Julie-17-18/3-Trilogie-de-Rome/renders-hd/lupa-capitolina-back.png
+Key_image: shows/3-Trilogie-de-Rome/renders-hd/lupa-capitolina-back.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Qu’est devenue l’antiquité sinon une surface de projection ? L’histoire d’un crime qui s’est trouvé une scène.
 Color: #00da4b

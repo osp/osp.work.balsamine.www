@@ -4,7 +4,7 @@ End_date: 2017/09/30
 Time: 20h30
 Piece_author: Albert Dupont
 Event_type: Création transversale danse / vidéo / musique / texte
-Key_image: illus-Julie-17-18/12-Les-Oracles/les-oracles-compo.png
+Key_image: shows/12-Les-Oracles/les-oracles-compo.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Color: #ffaa4d
 
