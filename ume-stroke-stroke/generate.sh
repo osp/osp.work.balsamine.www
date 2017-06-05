@@ -1,20 +1,21 @@
 #!/usr/bin/env bash
 
 
-for gly in svg/fat/*.svg;
+for gly in SVG-GENERATED/rotate/*.svg;
 do
 
   file=`basename $gly .svg`
-  cp $gly svg/fat/clean/
+  cp $gly FINAL/
   inkscape \
+    --file $gly \
     --verb EditSelectAllInAllLayers \
     --verb SelectionUnGroup \
     --verb StrokeToPath \
     --verb SelectionUnion \
-    --verb FileSave \
+    --export-plain-svg FINAL/$file.svg
     --verb FileClose \
     --verb FileQuit \
-  svg/fat/$file.svg
+
 
   # echo $file
   # inkscape $gly --export-ps="simple/$file.ps"

@@ -20,7 +20,10 @@ Texte et mise en scène
 :   Ludovic Drouet
 
 Avec
-:   Didier De Neck, Lucas Meister, Nicolas Patouraux et François Prodhomme
+:   Didier De Neck
+:   Lucas Meister
+:   Nicolas Patouraux
+:   François Prodhomme
 
 Son
 :   Noam Rzewski
