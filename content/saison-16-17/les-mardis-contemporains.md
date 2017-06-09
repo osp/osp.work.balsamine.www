@@ -6,7 +6,7 @@ Subhead: En partenariat avec Ars musica
 Event_type: Musique
 Key_image: shows/1-Helpers/helper-wind-grid.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
-Color: #00da4b
+Color: #46cea0
 
 Les Mardis Contemporains proposent aux oreilles curieuses de découvrir des facettes de la musique d’aujourd’hui, dans un programme pluriel qui dialogue avec l’histoire, la philosophie, la sociologie, mais aussi le cirque, le cinéma, la science ou l’architecture…
 Le temps de 3 concerts-rencontres, Les Mardis Contemporains prennent leurs quartiers à la Balsamine.
@@ -38,7 +38,7 @@ Invités
 
 Œuvres
 :    Tetras de Iannis Xenakis (1983)
-:    Quatuor à cordes n°2 de Luis Naon extrait du cycle Urbana (1999-2001) 
+:    Quatuor à cordes n°2 de Luis Naon extrait du cycle Urbana (1999-2001)
 :    City Life de Steve Reich (1995)
 :    Création de Stéphane Orlando (commande Ars Musica 2017)
 

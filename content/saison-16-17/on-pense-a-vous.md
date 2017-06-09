@@ -7,7 +7,7 @@ Event_type: Théâtre pour tous à partir de 6 ans
 Key_image: shows/8-On-pense-a-vous/grosses-carpettes-mongoles-corrected-gamma.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: La dame de la Yourte est de retour, une dernière fois !
-Color: #00da4b
+Color: #799591
 
 En 2018, le Théâtre de Galafronie aura 40 ans et tire sa révérence. On saisit cette dernière chance d’accueillir On pense à vous pour vous permettre de voir ou revoir ce très beau spectacle qui tourne depuis dix ans. Ne ratez pas la Dame de la Yourte, elle est de retour, une dernière fois !
 

@@ -7,7 +7,7 @@ Event_type: Création transversale danse / vidéo / musique / texte
 Subhead: En partenariat avec Rhizome et Transcultures
 Key_image: shows/12-Les-Oracles/les-oracles-compo.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
-Color: #ffaa4d
+Color: #d2d373
 
 
 **Les oracles** allient danse, poésie, création sonore et vidéo autour de thématiques à la fois féministes et intemporelles, traversées par les textes et la présence des écrivaines Catrine Godin et Martine

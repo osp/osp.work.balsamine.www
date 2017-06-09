@@ -7,7 +7,7 @@ Subhead: Dans le cadre de Brussels, dance ! Focus on contemporary dance.
 Event_type: Création danse
 Key_image: shows/9-Etna/thermos.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
-Color: #00da4b
+Color: #ff546d
 Intro: Une femme errante et solitaire, tel un spectre hanté par ses débris de vie.
 
 

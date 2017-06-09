@@ -7,7 +7,7 @@ Piece_author: Martine Wijckaert
 Event_type: Création théâtre
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Un aller simple pour le trou du cul du monde. Bienvenue dans l’anus planétaire.
-Color: #00da4b
+Color: #ecb9b3
 
 
 **Les fortunes de la viande** narrent les tribulations existentielles d’un boucher-charcutier, de sa femme et du confesseur de celle-ci, que rejoint à l’impromptu Diane Chasseresse, déboulée pour ainsi dire dans ce marasme métaphysico-trivial. Au fil de ce texte épique, où s’interpénètrent épisodes quotidiens des plus triviaux et mouvements de l’âme parfaitement irrationnels, c’est la métaphysique obscure du quotidien qui est en action. Car les personnages aspirent invariablement au chaos, mus par une volonté d’incorrection absolue visant à briser tous les canons sociétaux.

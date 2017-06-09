@@ -11,7 +11,7 @@ Event_type: Création Vidéopéra<br/>En coproduction avec Ars Musica
 Key_image: shows/6-La-Lettre-Volee/inkwell-hd.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Une enquête palpitante à la recherche d’une lettre perdue. Lyrique et atypique.
-Color: #00da4b
+Color: #aa928c
 
 **La lettre volée**, opéra librement inspiré de la nouvelle éponyme d’Edgar Poe, convoque à la fois public, chanteurs et musiciens au coeur d’une action dramatique : la poursuite d’une lettre volée qui rend fous ceux qui la désirent.
 Une vertigineuse, dramatique, musicale et existentielle mise en abîme.
@@ -49,7 +49,7 @@ Musiciens : Ensemble Sturm und Klang sous la direction de Thomas Van Haeperen av
 :    Accordéon Olivier Douyez
 :    Piano Pierre Thomas
 
-Arts Visuels 
+Arts Visuels
 :    Étudiants d'ARTS²
 :    Jean-François Octave (direction)
 

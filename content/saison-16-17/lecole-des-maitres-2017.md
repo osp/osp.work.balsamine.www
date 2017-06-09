@@ -12,7 +12,7 @@ Key_image_detail_body: shows/10-Ecole-des-Maitres/alambic-bake-2-contrasted.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Subhead: Une organisation du CREPA avec le soutien du Théâtre de Liège, du Centre des Arts Scéniques et de la Fédération Wallonie Bruxelles
 Intro: On retourne à l’école avec Transquin, maître quinquin&nbsp;!
-<!-- Color: #00da4b -->
+Color: #bd7c7d
 
 **L'École des Maîtres** est une académie théâtrale européenne itinérante, regroupant des comédiens venus de Belgique, d'Italie, de France et du Portugal. Quinze d’entre eux se retrouveront sous le regard du collectif Transquinquennal passé maître dans l’art de questionner nos identités.
 Ensemble, ils se pencheront sur la marchandisation de nos vies et de notre quotidien. La leçon promet d’être passionnante.
@@ -24,7 +24,7 @@ Partenaires du projet et direction artistique
 :   La Comédie de Reims - Centre Dramatique National
 :   La Comédie de Caen - Centre Dramatique National (France)
 
-Avec le soutien de 
+Avec le soutien de
 :   MIBACT - Direzione Generale Spettacolo dal vivo (Italie)
 
 Avec la participation de
