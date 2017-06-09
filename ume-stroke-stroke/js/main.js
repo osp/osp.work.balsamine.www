@@ -159,6 +159,7 @@ range('ext', 1000, 3000, 'stroke-width', 'css');
 
 $('.discount_credits').on('change mousemove', function() {
   extractRange(this);
+  // $('path.int').remove();
 });
 
 localHash();

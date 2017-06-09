@@ -122,5 +122,55 @@
 <script type="text/javascript" src="js/table.js" ></script>
 <script type="text/javascript" src="js/tableSet.js" ></script>
 <script type="text/javascript" src="js/main.js" ></script>
+    <script type="text/javascript" charset="utf-8">
+    $(window).ready(function() {
+        // $('path').hide();
+      var cadra = $('.cadra');
+      var strokeAll = $('path');
+      var strokeInt = $('path.int');
+      var wstrok = 40;
+      var rot = 0;
+      var margR = -160;
+        $('path').css('stroke-width', 60);
+        // $('path.int').css('stroke', $(');
+        $('path').css('stroke', $('h2').css('color'));
+        // $('path.int').css('stroke', 'pink');
+        // $('path').css('stroke-linecap', 'round');
+        // $('path').css('stroke-linejoin', 'round');
+
+      cadra.each(function(){
+        // $(this).css('stroke-width', wstrok);
+        $(this).css('transform', 'rotate('+rot+'deg)');
+        $(this).css('margin-top', margR+'px');
+        $(this).css('margin-bottom', '-'+margR+'px');
+        $(this).css('transform-origin', rot+'% '+rot+'%');
+        // $(this).css('height', wstrok);
+        rot = rot + 0;
+        margR = margR + 0;
+      });
+      strokeAll.each(function(){
+        $(this).css('stroke-width', wstrok);
+        $(this).css('transform', 'rotate('+rot+'deg)');
+        // $(this).css('margin-top', margR+'px');
+        // $(this).css('transform-origin', rot+'% '+rot+'%');
+        // $(this).css('height', wstrok);
+        wstrok = wstrok + 1;
+        rot = rot + .0;
+      });
+      // strokeInt.each(function(){
+      //   // alert('d');
+      //   var stStroke = $(this).attr('d');
+      //   var stStroke = stStroke.replace('c', 'l')
+      //   $(this).attr('d', stStroke);
+      //   $(this).css('stroke-width', 10);
+      // })
+        var stStroke = $('#o_4 .int').attr('d');
+        var stStroke = stStroke.replace('c', 'm')
+        $('#e_7 .int').attr('d', stStroke);
+        $('#e_7 .int').css('stroke', '#fe766a');
+
+
+
+        var mStroke = $('#c_16 .int');
 
 </html>

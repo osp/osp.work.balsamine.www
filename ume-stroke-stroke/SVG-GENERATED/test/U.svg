@@ -15,8 +15,8 @@
   </sodipodi:namedview>
   <g inkscape:groupmode="layer" id="layer3" inkscape:label="trace">
     <g id="g12" transform="matrix(1,0,0,0.79342105,-0.1,358.84449)" style="stroke-width:1.12265968">
-      <path class="ext" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 17.6; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1098.9546,210 V 1215.7832 C 1098.9546,1669.2589 830.07845,1730 658.8725,1730 487.66657,1730 218.79042,1664.1709 218.79042,1215.7832 V 210" id="path5829-3-3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"></path>
-      <path class="int" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 14.7; stroke-linecap: butt; stroke-linejoin: round; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1062.7889,210 V 1221.4705 C 1062.7889,1583.1379 857.80412,1685 658.8725,1685 459.9409,1685 254.95612,1580.9279 254.95612,1221.4705 V 210" id="path5829-8-6-1" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"></path>
+      <path class="ext" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1098.9546,210 V 1215.7832 C 1098.9546,1669.2589 830.07845,1730 658.8725,1730 487.66657,1730 218.79042,1664.1709 218.79042,1215.7832 V 210" id="path5829-3-3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"></path>
+      <path class="int" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: butt; stroke-linejoin: round; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1062.7889,210 V 1221.4705 C 1062.7889,1583.1379 857.80412,1685 658.8725,1685 459.9409,1685 254.95612,1580.9279 254.95612,1221.4705 V 210" id="path5829-8-6-1" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"></path>
     </g>
   </g>
 </svg>

@@ -16,8 +16,8 @@
   </sodipodi:namedview>
   <g inkscape:groupmode="layer" id="layer3" inkscape:label="trace">
     <g id="g13" transform="matrix(1,0,0,0.79333333,0,363.73334)" style="stroke-width:1.12272179">
-      <path class="ext" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 17.6; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1276.6333,1760 V 260 H 1147.4979 L 767.81206,1262.492 722.31665,1262.503 341.13539,260 H 212 v 1500" id="path5236-7-72-2-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccc"></path>
-      <path class="int" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 14.7; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1236.5111,1760 V 310 h -68.9913 L 772.30532,1262.1682 H 716.32798 L 321.11353,310 h -68.99129 v 1450" id="path5236-72-2-6" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccc"></path>
+      <path class="ext" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1276.6333,1760 V 260 H 1147.4979 L 767.81206,1262.492 722.31665,1262.503 341.13539,260 H 212 v 1500" id="path5236-7-72-2-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccc"></path>
+      <path class="int" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1236.5111,1760 V 310 h -68.9913 L 772.30532,1262.1682 H 716.32798 L 321.11353,310 h -68.99129 v 1450" id="path5236-72-2-6" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccc"></path>
     </g>
   </g>
 </svg>
