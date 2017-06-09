@@ -3,14 +3,14 @@ Date: 2017/04
 
 ## Tarifs
 
-Tarif mécène
+Tarif mécène[^1]
 :  20 euros
 
 Tarif plein
 :  15 €
 :  prévente 12 €
 
-Tarif réduit[^1]
+Tarif réduit[^2]
 :  10 €
 :  prévente 7€
 
@@ -27,7 +27,12 @@ Tarif Mardis contemporains
 Art. 27 et Arsène 50
 :  ???
 
-[^1]: Étudiants, + de 60 ans, demandeurs d’emploi, professionnels du spectacle, schaerbeekois
+[^1]:Etre mécène, c’est participer à la pérennité des fondamentaux de la Balsamine que sont l’échange et le dialogue, la création et l’enjeu artistique et expérimental.
+C’est nous aider à soutenir la création artistique. C’est reconnaître et accompagner une politique qui soutient les jeunes artistes.
+C’est vous associer au pari de la jeunesse et de la rencontre des savoirs issus de différentes disciplines.
+C’est une opportunité singulière de nous permettre de poursuivre une politique tarifaire accessible à tous.
+
+[^2]:Étudiants, + de 60 ans, demandeurs d’emploi, professionnels du spectacle, schaerbeekois
 
 ### Tarifs de groupe (à partir de 10 personnes) :
 
@@ -41,11 +46,11 @@ Le paiement des réservations de groupe doit s’effectuer 10 jours avant la dat
 
 ## United Stages
 
-Au sein du Label United Stages*, la Balsamine réalise une grande collecte de fonds. Le premier bénéficiaire est : REFUGEES WELCOME, plateforme citoyenne de soutien aux réfugiés. (mettre le lien vers leur site : http://www.bxlrefugees.be)
+Au sein du Label United Stages[^3], la Balsamine réalise une grande collecte de fonds. Le premier bénéficiaire est : REFUGEES WELCOME, plateforme citoyenne de soutien aux réfugiés. (mettre le lien vers leur site : http://www.bxlrefugees.be)
 
 Vous pouvez être solidaire de cette initiative à tout moment de la saison. Il vous suffit d’ajouter le montant que vous souhaitez verser à celui des places achetées. La récolte de fonds sera intégralement reversée.
 
-*UNITED STAGES, charte éthique réunissant de nombreux partenaires du secteur culturel belge, désireux de ressembler et d’utiliser les forces vives des arts vivants et du monde associatif ainsi que la proximité qu’ils entretiennent avec leurs publics pour initier des actions concrètes porteuses d’un changement positif pour leurs bénéficiaires. Une initiative de Action Sud CCR, Beursschouwburg, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le Boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140…
+[^3]:UNITED STAGES, charte éthique réunissant de nombreux partenaires du secteur culturel belge, désireux de ressembler et d’utiliser les forces vives des arts vivants et du monde associatif ainsi que la proximité qu’ils entretiennent avec leurs publics pour initier des actions concrètes porteuses d’un changement positif pour leurs bénéficiaires. Une initiative de Action Sud CCR, Beursschouwburg, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le Boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140…
 
 ## Le Pass
 

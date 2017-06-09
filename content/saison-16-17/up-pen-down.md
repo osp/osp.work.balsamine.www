@@ -3,10 +3,13 @@ Date: 2017/10/14
 End_date: 2017/10/14
 Time: 20h30
 Piece_author: OSP
-Event_type: Création transversale danse / vidéo / musique / texte
-Key_image: illus-Julie-17-18/helper-uppendown.jpg
+              Adva Zakaï
+Event_type: Danse codée et commentée
+Subhead: Dans le cadre de la Saison des arts numériques
+Key_image: shows/helper-uppendown.jpg
 Reservation_link: http://balsamine.billetterie.it/index.php?...
-Color: #00da4b
+Color: #fac533
 
-
-(à développer)
+Les typographes d’Open Source Publishing et la chorégraphe Adva ZakaÏ reviennent avec un nouvel épisode de leur recherche entre corps et écriture — danse et typographie qui oscille entre des
+moments de type conférence, de prototypage de mouvement, de monstration de processus logiciels et de mouvements de traceurs (plotters).
+*(Distri ? + mentions de production)*

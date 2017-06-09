@@ -1,27 +1,46 @@
 Title: Les mardis contemporains
-Date: 2017/11/14
+Date: 2017/10/03
 End_date: 2017/11/21
 Time: 20h30
 Subhead: En partenariat avec Ars musica
 Event_type: Musique
-Key_image: illus-Julie-17-18/1-Helpers/helper-wind-grid.png
+Key_image: shows/1-Helpers/helper-wind-grid.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
-Color: #00da4b
+Color: #46cea0
 
+Les Mardis Contemporains proposent aux oreilles curieuses de découvrir des facettes de la musique d’aujourd’hui, dans un programme pluriel qui dialogue avec l’histoire, la philosophie, la sociologie, mais aussi le cirque, le cinéma, la science ou l’architecture…
+Le temps de 3 concerts-rencontres, Les Mardis Contemporains prennent leurs quartiers à la Balsamine.
 
-Les langages musicaux se métamorphosent et s’anamorphosent depuis 50 ans. Les compositeurs ont esquissé mille chemins en quête d’un langage au service de leur expression. **Les Mardis contemporains** proposent aux oreilles curieuses de découvrir ces facettes de la musique d’aujourd’hui, dans un programme pluriel qui dialogue avec l’histoire, la philosophie, la sociologie, mais aussi le cirque, le cinéma, la science ou l’architecture… Car loin d’être passive, la création musicale sait s’immiscer dans le débat en proposant une approche parfois décalée, parfois questionnante.
+## Octobre rouge
 
-Pour deux concerts-rencontres, **Les mardis contemporains** prennent leurs quartiers à la Balsamine pour deux rendez-vous autour du cirque et l’architecture.
+### Le 3 octobre à 20h30
+
+Invité
+:    Jean-Jacques Marie (historien, auteur de Lénine, la révolution permanente, Ed. Payot)
+
+Œuvres
+:    Deux pièces pour quatuor à cordes / Elégie – Polka de Dmitri Chostakovitch (1974)
+:    Quatuor à cordes n°1 de Dmitri Kabalevski – extrait (1928)
+:    Quatuor n°3 d’Arthur Lourié – extrait (1926)
+:    Quatuor n°3 de Nikolai Roslavets (1920)
+:    Trio à cordes d’Edison Denisov (1969)
+:    Création de Alice Hebborn pour quatuor à cordes (commande Ars Musica 2017)
+
+Interpretation
+:    Quatuor Amôn
 
 ## Architecture
 
-??? Date2: Le 14 novembre à 20h30
+### Le 14 novembre à 20h30
 
 Invités
-:    Francis Metzger (sous réserves) et François Schuiten
+:    Francis Metzger et François Schuiten
 
-Œuvres interprétées
-:    Tetras de Iannis Xenakis, Quatuor à cordes n°2 de Luis Naon extrait du cycle Urbana, City Life de Steve Reich, une création inédite de Stéphane Orlando
+Œuvres
+:    Tetras de Iannis Xenakis (1983)
+:    Quatuor à cordes n°2 de Luis Naon extrait du cycle Urbana (1999-2001)
+:    City Life de Steve Reich (1995)
+:    Création de Stéphane Orlando (commande Ars Musica 2017)
 
 Direction
 :    Thomas Van Haeperen
@@ -31,16 +50,18 @@ Interpretation
 
 ## Cirque
 
-??? Date2:  Le 21 novembre à 20h30
+### Le 21 novembre à 20h30
 
 Invités
-:    Pascal Jacob, auteur de « Une histoire du cirque » aux éditions du Seuil.
+:     Julien Rosemberg, Directeur Général adjoint - Pôle National Cirque et Arts de la rue
 
-Œuvres interprétées
-:    Sonate n°2 pour violoncelle de Gyorgy Ligeti, Circus Polka d’Igor Stravinsky, March for Piano: The Circus Band de Charles Ives et une création inédite de Stefan Hejdrowski
+Œuvres
+:    Sonate n°2 pour violoncelle de Gyorgy Ligeti (1953)
+:    Circus Polka d’Igor Stravinsky (1942)
+:    March for Piano: The Circus Band de Charles Ives (1898-1899)
+:    Création de Stefan Hejdrowski (commande Ars Musica 2017)
 
-Violoncelle
-:    Guy Danel
-
-Piano
-:    Gabi Sultana
+Interpretation
+:    Guy Danel, violoncelle
+:    Gabi Sultana, piano
+:    Elsa Bouchez et Philippe Droz , artistes de cirque

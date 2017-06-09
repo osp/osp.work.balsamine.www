@@ -218,7 +218,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         position: absolute;
         top: 0;
         left: 0;
-
+        background-color: white;
         overflow-y: scroll;
 
         box-sizing: border-box;
@@ -267,9 +267,9 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     line-height: 1.3;
 }
 
-.schedule__item:nth-of-type(odd) { background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important; }
+/*.schedule__item:nth-of-type(odd) { background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important; }
 
-.schedule__item:nth-of-type(even) { background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important; }
+.schedule__item:nth-of-type(even) { background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important; }*/
 
 .schedule__item + .schedule__item { border-top: 2px solid blue; }
 
@@ -492,11 +492,11 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
     float: left;
 
-    max-width: 150px;
+    max-width: 110px;
 }
 
 .show-detail__image img {
-    max-width: 75%;
+    max-width: 100%;
 
     text-align: center;
 }
