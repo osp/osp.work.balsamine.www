@@ -1,0 +1,18 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" viewBox="0 -288 624 2048" id="svg6" sodipodi:docname="parenleft.svg" width="624" height="2048" inkscape:version="0.92.0 r">
+  <metadata id="metadata12">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs10"></defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1364" inkscape:window-height="730" id="namedview8" showgrid="false" inkscape:measure-start="131.618,739.855" inkscape:measure-end="285.173,739.855" inkscape:zoom="0.38574252" inkscape:cx="-137.93215" inkscape:cy="836.70671" inkscape:window-x="0" inkscape:window-y="18" inkscape:window-maximized="0" inkscape:current-layer="svg6"></sodipodi:namedview>
+  <g inkscape:groupmode="layer" id="layer1" inkscape:label="trace">
+    <path style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 469.34296,1990.5257 C 439.05941,1956.9573 150.79342,1590.2798 150.79342,1001.8987 155.9588,482.69112 419.56811,127.32702 467.36239,59.724386" id="path155" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" class="ext"></path>
+    <path style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 471.7215,1988.991 C 441.43795,1955.4226 193.02164,1592.7335 193.02164,1004.3524 198.18702,485.14491 421.94665,125.79237 469.74093,58.18973" id="path155-3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccc" class="int"></path>
+  </g>
+</svg>

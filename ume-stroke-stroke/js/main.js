@@ -1,6 +1,34 @@
 var masterVersion = ['expanded', 'condensed'];
 var viewSet = false;
 
+
+function surMesure(){
+
+  $(window).ready(function(){
+    $('path').css('stroke-linecap', 'round');
+    var strokeInt = $('.ext');
+    $('path').css('stroke-linejoin', 'round');
+    // $('path.int').css('transform', 'scale(1.1, 1)');
+    // $('path.ect').css('transform', 'scale(2, 1 )');
+    // $('path.int').css('transform-origin', 'center');
+    strokeInt.each(function(){
+        // alert('d');
+        var stStroke = $(this).attr('d');
+        // var stStroke = stStroke.replace('v', 'z');
+        // var stStroke = stStroke.replace('L', 'l');
+        // var stStroke = $(this).attr('d');
+        // var stStroke = stStroke.replace('1', '9');
+        // var stStroke = stStroke.replace('0', '666');
+        $(this).attr('d', stStroke);
+        $(this).css('stroke', 'pink');
+      })
+  })
+
+}
+
+
+
+
 function range(idStroke, valStart, valMax, propri, attri){
   var rangeHtml = '<li>'+idStroke+' | '+propri+'<br><input data-attri="'+attri+'" data-propri="'+propri+'" type="range"  min="0" max="'+valMax+'" value="'+valStart+'" name="discount_credits" class="discount_credits" id="'+idStroke+'" /><span>'+valStart+'</span></li>';
   $("footer").append(rangeHtml);
@@ -123,6 +151,8 @@ function reLoad(){
   }
   location.hash = masterVersion[newVersion];
   onInput(masterVersion[newVersion], setChar);
+
+  surMesure();
 }
 
 $('#chaine').keyup(function(){
@@ -138,15 +168,17 @@ function localHash(){
   }else{
     onInput(hashLocal.substring(1), 'input');
   }
+  surMesure();
 }
 
 function setAll(){
   var hashLocal = location.hash.substring(1);
   onInput(hashLocal, 'all');
+
+  surMesure();
   // $(window).ready(function(){
   //   $('svg:g').attr('transform', 'matrix(1,0,0,0.41723018,0,1025.6749)');
   // })
-
 }
 
 range('cadra', 3000, 10000, 'height', 'css');
@@ -163,9 +195,4 @@ $('.discount_credits').on('change mousemove', function() {
 });
 
 localHash();
-
-
-// $(window).ready(function(){
-//     $('svg:g').attr('transform', 'matrix(1,0,0,0.41723018,0,1025.6749)');
-// })
 
