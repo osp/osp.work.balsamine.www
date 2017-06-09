@@ -9,6 +9,10 @@ Piece_author: Denis Bosse
               Frédéric Dussenne
 Event_type: Création Vidéopéra<br/>En coproduction avec Ars Musica
 Key_image: shows/6-La-Lettre-Volee/inkwell-hd.png
+Key_image_detail_1: shows/6-La-Lettre-Volee/regency-desk-2-transparent.png
+Key_image_detail_2: shows/6-La-Lettre-Volee/pen-hd.png
+Key_image_detail_3: shows/6-La-Lettre-Volee/letter.png
+Key_image_detail_body: shows/6-La-Lettre-Volee/tiroir.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Une enquête palpitante à la recherche d’une lettre perdue. Lyrique et atypique.
 Color: #aa928c
