@@ -9,6 +9,7 @@ Key_image_detail_1: shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.
 Key_image_detail_2: shows/7-should-i-stay-or-should-i-stay/chat-3-queues.png
 Key_image_detail_3: shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-1.png
 Key_image_detail_body: shows/7-should-i-stay-or-should-i-stay/chat-3-queues-transparent.png
+Key_image_detail_body: shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Les quatre fantastiques reviennent et reprennent leur rengaine : Should I…
 Color: #3b4086
@@ -19,7 +20,7 @@ Color: #3b4086
 
 Ils sont quatre, ils sont enfermés dans une pièce dont les portes ne sont pas verrouillées et pourtant ils ne peuvent pas sortir. Un casse-tête bien surréaliste et qui nous pose des questions très existentialistes.
 
-Qui sont-ils, d’abord ? Comment les appelle-t-on ? Gabor ? Paola ? Héraclès ? Falbala ? Téflon ? Gargan ? Lazlo ? Axel ? Cyrus ? Mia ? Edmée ? Augustine ?
+Qui sont-ils, d’abord ? Comment les appelle-t-on ? Gabor ? Paola ? Héraclès ? Falbala ? Téflon ? Gargan ? Lazlo&nbsp;? Axel ? Cyrus ? Mia ? Edmée ? Augustine ?
 
 Où sont-ils coincés ? Près d’un lac ? Dans une fissure du temps ? Sur une scène ? Dans une autre dimension ?
 
