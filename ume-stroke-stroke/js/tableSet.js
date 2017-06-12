@@ -75,20 +75,21 @@ tableSet[70] = "bracketleft";
 tableSet[71] = "bracketright";
 tableSet[72] = "quotesingle"; 
 //
-// tableSet[73] = "agrave";
-// tableSet[74] = "acircumflex";
-// tableSet[75] = "aacute";
-//
-// tableSet[76] = "egrave";
-// tableSet[77] = "ecircumflex";
-// tableSet[78] = "eacute";
-//
-// tableSet[79] = "ugrave";
-// tableSet[80] = "ucircumflex";
-// tableSet[81] = "uacute";
-//
-// tableSet[82] = "ograve";
-// tableSet[83] = "ocircumflex";
-// tableSet[84] = "oacute";
-//
-// tableSet[85] = "ccedilla";
+tableSet[73] = "agrave";
+tableSet[74] = "acircumflex";
+tableSet[75] = "aacute";
+
+tableSet[76] = "egrave";
+tableSet[77] = "ecircumflex";
+tableSet[78] = "eacute";
+
+tableSet[79] = "ugrave";
+tableSet[80] = "ucircumflex";
+tableSet[81] = "uacute";
+
+tableSet[82] = "ograve";
+tableSet[83] = "ocircumflex";
+tableSet[84] = "oacute";
+
+tableSet[85] = "ccedilla";
+tableSet[86] = "space";
