@@ -5,6 +5,9 @@ Time: 20h00 et 18h00
 Piece_author: Théâtre de Galafronie
 Event_type: Théâtre pour tous à partir de 6 ans
 Key_image: shows/8-On-pense-a-vous/grosses-carpettes-mongoles-corrected-gamma.png
+Key_image_detail_1: shows/8-On-pense-a-vous/enamel-teapot-corrected-gamma.png
+Key_image_detail_2: shows/8-On-pense-a-vous/carpette-mongole-tex-1.png
+Key_image_detail_body: shows/8-On-pense-a-vous/Enamel-teapot-tex-corrected-gamma.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: La dame de la Yourte est de retour, une dernière fois !
 Color: #799591
