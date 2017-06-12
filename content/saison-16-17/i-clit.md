@@ -5,7 +5,6 @@ Time: 20h30
 Key_image: shows/5-i-clit/shoes.png
 Key_image_detail_1: shows/5-i-clit/shoes-pillows-hd.png
 Key_image_detail_2: shows/5-i-clit/i-clit-composition-gamma-ok.png
-Key_image_detail_3: shows/5-i-clit/banknote-bake-tex.png
 Key_image_detail_body: shows/5-i-clit/scene-setup.png
 Piece_author: Mercedes Dassy
 Event_type: Création danse
