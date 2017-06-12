@@ -17,7 +17,7 @@
 </article>
 #}
 
-<article class="schedule__item" style="background: linear-gradient(to left, {{ article.color }} 0%, {{ article.color }} 5%, transparent 20%);">
+<article id="{{ article.slug }}" class="schedule__item" style="background: linear-gradient(to left, {{ article.color }} 0%, {{ article.color }} 5%, transparent 70%);" data-color="{{ article.color }}">
     <header class="schedule__header">
       <h1 class="schedule__title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
       <p class="schedule__authors">{{ article.piece_author }}</p>
@@ -27,9 +27,9 @@
 
 
         {% if article.date %}
-            <p class="schedule__dates"><time datetime="{{ article.date }}">{{ article.date|strftime('%d.%m') }}</time>
+            <p class="schedule__dates"><time class="start-date" datetime="{{ article.date }}">{{ article.date|strftime('%d.%m') }}</time>
             {% if article.end_date %}
-                &rarr; <time datetime="{{ article.end_date }}">{{ article.end_date|strftime('%d.%m') }}</time>
+                &rarr; <time class="end-date" datetime="{{ article.end_date }}">{{ article.end_date|strftime('%d.%m') }}</time>
             {% endif %}
             </p>
         {% endif %}

@@ -19,7 +19,7 @@ Color: #3b4086
 
 Ils sont quatre, ils sont enfermés dans une pièce dont les portes ne sont pas verrouillées et pourtant ils ne peuvent pas sortir. Un casse-tête bien surréaliste et qui nous pose des questions très existentialistes.
 
-Qui sont-ils, d’abord ? Comment les appelle-t-on ? Gabor ? Paola ? Héraclès ? Falbala ? Téflon ? Gargan ? Lazlo ? Axel ? Cyrus ? Mia ? Edmée ? Augustine ?
+Qui sont-ils, d’abord ? Comment les appelle-t-on ? Gabor ? Paola ? Héraclès ? Falbala ? Téflon ? Gargan ? Lazlo&nbsp;? Axel ? Cyrus ? Mia ? Edmée ? Augustine ?
 
 Où sont-ils coincés ? Près d’un lac ? Dans une fissure du temps ? Sur une scène ? Dans une autre dimension ?
 

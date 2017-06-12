@@ -37,10 +37,10 @@ C’est une opportunité singulière de nous permettre de poursuivre une politiq
 ### Tarifs de groupe (à partir de 10 personnes) :
 
 Groupe adulte
-:  10 € la place + 1 place offerte à l’organisateur
+:  10 € la place<br/> + 1 place offerte à l’organisateur
 
 Groupe étudiant
-:  6 € la place + 1 place offerte à l’enseignant
+:  6 € la place<br/> + 1 place offerte à l’enseignant
 
 Le paiement des réservations de groupe doit s’effectuer 10 jours avant la date de représentation choisie.
 

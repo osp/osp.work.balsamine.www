@@ -2,16 +2,29 @@
    Custom medias definitions
    ========================================================================== */
 
-
 @custom-media --mobile only screen and (max-width: 767px);
 
 @custom-media --desktop only screen and (min-width: 768px);
 
 
+
+
+
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+:root {
+    --primary-color: #3b1b07;
+    --secondary-color: blue;
+}
+
+
+
+
 /* ==========================================================================
    Fonts
    ========================================================================== */
-
 
 @font-face {
     font-family: 'Ume P Gothic Balsa';
@@ -54,6 +67,8 @@ html {
 }
 
 body {
+    overflow: hidden;
+
     background-image: url('../imgs/coin-de-boite.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -203,14 +218,12 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         right: 30px;
         left: 0;
 
-        overflow:hidden ;
+        overflow: hidden;
 
         height: 100%;
     }
 
-    .is-swiped .main-content {
-        display: none;
-    }
+    .is-swiped .main-content { display: none; }
 }
 
 @media (--desktop) {
@@ -218,12 +231,15 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         position: absolute;
         top: 0;
         left: 0;
-        background-color: white;
+
         overflow-y: scroll;
+        overflow-y: hidden;
 
         box-sizing: border-box;
         width: 70%;
         height: 100%;
+
+        background-color: white;
     }
 }
 
@@ -262,16 +278,12 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     padding-bottom: 1em;
     padding-left: 2em;
 
-    color: blue;
+    color: var(--primary-color);
 
     line-height: 1.3;
 }
 
-/*.schedule__item:nth-of-type(odd) { background: linear-gradient(to left, #00da4b 0%, #00da4b 5%, transparent 20%) !important; }
-
-.schedule__item:nth-of-type(even) { background: linear-gradient(to left, #ffe900 0%, #ffe900 5%, transparent 20%) !important; }*/
-
-.schedule__item + .schedule__item { border-top: 2px solid blue; }
+.schedule__item + .schedule__item { border-top: 2px solid var(--secondary-color); }
 
 .schedule__subhead {
     margin-bottom: .4em;
@@ -341,7 +353,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     height: calc(100%);
     margin-left: calc(100% - 30px);
 
-    background: linear-gradient(to bottom, blue 0%, grey 100%);
+    background: linear-gradient(to bottom, var(--primary-color) 0%, grey 100%);
 }
 
 @media (--mobile) {
@@ -353,25 +365,22 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         height: 100%;
     }
 
-    .is-swiped .schedule {
-        width: 100%;
-    }
+    .is-swiped .schedule { width: 100%; }
 
     .schedule__list {
-        display: none;
         position: absolute;
         top: 0;
         right: 30px;
         left: 0;
 
-        height: 100%;
+        display: none;
         overflow-y: scroll;
+        overflow-y: hidden;
+
+        height: 100%;
     }
 
-
-    .is-swiped .schedule__list {
-        display: block;
-    }
+    .is-swiped .schedule__list { display: block; }
 
     .schedule__timeline {
         position: absolute;
@@ -395,18 +404,21 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         width: 30%;
         height: 100%;
 
-        border-left: 2px solid blue;
+        border-left: 2px solid var(--secondary-color);
     }
 
     .schedule__list {
         position: absolute;
         top: 0;
-        right: 30px;
+        right: 80px;
         left: 0;
 
         overflow-y: scroll;
+        overflow-y: hidden;
 
         height: 100%;
+
+        border-right: 2px solid var(--secondary-color);
     }
 
     .schedule__timeline {
@@ -414,7 +426,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         top: 0;
         right: 0;
 
-        width: 30px;
+        width: 80px;
         height: 100%;
     }
 }
@@ -451,9 +463,8 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     transform-origin: top right;
     text-align: right;
 
-    border-right: 1px solid;
-
     color: white;
+    border-right: 1px solid;
 
     font-size: 14px;
     line-height: 23px;
@@ -463,12 +474,35 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     position: absolute;
     right: 15px;
 
+    display: block;
+
     width: 10px;
-    height: 10px;
+    min-height: 10px;
 
     border-radius: 5px;
     background-color: white;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
+
+.timeline__point:hover { transform: scale(1.5); }
+
+@media (--desktop) {
+    .timeline__month {
+        right: 80px;
+
+        height: 80px;
+        padding-top: 60px;
+    }
+
+    .timeline__point { right: 55px; }
+
+    .timeline__point:nth-child(2n+0) { right: 45px; }
+
+    .timeline__point:nth-child(3n+0) { right: 35px; }
+
+    .timeline__point:nth-child(4n+0) { right: 25px; }
+}
+
 
 
 
@@ -482,7 +516,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     box-sizing: border-box;
     padding: 1em;
 
-    color: blue;
+    color: var(--primary-color);
     background-image: url('../imgs/damier.png');
     background-size: 15px;
 }
@@ -508,7 +542,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     margin-top: 2em;
     padding: 1rem;
 
-    color: blue;
+    color: var(--primary-color);
 }
 
 .show-detail__body p + p,
@@ -563,7 +597,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
 .page-detail { padding: 1em; }
 
-.page-detail { color: blue; }
+.page-detail { color: var(--primary-color); }
 
 .page-detail dl { column-width: 15em; }
 
@@ -613,7 +647,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .content h3 {
     margin-top: 0.91666667em;
     margin-bottom: 0em;
-
+    font: 'Ume double stroke double thin Balsa';
     font-size: 1.5em;
     line-height: 1.83333333em;
 }
@@ -696,7 +730,6 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     position: relative;
 
     display: inline;
-    float: left;
 
     margin: 0pt;
     padding-right: 4pt;
@@ -714,7 +747,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     padding: 1em;
 
     color: black;
-    border: 1px solid blue;
+    border: 1px solid var(--primary-color);
 
     font-family: monospace;
 }
