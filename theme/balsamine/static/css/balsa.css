@@ -647,7 +647,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .content h3 {
     margin-top: 0.91666667em;
     margin-bottom: 0em;
-
+    font: 'Ume double stroke double thin Balsa';
     font-size: 1.5em;
     line-height: 1.83333333em;
 }
@@ -730,7 +730,6 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     position: relative;
 
     display: inline;
-    float: left;
 
     margin: 0pt;
     padding-right: 4pt;
