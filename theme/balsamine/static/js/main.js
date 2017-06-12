@@ -41,7 +41,6 @@
 
 
 $(function() {
-    // var monthNames = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
     var monthNames = ["jan", "fév", "mars", "avril", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"];
 
     function monthsWithinDateRange(start, end) {
@@ -75,18 +74,14 @@ $(function() {
     firstDate = new Date(firstDate.getFullYear(), firstDate.getMonth(), 1);
     lastDate = new Date(lastDate.getFullYear(), lastDate.getMonth() + 1, 0);
 
-    var foo = monthsWithinDateRange(firstDate, lastDate);
+    var months = monthsWithinDateRange(firstDate, lastDate);
 
     var totalHeight = $('schedule_timeline').outerHeight();
 
-    for (var i=0, len=foo.length - 1; i < len; i++) {
-        var currentDate = foo[i];
+    // Creates the month markers on the timeline
+    for (var i=0, len=months.length - 1; i < len; i++) {
+        var currentDate = months[i];
         var pc = (1 - (lastDate - currentDate) / (lastDate - firstDate)) * 100;
-        // console.log(pc);
-        // console.log(firstDate);
-        // console.log(currentDate);
-        // console.log(lastDate);
-        // console.log("***");
 
         var point = $("<div>").text(monthNames[currentDate.getMonth()]).addClass("timeline__month").css({
             top: pc + "%",
@@ -94,30 +89,49 @@ $(function() {
 
         point.appendTo($(".schedule__timeline"));
     }
+
+    var gradient = [];
     
+    // Computes the size and position of the timeline entries
     $(".schedule__item").each(function() {
-        var currentDate = Date.parse($(this).find("time").attr("datetime"));
+        var currentStartDate = Date.parse($(this).find(".start-date").attr("datetime"));
+        var currentEndDate = Date.parse($(this).find(".end-date").attr("datetime"));
+        var anchor = $(this).attr("id");
 
-        var pc = (1 - (lastDate - currentDate) / (lastDate - firstDate)) * 100;
+        var pc = (1 - (lastDate - currentStartDate) / (lastDate - firstDate)) * 100;
+        var pc2 = (1 - (lastDate - currentEndDate) / (lastDate - firstDate)) * 100;
 
-        var point = $("<div>").addClass("timeline__point").css('top', pc + "%");
+        var point = $("<a>").attr("href", "#" + anchor).addClass("timeline__point").css({
+            'top': pc + "%",
+            'bottom': (100 - pc2) + "%"
+        });
 
         point.appendTo($(".schedule__timeline"));
+
+
+        var color = $(this).data("color");
+        gradient.push(color + " " + pc + "%");
+
+        var value = $(this).css("background");
+        value = value.replace("to left", (Math.round(Math.random()*360) + 1) + "deg");
+        $(this).css("background", value);
     });
+
+    $(".timeline").css("background", "linear-gradient(to bottom, " + gradient.join(", ") + ")" )
 });
 
 
-// $(function() {
-//     $(".schedule").on("mousewheel DOMMouseScroll", function(ev, delta) {
-//         var scrollTop = $(this).scrollTop();
-//         $(this).scrollTop(scrollTop-Math.round(ev.deltaY) * 30);
+$(function() {
+    $(".schedule").on("mousewheel DOMMouseScroll", function(ev, delta) {
+        var scrollTop = $(this).scrollTop();
+        $(this).scrollTop(scrollTop-Math.round(ev.deltaY) * 30);
 
-//         // this.scrollTop -= (delta * 60);
+        // this.scrollTop -= (delta * 60);
 
-//         // event.preventDefault();
+        // event.preventDefault();
 
-//     });
-// });
+    });
+});
 
 
 // $(function() {
