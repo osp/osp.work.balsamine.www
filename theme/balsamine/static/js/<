@@ -1,0 +1,33 @@
+function onInputSimple(chemin, zone){
+  $('.cadra').remove();
+  var zoneText = $(zone);
+  var zoneNumb = 0;
+  zoneText.each( function(){
+    var sizefont = $(this).css('font-size');
+    var word = $(this).html();
+    alert(word)
+    var nb_car = word.length;
+    var letter = word.split("");
+    $(this).html('');
+    for (var i = 0, l = word.length; i < l; i++) {
+      var v = table[letter[i]];
+      jQuery('<div/>', {
+          'id': zoneNumb+'_'+v+'_'+i,
+          'class': 'cadra',
+          'height': sizefont
+      }).appendTo(this);
+
+      $('#'+zoneNumb+'_'+v+'_'+i).load('/theme/fonts/SVG-MASTER/'+chemin+'/'+v+'.svg');
+
+    }
+    zoneNumb++;
+  });
+
+
+}
+$(window).ready(function(){
+  onInputSimple( 'condensed', '.ume-js');
+})
+
+
+      // $('body').load('/theme/fonts/SVG-MASTER/condensed/A.svg');
