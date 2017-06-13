@@ -353,11 +353,15 @@ dd {
   border: 1px solid black;
   padding: 2px 8px;
   border-radius: 16px;
+  display: inline;
+  margin-top: 12pt;
+  float: right;
 }
 
 .schedule__title {
     font-size: 1.5em;
     font-family: 'Ume double stroke info pratique';
+    line-height: 1.1em;
 
 }
 
@@ -365,6 +369,7 @@ dd {
     /*margin-top: .4em;
     margin-bottom: .4em;*/
     font-family: 'Ume double stroke master expended fat';
+    line-height: 1em;
 
 }
 
@@ -380,10 +385,29 @@ dd {
 }
 
 .schedule__main-image img {
-    max-width: 75%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    max-width: 100%;
+    margin-top: 0em;
+    margin-bottom: 0em;
 }
+
+#lecole-des-maitres-2017  .schedule__main-image {
+  max-width: 200%;
+  width: 70%;
+  /*float: right;
+  position: relative;*/
+}
+#lecole-des-maitres-2017  .schedule__main-image img{
+  max-width: 100%;
+  margin-top: 0em;
+  margin-bottom: 1em;
+  margin-left: 19px;
+
+}
+#lecole-des-maitres-2017 .schedule__subhead {
+  margin-top: 56px;
+
+}
+
 
 .schedule__body { display: none; }
 
@@ -435,7 +459,7 @@ dd {
 
         display: none;
         overflow-y: scroll;
-        overflow-y: hidden;
+        /*overflow-y: hidden;*/
 
         height: 100%;
     }
@@ -812,7 +836,7 @@ dd {
       /* padding-right: 4pt; */
       /* padding-left: 2em; */
       font-family: 'Ume double stroke master expanded';
-      font-size: .9em;
+      font-size: .8em;
       border: 1px solid black;
       padding: 2px 8px;
       margin-right: 0px;
