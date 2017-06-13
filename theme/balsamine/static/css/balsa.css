@@ -317,6 +317,16 @@ dd {
 
     background-color: white;
 }
+.schedule sup,
+.schedule sub {
+    line-height: 0;
+    font-size: 0.75em;
+    margin-left: 1px;
+}
+
+.schedule sup { vertical-align: 0.3em; }
+
+.schedule sub { vertical-align: -0.3em; }
 
 .schedule__item {
     padding-top: 2em;
