@@ -401,7 +401,7 @@ dd {
 
 #lecole-des-maitres-2017  .schedule__main-image {
   max-width: 200%;
-  width: 65%;
+  width: 90%;
   /*float: right;
   position: relative;*/
 }
@@ -414,20 +414,57 @@ dd {
 }
 #lecole-des-maitres-2017 .schedule__subhead {
   margin-top: 56px;
-
 }
-
 #les-oracles .schedule__main-image img {
   padding-left: 81px;
-
+}
+#up-pen-down .schedule__main-image {
+  margin-left: 27pt;
+  width: 53%;
+  margin-top: 5pt;
+}
+#la-lettre-volee .schedule__main-image {
+  margin-left: -6pt;
+  width: 75%;
+  margin-top: 33pt;
+  margin-bottom: 19pt;
+}
+#should-i-stay-or-should-i-stay .schedule__main-image {
+  width: 100%;
+}
+#les-lundis-en-coulisse .schedule__main-image {
+  width: 33%;
+  margin-left: 61pt;
+      padding-top: 8pt;
+}
+#les-fortunes-de-la-viande .schedule__main-image {
+  width: 117%;
+  margin-left: -26pt;
+  max-width: 150%;
+}
+#scripta-manent .schedule__main-image {
+  width: 40%;
+  margin-left: 53pt;
 }
 
-#up-pen-down .schedule__main-image img {
-  margin-left: 50pt;
+#i-clit .schedule__main-image {
+  width: 85%;
+}
+#etna .schedule__main-image {
   width: 60%;
+      margin-left: 60pt;
+    }
+#les-loups .schedule__main-image {
+  width: 69%;
+  margin-left: -26pt;
 }
+#trilogie-de-rome .schedule__main-image {
+  width: 100%;
+}
+#kunstenfestivaldesarts {
+  padding-bottom: 17%;
 
-
+}
 
 .schedule__body { display: none; }
 
@@ -518,7 +555,7 @@ dd {
         left: 0;
 
         overflow-y: scroll;
-        overflow-y: hidden;
+        /*overflow-y: hidden;*/
 
         height: 100%;
 
@@ -627,13 +664,38 @@ dd {
     background-image: url('../imgs/damier.png');
     background-size: 15px;
 }
+.content .show-detail__header h1 {
+margin-bottom: 0em;
+}
+.content .show-detail__header h2 {
+margin-bottom: 0em;
+font-size: 1.9em;
+line-height: 1.2em;
+/*font-family: 'Ume double stroke master condensed';*/
+margin-top: 0em;
+}
+
+
+.content .show-detail__header time {
+  margin-left: 0em;
+  display: block;
+  font-size: 1.9em;
+  line-height: 1.2em;
+  padding-left: 2.5em;
+  font-family: 'Ume double stroke info pratique';
+}
+
+.content .show-detail__header a.reservation-link {
+  font-size: .5em;
+}
 
 .show-detail__image-body img {
     position: relative;
     float: left;
-    max-width: 110px;
+    max-height: 110px;
     padding: 0px 10px;
     border: 1px solid black;
+
 }
 
 .show-detail__image img {
@@ -650,8 +712,8 @@ p.show-detail__image-body + p.show-detail__image-body {
 .show-detail__body {
     box-sizing: border-box;
     margin-top: 2em;
-    padding: 1rem;
     color: var(--primary-color);
+        padding: 8px 35px;
 }
 
 .show-detail__body p + p,
@@ -794,8 +856,8 @@ p.show-detail__image-body + p.show-detail__image-body {
 }
 
 .show-detail__body p {
-    font-size: 1.4em;
-    line-height: 1.2em;
+    font-size: 1.9em;
+    line-height: 1em;
 }
 
 .show-detail__body p.production {
@@ -803,7 +865,7 @@ p.show-detail__image-body + p.show-detail__image-body {
       line-height: 1.2em;
 }
 .show-detail__body .section2 {
-  padding-left: 5em;
+  /*padding-left: 5em;*/
 }
 .content p,
 .content ul,
@@ -888,7 +950,7 @@ p.show-detail__image-body + p.show-detail__image-body {
 }
 
 .content time {
-    margin-left: 1.375em;
+    margin-left: 0em;
     display: block;
 }
 
