@@ -91,7 +91,7 @@ $(function() {
     }
 
     var gradient = [];
-    
+
     // Computes the size and position of the timeline entries
     $(".schedule__item").each(function() {
         var currentStartDate = Date.parse($(this).find(".start-date").attr("datetime"));
@@ -262,3 +262,10 @@ $(function() {
             $(this).removeClass("is-swiped");
         });
 })(jQuery);
+
+
+$('.show-detail__image-body').click(function(){
+	var srcimg = $(this).children('img').clone().html('src');
+  $('.photo').html(srcimg);
+
+})
