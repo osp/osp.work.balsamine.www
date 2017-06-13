@@ -332,38 +332,41 @@ dd {
 .schedule__item + .schedule__item { border-top: 2px solid var(--secondary-color); }
 
 .schedule__subhead {
-    margin-bottom: .4em;
+    /*margin-bottom: .4em;*/
+    font-family: 'Ume double stroke master expanded';
 
-    font-size: 1em;
-    line-height: 1;
+    font-size: 0.9em;
+    line-height: 1.2em;
 }
 
-.schedule__dates { font-size: 1em; }
+.schedule__dates {
+  font-size: 1em;
+  border: 1px solid black;
+  padding: 2px 8px;
+  border-radius: 16px;
+}
 
 .schedule__title {
     font-size: 1.5em;
-    line-height: 1;
     font-family: 'Ume double stroke info pratique';
 
 }
 
 .schedule__authors {
-    margin-top: .4em;
-    margin-bottom: .4em;
+    /*margin-top: .4em;
+    margin-bottom: .4em;*/
+    font-family: 'Ume double stroke master expended fat';
 
-    line-height: 1;
 }
 
 .schedule__intro {
     padding-left: 2em;
-
     font-family: 'Ume double stroke master expended fat';
     font-size: 1.5em;
 }
 
 .schedule__main-image {
     width: 50%;
-
     text-align: right;
 }
 
@@ -386,7 +389,7 @@ dd {
 .schedule__body blockquote footer:before { content: "– "; }
 
 .schedule__body dl {
-  margin-top: .3em;
+  margin-top: 1.3em;
   margin-bottom: 0.3em;
     /*padding-left: 25%;*/
 }
@@ -604,11 +607,13 @@ dd {
 .show-detail__body blockquote footer:before { content: "– "; }
 
 .show-detail__body dl {
-  margin-top: .3em;
+  margin-top: 1.3em;
   margin-bottom: 0.3em;
     /*padding-left: 25%;*/
 }
-
+.show-detail__body h3 + dl {
+  margin-top: .8em;
+}
 .show-detail__body p.production {
   text-indent: 0pt;
   font-family: 'Ume double stroke master expanded';
@@ -621,7 +626,7 @@ dd {
     text-indent: 3em;
 }
 
-.show-detail__body dd { padding-left: 1em; }
+/*.show-detail__body dd { padding-left: 1em; }*/
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
@@ -695,19 +700,20 @@ dd {
 }
 
 .content h2 {
-    margin-top: 0.91666667em;
+    margin-top: 2em;
     margin-bottom: 0em;
     font-family: 'Ume double stroke info pratique';
-    font-size: 1.5em;
-    line-height: 1.83333334em;
+    font-size: 1em;
+    /*line-height: 1.83333334em;*/
+    letter-spacing: 0.03em;
 }
 
 .content h3 {
-    margin-top: 0.91666667em;
+    /*margin-top: 1em;*/
     margin-bottom: 0em;
-    font: 'Ume double stroke double thin Balsa';
-    font-size: 1.5em;
-    line-height: 1.83333333em;
+    font-family: 'Ume double stroke master condensed';
+    font-size: 1em;
+    /*line-height: 1.83333333em;*/
 }
 
 .content h4 {
@@ -727,15 +733,17 @@ dd {
 }
 
 .show-detail__body p {
-    font-size: 1.3em;
-    line-height: 1.3em;
+    font-size: 1.4em;
+    line-height: 1.2em;
 }
 
 .show-detail__body p.production {
   font-size: .9em;
       line-height: 1.2em;
 }
-
+.show-detail__body .section2 {
+  padding-left: 5em;
+}
 .content p,
 .content ul,
 .content ol,
@@ -817,7 +825,7 @@ dd {
     color: black;
     border: 1px solid var(--primary-color);
 
-    font-family: monospace;
+
 }
 
 
