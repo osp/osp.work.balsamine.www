@@ -250,12 +250,12 @@ $(function() {
 //
 
 
-(function($) {
-    $(".main-area")
-        .on("swipeleft",function(){
-            $(this).addClass("is-swiped");
-        })
-        .on("swiperight",function(){
-            $(this).removeClass("is-swiped");
-        });
-})(jQuery);
+// (function($) {
+//     $(".main-area")
+//         .on("swipeleft",function(){
+//             $(this).addClass("is-swiped");
+//         })
+//         .on("swiperight",function(){
+//             $(this).removeClass("is-swiped");
+//         });
+// })(jQuery);
