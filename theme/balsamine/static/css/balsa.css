@@ -15,8 +15,9 @@
    ========================================================================== */
 
 :root {
-    --primary-color: #3b1b07;
-    --secondary-color: blue;
+    /*--primary-color: #3b1b07;*/
+    --primary-color: black;
+    --secondary-color: #3b4086;
 }
 
 
@@ -54,6 +55,40 @@
     src: url('../fonts/ume-stroke-stroke-thin-thin.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Ume double stroke info pratique';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-info-pratique.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ume double stroke master expanded';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-master-expanded.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ume double stroke master condensed';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-master-condensed.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ume double stroke master expended fat';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-expended-fat.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ume double stroke affiche saison';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-affiche-saison.woff') format('woff');
+}
+
+
 
 
 /* ==========================================================================
@@ -74,7 +109,7 @@ body {
     background-attachment: fixed;
     background-position: bottom left;
 
-    font-family: 'Ume double stroke Balsa';
+    font-family: 'Ume double stroke master condensed';
     font-size: 1em;
     line-height: 1.375em;
 }
@@ -85,9 +120,20 @@ a {
     color: inherit;
 }
 
-em { font-family: 'Ume double stroke double thin Balsa'; }
+em {
+  font-family: 'Ume double stroke info pratique';
 
-strong { font-family: 'Ume double stroke double fat Balsa'; }
+
+}
+
+strong {
+  font-family: 'Ume double stroke info pratique';
+}
+
+dt,
+dd {
+      display: inline;
+}
 
 
 
@@ -297,6 +343,8 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .schedule__title {
     font-size: 1.5em;
     line-height: 1;
+    font-family: 'Ume double stroke info pratique';
+
 }
 
 .schedule__authors {
@@ -309,7 +357,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .schedule__intro {
     padding-left: 2em;
 
-    font-family: 'Ume double stroke double thin Balsa';
+    font-family: 'Ume double stroke master expended fat';
     font-size: 1.5em;
 }
 
@@ -338,9 +386,9 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .schedule__body blockquote footer:before { content: "– "; }
 
 .schedule__body dl {
-    margin-top: 1.3em;
-    margin-bottom: 1.3em;
-    padding-left: 25%;
+  margin-top: .3em;
+  margin-bottom: 0.3em;
+    /*padding-left: 25%;*/
 }
 
 .schedule__body dd { padding-left: 1em; }
@@ -468,6 +516,9 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
     font-size: 14px;
     line-height: 23px;
+
+    font-family: 'Ume double stroke master expended fat';
+
 }
 
 .timeline__point {
@@ -541,7 +592,6 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     box-sizing: border-box;
     margin-top: 2em;
     padding: 1rem;
-
     color: var(--primary-color);
 }
 
@@ -554,12 +604,16 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .show-detail__body blockquote footer:before { content: "– "; }
 
 .show-detail__body dl {
-    margin-top: 1.3em;
-    margin-bottom: 1.3em;
-    padding-left: 25%;
+  margin-top: .3em;
+  margin-bottom: 0.3em;
+    /*padding-left: 25%;*/
 }
 
-.show-detail__body p.production { text-indent: 0pt; }
+.show-detail__body p.production {
+  text-indent: 0pt;
+  font-family: 'Ume double stroke master expanded';
+
+}
 
 .show-detail__body p.production + p.production {
     margin-top: 0em;
@@ -601,9 +655,13 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
 .page-detail dl { column-width: 15em; }
 
-.page-detail dt { font-family: 'Ume double stroke double thin Balsa'; }
+.page-detail dt { font-family: 'Ume double stroke affiche saison'; }
 
 .page-detail dd { break-before: avoid-column; }
+
+.page-detail dd + dt {
+  float: left;
+}
 
 .page-detail dd { break-inside: avoid-column; }
 
@@ -631,7 +689,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .content h1 {
     margin-top: 0em;
     margin-bottom: 0.40740741em;
-
+    font-family: 'Ume double stroke info pratique';
     font-size: 3.375em;
     line-height: 1em;
 }
@@ -639,7 +697,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .content h2 {
     margin-top: 0.91666667em;
     margin-bottom: 0em;
-
+    font-family: 'Ume double stroke info pratique';
     font-size: 1.5em;
     line-height: 1.83333334em;
 }
@@ -674,8 +732,8 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 }
 
 .show-detail__body p.production {
-    font-size: 1em;
-    line-height: 1.4em;
+  font-size: .9em;
+      line-height: 1.2em;
 }
 
 .content p,
@@ -727,18 +785,28 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .content sub { bottom: -0.25em; }
 
 .content dt {
-    position: relative;
-
-    display: inline;
-
-    margin: 0pt;
-    padding-right: 4pt;
-    padding-left: 0pt;
-
-    font-family: 'Ume double stroke double thin Balsa';
+  position: relative;
+      /*float: left;*/
+      margin: 0pt;
+      /* padding-right: 4pt; */
+      /* padding-left: 2em; */
+      font-family: 'Ume double stroke master expanded';
+      font-size: .9em;
+      border: 1px solid black;
+      padding: 2px 8px;
+      margin-right: 0px;
+      margin-left: 3px;
+      border-radius: 16px;
+}
+.content dt:first-of-type {
+  margin-left: 0px;
 }
 
-.content dd { padding-left: 2em; }
+.content dd {
+  padding-left: 0em;
+  font-family: 'Ume double stroke master expended fat';
+
+}
 
 .content li:before { content: "- "; }
 
