@@ -91,7 +91,7 @@ $(function() {
     }
 
     var gradient = [];
-    
+
     // Computes the size and position of the timeline entries
     $(".schedule__item").each(function() {
         var currentStartDate = Date.parse($(this).find(".start-date").attr("datetime"));
@@ -268,4 +268,12 @@ $(function() {
 (function($) {
     $(".main-content").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'}); 
     $(".schedule__list").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'}); 
+})(jQuery);
+
+
+(function($) {
+    $('.show-detail__image-body').click(function() {
+        var srcimg = $(this).children('img').clone().html('src');
+        $('.photo').html(srcimg);
+    })
 })(jQuery);
