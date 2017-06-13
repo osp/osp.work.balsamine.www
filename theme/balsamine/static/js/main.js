@@ -262,3 +262,10 @@ $(function() {
             $(this).removeClass("is-swiped");
         });
 })(jQuery);
+
+
+// scrollbars
+(function($) {
+    $(".main-content").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'}); 
+    $(".schedule__list").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'}); 
+})(jQuery);

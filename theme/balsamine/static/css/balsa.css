@@ -15,9 +15,9 @@
    ========================================================================== */
 
 :root {
-    /*--primary-color: #3b1b07;*/
     --primary-color: black;
     --secondary-color: #3b4086;
+    --tertiary-color: #3b1b07;
 }
 
 
@@ -250,7 +250,7 @@ dd {
     padding: 4px;
 
     color: inherit;
-    border: 2px solid blue;
+    border: 2px solid var(--secondary-color);
     border-radius: 5px;
 
     font-family: inherit;
@@ -259,14 +259,14 @@ dd {
 .subscribe__email:focus {
     color: white;
     outline: none;
-    background-color: blue;
+    background-color: var(--secondary-color);
 }
 
 .subscribe__ok {
     padding: 4px;
 
     color: inherit;
-    border: 2px solid blue;
+    border: 2px solid var(--secondary-color);
     border-radius: 5px;
     background-color: transparent;
 
@@ -276,7 +276,7 @@ dd {
 .subscribe__ok:focus {
     color: white;
     outline: none;
-    background-color: blue;
+    background-color: var(--secondary-color);
 }
 
 
@@ -299,8 +299,8 @@ dd {
     bottom: 42px;
     left: 42px;
 
-    border-bottom: 2px solid blue;
-    border-left: 2px solid blue;
+    border-bottom: 2px solid var(--secondary-color);
+    border-left: 2px solid var(--secondary-color);
     background-size: 15px;
 }
 
@@ -319,7 +319,7 @@ dd {
         background-position: top left;
     }
 
-    .main-area { border-top: 2px solid blue; }
+    .main-area { border-top: 2px solid var(--secondary-color); }
 
     .main-header {
         top: 0;
@@ -1145,3 +1145,21 @@ p.show-detail__image-body + p.show-detail__image-body {
 .nojcarousel-item.active { opacity: 1; }
 
 .jcarousel-inner a { border: none !important; }
+
+
+
+
+
+/* Scrollbar Balsa theme
+   ========================================================================== */
+
+.ps--theme_balsa:hover > .ps__scrollbar-y-rail:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.ps--theme_balsa:hover > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+    background-color: var(--tertiary-color);
+}
+.ps--theme_balsa:hover > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y {
+    background-color: var(--tertiary-color);
+}
