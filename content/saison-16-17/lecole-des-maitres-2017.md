@@ -1,8 +1,9 @@
 Title: L’École des Maîtres 2017
 Date: 2017/09/11
 End_date: 2017/09/12
-Time: 20h00 Entrée libre mais réservation conseillée&nbsp;!
-Piece_author: XXVIe édition Transquinquennal
+Time: 20h00 
+Price: Entrée libre mais réservation conseillée&nbsp;!
+Piece_author: XXVI<sup>e</sup> édition Transquinquennal
 Event_type: Théâtre
 Key_image: shows/10-Ecole-des-Maitres/billet.png
 Key_image_detail_1: shows/10-Ecole-des-Maitres/alambic-3.png

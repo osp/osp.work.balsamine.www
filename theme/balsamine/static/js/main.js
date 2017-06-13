@@ -103,7 +103,8 @@ $(function() {
 
         var point = $("<a>").attr("href", "#" + anchor).addClass("timeline__point").css({
             'top': pc + "%",
-            'bottom': (100 - pc2) + "%"
+            'bottom': (100 - pc2) + "%",
+            'z-index': 10000
         });
 
         point.appendTo($(".schedule__timeline"));
@@ -118,7 +119,9 @@ $(function() {
     });
 
     $(".timeline").css("background", "linear-gradient(to bottom, " + gradient.join(", ") + ")" )
+    $(".timeline__point").click(function() {window.location = $(this).attr("href")});
 });
+
 
 
 $(function() {

@@ -805,16 +805,14 @@ dd {
 
 .content sub,
 .content sup {
-    position: relative;
-
-    vertical-align: baseline;
-
     line-height: 0;
+    font-size: 0.75em;
+    margin-left: 1px;
 }
 
-.content sup { top: -0.5em; }
+.content sup { vertical-align: 0.45em; }
 
-.content sub { bottom: -0.25em; }
+.content sub { vertical-align: -0.45em; }
 
 .content dt {
   position: relative;
