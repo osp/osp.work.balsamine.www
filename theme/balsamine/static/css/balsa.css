@@ -287,7 +287,6 @@ dd {
         left: 0;
 
         overflow-y: scroll;
-        /* overflow-y: hidden; */
 
         box-sizing: border-box;
         width: 70%;
@@ -365,6 +364,7 @@ dd {
   display: inline;
   margin-top: 12pt;
   float: right;
+  background-color: white;
 }
 
 .schedule__title {
@@ -477,7 +477,8 @@ dd {
 .schedule__body blockquote { padding-left: 2em; }
 
 .schedule__body blockquote footer:before { content: "– "; }
-
+.schedule__body blockquote footer {
+}
 .schedule__body dl {
   margin-top: 1.3em;
   margin-bottom: 0.3em;
@@ -670,9 +671,9 @@ margin-bottom: 0em;
 .content .show-detail__header h2 {
 margin-bottom: 0em;
 font-size: 1.9em;
-line-height: 1.2em;
+line-height: 1.25em;
 /*font-family: 'Ume double stroke master condensed';*/
-margin-top: 0em;
+margin-top: 0.1em;
 }
 
 
@@ -680,13 +681,13 @@ margin-top: 0em;
   margin-left: 0em;
   display: block;
   font-size: 1.9em;
-  line-height: 1.2em;
+  line-height: 1.25em;
   padding-left: 2.5em;
   font-family: 'Ume double stroke info pratique';
 }
 
 .content .show-detail__header a.reservation-link {
-  font-size: .5em;
+  font-size: .45em;
 }
 
 .show-detail__image-body img {
@@ -697,10 +698,22 @@ margin-top: 0em;
     border: 1px solid black;
 
 }
+.content .show-detail__image-body a{
+   padding: 0em 0em;
+}
+
 
 .show-detail__image img {
     max-width: 100%;
     text-align: center;
+}
+.photo {
+    border:1px solid black;
+    width: 59%;
+    float: left;
+}
+.photo img {
+    width: 100%;
 }
 
 .show-detail__image-body:last-of-type img { float: none; }
@@ -716,13 +729,29 @@ p.show-detail__image-body + p.show-detail__image-body {
         padding: 8px 35px;
 }
 
-.show-detail__body p + p,
+/*.show-detail__body p + p,*/
 .show-detail__body blockquote + p,
 .show-detail__body p + blockquote { margin-top: 1em; }
 
 .show-detail__body blockquote { padding-left: 2em; }
 
+.show-detail__body blockquote p {
+  font-size: 1.3em !important;
+  line-height: 1.25em;
+}
+.show-detail__body blockquote footer {
+  font-family: 'Ume double stroke master expended fat';
+  font-size: 1.3em !important;
+
+
+}
+
+
+
 .show-detail__body blockquote footer:before { content: "– "; }
+.show-detail__body blockquote footer {
+
+}
 
 .show-detail__body dl {
   margin-top: 1.3em;
@@ -869,8 +898,8 @@ p.show-detail__image-body + p.show-detail__image-body {
 }
 
 .show-detail__body p {
-    font-size: 1.9em;
-    line-height: 1em;
+  font-size: 1.9em;
+  line-height: 1.1em;
 }
 
 .show-detail__body p.production {
@@ -890,7 +919,7 @@ p.show-detail__image-body + p.show-detail__image-body {
     margin-bottom: 0em;
 }
 
-.content p + p { text-indent: 3em; }
+.content p + p { text-indent: 1.5em; }
 
 .content ul ul,
 .content ol ol,
