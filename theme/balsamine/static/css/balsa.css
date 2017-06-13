@@ -88,7 +88,16 @@
     src: url('../fonts/ume-stroke-stroke-affiche-saison.woff') format('woff');
 }
 
-
+.cadra {
+  width: auto;
+  float: left;
+}
+.cadra svg {
+  height: 100%;
+  width: auto;
+  margin-bottom: 100px;
+  overflow: visible
+}
 
 
 /* ==========================================================================
