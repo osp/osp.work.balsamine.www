@@ -3,10 +3,10 @@ Date: 2017/11/09
 End_date: 2017/11/11
 Time: 20h30
 Subhead: En coproduction avec Ars Musica
-Piece_author: Denis Bosse
-              Pascal Nottet
-              Thomas Van Haeperen
-              Frédéric Dussenne
+Piece_authors: Denis Bosse
+               Pascal Nottet
+               Thomas Van Haeperen
+               Frédéric Dussenne
 Event_type: Création Vidéopéra<br/>En coproduction avec Ars Musica
 Key_image: shows/6-La-Lettre-Volee/inkwell-hd.png
 Key_image_detail_1: shows/6-La-Lettre-Volee/regency-desk-2-transparent.png

@@ -15,8 +15,9 @@
    ========================================================================== */
 
 :root {
-    --primary-color: #3b1b07;
-    --secondary-color: blue;
+    /*--primary-color: #3b1b07;*/
+    --primary-color: black;
+    --secondary-color: #3b4086;
 }
 
 
@@ -55,6 +56,49 @@
     src: url('../fonts/ume-stroke-stroke-thin-thin.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Ume double stroke info pratique';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-info-pratique.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ume double stroke master expanded';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-master-expanded.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ume double stroke master condensed';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-master-condensed.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Ume double stroke master expended fat';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-expended-fat.woff') format('woff');
+}
+@font-face {
+    font-family: 'Ume double stroke affiche saison';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/ume-stroke-stroke-affiche-saison.woff') format('woff');
+}
+
+.cadra {
+  width: auto;
+  float: left;
+}
+.cadra svg {
+  height: 100%;
+  width: auto;
+  margin-bottom: 100px;
+  overflow: visible
+}
 
 
 /* ==========================================================================
@@ -75,20 +119,30 @@ body {
     background-attachment: fixed;
     background-position: bottom left;
 
-    font-family: 'Ume double stroke Balsa';
+    font-family: 'Ume double stroke master condensed';
     font-size: 1em;
     line-height: 1.375em;
 }
 
 a {
     text-decoration: inherit;
-
     color: inherit;
 }
 
-em { font-family: 'Ume double stroke double thin Balsa'; }
+em {
+  font-family: 'Ume double stroke info pratique';
 
-strong { font-family: 'Ume double stroke double fat Balsa'; }
+
+}
+
+strong {
+  font-family: 'Ume double stroke info pratique';
+}
+
+dt,
+dd {
+      display: inline;
+}
 
 
 
@@ -369,6 +423,16 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
     background-color: white;
 }
+.schedule sup,
+.schedule sub {
+    line-height: 0;
+    font-size: 0.75em;
+    margin-left: 1px;
+}
+
+.schedule sup { vertical-align: 0.3em; }
+
+.schedule sub { vertical-align: -0.3em; }
 
 .schedule__item {
     padding-top: 2em;
@@ -384,43 +448,120 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .schedule__item + .schedule__item { border-top: 2px solid var(--secondary-color); }
 
 .schedule__subhead {
-    margin-bottom: .4em;
+    /*margin-bottom: .4em;*/
+    font-family: 'Ume double stroke master expanded';
 
-    font-size: 1em;
-    line-height: 1;
+    font-size: 0.9em;
+    line-height: 1.2em;
 }
 
-.schedule__dates { font-size: 1em; }
+.schedule__dates {
+  font-size: 1em;
+  border: 1px solid black;
+  padding: 2px 8px;
+  border-radius: 16px;
+  display: inline;
+  margin-top: 12pt;
+  float: right;
+}
 
 .schedule__title {
     font-size: 1.5em;
-    line-height: 1;
+    font-family: 'Ume double stroke info pratique';
+    line-height: 1.1em;
+
 }
 
 .schedule__authors {
-    margin-top: .4em;
-    margin-bottom: .4em;
+    /*margin-top: .4em;
+    margin-bottom: .4em;*/
+    font-family: 'Ume double stroke master expended fat';
+    line-height: 1em;
 
-    line-height: 1;
 }
 
 .schedule__intro {
     padding-left: 2em;
-
-    font-family: 'Ume double stroke double thin Balsa';
+    font-family: 'Ume double stroke master expended fat';
     font-size: 1.5em;
 }
 
 .schedule__main-image {
     width: 50%;
-
     text-align: right;
 }
 
 .schedule__main-image img {
-    max-width: 75%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    max-width: 100%;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+#lecole-des-maitres-2017  .schedule__main-image {
+  max-width: 200%;
+  width: 90%;
+  /*float: right;
+  position: relative;*/
+}
+#lecole-des-maitres-2017  .schedule__main-image img{
+  max-width: 100%;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0px;
+
+}
+#lecole-des-maitres-2017 .schedule__subhead {
+  margin-top: 56px;
+}
+#les-oracles .schedule__main-image img {
+  padding-left: 81px;
+}
+#up-pen-down .schedule__main-image {
+  margin-left: 27pt;
+  width: 53%;
+  margin-top: 5pt;
+}
+#la-lettre-volee .schedule__main-image {
+  margin-left: -6pt;
+  width: 75%;
+  margin-top: 33pt;
+  margin-bottom: 19pt;
+}
+#should-i-stay-or-should-i-stay .schedule__main-image {
+  width: 100%;
+}
+#les-lundis-en-coulisse .schedule__main-image {
+  width: 33%;
+  margin-left: 61pt;
+      padding-top: 8pt;
+}
+#les-fortunes-de-la-viande .schedule__main-image {
+  width: 117%;
+  margin-left: -26pt;
+  max-width: 150%;
+}
+#scripta-manent .schedule__main-image {
+  width: 40%;
+  margin-left: 53pt;
+}
+
+#i-clit .schedule__main-image {
+  width: 85%;
+}
+#etna .schedule__main-image {
+  width: 60%;
+      margin-left: 60pt;
+    }
+#les-loups .schedule__main-image {
+  width: 69%;
+  margin-left: -26pt;
+}
+#trilogie-de-rome .schedule__main-image {
+  width: 100%;
+}
+#kunstenfestivaldesarts {
+  padding-bottom: 17%;
+
 }
 
 .schedule__body { display: none; }
@@ -436,9 +577,9 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .schedule__body blockquote footer:before { content: "– "; }
 
 .schedule__body dl {
-    margin-top: 1.3em;
-    margin-bottom: 1.3em;
-    padding-left: 25%;
+  margin-top: 1.3em;
+  margin-bottom: 0.3em;
+    /*padding-left: 25%;*/
 }
 
 .schedule__body dd { padding-left: 1em; }
@@ -473,7 +614,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
         display: none;
         overflow-y: scroll;
-        overflow-y: hidden;
+        /*overflow-y: hidden;*/
 
         height: 100%;
     }
@@ -512,7 +653,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
         left: 0;
 
         overflow-y: scroll;
-        overflow-y: hidden;
+        /*overflow-y: hidden;*/
 
         height: 100%;
 
@@ -566,6 +707,9 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
     font-size: 14px;
     line-height: 23px;
+
+    font-family: 'Ume double stroke master expended fat';
+
 }
 
 .timeline__point {
@@ -618,29 +762,56 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     background-image: url('../imgs/damier.png');
     background-size: 15px;
 }
+.content .show-detail__header h1 {
+margin-bottom: 0em;
+}
+.content .show-detail__header h2 {
+margin-bottom: 0em;
+font-size: 1.9em;
+line-height: 1.2em;
+/*font-family: 'Ume double stroke master condensed';*/
+margin-top: 0em;
+}
+
+
+.content .show-detail__header time {
+  margin-left: 0em;
+  display: block;
+  font-size: 1.9em;
+  line-height: 1.2em;
+  padding-left: 2.5em;
+  font-family: 'Ume double stroke info pratique';
+}
+
+.content .show-detail__header a.reservation-link {
+  font-size: .5em;
+}
 
 .show-detail__image-body img {
     position: relative;
-
     float: left;
+    max-height: 110px;
+    padding: 0px 10px;
+    border: 1px solid black;
 
-    max-width: 110px;
 }
 
 .show-detail__image img {
     max-width: 100%;
-
     text-align: center;
 }
 
 .show-detail__image-body:last-of-type img { float: none; }
 
+p.show-detail__image-body + p.show-detail__image-body {
+  text-indent: 0em;
+}
+
 .show-detail__body {
     box-sizing: border-box;
     margin-top: 2em;
-    padding: 1rem;
-
     color: var(--primary-color);
+        padding: 8px 35px;
 }
 
 .show-detail__body p + p,
@@ -652,12 +823,18 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .show-detail__body blockquote footer:before { content: "– "; }
 
 .show-detail__body dl {
-    margin-top: 1.3em;
-    margin-bottom: 1.3em;
-    padding-left: 25%;
+  margin-top: 1.3em;
+  margin-bottom: 0.3em;
+    /*padding-left: 25%;*/
 }
+.show-detail__body h3 + dl {
+  margin-top: .8em;
+}
+.show-detail__body p.production {
+  text-indent: 0pt;
+  font-family: 'Ume double stroke master expanded';
 
-.show-detail__body p.production { text-indent: 0pt; }
+}
 
 .show-detail__body p.production + p.production {
     margin-top: 0em;
@@ -665,7 +842,7 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     text-indent: 3em;
 }
 
-.show-detail__body dd { padding-left: 1em; }
+/*.show-detail__body dd { padding-left: 1em; }*/
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
@@ -699,9 +876,13 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
 .page-detail dl { column-width: 15em; }
 
-.page-detail dt { font-family: 'Ume double stroke double thin Balsa'; }
+.page-detail dt { font-family: 'Ume double stroke affiche saison'; }
 
 .page-detail dd { break-before: avoid-column; }
+
+.page-detail dd + dt {
+  float: left;
+}
 
 .page-detail dd { break-inside: avoid-column; }
 
@@ -729,26 +910,27 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 .content h1 {
     margin-top: 0em;
     margin-bottom: 0.40740741em;
-
+    font-family: 'Ume double stroke info pratique';
     font-size: 3.375em;
     line-height: 1em;
 }
 
 .content h2 {
-    margin-top: 0.91666667em;
+    margin-top: 2em;
     margin-bottom: 0em;
-
-    font-size: 1.5em;
-    line-height: 1.83333334em;
+    font-family: 'Ume double stroke info pratique';
+    font-size: 1em;
+    /*line-height: 1.83333334em;*/
+    letter-spacing: 0.03em;
 }
 
 .content h3 {
-    margin-top: 0.91666667em;
+    /*margin-top: 1em;*/
     margin-bottom: 0em;
 
-    font: 'Ume double stroke double thin Balsa';
-    font-size: 1.5em;
-    line-height: 1.83333333em;
+    font-family: 'Ume double stroke master condensed';
+    font-size: 1em;
+    /*line-height: 1.83333333em;*/
 }
 
 .content h4 {
@@ -767,16 +949,23 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     line-height: 1.375em;
 }
 
+.content a {
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}
+
 .show-detail__body p {
-    font-size: 1.3em;
-    line-height: 1.3em;
+    font-size: 1.9em;
+    line-height: 1em;
 }
 
 .show-detail__body p.production {
-    font-size: 1em;
-    line-height: 1.4em;
+  font-size: .9em;
+      line-height: 1.2em;
 }
-
+.show-detail__body .section2 {
+  /*padding-left: 5em;*/
+}
 .content p,
 .content ul,
 .content ol,
@@ -814,30 +1003,38 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
 
 .content sub,
 .content sup {
-    position: relative;
-
-    vertical-align: baseline;
-
     line-height: 0;
+    font-size: 0.75em;
+    margin-left: 1px;
 }
 
-.content sup { top: -0.5em; }
+.content sup { vertical-align: 0.45em; }
 
-.content sub { bottom: -0.25em; }
+.content sub { vertical-align: -0.45em; }
 
 .content dt {
-    position: relative;
-
-    display: inline;
-
-    margin: 0pt;
-    padding-right: 4pt;
-    padding-left: 0pt;
-
-    font-family: 'Ume double stroke double thin Balsa';
+  position: relative;
+      /*float: left;*/
+      margin: 0pt;
+      /* padding-right: 4pt; */
+      /* padding-left: 2em; */
+      font-family: 'Ume double stroke master expanded';
+      font-size: .8em;
+      border: 1px solid black;
+      padding: 2px 8px;
+      margin-right: 0px;
+      margin-left: 3px;
+      border-radius: 16px;
+}
+.content dt:first-of-type {
+  margin-left: 0px;
 }
 
-.content dd { padding-left: 2em; }
+.content dd {
+  padding-left: 0em;
+  font-family: 'Ume double stroke master expended fat';
+
+}
 
 .content li:before { content: "- "; }
 
@@ -848,9 +1045,19 @@ strong { font-family: 'Ume double stroke double fat Balsa'; }
     color: black;
     border: 1px solid var(--primary-color);
 
-    font-family: monospace;
+
 }
 
+.content time {
+    margin-left: 0em;
+    display: block;
+}
+
+.content a.reservation-link {
+    margin: 0.5em 0;
+    padding: 1em;
+    display: inline-block;
+}
 
 
 

@@ -5,35 +5,31 @@ Balsamine rebuild 2017
 ## Development environment
 The new balsamine website is based on [Pelican](https://blog.getpelican.com/), a static site generator. It's built in Python, and thus, we'll use a virtual environment. It also relies on nodejs and npm for the css post-processing.
 
-```
-$ apt install python3-dev
-$ apt install libjpeg-dev
-$ apt install libpng-dev
-$ apt install npm
-$ apt install nodejs-legacy
+    $ apt install python3-dev
+    $ apt install libjpeg-dev
+    $ apt install libpng-dev
+    $ apt install npm
+    $ apt install nodejs-legacy
 
-$ npm install
+    $ npm install
 
-$ virtualenv --python=python3 venv
-$ . venv/bin/activate
-$ (venv) pip install -r requirements.txt
-```
+    $ virtualenv --python=python3 venv
+    $ . venv/bin/activate
+    $ (venv) pip install -r requirements.txt
 
 With the steps above, you should have setup most of the development space needed for this pelican project. Here is what was installed by pip reading requirements.txt:
 
-```
-pelican==3.7.1
-markdown>=2,<3
-git+https://github.com/aleray/markdown-figures.git
+    pelican==3.7.1
+    markdown>=2,<3
+    git+https://github.com/aleray/markdown-figures.git
 
-# For some reasons the pip hosted version contains support for animated images,
-# whereas the github version does not. But is is buggy.
-# Additionally, in the original repo there is a typo in setup.py so installing
-# from my own fork on Github
+    # For some reasons the pip hosted version contains support for animated images,
+    # whereas the github version does not. But is is buggy.
+    # Additionally, in the original repo there is a typo in setup.py so installing
+    # from my own fork on Github
 
-#minchin.pelican.plugins.image_process
-git+https://github.com/aleray/minchin.pelican.plugins.image_process.git@2e5aa07
-```
+    #minchin.pelican.plugins.image_process
+    git+https://github.com/aleray/minchin.pelican.plugins.image_process.git@2e5aa07
 
 ## Running and using pelican
 Pelican is a static site generator, built in Python that requires no databases or server-side logic. It expects content in Markdown (or reStructuredText), and handles this content in Jinja2 templates. The documentation for Pelican is well written, it's hosted here: http://docs.getpelican.com/en/stable/
@@ -45,21 +41,21 @@ The tool expects a simple chain of events: writing content, generating the stati
 
 ### Generating html
 In it's plainest form, one generates html simply by calling pelican, with no arguments.
-```
-$ pelican
-```
+
+    $ pelican
+
 If you've changed the default location of the content folder, you can tell pelican to generate from that path as an argument:
-```
-$ pelican content
-```
+
+    $ pelican content
+
 You can also use the Makefile, which would parse all the configs from pelicanconf.py like this:
-```
-$ make html
-```
+
+    $ make html
+
 But in the case of development work, a watcher tool exists, which will run the html generation whenever content is updated or added, whenever a template is changed, or whenever the css file is touched. This is the best way to work with pelican locally, you call it from the Makefile:
-```
-$ make devserver
-```
+
+    $ make devserver
+
 The dev server is now also running, so you can visit your website locally at localhost:8000
 
 That should be it to start off.
