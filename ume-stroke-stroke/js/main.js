@@ -5,13 +5,13 @@ var viewSet = false;
 function surMesure(){
 
   $(window).ready(function(){
-    // $('path').css('stroke-linecap', 'round');
+    $('path').css('stroke-linecap', 'round');
     // $('path').css('stroke-linecap', 'butt');
-    var strokeInt = $('.ext');
-    // $('path').css('stroke-linejoin', 'round');
+    // var strokeInt = $('.ext');
+    $('path').css('stroke-linejoin', 'bevel');
   // $('path.int').remove();
-    // $('path.ect').css('transform', 'scale(2, 1 )');
-    // $('path.int').css('transform-origin', 'center');
+    $('path.ext').css('transform', 'scale(1.1, 1 )');
+    $('path.int').css('transform-origin', 'center');
     strokeInt.each(function(){
         // alert('d');
         var stStroke = $(this).attr('d');
@@ -20,7 +20,6 @@ function surMesure(){
         // var stStroke = stStroke.replace('1', '9');
         // var stStroke = stStroke.replace('0', '666');
         $(this).attr('d', stStroke);
-        // $(this).css('stroke', 'pink');
       })
   })
 

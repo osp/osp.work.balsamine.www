@@ -21,6 +21,6 @@
   <g inkscape:groupmode="layer" id="layer3" inkscape:label="trace">
     <g transform="matrix(1,0,0,-1,0,1760)" id="g4" style="display:inline;fill:#b3b3b3"></g>
     
-    <path style="display: inline; fill: none; fill-rule: evenodd; stroke: pink; stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="m 563.89829,210 c 0,8.70783 -383.98929,500.86727 -383.98929,1063.3067 0,283.6441 106.48353,455.3923 332.81545,456.6933 227.01926,1.305 333.72255,-172.8565 333.72255,-456.6933 0,-283.8367 -95.90233,-470.72288 -288.98835,-470.72288 h -84.59879 c -103.39924,0 -292.95086,126.25774 -292.95086,470.72288" id="path5546-0-3-2-5-5-3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc" class="ext"></path>
+    <path style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 563.89829,210 c 0,8.70783 -383.98929,500.86727 -383.98929,1063.3067 0,283.6441 106.48353,455.3923 332.81545,456.6933 227.01926,1.305 333.72255,-172.8565 333.72255,-456.6933 0,-283.8367 -95.90233,-470.72288 -288.98835,-470.72288 h -84.59879 c -103.39924,0 -292.95086,126.25774 -292.95086,470.72288" id="path5546-0-3-2-5-5-3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc" class="ext"></path>
   </g>
 </svg>

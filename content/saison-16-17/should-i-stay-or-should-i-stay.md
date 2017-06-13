@@ -8,7 +8,8 @@ Key_image: shows/7-should-i-stay-or-should-i-stay/should-i-stay-composition1.png
 Key_image_detail_1: shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.png
 Key_image_detail_2: shows/7-should-i-stay-or-should-i-stay/chat-3-queues.png
 Key_image_detail_3: shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-1.png
-Key_image_detail_body: shows/7-should-i-stay-or-should-i-stay/chat-3-queues-transparent.png
+Key_image_detail_4: shows/7-should-i-stay-or-should-i-stay/chat-3-queues-transparent.png
+Key_image_detail_body: shows/7-should-i-stay-or-should-i-stay/should-i-stay-or-anim-cat.gif
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Les quatre fantastiques reviennent et reprennent leur rengaine : Should I…
 Color: #3b4086

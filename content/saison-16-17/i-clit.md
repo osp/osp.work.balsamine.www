@@ -3,6 +3,9 @@ Date: 2018/02/27
 End_date: 2018/04/03
 Time: 20h30
 Key_image: shows/5-i-clit/shoes.png
+Key_image_detail_1: shows/5-i-clit/shoes-pillows-hd.png
+Key_image_detail_2: shows/5-i-clit/i-clit-composition-gamma-ok.png
+Key_image_detail_body: shows/5-i-clit/scene-setup.png
 Piece_author: Mercedes Dassy
 Event_type: Création danse
 Reservation_link: http://balsamine.billetterie.it/index.php?...
