@@ -15,10 +15,14 @@
 <article class="show-detail content">
   <header class="show-detail__header">
     <h1 class="show-detail__title">{{ article.title }}</h1>
+      {# author var #}
+      {% if article.piece_author %}
+        <h2 class="show-detail__author">{{article.piece_author}}</h2>
+      {% endif %}
     <time>
       {# date var #}
       {% if article.end_date %}
-        du {{article.date|strftime('%-d %B %Y') }} au {{article.end_date|strftime('%-d %B %Y')}}
+        du {{article.date|strftime('%-d %B %Y') }} au&nbsp;{{article.end_date|strftime('%-d&nbsp;%B&nbsp;%Y')}}
       {% else %}
         le {{article.locale_date}}
       {% endif %}
@@ -29,17 +33,14 @@
       {% if article.price %}
         <br>{{article.price}}
       {% endif %}
-      {# author var #}
-      {% if article.piece_author %}
-        <br>{{article.piece_author}}
-      {% endif %}
       {# event type var #}
       {% if article.event_type %}
         <br>{{article.event_type}}
       {% endif %}
       {# reservation var #}
       {% if article.reservation_link %}
-        <br><a class="reservation-link" href="{{article.reservation_link}}">Réservation</a>
+      <br><a class="reservation-link" href="{{article.reservation_link}}" style="background: linear-gradient(to right, {{article.color}} 0%, transparent 100%);">Réservation</a>
+    
       {% endif %}
       {% if article.key_image_detail_body %}
       <p class="show-detail__image"><img src="/images/{{ article.key_image_detail_body }}" alt="Main image for {{ article.title }}"></p>
