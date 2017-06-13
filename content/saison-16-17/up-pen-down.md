@@ -6,7 +6,7 @@ Piece_author: OSP
               Adva Zakaï
 Event_type: Danse codée et commentée
 Subhead: Dans le cadre de la Saison des arts numériques
-Key_image: shows/helper-uppendown.png
+Key_image: shows/1-Helpers/helper-uppendown.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Color: #fac533
 
