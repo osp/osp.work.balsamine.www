@@ -392,21 +392,32 @@ dd {
 
 #lecole-des-maitres-2017  .schedule__main-image {
   max-width: 200%;
-  width: 70%;
+  width: 65%;
   /*float: right;
   position: relative;*/
 }
 #lecole-des-maitres-2017  .schedule__main-image img{
   max-width: 100%;
   margin-top: 0em;
-  margin-bottom: 1em;
-  margin-left: 19px;
+  margin-bottom: 0em;
+  margin-left: 0px;
 
 }
 #lecole-des-maitres-2017 .schedule__subhead {
   margin-top: 56px;
 
 }
+
+#les-oracles .schedule__main-image img {
+  padding-left: 81px;
+
+}
+
+#up-pen-down .schedule__main-image img {
+  margin-left: 50pt;
+  width: 60%;
+}
+
 
 
 .schedule__body { display: none; }
@@ -610,19 +621,22 @@ dd {
 
 .show-detail__image-body img {
     position: relative;
-
     float: left;
-
     max-width: 110px;
+    padding: 0px 10px;
+    border: 1px solid black;
 }
 
 .show-detail__image img {
     max-width: 100%;
-
     text-align: center;
 }
 
 .show-detail__image-body:last-of-type img { float: none; }
+
+p.show-detail__image-body + p.show-detail__image-body {
+  text-indent: 0em;
+}
 
 .show-detail__body {
     box-sizing: border-box;
