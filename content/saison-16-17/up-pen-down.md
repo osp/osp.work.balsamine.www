@@ -2,8 +2,8 @@ Title: Up Pen Down
 Date: 2017/10/14
 End_date: 2017/10/14
 Time: 20h30
-Piece_author: OSP
-              Adva Zakaï
+Piece_authors: OSP
+               Adva Zakaï
 Event_type: Danse codée et commentée
 Subhead: Dans le cadre de la Saison des arts numériques
 Key_image: shows/1-Helpers/helper-uppendown.png

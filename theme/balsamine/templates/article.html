@@ -16,8 +16,10 @@
   <header class="show-detail__header">
     <h1 class="show-detail__title">{{ article.title }}</h1>
       {# author var #}
-      {% if article.piece_author %}
-        <h2 class="show-detail__author">{{article.piece_author}}</h2>
+      {% if article.piece_authors %}
+            <h2 class="show-detail__author">{% for author in article.piece_authors %}{% if loop.index > 1 %}/&#8203;{% endif %}{{ author }}{% endfor %}</h2>
+      {% else %}
+            <h2 class="show-detail__author">{{ article.piece_author }}</h2>
       {% endif %}
     <time>
       {# date var #}
