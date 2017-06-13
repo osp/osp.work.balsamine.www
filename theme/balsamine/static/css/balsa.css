@@ -116,7 +116,6 @@ body {
 
 a {
     text-decoration: inherit;
-
     color: inherit;
 }
 
@@ -742,6 +741,12 @@ dd {
     line-height: 1.375em;
 }
 
+.content a {
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}
+
 .show-detail__body p {
     font-size: 1.4em;
     line-height: 1.2em;
@@ -836,6 +841,11 @@ dd {
 
 }
 
+.content a.reservation-link {
+    margin: 0.5em 0;
+    padding: 1em;
+    display: inline-block;
+}
 
 
 
