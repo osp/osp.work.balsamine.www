@@ -18,18 +18,16 @@
     <time>
       {# date var #}
       {% if article.end_date %}
-        du {{article.start_date}} → {{article.end_date}}
+        du {{article.date|strftime('%-d %B %Y') }} au {{article.end_date|strftime('%-d %B %Y')}}
       {% else %}
         le {{article.locale_date}}
       {% endif %}
       {# time var #}
       {% if article.time %}
-        {% if article.time|length > 5 %}
-        <br>horaire: {{article.time}}
-        {% else %}
-        <br>à: {{article.time}}
-        {% endif %}
-      {% else %}
+        <br>à {{article.time}}
+      {% endif %}
+      {% if article.price %}
+        <br>{{article.price}}
       {% endif %}
       {# author var #}
       {% if article.piece_author %}
