@@ -16,7 +16,7 @@
   </sodipodi:namedview>
   <g transform="matrix(1,0,0,-1,0,1760)" id="g4" style="fill:#999999"></g>
   <g inkscape:groupmode="layer" id="layer3" inkscape:label="trace">
-    <path sodipodi:nodetypes="cccscc" inkscape:connector-curvature="0" id="path5236-7-72-2" d="M 468.65253,257.2411 H 212.13255 V 1710 h 251.96786 c 325.82199,0 689.38849,-137.6474 690.36649,-733.5222 0,-614.02906 -381.86633,-719.2367 -685.81437,-719.2367 z" style="display: inline; fill: none; fill-rule: evenodd; stroke: pink; stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" class="ext"></path>
+    <path sodipodi:nodetypes="cccscc" inkscape:connector-curvature="0" id="path5236-7-72-2" d="M 468.65253,257.2411 H 212.13255 V 1710 h 251.96786 c 325.82199,0 689.38849,-137.6474 690.36649,-733.5222 0,-614.02906 -381.86633,-719.2367 -685.81437,-719.2367 z" style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" class="ext"></path>
     
   </g>
 </svg>

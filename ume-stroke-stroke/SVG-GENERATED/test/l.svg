@@ -14,7 +14,7 @@
     <sodipodi:guide position="461.75271,101.2481" orientation="0,1" id="guide6184" inkscape:locked="false"></sodipodi:guide>
   </sodipodi:namedview>
   <g inkscape:groupmode="layer" id="layer2" inkscape:label="trace">
-    <path sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" id="path5829-3-3-7" d="m 201.07415,134.758 v 1347.7012 c 0,133.9613 18.46624,227.5408 145.20316,227.5408 H 390" style="display: inline; fill: none; fill-rule: evenodd; stroke: pink; stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" class="ext"></path>
+    <path sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" id="path5829-3-3-7" d="m 201.07415,134.758 v 1347.7012 c 0,133.9613 18.46624,227.5408 145.20316,227.5408 H 390" style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" class="ext"></path>
     
   </g>
 </svg>

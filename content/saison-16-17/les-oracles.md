@@ -8,8 +8,9 @@ Subhead: En partenariat avec Rhizome et Transcultures
 Key_image: shows/12-Les-Oracles/les-oracles-compo.png
 Key_image_detail_1: shows/12-Les-Oracles/crystal-ball-1.png
 Key_image_detail_2: shows/12-Les-Oracles/knuckebones.png
-Key_image_detail_3: shows/12-Les-Oracles/les-oracles-creampot-1.png
-Key_image_detail_body: shows/12-Les-Oracles/knucklebone-tex.png
+Key_image_detail_3: shows/12-Les-Oracles/knucklebone-tex.png
+Key_image_detail_4: shows/12-Les-Oracles/les-oracles-creampot-1.png
+Key_image_detail_body: shows/12-Les-Oracles/les-oracles-1.gif
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Color: #d2d373
 

@@ -21,10 +21,10 @@
     
   </g>
   <g inkscape:groupmode="layer" id="layer4" inkscape:label="trace2">
-    <path style="display: inline; fill: none; fill-rule: evenodd; stroke: pink; stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="m 179.81497,988.34486 c 0,-399.29536 193.543,-730.13456 497.17239,-730.13456 h 86.54165 c 303.77829,0 497.17239,330.8392 497.17239,730.13456 0,438.61874 -193.9854,737.90574 -540.44321,737.90574 -2.85392,0 -5.69695,-0.02 -8.52908,-0.061 -340.98024,-4.8794 -531.91414,-302.8393 -531.91414,-737.84494 z" id="path951-6" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccscc" class="ext"></path>
+    <path style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 179.81497,988.34486 c 0,-399.29536 193.543,-730.13456 497.17239,-730.13456 h 86.54165 c 303.77829,0 497.17239,330.8392 497.17239,730.13456 0,438.61874 -193.9854,737.90574 -540.44321,737.90574 -2.85392,0 -5.69695,-0.02 -8.52908,-0.061 -340.98024,-4.8794 -531.91414,-302.8393 -531.91414,-737.84494 z" id="path951-6" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccscc" class="ext"></path>
   </g>
   <g inkscape:groupmode="layer" id="layer5" inkscape:label="trace3">
-    <path style="fill: none; fill-rule: evenodd; stroke: pink; stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="m 720.3631,1389.3598 c 0,470.4281 223.52938,620.6402 484.2642,620.6402" id="path4515" inkscape:connector-curvature="0" sodipodi:nodetypes="cc" class="ext"></path>
+    <path style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 720.3631,1389.3598 c 0,470.4281 223.52938,620.6402 484.2642,620.6402" id="path4515" inkscape:connector-curvature="0" sodipodi:nodetypes="cc" class="ext"></path>
     
   </g>
 </svg>

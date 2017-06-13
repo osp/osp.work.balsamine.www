@@ -14,7 +14,7 @@
     <sodipodi:guide position="368.1212,1267.685" orientation="0,1" id="guide4527" inkscape:locked="false"></sodipodi:guide>
   </sodipodi:namedview>
   <g inkscape:groupmode="layer" id="layer3" inkscape:label="trace">
-    <path style="display: inline; fill: none; fill-rule: evenodd; stroke: pink; stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1212.7529,594.99997 C 1212.7529,627.70429 998.8869,1710 998.8869,1710 H 871.60685 L 701.33835,645 H 633.33324 L 462.887,1710 H 335.60696 c 0,0 -213.86602,-1089.15961 -213.86602,-1115" id="path5109-6-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccc" class="ext"></path>
+    <path style="display:inline;fill:none;fill-rule:evenodd;stroke:#050000;stroke-width:100;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 1212.7529,594.99997 C 1212.7529,627.70429 998.8869,1710 998.8869,1710 H 871.60685 L 701.33835,645 H 633.33324 L 462.887,1710 H 335.60696 c 0,0 -213.86602,-1089.15961 -213.86602,-1115" id="path5109-6-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccc" class="ext"></path>
     
   </g>
 </svg>

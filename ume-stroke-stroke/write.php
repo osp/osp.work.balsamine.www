@@ -19,7 +19,6 @@ $output = shell_exec($command);
 
 echo '<a href="FINAL/ume-stroke-stroke-'.$FontName.'.otf" >download -> '.$FonName.'.otf</a>';
 ?>
-http://localhost/work.balsamine.www/ume-stroke-stroke/FINAL/ume-stroke-stroketest.otf
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
