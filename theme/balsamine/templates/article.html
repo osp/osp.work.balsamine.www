@@ -39,7 +39,8 @@
       {% endif %}
       {# reservation var #}
       {% if article.reservation_link %}
-        <br><a class="reservation-link" href="{{article.reservation_link}}">Réservation</a>
+      <br><a class="reservation-link" href="{{article.reservation_link}}" style="background: linear-gradient(to right, {{article.color}} 0%, transparent 100%);">Réservation</a>
+    
       {% endif %}
       {% if article.key_image_detail_body %}
       <p class="show-detail__image"><img src="/images/{{ article.key_image_detail_body }}" alt="Main image for {{ article.title }}"></p>
