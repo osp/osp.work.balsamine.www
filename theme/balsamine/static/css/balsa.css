@@ -662,7 +662,8 @@ margin-bottom: 0em;
 margin-bottom: 0em;
 font-size: 1.9em;
 line-height: 1.2em;
-font-family: 'Ume double stroke master condensed'
+/*font-family: 'Ume double stroke master condensed';*/
+margin-top: 0em;
 }
 
 
@@ -670,8 +671,9 @@ font-family: 'Ume double stroke master condensed'
   margin-left: 0em;
   display: block;
   font-size: 1.9em;
-  line-height: 1.1em;
+  line-height: 1.2em;
   padding-left: 2.5em;
+  font-family: 'Ume double stroke info pratique';
 }
 
 .content .show-detail__header a.reservation-link {
@@ -701,8 +703,8 @@ p.show-detail__image-body + p.show-detail__image-body {
 .show-detail__body {
     box-sizing: border-box;
     margin-top: 2em;
-    padding: 1rem;
     color: var(--primary-color);
+        padding: 8px 35px;
 }
 
 .show-detail__body p + p,
@@ -845,8 +847,8 @@ p.show-detail__image-body + p.show-detail__image-body {
 }
 
 .show-detail__body p {
-    font-size: 1.4em;
-    line-height: 1.2em;
+    font-size: 1.9em;
+    line-height: 1em;
 }
 
 .show-detail__body p.production {
