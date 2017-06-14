@@ -219,7 +219,7 @@ dd { display: inline; }
 
     vertical-align: middle;
 
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1;
 }
 
@@ -275,6 +275,12 @@ dd { display: inline; }
     color: white;
     outline: none;
     background-color: var(--secondary-color);
+}
+
+.secondary-nav { display: none; }
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    .subscribe { display: none; }
 }
 
 
@@ -768,7 +774,6 @@ dd { display: inline; }
 .content .show-detail__header h1 { margin-bottom: 0em; }
 
 .content .show-detail__header h2 {
-    /*font-family: 'Ume double stroke master condensed';*/
     margin-top: 0.1em;
     margin-bottom: 0em;
 
@@ -786,8 +791,6 @@ dd { display: inline; }
     font-size: 1.9em;
     line-height: 1.25em;
 }
-
-.content .show-detail__header a.reservation-link { font-size: .45em; }
 
 .show-detail__image-body img {
     position: relative;
@@ -808,29 +811,18 @@ dd { display: inline; }
     text-align: center;
 }
 
-.photo {
-    float: left;
-
-    width: 59%;
-
-    border: 1px solid black;
-}
-
-.photo img { width: 100%; }
-
 .show-detail__image-body:last-of-type img { float: none; }
 
-p.show-detail__image-body + p.show-detail__image-body { text-indent: 0em; }
+.show-detail__image-body + .show-detail__image-body { text-indent: 0; }
 
 .show-detail__body {
     box-sizing: border-box;
     margin-top: 2em;
-    padding: 8px 35px;
+    padding: 8px 12px;
 
     color: var(--primary-color);
 }
 
-/*.show-detail__body p + p,*/
 .show-detail__body blockquote + p,
 .show-detail__body p + blockquote { margin-top: 1em; }
 
@@ -848,30 +840,34 @@ p.show-detail__image-body + p.show-detail__image-body { text-indent: 0em; }
 
 .show-detail__body blockquote footer:before { content: "– "; }
 
-.show-detail__body blockquote footer {
-}
-
 .show-detail__body dl {
     margin-top: 1.3em;
     margin-bottom: 0.3em;
-    /*padding-left: 25%;*/
 }
 
 .show-detail__body h3 + dl { margin-top: .8em; }
 
-.show-detail__body p.production {
+.show-detail__body .production {
     text-indent: 0pt;
 
     font-family: 'Ume double stroke master expanded';
 }
 
-.show-detail__body p.production + p.production {
+.show-detail__body .production + .production {
     margin-top: 0em;
 
     text-indent: 3em;
 }
 
-/*.show-detail__body dd { padding-left: 1em; }*/
+.photo {
+    float: left;
+
+    width: 59%;
+
+    border: 1px solid black;
+}
+
+.photo img { width: 100%; }
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
@@ -890,6 +886,7 @@ p.show-detail__image-body + p.show-detail__image-body { text-indent: 0em; }
         float: left;
 
         width: 60%;
+        padding: 8px 35px;
     }
 }
 
@@ -1107,11 +1104,24 @@ p.show-detail__image-body + p.show-detail__image-body { text-indent: 0em; }
     margin-left: 0em;
 }
 
-.content a.reservation-link {
+
+
+
+
+/* ==========================================================================
+   Misc styles
+   ========================================================================== */
+
+/* Reservation link
+   ========================================================================== */
+
+.reservation-link {
     display: inline-block;
 
     margin: 0.5em 0;
-    padding: 1em;
+    padding: 1em !important;
+
+    font-size: .45em;
 }
 
 
