@@ -69,6 +69,7 @@
     font-style: normal;
     src: url('../fonts/ume-stroke-stroke-master-expanded.woff') format('woff');
 }
+
 @font-face {
     font-family: 'Ume double stroke master condensed';
     font-weight: normal;
@@ -82,6 +83,7 @@
     font-style: normal;
     src: url('../fonts/ume-stroke-stroke-expended-fat.woff') format('woff');
 }
+
 @font-face {
     font-family: 'Ume double stroke affiche saison';
     font-weight: normal;
@@ -90,14 +92,17 @@
 }
 
 .cadra {
-  width: auto;
-  float: left;
+    float: left;
+
+    width: auto;
 }
+
 .cadra svg {
-  height: 100%;
-  width: auto;
-  margin-bottom: 100px;
-  overflow: visible
+    overflow: visible;
+
+    width: auto;
+    height: 100%;
+    margin-bottom: 100px;
 }
 
 
@@ -126,23 +131,16 @@ body {
 
 a {
     text-decoration: inherit;
+
     color: inherit;
 }
 
-em {
-  font-family: 'Ume double stroke info pratique';
+em { font-family: 'Ume double stroke info pratique'; }
 
-
-}
-
-strong {
-  font-family: 'Ume double stroke info pratique';
-}
+strong { font-family: 'Ume double stroke info pratique'; }
 
 dt,
-dd {
-      display: inline;
-}
+dd { display: inline; }
 
 
 
@@ -387,7 +385,7 @@ dd {
         overflow-y: scroll;
 
         box-sizing: border-box;
-        width: 70%;
+        width: calc(100% - 500px);
         height: 100%;
 
         background-color: white;
@@ -422,11 +420,13 @@ dd {
 
     background-color: white;
 }
+
 .schedule sup,
 .schedule sub {
-    line-height: 0;
-    font-size: 0.75em;
     margin-left: 1px;
+
+    font-size: 0.75em;
+    line-height: 0;
 }
 
 .schedule sup { vertical-align: 0.3em; }
@@ -449,27 +449,28 @@ dd {
 .schedule__subhead {
     /*margin-bottom: .4em;*/
     font-family: 'Ume double stroke master expanded';
-
     font-size: 0.9em;
     line-height: 1.2em;
 }
 
 .schedule__dates {
-  font-size: 1em;
-  border: 1px solid black;
-  padding: 2px 8px;
-  border-radius: 16px;
-  display: inline;
-  margin-top: 12pt;
-  float: right;
-  background-color: white;
+    display: inline;
+    float: right;
+
+    margin-top: 12pt;
+    padding: 2px 8px;
+
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: white;
+
+    font-size: 1em;
 }
 
 .schedule__title {
-    font-size: 1.5em;
     font-family: 'Ume double stroke info pratique';
+    font-size: 1.5em;
     line-height: 1.1em;
-
 }
 
 .schedule__authors {
@@ -477,17 +478,18 @@ dd {
     margin-bottom: .4em;*/
     font-family: 'Ume double stroke master expended fat';
     line-height: 1em;
-
 }
 
 .schedule__intro {
     padding-left: 2em;
+
     font-family: 'Ume double stroke master expended fat';
     font-size: 1.5em;
 }
 
 .schedule__main-image {
     width: 50%;
+
     text-align: right;
 }
 
@@ -498,71 +500,70 @@ dd {
 }
 
 #lecole-des-maitres-2017  .schedule__main-image {
-  max-width: 200%;
-  width: 90%;
-  /*float: right;
+    width: 90%;
+    max-width: 200%;
+    /*float: right;
   position: relative;*/
 }
-#lecole-des-maitres-2017  .schedule__main-image img{
-  max-width: 100%;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  margin-left: 0px;
 
+#lecole-des-maitres-2017  .schedule__main-image img {
+    max-width: 100%;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0px;
 }
-#lecole-des-maitres-2017 .schedule__subhead {
-  margin-top: 56px;
-}
-#les-oracles .schedule__main-image img {
-  padding-left: 81px;
-}
+
+#lecole-des-maitres-2017 .schedule__subhead { margin-top: 56px; }
+
+#les-oracles .schedule__main-image img { padding-left: 81px; }
+
 #up-pen-down .schedule__main-image {
-  margin-left: 27pt;
-  width: 53%;
-  margin-top: 5pt;
+    width: 53%;
+    margin-top: 5pt;
+    margin-left: 27pt;
 }
+
 #la-lettre-volee .schedule__main-image {
-  margin-left: -6pt;
-  width: 75%;
-  margin-top: 33pt;
-  margin-bottom: 19pt;
+    width: 75%;
+    margin-top: 33pt;
+    margin-bottom: 19pt;
+    margin-left: -6pt;
 }
-#should-i-stay-or-should-i-stay .schedule__main-image {
-  width: 100%;
-}
+
+#should-i-stay-or-should-i-stay .schedule__main-image { width: 100%; }
+
 #les-lundis-en-coulisse .schedule__main-image {
-  width: 33%;
-  margin-left: 61pt;
-      padding-top: 8pt;
+    width: 33%;
+    margin-left: 61pt;
+    padding-top: 8pt;
 }
+
 #les-fortunes-de-la-viande .schedule__main-image {
-  width: 117%;
-  margin-left: -26pt;
-  max-width: 150%;
+    width: 117%;
+    max-width: 150%;
+    margin-left: -26pt;
 }
+
 #scripta-manent .schedule__main-image {
-  width: 40%;
-  margin-left: 53pt;
+    width: 40%;
+    margin-left: 53pt;
 }
 
-#i-clit .schedule__main-image {
-  width: 85%;
-}
+#i-clit .schedule__main-image { width: 85%; }
+
 #etna .schedule__main-image {
-  width: 60%;
-      margin-left: 60pt;
-    }
-#les-loups .schedule__main-image {
-  width: 69%;
-  margin-left: -26pt;
+    width: 60%;
+    margin-left: 60pt;
 }
-#trilogie-de-rome .schedule__main-image {
-  width: 100%;
-}
-#kunstenfestivaldesarts {
-  padding-bottom: 17%;
 
+#les-loups .schedule__main-image {
+    width: 69%;
+    margin-left: -26pt;
 }
+
+#trilogie-de-rome .schedule__main-image { width: 100%; }
+
+#kunstenfestivaldesarts { padding-bottom: 17%; }
 
 .schedule__body { display: none; }
 
@@ -575,11 +576,13 @@ dd {
 .schedule__body blockquote { padding-left: 2em; }
 
 .schedule__body blockquote footer:before { content: "– "; }
+
 .schedule__body blockquote footer {
 }
+
 .schedule__body dl {
-  margin-top: 1.3em;
-  margin-bottom: 0.3em;
+    margin-top: 1.3em;
+    margin-bottom: 0.3em;
     /*padding-left: 25%;*/
 }
 
@@ -641,7 +644,7 @@ dd {
         overflow: hidden;
 
         box-sizing: border-box;
-        width: 30%;
+        width: 500px;
         height: 100%;
 
         border-left: 2px solid var(--secondary-color);
@@ -706,11 +709,9 @@ dd {
     color: white;
     border-right: 1px solid;
 
+    font-family: 'Ume double stroke master expended fat';
     font-size: 14px;
     line-height: 23px;
-
-    font-family: 'Ume double stroke master expended fat';
-
 }
 
 .timeline__point {
@@ -763,68 +764,70 @@ dd {
     background-image: url('../imgs/damier.png');
     background-size: 15px;
 }
-.content .show-detail__header h1 {
-margin-bottom: 0em;
-}
-.content .show-detail__header h2 {
-margin-bottom: 0em;
-font-size: 1.9em;
-line-height: 1.25em;
-/*font-family: 'Ume double stroke master condensed';*/
-margin-top: 0.1em;
-}
 
+.content .show-detail__header h1 { margin-bottom: 0em; }
+
+.content .show-detail__header h2 {
+    /*font-family: 'Ume double stroke master condensed';*/
+    margin-top: 0.1em;
+    margin-bottom: 0em;
+
+    font-size: 1.9em;
+    line-height: 1.25em;
+}
 
 .content .show-detail__header time {
-  margin-left: 0em;
-  display: block;
-  font-size: 1.9em;
-  line-height: 1.25em;
-  padding-left: 2.5em;
-  font-family: 'Ume double stroke info pratique';
+    display: block;
+
+    margin-left: 0em;
+    padding-left: 2.5em;
+
+    font-family: 'Ume double stroke info pratique';
+    font-size: 1.9em;
+    line-height: 1.25em;
 }
 
-.content .show-detail__header a.reservation-link {
-  font-size: .45em;
-}
+.content .show-detail__header a.reservation-link { font-size: .45em; }
 
 .show-detail__image-body img {
     position: relative;
+
     float: left;
+
     max-height: 110px;
     padding: 0px 10px;
+
     border: 1px solid black;
-
-}
-.content .show-detail__image-body a{
-   padding: 0em 0em;
 }
 
+.content .show-detail__image-body a { padding: 0em 0em; }
 
 .show-detail__image img {
     max-width: 100%;
+
     text-align: center;
 }
+
 .photo {
-    border:1px solid black;
-    width: 59%;
     float: left;
+
+    width: 59%;
+
+    border: 1px solid black;
 }
-.photo img {
-    width: 100%;
-}
+
+.photo img { width: 100%; }
 
 .show-detail__image-body:last-of-type img { float: none; }
 
-p.show-detail__image-body + p.show-detail__image-body {
-  text-indent: 0em;
-}
+p.show-detail__image-body + p.show-detail__image-body { text-indent: 0em; }
 
 .show-detail__body {
     box-sizing: border-box;
     margin-top: 2em;
+    padding: 8px 35px;
+
     color: var(--primary-color);
-        padding: 8px 35px;
 }
 
 /*.show-detail__body p + p,*/
@@ -834,35 +837,32 @@ p.show-detail__image-body + p.show-detail__image-body {
 .show-detail__body blockquote { padding-left: 2em; }
 
 .show-detail__body blockquote p {
-  font-size: 1.3em !important;
-  line-height: 1.25em;
+    font-size: 1.3em !important;
+    line-height: 1.25em;
 }
+
 .show-detail__body blockquote footer {
-  font-family: 'Ume double stroke master expended fat';
-  font-size: 1.3em !important;
-
-
+    font-family: 'Ume double stroke master expended fat';
+    font-size: 1.3em !important;
 }
-
-
 
 .show-detail__body blockquote footer:before { content: "– "; }
-.show-detail__body blockquote footer {
 
+.show-detail__body blockquote footer {
 }
 
 .show-detail__body dl {
-  margin-top: 1.3em;
-  margin-bottom: 0.3em;
+    margin-top: 1.3em;
+    margin-bottom: 0.3em;
     /*padding-left: 25%;*/
 }
-.show-detail__body h3 + dl {
-  margin-top: .8em;
-}
-.show-detail__body p.production {
-  text-indent: 0pt;
-  font-family: 'Ume double stroke master expanded';
 
+.show-detail__body h3 + dl { margin-top: .8em; }
+
+.show-detail__body p.production {
+    text-indent: 0pt;
+
+    font-family: 'Ume double stroke master expanded';
 }
 
 .show-detail__body p.production + p.production {
@@ -909,9 +909,7 @@ p.show-detail__image-body + p.show-detail__image-body {
 
 .page-detail dd { break-before: avoid-column; }
 
-.page-detail dd + dt {
-  float: left;
-}
+.page-detail dd + dt { float: left; }
 
 .page-detail dd { break-inside: avoid-column; }
 
@@ -924,12 +922,14 @@ p.show-detail__image-body + p.show-detail__image-body {
 .page-detail p + p img { margin-left: -3em; }
 
 .page-detail h1 {
-  width: 50%;
-  text-align: center;
+    width: 50%;
+
+    text-align: center;
 }
 
 .page-detail p {
     text-indent: 3em;
+
     font-size: 25px;
     line-height: 30px;
 }
@@ -938,6 +938,14 @@ p.show-detail__image-body + p.show-detail__image-body {
     .section2 h2 ~ * { display: none; }
 
     .section2 h2:target ~ * { display: block; }
+}
+
+@media (--desktop) {
+    .page-detail {
+        max-width: 50em;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 
@@ -950,6 +958,7 @@ p.show-detail__image-body + p.show-detail__image-body {
 .content h1 {
     margin-top: 0em;
     margin-bottom: 0.40740741em;
+
     font-family: 'Ume double stroke info pratique';
     font-size: 3.375em;
     line-height: 1em;
@@ -958,19 +967,22 @@ p.show-detail__image-body + p.show-detail__image-body {
 .content h2 {
     margin-top: 2em;
     margin-bottom: 1em;
-    font-family: 'Ume double stroke info pratique';
-    font-size: 1.5em;
     /*line-height: 1.83333334em;*/
     letter-spacing: 0.03em;
+
+    font-family: 'Ume double stroke info pratique';
+    font-size: 1.5em;
 }
 
 .content h3 {
+    margin-top: .5em;
     /*margin-top: 1em;*/
     margin-bottom: .5em;
-    margin-top: .5em;
+
+    text-decoration: underline;
+
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
-    text-decoration: underline;
     /*line-height: 1.83333333em;*/
 }
 
@@ -991,22 +1003,23 @@ p.show-detail__image-body + p.show-detail__image-body {
 }
 
 .content a {
-    border-radius: 1em;
     padding: 0.5em 1em;
+
+    border-radius: 1em;
 }
 
 .show-detail__body p {
-  font-size: 1.9em;
-  line-height: 1.1em;
+    font-size: 1.9em;
+    line-height: 1.1em;
 }
 
 .show-detail__body p.production {
-  font-size: .9em;
-      line-height: 1.2em;
+    font-size: .9em;
+    line-height: 1.2em;
 }
-.show-detail__body .section2 {
-  /*padding-left: 5em;*/
-}
+
+.show-detail__body .section2 { /*padding-left: 5em;*/ }
+
 .content p,
 .content ul,
 .content ol,
@@ -1044,9 +1057,10 @@ p.show-detail__image-body + p.show-detail__image-body {
 
 .content sub,
 .content sup {
-    line-height: 0;
-    font-size: 0.75em;
     margin-left: 1px;
+
+    font-size: 0.75em;
+    line-height: 0;
 }
 
 .content sup { vertical-align: 0.45em; }
@@ -1054,27 +1068,27 @@ p.show-detail__image-body + p.show-detail__image-body {
 .content sub { vertical-align: -0.45em; }
 
 .content dt {
-  position: relative;
-      /*float: left;*/
-      margin: 0pt;
-      /* padding-right: 4pt; */
-      /* padding-left: 2em; */
-      font-family: 'Ume double stroke master expanded';
-      font-size: .8em;
-      border: 1px solid black;
-      padding: 2px 8px;
-      margin-right: 0px;
-      margin-left: 3px;
-      border-radius: 16px;
+    position: relative;
+    /*float: left;*/
+    margin: 0pt;
+    margin-right: 0px;
+    margin-left: 3px;
+    padding: 2px 8px;
+
+    border: 1px solid black;
+    border-radius: 16px;
+    /* padding-right: 4pt; */
+    /* padding-left: 2em; */
+    font-family: 'Ume double stroke master expanded';
+    font-size: .8em;
 }
-.content dt:first-of-type {
-  margin-left: 0px;
-}
+
+.content dt:first-of-type { margin-left: 0px; }
 
 .content dd {
-  padding-left: 0em;
-  font-family: 'Ume double stroke master expended fat';
+    padding-left: 0em;
 
+    font-family: 'Ume double stroke master expended fat';
 }
 
 .content li:before { content: "- "; }
@@ -1085,19 +1099,19 @@ p.show-detail__image-body + p.show-detail__image-body {
 
     color: black;
     border: 1px solid var(--primary-color);
-
-
 }
 
 .content time {
-    margin-left: 0em;
     display: block;
+
+    margin-left: 0em;
 }
 
 .content a.reservation-link {
+    display: inline-block;
+
     margin: 0.5em 0;
     padding: 1em;
-    display: inline-block;
 }
 
 
@@ -1194,13 +1208,8 @@ p.show-detail__image-body + p.show-detail__image-body {
 /* Scrollbar Balsa theme
    ========================================================================== */
 
-.ps--theme_balsa:hover > .ps__scrollbar-y-rail:hover {
-    background-color: rgb(255, 255, 255);
-}
+.ps--theme_balsa:hover > .ps__scrollbar-y-rail:hover { background-color: rgb(255, 255, 255); }
 
-.ps--theme_balsa:hover > .ps__scrollbar-y-rail > .ps__scrollbar-y {
-    background-color: var(--tertiary-color);
-}
-.ps--theme_balsa:hover > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y {
-    background-color: var(--tertiary-color);
-}
+.ps--theme_balsa:hover > .ps__scrollbar-y-rail > .ps__scrollbar-y { background-color: var(--tertiary-color); }
+
+.ps--theme_balsa:hover > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y { background-color: var(--tertiary-color); }
