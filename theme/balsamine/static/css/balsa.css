@@ -130,10 +130,17 @@ body {
 }
 
 a {
-    text-decoration: inherit;
-
+    /*text-decoration: inherit;*/
+    text-decoration-color: pink;
     color: inherit;
+    padding: 0.25em;
 }
+
+a:hover {
+    background: linear-gradient(to right, pink 5%, transparent 70%);
+    border-radius: 1em;
+}
+
 
 em { font-family: 'Ume double stroke info pratique'; }
 
