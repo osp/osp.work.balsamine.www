@@ -571,29 +571,6 @@ dd { display: inline; }
 
 #kunstenfestivaldesarts { padding-bottom: 17%; }
 
-.schedule__body { display: none; }
-
-.schedule__body:target { display: block; }
-
-.schedule__body p + p,
-.schedule__body blockquote + p,
-.schedule__body p + blockquote { margin-top: 1em; }
-
-.schedule__body blockquote { padding-left: 2em; }
-
-.schedule__body blockquote footer:before { content: "– "; }
-
-.schedule__body blockquote footer {
-}
-
-.schedule__body dl {
-    margin-top: 1.3em;
-    margin-bottom: 0.3em;
-    /*padding-left: 25%;*/
-}
-
-.schedule__body dd { padding-left: 1em; }
-
 .schedule__timeline {
     top: 0;
     right: 0;
