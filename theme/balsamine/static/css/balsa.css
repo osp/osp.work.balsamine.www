@@ -448,6 +448,12 @@ dd { display: inline; }
     color: var(--primary-color);
 
     line-height: 1.3;
+
+    background-size: 100%, 0px;
+}
+
+.schedule__item:target {
+    background-size: 100%, 10px !important;
 }
 
 .schedule__item + .schedule__item { border-top: 2px solid var(--secondary-color); }
