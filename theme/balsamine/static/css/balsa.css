@@ -722,6 +722,7 @@ dd { display: inline; }
     border-radius: 5px;
     background-color: white;
     box-shadow: 3px 2px 6px 1px var(--primary-color);
+    background-size: 10px;
 }
 
 .timeline__point:hover { transform: scale(1.5); }

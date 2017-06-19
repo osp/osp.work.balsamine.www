@@ -101,7 +101,7 @@ $(function() {
         var pc = (1 - (lastDate - currentStartDate) / (lastDate - firstDate)) * 100;
         var pc2 = (1 - (lastDate - currentEndDate) / (lastDate - firstDate)) * 100;
 
-        var point = $("<a>").attr("href", "#" + anchor).addClass("timeline__point").css({
+        var point = $("<a>").attr("href", "#" + anchor).attr("id", "point-" + anchor).addClass("timeline__point").css({
             'top': pc + "%",
             'bottom': (100 - pc2) + "%",
             'z-index': 10000
@@ -119,7 +119,12 @@ $(function() {
     });
 
     $(".timeline").css("background", "linear-gradient(to bottom, " + gradient.join(", ") + ")" )
-    $(".timeline__point").click(function() {window.location = $(this).attr("href")});
+    $(".timeline__point").click(function() {
+        window.location = $(this).attr("href")
+        $(".timeline__point").css("background-image", 'none');
+        $("#point" + window.location.hash.replace("#", "-")).css("background-image", 'url("/images/damier.png")');
+    });
+    $("#point" + window.location.hash.replace("#", "-")).css("background-image", 'url("/images/damier.png")');
 });
 
 
