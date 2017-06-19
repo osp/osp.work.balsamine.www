@@ -1119,6 +1119,7 @@ dd { display: inline; }
 
 .reservation-link {
     display: inline-block;
+    text-decoration: none;
 
     margin: 0.5em 0;
     padding: 1em !important;
