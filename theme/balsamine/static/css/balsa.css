@@ -138,6 +138,9 @@ a {
 a:hover {
     border-radius: 1em;
     box-shadow: 3px 2px 6px 1px var(--primary-color);
+    background-color: white;
+    position: relative;
+    z-index: 1000;
 }
 
 
@@ -1003,6 +1006,8 @@ dd { display: inline; }
 
 .content a {
     padding: 0.5em 1em;
+    margin-left: -1em;
+    margin-right: -1em;
 
     border-radius: 1em;
 }
@@ -1067,18 +1072,11 @@ dd { display: inline; }
 .content sub { vertical-align: -0.45em; }
 
 .content dt {
-    position: relative;
-    /*float: left;*/
-    margin: 0pt;
-    margin-right: 0px;
-    margin-left: 3px;
     padding: 2px 8px;
 
     border: 1px solid black;
     /*border-radius: 16px;*/
-    /* padding-right: 4pt; */
-    /* padding-left: 2em; */
-    font-family: 'Ume double stroke master expanded';
+    font-family: 'Ume double stroke master expanded fat';
     font-size: .8em;
 }
 
