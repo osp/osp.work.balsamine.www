@@ -151,7 +151,14 @@ strong { font-family: 'Ume double stroke info pratique'; }
 dt,
 dd { display: inline; }
 
+hr {
+    border: 0;
+    height: 1.375em;
+}
 
+hr + hr {
+    border-top: 1px solid var(--primary-color);
+}
 
 
 
@@ -929,9 +936,8 @@ dd { display: inline; }
     text-align: center;
 }
 
-.page-detail p {
-    text-indent: 3em;
-
+.page-detail p, 
+.page-detail ul {
     font-size: 25px;
     line-height: 30px;
 }
@@ -1045,11 +1051,6 @@ dd { display: inline; }
 }
 
 /* Let's make sure all's aligned */
-.content hr {
-    margin: -1px 0;
-
-    border: 1px solid;
-}
 
 .content a,
 .content b,
