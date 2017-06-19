@@ -232,7 +232,9 @@ dd { display: inline; }
 
 .address > span { display: block; }
 
-.address > span > span + span::before { content: '\00B7\00A0'; }
+.address > span + span:before { content: " — "; }
+
+.address > span span + span::before { content: '\00B7\00A0'; }
 
 @media (--desktop) {
     .main-footer {
