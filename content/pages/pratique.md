@@ -5,19 +5,22 @@ Date: 2017/04
 
 Tous les chemins mènent à la Balsa.
 
+* * *
+
 La Balsamine  
-Avenue Félix Marchal 1  
+Avenue Félix Marchal, 1  
 1030 Bruxelles  
+
+* * *
 
 <!-- lien map -->
 
-Administration: [+32 2 732 96 18](tel:+3227329618)  
-[info@balsamine.be](mailto:info@balsamine.be)  
+Administration: [+32 2 732 96 18](tel:+3227329618) — [info@balsamine.be](mailto:info@balsamine.be)  
+Réservation: [+32 2 735 64 68](tel:+3227356468) — [reservation@balsamine.be](mailto:reservation@balsamine.be)
 
-Réservation: [+32 2 735 64 68](tel:+3227356468)
-[reservation@balsamine.be](mailto:reservation@balsamine.be)
+![plan de la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
 
-![plan de la balsamine](/images/map.svg)
+* * *
 
 L’accessibilité de nos salles aux personnes à mobilité réduite est possible mais n’est pas aisée. Lors de votre réservation, nous vous remercions de faire une demande pour cet accès.
 
@@ -53,11 +56,11 @@ N’hésitez donc pas, si un spectacle de notre saison vous donnait l’envie de
 
 Nous organisons  régulièrement des dynamiques d’échanges entre étudiants et professionnels, sous différentes formes en fonction des projets spécifiques. ex : captations vidéo, stages d’observation, interviews d’artistes, séances de croquis, ateliers créatifs… Ces activités sont gratuites et construites à la carte.
 
-Contact conseils et organisation des activités pédagogiques :
+* * *
 
+Contact conseils et organisation des activités pédagogiques:  
 Noemi Tiberghien  
-02 / 737 70 18  
-noemi.tiberghien@balsamine.be  
+[+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)  
 
 <!-- + Guide pédagogique à télécharger -->
 

@@ -89,7 +89,7 @@ Visuels; artiste associé pour la saison 17-18
 
 La Balsamine est subventionnée par la Fédération Wallonie-Bruxelles et fait partie du réseau des Scènes chorégraphiques de la Commission Communautaire française de la Région de Bruxelles-Capitale. 
 
-La Balsamine reçoit aussi le soutien de Wallonie- Bruxelles Théâtre/Danse et de Wallonie-Bruxelles International.
+La Balsamine reçoit aussi le soutien de Wallonie-Bruxelles Théâtre/Danse et de Wallonie-Bruxelles International.
 
 ![](http://balsamine.be/uploads/Partenaires.Partenaires/logos2016.png)
 
@@ -113,7 +113,7 @@ En 1981, le théâtre de la Balsamine s’installe de manière provisoirement d�
 
 !["historique 1"](http://balsamine.be/uploads/Balsamine.Historique/historique1.jpg)
 
-Ces casernes ont été abandonnées depuis plusieurs années et elles sont découvertes dans leur jus. Un impressionnant périmètre de bâtiments fin XIX^e^ cerne un parc intérieur redevenu sauvage. Le site a toutes les vertus d’une cité de la fiction et cette qualité invite le théâtre à s’y installer.
+Ces casernes ont été abandonnées depuis plusieurs années et elles sont découvertes dans leur jus. Un impressionnant périmètre de bâtiments fin XIX<sup>e</sup> cerne un parc intérieur redevenu sauvage. Le site a toutes les vertus d’une cité de la fiction et cette qualité invite le théâtre à s’y installer.
 
 Commence alors une période dite sauvage durant laquelle de très nombreux lieux seront investis pour leur valeur spatiale brute et où naîtront des spectacles sur mesure, comme autant d’interventions uniques et
 totalement éphémères sur l’architecture.
@@ -177,6 +177,6 @@ L’activité va également se centraliser sur un lieu particulier de la caserne
 Les premiers aménagements de l’amphi se feront selon la technique du recyclage absolu, le matériel nécessaire et encore utilisable étant démonté dans d’autres ailes de la caserne et remonté après
 transformation dans l’amphi.
 
-En 1994, [Martine Wijckaert](http://balsamine.be/index.php/Protagonistes/MartineWijckaert) confie la direction artistique du théâtre à Christian Machiels et y demeure en qualité d’artiste associée. Le théâtre actuel, d'un style contemporain ayant conservé toutefois la singularité de la salle primitive, date de 2001 et est l'œuvre de l'architecte Francis Metzger, pour laquelle il a reçu le 3^e^ prix d’architecture à la biennale du Costa Rica. La programmation de Christian Machiels a été tout entière
+En 1994, [Martine Wijckaert](http://balsamine.be/index.php/Protagonistes/MartineWijckaert) confie la direction artistique du théâtre à Christian Machiels et y demeure en qualité d’artiste associée. Le théâtre actuel, d'un style contemporain ayant conservé toutefois la singularité de la salle primitive, date de 2001 et est l'œuvre de l'architecte Francis Metzger, pour laquelle il a reçu le 3<sup>e</sup> prix d’architecture à la biennale du Costa Rica. La programmation de Christian Machiels a été tout entière
 dévolue aux arts du spectacle et aux jeunes compagnies de théâtre et de danse contemporaine.
 
