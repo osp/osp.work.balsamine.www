@@ -113,9 +113,9 @@ $(function() {
         var color = $(this).data("color");
         gradient.push(color + " " + pc + "%");
 
-        var value = $(this).css("background");
-        value = value.replace("to left", (Math.round(Math.random()*360) + 1) + "deg");
-        $(this).css("background", value);
+        //var value = $(this).css("background");
+        //value = value.replace("to left", (Math.round(Math.random()*360) + 1) + "deg");
+        //$(this).css("background", value);
     });
 
     $(".timeline").css("background", "linear-gradient(to bottom, " + gradient.join(", ") + ")" )

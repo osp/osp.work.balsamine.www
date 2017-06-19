@@ -129,3 +129,5 @@ IMAGE_PROCESS = {
                     'default': '800w',
                    },
     }
+
+IGNORE_FILES = [".swo"]
