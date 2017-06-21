@@ -18,9 +18,9 @@
     <sodipodi:guide position="465.26022,1176.4437" orientation="0,1" id="guide56" inkscape:locked="false"></sodipodi:guide>
   </sodipodi:namedview>
   <g inkscape:groupmode="layer" id="layer3" inkscape:label="trace" style="display:inline">
-    
+    <path style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="m 203.03628,989.52818 c 0,-405.75834 92.38947,-699.81462 315.47066,-699.6714 223.0812,0.14322 314.07063,273.29624 314.07063,698.65942 0,365.8595 -82.06767,699.1333 -315.49701,699.1333 -232.85288,0 -314.04428,-333.3194 -314.04428,-698.12132 z" id="path144" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc" class="int"></path>
   </g>
   <g inkscape:groupmode="layer" id="layer4" inkscape:label="trace2">
-    <path style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="m 880.38415,988.29834 c 0,-404.07584 -129.93252,-738.87596 -333.77007,-738.87596 H 488.5155 c -203.93751,0 -333.77004,334.80012 -333.77004,738.87596 0,443.86996 130.22949,744.20116 363.84362,741.70166 233.61414,-2.4995 361.79507,-301.4876 361.79507,-741.70127 z" id="path951-6" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc" class="ext"></path>
+    <path style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="m 880.38415,988.29834 c 0,-404.07584 -129.93252,-738.87596 -333.77007,-738.87596 H 488.5155 c -203.93751,0 -333.77004,334.80012 -333.77004,738.87596 0,443.86996 130.22949,744.20116 363.84362,741.70166 233.61414,-2.4995 361.79507,-301.4876 361.79507,-741.70127 z" id="path951-6" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc" class="ext"></path>
   </g>
 </svg>

@@ -75,13 +75,13 @@ table["["] = "bracketleft";
 table["]"] = "bracketright";
 table["'"] = "quotesingle"; 
 
-// table["à"] = "agrave";
-// table["â"] = "acir";
-// table["á"] = "aacute";
-//
-//
-// table["è"] = "egrave";
-// table["ê"] = "ecir";
-// table["é"] = "eacute";
-//
-// table["ç"] = "ccedilla";
+table["à"] = "agrave";
+table["â"] = "acir";
+table["á"] = "aacute";
+table["è"] = "egrave";
+table["ê"] = "ecir";
+table["é"] = "eacute";
+table["ç"] = "ccedilla";
+
+table["ó"] = "oacute";
+

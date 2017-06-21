@@ -5,22 +5,22 @@ var viewSet = false;
 function surMesure(){
 
   $(window).ready(function(){
-    $('path').css('stroke-linecap', 'round');
-    // $('path').css('stroke-linecap', 'butt');
+    // $('path').css('stroke-linecap', 'round');
+   // $('path').css('stroke-linecap', 'round');
     // var strokeInt = $('.ext');
     $('path').css('stroke-linejoin', 'bevel');
   // $('path.int').remove();
-    $('path.ext').css('transform', 'scale(1.1, 1 )');
-    $('path.int').css('transform-origin', 'center');
-    strokeInt.each(function(){
+    // $('path.ext').css('transform', 'scale(1.1, 1 )');
+    // $('path.int').css('transform-origin', 'center');
+    // strokeInt.each(function(){
         // alert('d');
-        var stStroke = $(this).attr('d');
+        // var stStroke = $(this).attr('d');
         // var stStroke = stStroke.replace('v', 'z');
         // var stStroke = stStroke.replace('L', 'l');
         // var stStroke = stStroke.replace('1', '9');
-        // var stStroke = stStroke.replace('0', '666');
-        $(this).attr('d', stStroke);
-      })
+      //   var stStroke = stStroke.replace('0', '666');
+      //   $(this).attr('d', stStroke);
+      // })
   })
 
 }
@@ -104,7 +104,6 @@ function caseSet(chemin){
     onClick: 'formSave("bien")'
   }).prependTo('.caseSet');
 
-  //
 }
 
 function onInput(chemin, set){
@@ -112,7 +111,6 @@ function onInput(chemin, set){
   var word = $('#chaine').val();
   var nb_car = word.length;
   var letter = word.split("");
-
   if(set == 'input'){
 
     for (var i = 0, l = word.length; i < l; i++) {
@@ -120,6 +118,7 @@ function onInput(chemin, set){
       jQuery('<div/>', {
           id: v+'_'+i,
           class: 'cadra',
+          'data-switch': 'off'
       }).appendTo('.container');
       $('#'+v+'_'+i).load('SVG-MASTER/'+chemin+'/'+v+'.svg');
     }
@@ -173,12 +172,54 @@ function localHash(){
 function setAll(){
   var hashLocal = location.hash.substring(1);
   onInput(hashLocal, 'all');
-
   surMesure();
-  // $(window).ready(function(){
-  //   $('svg:g').attr('transform', 'matrix(1,0,0,0.41723018,0,1025.6749)');
-  // })
 }
+
+function metricDialog (){
+  $('.cadra svg').click( function(){
+    // $('.metricDialog').remove();
+    var CadraParent = $(this).parent();
+    if(CadraParent.attr('data-switch') == 'off'){
+      CadraParent.attr('data-switch', 'on');
+
+      var widthCadra = $(this).attr('width');
+
+
+      CadraParent.toggleClass('activate');
+      
+      CadraParent.prepend($('<div/>', {
+        class: 'metricDialog',
+        width: CadraParent.width()
+      }));
+      var dialogMetric = CadraParent.find('.metricDialog');
+      
+      dialogMetric.append($('<input />',{
+        type: 'range',
+        width: '100%',
+        min: '0',
+        max: '2000',
+        value: widthCadra
+      }));
+      $('.metricDialog input').on('change mousemove', function(){
+        var startValue = $(this).val();
+        var svgCible = $(this).parent().next('svg');
+
+        svgCible.attr('width', startValue);
+      });
+    } else {
+      $(CadraParent).attr('data-switch', 'off')
+      CadraParent.find('.metricDialog').remove();
+    }
+  })
+
+  // $('.cadra svg').mouseout( function(){
+  //   $(this).parent().find('.metricDialog').remove();
+  // })
+
+}
+$(window).ready(function(){
+  metricDialog();
+})
 
 range('cadra', 3000, 10000, 'height', 'css');
 range('int', 1000, 3000, 'stroke-width', 'css');

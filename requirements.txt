@@ -2,13 +2,7 @@ pelican==3.7.1
 markdown>=2,<3
 git+https://github.com/aleray/markdown-figures.git
 
-# For some reasons the pip hosted version contains support for animated images,
-# whereas the github version does not. But is is buggy.
-# Additionally, in the original repo there is a typo in setup.py so installing
-# from my own fork on Github
-
-#minchin.pelican.plugins.image_process
-git+https://github.com/aleray/minchin.pelican.plugins.image_process.git@2e5aa07
+minchin.pelican.plugins.image_process>=1.1.3
 
 html5lib
 
