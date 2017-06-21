@@ -144,7 +144,7 @@ a {
 }
 
 /* >>>>>>>>> FIXME: make more specific rule */
-a:not(.timeline__point)::hover {
+a:not(.timeline__point):hover {
     position: relative;
     z-index: 1000;
 
@@ -788,7 +788,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     padding: 1em;
 
     color: var(--primary-color);
-    background-image: url('../imgs/damier.png');
+    /*background-image: url('../imgs/damier.png');*/
     background-size: 25px;
 }
 
@@ -860,10 +860,18 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 
 .show-detail__image-body + .show-detail__image-body { text-indent: 0; }
 
+.show-detail__body-images {
+    background-color: white;
+    padding-bottom: 2em;
+    width: 60%;
+    float: left;
+}
+
 .show-detail__body {
     box-sizing: border-box;
-    margin-top: 2em;
     padding: 8px 12px;
+    background-color: white;
+    padding-bottom: 2em;
 
     color: var(--primary-color);
 }
