@@ -834,7 +834,11 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     line-height: 1.3em;
 }
 
-p.show-detail__image-body img:hover { outline: 2px solid red; }
+p.show-detail__image-body img:hover { 
+    cursor: pointer;
+    background-image: url("/images/damier.png");
+    background-size: 10px;
+}
 
 .show-detail__image-body img,
 .show-detail__image-body iframe {
@@ -932,6 +936,10 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
+
+    .show-detail__body-images {
+        width: 100%;
+    }
 }
 
 @media (--desktop) {
