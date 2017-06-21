@@ -132,6 +132,7 @@ body {
 a {
     /*text-decoration: inherit;*/
     text-decoration-color: pink;
+    text-decoration: none;
     color: inherit;
 }
 
@@ -474,14 +475,6 @@ hr + hr {
 .schedule__item:target {
     background-size: 100% 100%, 10px !important;
 }
-
-.schedule__subhead {
-    /*margin-bottom: .4em;*/
-    font-family: 'Ume double stroke master expanded';
-    font-size: 0.9em;
-    line-height: 1.2em;
-}
-
 .schedule__dates {
     display: inline;
     float: right;
@@ -493,7 +486,6 @@ hr + hr {
     border-right: 2px solid black;
     /*border-radius: 16px;*/
     /*background-color: white;*/
-
     font-size: 1em;
 }
 
@@ -536,7 +528,7 @@ hr + hr {
 
 .schedule__booking {
     border-radius: 16px;
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
     box-shadow: 3px 2px 6px 1px var(--primary-color);
     text-decoration: none;
 }
@@ -780,7 +772,7 @@ hr + hr {
 
     color: var(--primary-color);
     background-image: url('../imgs/damier.png');
-    background-size: 15px;
+    background-size: 25px;
 }
 
 .content .show-detail__header h1 { margin-bottom: 0em; }
@@ -800,11 +792,27 @@ hr + hr {
     padding-left: 2.5em;
 
     font-family: 'Ume double stroke info pratique';
-    font-size: 1.9em;
+    font-size: 1.3em;
     line-height: 1.25em;
+        letter-spacing: 0.03em;
 }
+.content p.detail-prix {
+      font-size: 12pt;
+  font-family: 'Ume double stroke master condensed';
+      line-height: 1.1em;
 
-.show-detail__image-body img {
+}
+.content p.show-detail__subhead {
+  font-family: 'Ume double stroke info pratique';
+  font-size: 10.5pt;
+  line-height: 1.3em;
+  margin-top: 12pt;
+  letter-spacing: 0.04em;
+}
+p.show-detail__image-body img:hover {
+  outline: 2px solid red;
+}
+.show-detail__image-body img, .show-detail__image-body iframe {
     position: relative;
 
     float: left;
@@ -812,7 +820,7 @@ hr + hr {
     max-height: 110px;
     padding: 0px 10px;
 
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .content .show-detail__image-body a { padding: 0em 0em; }
@@ -874,9 +882,10 @@ hr + hr {
 .photo {
     float: left;
 
-    width: 59%;
+    width: 100%;
+        margin-bottom: 21pt;
 
-    border: 1px solid black;
+
 }
 
 .photo img { width: 100%; }
@@ -933,13 +942,16 @@ hr + hr {
 .page-detail h1 {
     width: 50%;
 
-    text-align: center;
+    /*text-align: center;*/
 }
 
-.page-detail p, 
+.page-detail p,
 .page-detail ul {
     font-size: 25px;
     line-height: 30px;
+}
+.page-detail p {
+  display: none;
 }
 
 @media (--mobile) {
@@ -1011,7 +1023,7 @@ hr + hr {
 }
 
 .content a {
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
     margin-left: -1em;
     margin-right: -1em;
 
@@ -1076,8 +1088,8 @@ hr + hr {
     padding: 2px 8px;
 
     border: 1px solid black;
-    /*border-radius: 16px;*/
-    font-family: 'Ume double stroke master expanded fat';
+    border-radius: 16px;
+    /*font-family: 'Ume double stroke master expanded fat';*/
     font-size: .8em;
 }
 
@@ -1117,15 +1129,17 @@ hr + hr {
    ========================================================================== */
 
 .reservation-link {
-    display: inline-block;
-    text-decoration: none;
-
-    margin: 0.5em 0;
-    padding: 1em !important;
-
-    font-size: .45em;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0.2em 1;
+  padding: 0.8em !important;
+  font-size: 12pt;
+  letter-spacing: 0.04em;
+  margin-bottom: 21pt;
 }
-
+a.reservation-link:hover {
+background-color: white !important;
+}
 
 
 

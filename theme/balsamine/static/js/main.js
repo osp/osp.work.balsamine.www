@@ -271,8 +271,8 @@ $(function() {
 
 // scrollbars
 (function($) {
-    $(".main-content").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'}); 
-    $(".schedule__list").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'}); 
+    $(".main-content").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'});
+    $(".schedule__list").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'});
 })(jQuery);
 
 
@@ -282,3 +282,13 @@ $(function() {
         $('.photo').html(srcimg);
     })
 })(jQuery);
+
+// dropdown
+
+// $(function() {
+//     $('.showDropdown').click(function() {
+//         var $drop = $('.dropdown');
+//         $drop.css({'position': $('#positioning').val()});
+//         $drop.toggle();
+//     });
+// });
