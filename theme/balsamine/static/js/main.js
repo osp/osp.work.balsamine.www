@@ -282,7 +282,9 @@ $(function() {
     $('.show-detail__image-body').click(function() {
         var srcimg = $(this).children('img').clone().html('src');
         $('.photo').html(srcimg);
+        $('.photo').css("height", "auto");
     })
+    $(".photo").click(function(){$(this).css("height", 0)});
 })(jQuery);
 
 // dropdown

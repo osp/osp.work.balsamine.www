@@ -847,7 +847,7 @@ p.show-detail__image-body img:hover {
     float: left;
 
     max-height: 110px;
-    padding: 0px 10px;
+    margin: 0px 10px;
 
     /*border: 1px solid black;*/
 }
@@ -869,6 +869,8 @@ p.show-detail__image-body img:hover {
     padding-bottom: 2em;
     width: 60%;
     float: left;
+    padding: 1em;
+    box-sizing: border-box;
 }
 
 .show-detail__body {
@@ -878,6 +880,16 @@ p.show-detail__image-body img:hover {
     padding-bottom: 2em;
 
     color: var(--primary-color);
+}
+
+.show-detail__body .photo {
+    background-image: url("/images/damier.png");
+    background-size: 10px;
+    cursor: n-resize;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+    overflow: hidden;
+    height: auto;
 }
 
 .show-detail__body blockquote + p,
