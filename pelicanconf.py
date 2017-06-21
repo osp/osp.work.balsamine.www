@@ -68,7 +68,7 @@ DEFAULT_METADATA = {'color': '#CCCCCC'}
 
 # Extends pelican for our specific needs
 PLUGINS = [
-    #  'minchin.pelican.plugins.image_process',
+    'minchin.pelican.plugins.image_process',
     'pelican_balsa',
 ]
 
@@ -110,24 +110,30 @@ MARKDOWN = {
 # translated to HTML.
 # FORMATTED_FIELDS = ['summary']
 
-
+# See <https://github.com/MinchinWeb/minchin.pelican.plugins.image_process> for
+# configuration options
 IMAGE_PROCESS = {
-    'crisp': {'type': 'responsive-image',
-              'srcset': [('1x', ["scale_in 800 600 True"]),
-                         ('2x', ["scale_in 1600 1200 True"]),
-                         ('4x', ["scale_in 3200 2400 True"]),
-                         ],
-               'default': '1x',
-             },
-    'large-photo': {'type': 'responsive-image',
-                    'sizes': '(min-width: 1200px) 800px, (min-width: 992px) 650px, \
-                              (min-width: 768px) 718px, 100vw',
-                    'srcset': [('600w', ["scale_in 600 450 True"]),
-                               ('800w', ["scale_in 800 600 True"]),
-                               ('1600w', ["scale_in 1600 1200 True"]),
-                               ],
-                    'default': '800w',
-                   },
-    }
+    'timeline': ["scale_in 420 9999 True"],
+    #  'crisp': {
+    #      'type': 'responsive-image',
+    #      'srcset': [
+    #          ('1x', ["scale_in 800 600 True"]),
+    #          ('2x', ["scale_in 1600 1200 True"]),
+    #          ('4x', ["scale_in 3200 2400 True"]),
+    #      ],
+    #      'default': '1x',
+    #  },
+    #  'large-photo': {
+    #      'type': 'responsive-image',
+    #      'sizes': '(min-width: 1200px) 800px, (min-width: 992px) 650px, \
+    #                (min-width: 768px) 718px, 100vw',
+    #      'srcset': [
+    #          ('600w', ["scale_in 600 450 True"]),
+    #          ('800w', ["scale_in 800 600 True"]),
+    #          ('1600w', ["scale_in 1600 1200 True"]),
+    #      ],
+    #      'default': '800w',
+    #  },
+}
 
 IGNORE_FILES = [".swo"]
