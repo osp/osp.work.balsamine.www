@@ -36,6 +36,9 @@ respecter les hommes et la nature, de vivre dans un développement durable et
 d’investir ses moyens dans tout ce que la créativité a de plus riche. Hier,
 aujourd’hui et demain.
 
+<!-- <a href="#" onclick="javascript: alert('just a dummy link...'); return false;" title="read more" class="readmore">Read more &raquo;</a> -->
+["Lire plus"](# "more")
+
 ## Équipe
 
 
@@ -101,6 +104,8 @@ Plus d’informations  sur Facebook United Stages Belgium.
 
 Une initiative de Action Sud CCR, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140…
 
+["Lire plus"](# "more")
+
 
 ## Historique
 
@@ -124,7 +129,7 @@ Tout en dirigeant la Balsamine installée dans les casernes, [Martine Wijckaert]
 
 L’activité va également se centraliser sur un lieu particulier de la caserne, baptisé « amphithéâtre » puis rapidement « amphi », en raison de ses caractéristiques architecturales : il s’agit en effet d’un ancien auditorium militaire, structuré en hémicycle.
 
-<div class="slideshow" markdown>
+["Lire plus"](# "more")
 
 <div class="jcarousel" markdown>
 !["historique 2"](http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg)

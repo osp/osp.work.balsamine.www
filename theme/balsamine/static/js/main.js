@@ -294,3 +294,11 @@ $(function() {
 //         $drop.toggle();
 //     });
 // });
+
+// (function($) {
+//     $(".page-detail .section2").dotdotdot({
+//         after: '[title="more"]',
+//         watch: "window"
+//     });
+//     $("#wrapper").trigger("destroy");
+// })(jQuery);
