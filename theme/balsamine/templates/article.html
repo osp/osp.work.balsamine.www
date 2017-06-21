@@ -13,7 +13,7 @@
 
 {% block content %}
 <article class="show-detail content">
-  <header class="show-detail__header" style='background: linear-gradient({{ article.date|strftime('%d%m') }}deg, {{ article.color }} 0%, transparent 30%) top / 100%, url("/images/damier.png") top / 25px;'>
+  <header class="show-detail__header" style='background: linear-gradient({{ article.date|strftime('%d') }}deg, {{ article.color }} 0%, transparent 30%) top / 100%, url("/images/damier.png") top / 25px;'>
     <h1 class="show-detail__title">{{ article.title }}</h1>
       {# author var #}
       {% if article.piece_authors %}
@@ -29,7 +29,7 @@
       {% endif %}
       <br>{# date var #}
       {% if article.end_date %}
-        du {{article.date|strftime('%-d %B %Y') }} au&nbsp;{{article.end_date|strftime('%-d&nbsp;%B&nbsp;%Y')}}
+        du {{article.date|strftime('%A %-d %B %Y') }} au&nbsp;{{article.end_date|strftime('%A %-d&nbsp;%B&nbsp;%Y')}}
       {% else %}
         le {{article.locale_date}}
       {% endif %}
@@ -70,12 +70,14 @@
     <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_4 }}" alt="Main image for {{ article.title }}"></p>
     {% endif %}
     {% if article.key_video_detail_1 %}
-    <p class="show-detail__image-body"><iframe src="{{ article.key_video_detail_1 }}"></iframe></p>
+    <p class="show-detail__image-body">
+        <span class="thumb-overlay"></span>
+        <iframe src="{{ article.key_video_detail_1 }}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </p>
     {% endif %}
   </div>
   <div class="show-detail__body">
-    <div class="photo" style="background-image:url('/images/damier.png');    background-size: 13px;">
-    </div>
+      <div class="photo"> </div>
       {{ article.content }}
   </div>
 

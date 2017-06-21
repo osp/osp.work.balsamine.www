@@ -136,7 +136,7 @@ IMAGE_PROCESS = {
     #  },
 }
 
-IGNORE_FILES = [".swo"]
+IGNORE_FILES = [".swo", ".swp"]
 
 
 # Fixes slow generation caused by overzealous copying of images

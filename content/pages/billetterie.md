@@ -5,27 +5,33 @@ Date: 2017/04
 
 Tarif mécène[^1]
 :  20 euros
+:  <br/>
 
 Tarif plein
 :  15 €
 :  prévente 12 €
+:  <br/>
 
 Tarif réduit[^2]
 :  10 €
 :  prévente 7€
+:  <br/>
 
 Tarif enfant ( - de 12 ans )
 :  5 €
+:  <br/>
 
 Tarif étudiants en écoles supérieures artistiques
 :  5 €
+:  <br/>
 
 Tarif Mardis contemporains
 :  12 €
 :  tarif réduit 10 €
+:  <br/>
 
 Art. 27 et Arsène 50
-:  ???
+:  <br/>
 
 [^1]:Etre mécène, c’est participer à la pérennité des fondamentaux de la Balsamine que sont l’échange et le dialogue, la création et l’enjeu artistique et expérimental.
 C’est nous aider à soutenir la création artistique. C’est reconnaître et accompagner une politique qui soutient les jeunes artistes.
@@ -34,15 +40,18 @@ C’est une opportunité singulière de nous permettre de poursuivre une politiq
 
 [^2]:Étudiants, + de 60 ans, demandeurs d’emploi, professionnels du spectacle, schaerbeekois
 
-### Tarifs de groupe (à partir de 10 personnes) :
-
-Groupe adulte
+Tarifs de groupe (à partir de 10 personnes)
+:  <br/> {: .no-display }
+Groupe adulte {: .sous-tarif }
 :  10 € la place<br/> + 1 place offerte à l’organisateur
 
-Groupe étudiant
+<br/> {: .no-display }
+:  <br/> {: .no-display }
+Groupe étudiant {: .sous-tarif }
 :  6 € la place<br/> + 1 place offerte à l’enseignant
-
-Le paiement des réservations de groupe doit s’effectuer 10 jours avant la date de représentation choisie.
+:  <br/>
+:  Le paiement des réservations de groupe doit s’effectuer 10 jours avant la date de représentation choisie {: .footnotes }
+:  <br/>
 
 ## United Stages
 

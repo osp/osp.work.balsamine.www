@@ -20,6 +20,10 @@
     --primary-color: black;
     --secondary-color: #3b4086;
     --tertiary-color: #3b1b07;
+    --pink-color: #ff546d;
+    --blue-color: #3b4086;
+    --yellow-color: #fce761;
+
 }
 
 
@@ -121,7 +125,7 @@ html {
 body {
     overflow: hidden;
 
-    /* >>>>>>>>> FIXME: Move away from the reset section */
+    /*  FIXME: Move away from the reset section */
     background-image: url('../imgs/coin-de-boite-bas-gauche.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -134,25 +138,26 @@ body {
 }
 
 a {
-    /* <<<<<<<< */
+    /*  */
     text-decoration: none;
 
     color: inherit;
     /*text-decoration: inherit;*/
-    /* >>>>>>>>> FIXME: should the links be all pink? If not, ake it more specific */
+    /*  FIXME: should the links be all pink? If not, ake it more specific */
     text-decoration-color: pink;
 }
 
 /* >>>>>>>>> FIXME: make more specific rule */
 a:hover {
+/*a:not(.timeline__point):hover {
     position: relative;
     z-index: 1000;
 
     border-radius: 1em;
     background-color: white;
     box-shadow: 3px 2px 6px 1px var(--primary-color);
-}
-/* <<<<<<<< */
+}*/
+/*  */
 
 em { font-family: 'Ume double stroke info pratique'; }
 
@@ -547,8 +552,11 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     border-radius: 16px;
     box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
+.schedule__booking:hover {
+  background-color: white;
+}
 
-/* >>>>>>>>> FIXME: move to the pages itself */
+/*  FIXME: move to the pages itself */
 
 #lecole-des-maitres-2017  .schedule__main-image {
     width: 90%;
@@ -788,12 +796,12 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     padding: 1em;
 
     color: var(--primary-color);
-    background-image: url('../imgs/damier.png');
+    /*background-image: url('../imgs/damier.png');*/
     background-size: 25px;
 }
 
-/* >>>>>>>>> FIXME: decide what to do with `.content` */
-/* >>>>>>>>> FIXME: re-order rules */
+/*  FIXME: decide what to do with `.content` */
+/*  FIXME: re-order rules */
 
 .content .show-detail__header h1 { margin-bottom: 0em; }
 
@@ -834,7 +842,11 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     line-height: 1.3em;
 }
 
-p.show-detail__image-body img:hover { outline: 2px solid red; }
+p.show-detail__image-body img:hover {
+    cursor: pointer;
+    background-image: url("/images/damier.png");
+    background-size: 10px;
+}
 
 .show-detail__image-body img,
 .show-detail__image-body iframe {
@@ -843,7 +855,7 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     float: left;
 
     max-height: 110px;
-    padding: 0px 10px;
+    margin: 0px 10px;
 
     /*border: 1px solid black;*/
 }
@@ -858,14 +870,52 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 
 .show-detail__image-body:last-of-type img { float: none; }
 
+.show-detail__image-body {
+    position: relative;
+    display: inline-block;
+}
+
 .show-detail__image-body + .show-detail__image-body { text-indent: 0; }
+
+.show-detail__body-images {
+    background-color: white;
+    padding-bottom: 2em;
+    width: 60%;
+    float: left;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.thumb-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: rgba(0, 255, 0, 0.5);*/
+    z-index: 10000;
+}
 
 .show-detail__body {
     box-sizing: border-box;
-    margin-top: 2em;
     padding: 8px 12px;
+    background-color: white;
+    padding-bottom: 2em;
 
     color: var(--primary-color);
+}
+
+.show-detail__body .photo {
+    background-image: url("/images/damier.png");
+    background-size: 10px;
+    cursor: n-resize;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+    overflow: hidden;
+    height: auto;
+}
+.show-detail__body .photo iframe {
+    width: 100%;
 }
 
 .show-detail__body blockquote + p,
@@ -906,10 +956,8 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     text-indent: 3em;
 }
 
-/* <<<<<<<< */
-/* <<<<<<<< */
 
-/* >>>>>>>> FIXME: See if we can find a more appropriate class name `.photo` */
+/*FIXME: See if we can find a more appropriate class name `.photo` */
 
 .photo {
     float: left;
@@ -920,10 +968,13 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 
 .photo img { width: 100%; }
 
-/* <<<<<<<< */
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
+
+    .show-detail__body-images {
+        width: 100%;
+    }
 }
 
 @media (--desktop) {
@@ -953,16 +1004,41 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 
 .page-detail { color: var(--primary-color); }
 
-.page-detail dl { column-width: 15em; }
+/*.page-detail dl { column-width: 15em; }*/
 
 .page-detail dt { font-family: 'Ume double stroke affiche saison'; }
 
 .page-detail dd { break-before: avoid-column; }
 
-.page-detail dd + dt { float: left; }
+.page-detail dt + dd {
+  margin-right: 10px;
+}
+/*.content dt:first-of-type { margin-left: 0px; }*/
 
 .page-detail dd { break-inside: avoid-column; }
+.page-detail h2#tarifs + dl {
+  column-width: 20em;
+}
+.page-detail h2#tarifs + dl dd {
+  display: block;
+      padding-left: 12px;
+}
+.page-detail h2#tarifs + dl dd + dt {
+  margin-top: 10px;
+}
+.page-detail .no-display {
+  display: none;
+}
+.page-detail .sous-tarif {
+  border: 0px solid black;
+      text-decoration: underline;
+}
+.page-detail .footnotes{
 
+}
+.page-detail .no-display {
+  display: none;
+}
 .page-detail img {
     max-width: 100%;
     margin-top: 1em;
@@ -1005,8 +1081,8 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
    ???
    ========================================================================== */
 
-/* >>>>>>>>> FIXME: decide what to do with `.content` */
-/* >>>>>>>>> FIXME: Move `.show-detail` classes to the appropriate place */
+/*  FIXME: decide what to do with `.content` */
+/*  FIXME: Move `.show-detail` classes to the appropriate place */
 
 .content h1 {
     margin-top: 0em;
@@ -1027,7 +1103,7 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     font-size: 1.5em;
 }
 
-.content h3 {
+.content .page-detail h3 {
     margin-top: .5em;
     /*margin-top: 1em;*/
     margin-bottom: .5em;
@@ -1038,7 +1114,14 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     font-size: 1em;
     /*line-height: 1.83333333em;*/
 }
-
+.content.page-detail h3 a:hover, .content.page-detail h3 a:focus {
+  background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);
+  color: black;
+}
+.content.page-detail h1 {
+  margin-left: -1em;
+    margin-top: 1em;
+}
 .content h4 {
     margin-top: 1.375em;
     margin-bottom: 0em;
@@ -1061,6 +1144,10 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     padding: 0.2em 1em;
 
     border-radius: 1em;
+}
+.content a:hover, .schedule__title a:hover {
+  /*font-family: 'Ume double stroke master condensed';*/
+  color: var(--pink-color);
 }
 
 .show-detail__body p {
@@ -1126,7 +1213,6 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     font-size: .8em;
 }
 
-.content dt:first-of-type { margin-left: 0px; }
 
 .content dd {
     padding-left: 0em;
@@ -1164,7 +1250,7 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 /* Reservation link
    ========================================================================== */
 
-/* >>>>>>>>> FIXME: Merge with `.schedule__booking` and use `--` modifier */
+/*  FIXME: Merge with `.schedule__booking` and use `--` modifier */
 
 .reservation-link {
     display: inline-block;
@@ -1185,7 +1271,6 @@ a.reservation-link:hover {
     background-color: white !important;
 }
 
-/* <<<<<<<<< */
 
 
 
@@ -1194,7 +1279,7 @@ a.reservation-link:hover {
    ========================================================================== */
 
 
-/* >>>>>>>>> FIXME: rename .jcarousel to something more elegant */
+/*  FIXME: rename .jcarousel to something more elegant */
 
 .jcarousel {
     position: relative;

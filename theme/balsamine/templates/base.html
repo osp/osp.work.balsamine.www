@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1">
 
+    <link rel='shortcut icon' type='image/png' sizes='32x32' href='{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/favicon32.png'>
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/reset.css">
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/perfect-scrollbar.css">
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
@@ -16,11 +17,12 @@
 </head>
 
 <body>
+
     <header class="main-header">
         <a href="{{ SITEURL }}/"><img class="logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa.svg"></a>
-
         <nav class="main-nav">
             <ul class="main-menu">
+
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
@@ -41,7 +43,7 @@
     </header>
 
     <main class="main-area">
-        <div class="main-content">
+        <div class="main-content ume-js">
         {% block content %}{% endblock %}
         </div>
 
@@ -71,7 +73,7 @@
             </span>
             <span>
                 <span>Administration: 02 732 96 18</span>
-                <span>Réservations: 02 735 64 68</span>
+                <span><a href="tel:+32 735 64 68">Réservations: 02 735 64 68</a></span>
             </span>
         </p>
 
@@ -97,5 +99,7 @@
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/perfect-scrollbar.jquery.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.dotdotdot.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/table.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/umejs-min.js"></script>
 </body>
 </html>

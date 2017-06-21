@@ -21,13 +21,19 @@ for glyph in SVG_DIR:
     # letter_char.stroke("circular", 1 , 'butt' , 'miter' ,'cleanup')
     # letter_char.addExtrema('flags')
     # letter_char.simplify(10)
-
-font.selection.all()
-# font.addExtrema();font.round()
-# font.simplify();font.round()
-font.removeOverlap();font.round()
-# font.simplify();font.round()
-# font.addExtrema();font.round()
+    # letter_char.square()
+#
+# font.selection.all()
+# font.addExtrema();
+# font.butt()
+# font.simplify();
+# font.butt()
+font.removeOverlap();
+# font.butt()
+# font.simplify();
+# font.butt()
+# font.addExtrema();
+# font.butt()
 font.fontname = 'ume-stroke-stroke-'+FontName
 font.familyname = 'ume-stroke-stroke-'+FontName
 font.generate('FINAL/ume-stroke-stroke-'+FontName+'.otf')

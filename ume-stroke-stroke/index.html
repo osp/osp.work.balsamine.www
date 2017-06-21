@@ -99,14 +99,28 @@
       background: white;
     }
     .container > .cadra{
-      background: url('SVG-MASTER/guide.svg');
-      background-repeat: repeat-x;
-      background-size: auto 100%;
+    }
+    .cadra:hover{
+      outline: 1px solid grey;
     }
     .formSet{
       width: 100%;
       background: #c6ffdf;
       height: 50px;
+    }
+    .activate {
+      background: url('SVG-MASTER/guide.svg');
+      background-repeat: repeat-x;
+      background-size: auto 100%;
+      outline: 1px solid blue;
+    }
+    .metricDialog {
+      position: absolute;
+      height: 20px;
+    }
+    .metricDialog input {
+      background: none;
+      margin: 10px 0px
     }
   </style>
 </head>
@@ -115,7 +129,8 @@
   <footer>
     <button onclick="reLoad()">version</button>
     <button onclick="setAll()">allset</button>
-    <input type="text" class="chaine" id="chaine" value="balsa en toute impudence" />
+    <!-- <input type="text" class="chaine" id="chaine" value="balsa en toute impudence" /> -->
+    <input type="text" class="chaine" id="chaine" value="abcdef" />
   </footer>
 </body>
 
