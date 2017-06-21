@@ -15,11 +15,12 @@
 </head>
 
 <body>
+
     <header class="main-header">
         <a href="{{ SITEURL }}/"><img class="logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/imgs/logo-balsa.svg"></a>
-
         <nav class="main-nav">
             <ul class="main-menu">
+              
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
@@ -40,7 +41,7 @@
     </header>
 
     <main class="main-area">
-        <div class="main-content">
+        <div class="main-content ume-js">
         {% block content %}{% endblock %}
         </div>
 
@@ -87,5 +88,7 @@
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.jcarousel.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mobile-1.4.5.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/table.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/umejs-min.js"></script>
 </body>
 </html>

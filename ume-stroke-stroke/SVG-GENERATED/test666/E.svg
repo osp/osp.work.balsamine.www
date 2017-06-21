@@ -14,9 +14,9 @@
     <sodipodi:guide position="979.55553,511.58973" orientation="0,1" id="guide911" inkscape:locked="false"></sodipodi:guide>
   </sodipodi:namedview>
   <g inkscape:groupmode="layer" id="layer3" inkscape:label="trace">
-    <path sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" id="path5236-7-72-2" d="M 1000,1710 H 212.13255 V 257.2411 H 1000" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" class="ext"></path>
-    
-    
-    <path style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="m 212.181,935.5498 c 2.77788,0.74433 707.6138,0 707.6138,0" id="path931-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cc" class="ext"></path>
+    <path sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" id="path5236-7-72-2" d="M 1000,1710 H 212.13255 V 257.2411 H 1000" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" class="ext"></path>
+    <path sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" id="path5236-72-2" d="m 1000,1669.9051 -747.87776,0.1898 V 295 H 1000" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" class="int"></path>
+    <path style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 251.981,935.5498 H 919.7948" id="path931" inkscape:connector-curvature="0" sodipodi:nodetypes="cc" class="int"></path>
+    <path style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="m 212.181,935.5498 c 2.77788,0.74433 707.6138,0 707.6138,0" id="path931-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cc" class="ext"></path>
   </g>
 </svg>
