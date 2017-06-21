@@ -13,7 +13,7 @@
 
 {% block content %}
 <article class="show-detail content">
-  <header class="show-detail__header" style='background: linear-gradient({{ article.date|strftime('%d%m') }}deg, {{ article.color }} 0%, transparent 30%) top / 100%, url("/images/damier.png") top / 25px;'>
+  <header class="show-detail__header" style='background: linear-gradient({{ article.date|strftime('%d') }}deg, {{ article.color }} 0%, transparent 30%) top / 100%, url("/images/damier.png") top / 25px;'>
     <h1 class="show-detail__title">{{ article.title }}</h1>
       {# author var #}
       {% if article.piece_authors %}

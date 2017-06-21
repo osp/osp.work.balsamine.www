@@ -136,4 +136,4 @@ IMAGE_PROCESS = {
     #  },
 }
 
-IGNORE_FILES = [".swo"]
+IGNORE_FILES = [".swo", ".swp"]
