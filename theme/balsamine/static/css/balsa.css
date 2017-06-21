@@ -134,21 +134,23 @@ body {
 }
 
 a {
+    /* <<<<<<<< */
+    text-decoration: none;
+
+    color: inherit;
     /*text-decoration: inherit;*/
     /* >>>>>>>>> FIXME: should the links be all pink? If not, ake it more specific */
     text-decoration-color: pink;
-    /* <<<<<<<< */
-    text-decoration: none;
-    color: inherit;
 }
 
 /* >>>>>>>>> FIXME: make more specific rule */
 a:not(.timeline__point)::hover {
-    border-radius: 1em;
-    box-shadow: 3px 2px 6px 1px var(--primary-color);
-    background-color: white;
     position: relative;
     z-index: 1000;
+
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 /* <<<<<<<< */
 
@@ -160,13 +162,12 @@ dt,
 dd { display: inline; }
 
 hr {
-    border: 0;
     height: 1.375em;
+
+    border: 0;
 }
 
-hr + hr {
-    border-top: 1px solid var(--primary-color);
-}
+hr + hr { border-top: 1px solid var(--primary-color); }
 
 
 
@@ -212,9 +213,9 @@ hr + hr {
 
 .main-menu li + li:before { content: '\00B7\00A0'; }
 
-
 .main-menu a {
     padding: 0.25em 0.5em;
+
     text-decoration: none;
 }
 
@@ -484,6 +485,7 @@ hr + hr {
     /* FIXME: !important should not be used */
     background-size: 100% 100%, 10px !important;
 }
+
 .schedule__dates {
     display: inline;
     float: right;
@@ -491,8 +493,8 @@ hr + hr {
     margin-top: 12pt;
     padding: 2px 8px;
 
-    border-left: 2px solid black;
     border-right: 2px solid black;
+    border-left: 2px solid black;
     /*border-radius: 16px;*/
     /*background-color: white;*/
     font-size: 1em;
@@ -503,10 +505,12 @@ hr + hr {
     font-size: 1.5em;
     line-height: 1.1em;
 }
+
 .schedule__title a {
-    text-decoration: none;
-    padding: 0.25em 0.5em;
     margin-left: -0.5em;
+    padding: 0.25em 0.5em;
+
+    text-decoration: none;
 }
 
 .schedule__authors {
@@ -536,10 +540,12 @@ hr + hr {
 }
 
 .schedule__booking {
-    border-radius: 16px;
     padding: 0.2em 1em;
-    box-shadow: 3px 2px 6px 1px var(--primary-color);
+
     text-decoration: none;
+
+    border-radius: 16px;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
 /* >>>>>>>>> FIXME: move to the pages itself */
@@ -641,8 +647,8 @@ hr + hr {
         left: 0;
 
         display: none;
-        overflow-y: scroll;
         overflow-x: hidden;
+        overflow-y: scroll;
 
         height: 100%;
     }
@@ -670,7 +676,6 @@ hr + hr {
         box-sizing: border-box;
         width: 500px;
         height: 100%;
-
     }
 
     .schedule__list {
@@ -683,7 +688,6 @@ hr + hr {
         /*overflow-y: hidden;*/
 
         height: 100%;
-
     }
 
     .schedule__timeline {
@@ -747,8 +751,8 @@ hr + hr {
 
     border-radius: 5px;
     background-color: white;
-    box-shadow: 3px 2px 6px 1px var(--primary-color);
     background-size: 10px;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
 .timeline__point:hover { transform: scale(1.5); }
@@ -807,28 +811,33 @@ hr + hr {
     margin-left: 0em;
     padding-left: 2.5em;
 
+    letter-spacing: 0.03em;
+
     font-family: 'Ume double stroke info pratique';
     font-size: 1.3em;
     line-height: 1.25em;
-        letter-spacing: 0.03em;
 }
-.content p.detail-prix {
-      font-size: 12pt;
-  font-family: 'Ume double stroke master condensed';
-      line-height: 1.1em;
 
+.content p.detail-prix {
+    font-family: 'Ume double stroke master condensed';
+    font-size: 12pt;
+    line-height: 1.1em;
 }
+
 .content p.show-detail__subhead {
-  font-family: 'Ume double stroke info pratique';
-  font-size: 10.5pt;
-  line-height: 1.3em;
-  margin-top: 12pt;
-  letter-spacing: 0.04em;
+    margin-top: 12pt;
+
+    letter-spacing: 0.04em;
+
+    font-family: 'Ume double stroke info pratique';
+    font-size: 10.5pt;
+    line-height: 1.3em;
 }
-p.show-detail__image-body img:hover {
-  outline: 2px solid red;
-}
-.show-detail__image-body img, .show-detail__image-body iframe {
+
+p.show-detail__image-body img:hover { outline: 2px solid red; }
+
+.show-detail__image-body img,
+.show-detail__image-body iframe {
     position: relative;
 
     float: left;
@@ -906,9 +915,7 @@ p.show-detail__image-body img:hover {
     float: left;
 
     width: 100%;
-        margin-bottom: 21pt;
-
-
+    margin-bottom: 21pt;
 }
 
 .photo img { width: 100%; }
@@ -975,9 +982,8 @@ p.show-detail__image-body img:hover {
     font-size: 25px;
     line-height: 30px;
 }
-.page-detail p {
-  display: none;
-}
+
+.page-detail p { display: none; }
 
 @media (--mobile) {
     .section2 h2 ~ * { display: none; }
@@ -1050,9 +1056,9 @@ p.show-detail__image-body img:hover {
 }
 
 .content a {
-    padding: 0.2em 1em;
-    margin-left: -1em;
     margin-right: -1em;
+    margin-left: -1em;
+    padding: 0.2em 1em;
 
     border-radius: 1em;
 }
@@ -1161,18 +1167,22 @@ p.show-detail__image-body img:hover {
 /* >>>>>>>>> FIXME: Merge with `.schedule__booking` and use `--` modifier */
 
 .reservation-link {
-  display: inline-block;
-  text-decoration: none;
-  margin: 0.2em 1;
+    display: inline-block;
+
+    margin: 0.2em 1;
+    margin-bottom: 21pt;
     /* FIXME: !important should not be used */
-  padding: 0.8em !important;
-  font-size: 12pt;
-  letter-spacing: 0.04em;
-  margin-bottom: 21pt;
+    padding: 0.8em !important;
+
+    text-decoration: none;
+    letter-spacing: 0.04em;
+
+    font-size: 12pt;
 }
+
 a.reservation-link:hover {
     /* FIXME: !important should not be used */
-background-color: white !important;
+    background-color: white !important;
 }
 
 /* <<<<<<<<< */
