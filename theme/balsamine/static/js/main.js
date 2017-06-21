@@ -101,7 +101,7 @@ $(function() {
         var pc = (1 - (lastDate - currentStartDate) / (lastDate - firstDate)) * 100;
         var pc2 = (1 - (lastDate - currentEndDate) / (lastDate - firstDate)) * 100;
 
-        var point = $("<a>").attr("href", "#" + anchor).addClass("timeline__point").css({
+        var point = $("<a>").attr("href", "#" + anchor).attr("id", "point-" + anchor).addClass("timeline__point").css({
             'top': pc + "%",
             'bottom': (100 - pc2) + "%",
             'z-index': 10000
@@ -113,13 +113,18 @@ $(function() {
         var color = $(this).data("color");
         gradient.push(color + " " + pc + "%");
 
-        var value = $(this).css("background");
-        value = value.replace("to left", (Math.round(Math.random()*360) + 1) + "deg");
-        $(this).css("background", value);
+        //var value = $(this).css("background");
+        //value = value.replace("to left", (Math.round(Math.random()*360) + 1) + "deg");
+        //$(this).css("background", value);
     });
 
     $(".timeline").css("background", "linear-gradient(to bottom, " + gradient.join(", ") + ")" )
-    $(".timeline__point").click(function() {window.location = $(this).attr("href")});
+    $(".timeline__point").click(function() {
+        window.location = $(this).attr("href")
+        $(".timeline__point").css("background-image", 'none');
+        $("#point" + window.location.hash.replace("#", "-")).css("background-image", 'url("/images/damier.png")');
+    });
+    $("#point" + window.location.hash.replace("#", "-")).css("background-image", 'url("/images/damier.png")');
 });
 
 
@@ -255,17 +260,35 @@ $(function() {
 
 (function($) {
     $(".main-area")
-        .on("swipeleft",function(){
+        .swipeleft(function(){
             $(this).addClass("is-swiped");
         })
-        .on("swiperight",function(){
+        .swiperight(function(){
             $(this).removeClass("is-swiped");
         });
 })(jQuery);
 
 
-$('.show-detail__image-body').click(function(){
-	var srcimg = $(this).children('img').clone().html('src');
-  $('.photo').html(srcimg);
+// scrollbars
+(function($) {
+    $(".main-content").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa', suppressScrollX: false});
+    $(".schedule__list").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa', suppressScrollX: true});
+})(jQuery);
 
-})
+
+(function($) {
+    $('.show-detail__image-body').click(function() {
+        var srcimg = $(this).children('img').clone().html('src');
+        $('.photo').html(srcimg);
+    })
+})(jQuery);
+
+// dropdown
+
+// $(function() {
+//     $('.showDropdown').click(function() {
+//         var $drop = $('.dropdown');
+//         $drop.css({'position': $('#positioning').val()});
+//         $drop.toggle();
+//     });
+// });

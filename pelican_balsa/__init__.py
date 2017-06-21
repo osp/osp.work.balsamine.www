@@ -12,6 +12,7 @@ import random
 
 
 def add_metadata_processors(arg):
+    METADATA_PROCESSORS['end_date'] = METADATA_PROCESSORS.get('end_date', METADATA_PROCESSORS.get('date'))
     METADATA_PROCESSORS['end_date'] = lambda x, y: get_date(x.replace('_', ' '))
 
 

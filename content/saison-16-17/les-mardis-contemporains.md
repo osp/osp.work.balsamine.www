@@ -26,7 +26,7 @@ Invité
 :    Trio à cordes d’Edison Denisov (1969)
 :    Création de Alice Hebborn pour quatuor à cordes (commande Ars Musica 2017)
 
-Interpretation
+Interprétation
 :    Quatuor Amôn
 
 ## Architecture
@@ -45,7 +45,7 @@ Invités
 Direction
 :    Thomas Van Haeperen
 
-Interpretation
+Interprétation
 :    Quatuor TANA / Ensemble Sturm & Klang
 
 ## Cirque
@@ -61,7 +61,7 @@ Invités
 :    March for Piano: The Circus Band de Charles Ives (1898-1899)
 :    Création de Stefan Hejdrowski (commande Ars Musica 2017)
 
-Interpretation
+Interprétation
 :    Guy Danel, violoncelle
 :    Gabi Sultana, piano
-:    Elsa Bouchez et Philippe Droz , artistes de cirque
+:    Elsa Bouchez et Philippe Droz, artistes de cirque

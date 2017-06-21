@@ -9,6 +9,7 @@
     <meta name="viewport" content="initial-scale=1">
 
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/reset.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/perfect-scrollbar.css">
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}">
     <!-- <link rel="stylesheet" href="http://sorgalla.com/jcarousel/examples/basic/jcarousel.basic.css"> -->
     {% endblock head %}
@@ -62,31 +63,39 @@
 
     <footer class="main-footer">
         <p class="address" translate="no">
-            <span>Théâtre La Balsamine</span>
             <span>
-                <span>Av. F. Marchal, 1</span>
-                <span>1030 Bruxelles</span>
+                <a href="#">
+                    <span>Théâtre La Balsamine</span>
+                    <span>Avenue Félix Marchal, 1</span>
+                    <span>1030 Bruxelles</span>
+                </a>
             </span>
             <span>
-                <span>Admin: 02 732 96 18</span>
-                <span>Rés: 02 735 64 68</span>
+                <span>Administration: 02 732 96 18</span>
+                <span>Réservations: 02 735 64 68</span>
             </span>
         </p>
 
-        <!-- <nav> -->
-        <!--     <ul class="secondary_menu"> -->
-        <!--         <li><a href="#">search</a></li> -->
-        <!--         <li><a href="#">facebook</a></li> -->
-        <!--         <li><a href="#">map</a></li> -->
-        <!--         <li><a href="#">contact info address</a></li> -->
-        <!--     </ul> -->
-        <!-- </nav> -->
+        <form class="subscribe" action="subscribe.php" method="get">
+            <input class="subscribe__email" type="email" placeholder="S’inscrire à la newsletter" required name="email" value="">
+            <input class="subscribe__ok" type="submit" value="Ok">
+        </form>
+
+        <nav class="secondary-nav">
+            <ul>
+                <!-- <li><a href="#">search</a></li> -->
+                <li><a href="#">facebook</a></li>
+                <!-- <li><a href="#">map</a></li> -->
+                <!-- <li><a href="#">contact info address</a></li> -->
+            </ul>
+        </nav>
     </footer>
 
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-2.2.4.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mousewheel.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.jcarousel.min.js"></script>
-    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mobile-events.min.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/perfect-scrollbar.jquery.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/table.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/umejs-min.js"></script>

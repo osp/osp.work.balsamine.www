@@ -17,7 +17,7 @@
 </article>
 #}
 
-<article id="{{ article.slug }}" class="schedule__item" style="background: linear-gradient(to left, {{ article.color }} 0%, {{ article.color }} 5%, transparent 70%);" data-color="{{ article.color }}">
+<article id="{{ article.slug }}" class="schedule__item" style='background: linear-gradient({{ article.date|strftime('%d%m') }}deg, {{ article.color }} 0%, {{ article.color }} 5%, transparent 70%) top / 100%, url("/images/damier.png") top / 0;' data-color="{{ article.color }}">
     <header class="schedule__header">
       <h1 class="schedule__title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
       <p class="schedule__authors">
@@ -37,7 +37,7 @@
         {% endif %}
 
         {% if article.key_image %}
-        <p class="schedule__main-image"><img src="/images/{{ article.key_image }}" class="image-process-crisp" alt="Main image for {{ article.title }}"></p>
+        <p class="schedule__main-image"><img src="/images/{{ article.key_image }}" class="image-process-timeline" alt="Main image for {{ article.title }}"></p>
         {% endif %}
         <!-- {% if article.subhead %}
             <p class="schedule__subhead">{{ article.subhead }}</p>
@@ -49,12 +49,12 @@
         </div>
         {% endif %} -->
 
+        {% if article.intro %}
+            <a class="schedule__booking" href="{{ article.reservation_link }}">Réservation</a>
+        {% endif %}
 
 
         <!-- <p><a href="#{{ article.url }}" class="expand-content">+ En savoir plus</a></p> -->
 
-        <div class="schedule__body" id="{{ article.url }}">
-            {{ article.content }}
-        </div>
     </header>
 </article>

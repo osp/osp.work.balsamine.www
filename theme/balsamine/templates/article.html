@@ -13,7 +13,7 @@
 
 {% block content %}
 <article class="show-detail content">
-  <header class="show-detail__header">
+  <header class="show-detail__header" style='background: linear-gradient({{ article.date|strftime('%d%m') }}deg, {{ article.color }} 0%, transparent 30%) top / 100%, url("/images/damier.png") top / 25px;'>
     <h1 class="show-detail__title">{{ article.title }}</h1>
       {# author var #}
       {% if article.piece_authors %}
@@ -21,8 +21,13 @@
       {% else %}
             <h2 class="show-detail__author">{{ article.piece_author }}</h2>
       {% endif %}
+
     <time>
-      {# date var #}
+      {# event type var #}
+      {% if article.event_type %}
+      {{article.event_type}}
+      {% endif %}
+      <br>{# date var #}
       {% if article.end_date %}
         du {{article.date|strftime('%-d %B %Y') }} au&nbsp;{{article.end_date|strftime('%-d&nbsp;%B&nbsp;%Y')}}
       {% else %}
@@ -33,18 +38,16 @@
         <br>à {{article.time}}
       {% endif %}
       {% if article.price %}
-        <br>{{article.price}}
+        <br><p class="detail-prix">{{article.price}}</p>
       {% endif %}
-      {# event type var #}
-      {% if article.event_type %}
-        <br>{{article.event_type}}
+      </time>
+      {% if article.subhead %}
+          <p class="show-detail__subhead">{{ article.subhead }}</p>
       {% endif %}
       {# reservation var #}
       {% if article.reservation_link %}
-      <br><a class="reservation-link" href="{{article.reservation_link}}" style="background: linear-gradient(to right, {{article.color}} 0%, transparent 100%);">Réservation</a>
-
+      <br><a class="reservation-link" href="{{article.reservation_link}}" style="background:  {{article.color}};">Réservation</a>
       {% endif %}
-          </time>
       {% if article.key_image_detail_body %}
       <p class="show-detail__image"><img src="/images/{{ article.key_image_detail_body }}" alt="Main image for {{ article.title }}"></p>
       {% endif %}
@@ -66,12 +69,16 @@
     {% if article.key_image_detail_4 %}
     <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_4 }}" alt="Main image for {{ article.title }}"></p>
     {% endif %}
+    {% if article.key_video_detail_1 %}
+    <p class="show-detail__image-body"><iframe src="{{ article.key_video_detail_1 }}"></iframe></p>
+    {% endif %}
   </div>
   <div class="show-detail__body">
+    <div class="photo" style="background-image:url('/images/damier.png');    background-size: 13px;">
+    </div>
       {{ article.content }}
   </div>
-  <div class="photo" style="border:1px solid black; width: 59%;float: left;">
-  </div>
+
 </article>
 
 {% endblock %}
