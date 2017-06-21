@@ -4,6 +4,8 @@
 
 @custom-media --mobile only screen and (max-width: 767px);
 
+@custom-media --mobile-landscape only screen and (max-width: 767px) and (orientation: landscape);
+
 @custom-media --desktop only screen and (min-width: 768px);
 
 
@@ -119,10 +121,12 @@ html {
 body {
     overflow: hidden;
 
+    /* >>>>>>>>> FIXME: Move away from the reset section */
     background-image: url('../imgs/coin-de-boite-bas-gauche.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
+    /* <<<<<<<<< */
 
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
@@ -131,19 +135,22 @@ body {
 
 a {
     /*text-decoration: inherit;*/
+    /* >>>>>>>>> FIXME: should the links be all pink? If not, ake it more specific */
     text-decoration-color: pink;
+    /* <<<<<<<< */
     text-decoration: none;
     color: inherit;
 }
 
-a:hover {
+/* >>>>>>>>> FIXME: make more specific rule */
+a:not(.timeline__point)::hover {
     border-radius: 1em;
     box-shadow: 3px 2px 6px 1px var(--primary-color);
     background-color: white;
     position: relative;
     z-index: 1000;
 }
-
+/* <<<<<<<< */
 
 em { font-family: 'Ume double stroke info pratique'; }
 
@@ -197,7 +204,7 @@ hr + hr {
     vertical-align: middle;
 }
 
-/* mainmenu */
+/* main menu */
 
 .main-nav,
 .main-menu,
@@ -301,7 +308,8 @@ hr + hr {
 
 .secondary-nav { display: none; }
 
-@media only screen and (max-width: 767px) and (orientation: landscape) {
+@media (--mobile-landscape) {
+    /* FIXME: remove that rule and fix the layout */
     .subscribe { display: none; }
 }
 
@@ -339,7 +347,7 @@ hr + hr {
     }
 }
 
-@media only screen and (max-width: 767px) and (orientation: landscape) {
+@media (--mobile-landscape) {
     body {
         background-image: url('../imgs/coin-de-boite-haut-gauche.svg');
         background-position: top left;
@@ -473,6 +481,7 @@ hr + hr {
 }
 
 .schedule__item:target {
+    /* FIXME: !important should not be used */
     background-size: 100% 100%, 10px !important;
 }
 .schedule__dates {
@@ -532,6 +541,8 @@ hr + hr {
     box-shadow: 3px 2px 6px 1px var(--primary-color);
     text-decoration: none;
 }
+
+/* >>>>>>>>> FIXME: move to the pages itself */
 
 #lecole-des-maitres-2017  .schedule__main-image {
     width: 90%;
@@ -599,6 +610,8 @@ hr + hr {
 
 #kunstenfestivaldesarts { padding-bottom: 17%; }
 
+/* <<<<<<<<< */
+
 .schedule__timeline {
     top: 0;
     right: 0;
@@ -629,7 +642,7 @@ hr + hr {
 
         display: none;
         overflow-y: scroll;
-        /*overflow-y: hidden;*/
+        overflow-x: hidden;
 
         height: 100%;
     }
@@ -775,6 +788,9 @@ hr + hr {
     background-size: 25px;
 }
 
+/* >>>>>>>>> FIXME: decide what to do with `.content` */
+/* >>>>>>>>> FIXME: re-order rules */
+
 .content .show-detail__header h1 { margin-bottom: 0em; }
 
 .content .show-detail__header h2 {
@@ -849,12 +865,14 @@ p.show-detail__image-body img:hover {
 .show-detail__body blockquote { padding-left: 2em; }
 
 .show-detail__body blockquote p {
+    /* FIXME: !important should not be used */
     font-size: 1.3em !important;
     line-height: 1.25em;
 }
 
 .show-detail__body blockquote footer {
     font-family: 'Ume double stroke master expended fat';
+    /* FIXME: !important should not be used */
     font-size: 1.3em !important;
 }
 
@@ -879,6 +897,11 @@ p.show-detail__image-body img:hover {
     text-indent: 3em;
 }
 
+/* <<<<<<<< */
+/* <<<<<<<< */
+
+/* >>>>>>>> FIXME: See if we can find a more appropriate class name `.photo` */
+
 .photo {
     float: left;
 
@@ -889,6 +912,8 @@ p.show-detail__image-body img:hover {
 }
 
 .photo img { width: 100%; }
+
+/* <<<<<<<< */
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
@@ -974,6 +999,8 @@ p.show-detail__image-body img:hover {
    ???
    ========================================================================== */
 
+/* >>>>>>>>> FIXME: decide what to do with `.content` */
+/* >>>>>>>>> FIXME: Move `.show-detail` classes to the appropriate place */
 
 .content h1 {
     margin-top: 0em;
@@ -1117,6 +1144,9 @@ p.show-detail__image-body img:hover {
     margin-left: 0em;
 }
 
+/* <<<<<<<<< */
+/* <<<<<<<<< */
+
 
 
 
@@ -1128,18 +1158,24 @@ p.show-detail__image-body img:hover {
 /* Reservation link
    ========================================================================== */
 
+/* >>>>>>>>> FIXME: Merge with `.schedule__booking` and use `--` modifier */
+
 .reservation-link {
   display: inline-block;
   text-decoration: none;
   margin: 0.2em 1;
+    /* FIXME: !important should not be used */
   padding: 0.8em !important;
   font-size: 12pt;
   letter-spacing: 0.04em;
   margin-bottom: 21pt;
 }
 a.reservation-link:hover {
+    /* FIXME: !important should not be used */
 background-color: white !important;
 }
+
+/* <<<<<<<<< */
 
 
 
@@ -1147,6 +1183,8 @@ background-color: white !important;
    Slideshow
    ========================================================================== */
 
+
+/* >>>>>>>>> FIXME: rename .jcarousel to something more elegant */
 
 .jcarousel {
     position: relative;
@@ -1225,7 +1263,10 @@ background-color: white !important;
 
 .nojcarousel-item.active { opacity: 1; }
 
+/* FIXME: !important should not be used */
 .jcarousel-inner a { border: none !important; }
+
+/* <<<<<<<<< */
 
 
 
