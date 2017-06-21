@@ -1204,24 +1204,24 @@ a.reservation-link:hover {
     width: 100%;
 }
 
-.jcarousel-inner {
+.jcarousel__inner {
     position: relative;
 
     width: 10000%;
 }
 
-.jcarousel-item {
+.jcarousel__item {
     float: left;
 
     width: 1%;
 }
 
-.jcarousel-item img { width: 100%; }
+.jcarousel__item img { width: 100%; }
 
-.jcarousel-item figcaption {
+.jcarousel__item figcaption {
 }
 
-.jcarousel-controls {
+.jcarousel__controls {
     position: absolute;
     top: 50%;
 
@@ -1230,9 +1230,9 @@ a.reservation-link:hover {
     background-color: yellow;
 }
 
-.jcarousel-control-prev,
-.jcarousel-control-next {
-    position: absolute;
+.jcarousel__control-prev,
+.jcarousel__control-next {
+    position: absolute !important;
     top: -15px;
 
     display: block;
@@ -1249,18 +1249,18 @@ a.reservation-link:hover {
     font-weight: bold;
 }
 
-.jcarousel-control-prev:hover,
-.jcarousel-control-next:hover {
+.jcarousel__control-prev:hover,
+.jcarousel__control-next:hover {
     color: black;
     background-color: aliceblue;
 }
 
-.jcarousel-control-prev { left: 10px; }
+.jcarousel__control-prev { left: 10px; }
 
-.jcarousel-control-next { right: 10px; }
+.jcarousel__control-next { right: 10px; }
 
-.jcarousel-control-prev.inactive,
-.jcarousel-control-next.inactive {
+.jcarousel__control-prev.inactive,
+.jcarousel__control-next.inactive {
     cursor: default;
 
     opacity: .5;
@@ -1274,7 +1274,7 @@ a.reservation-link:hover {
 .nojcarousel-item.active { opacity: 1; }
 
 /* FIXME: !important should not be used */
-.jcarousel-inner a { border: none !important; }
+.jcarousel__inner a { border: none !important; }
 
 /* <<<<<<<<< */
 

@@ -126,6 +126,7 @@ L’activité va également se centraliser sur un lieu particulier de la caserne
 
 <div class="slideshow" markdown>
 
+<div class="jcarousel" markdown>
 !["historique 2"](http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg)
 :   -
 
