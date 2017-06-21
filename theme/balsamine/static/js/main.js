@@ -123,10 +123,10 @@ $(function() {
     });
     $("#point" + window.location.hash.replace("#", "-")).css("background-image", 'url("/images/damier.png")');
 
+    // background of header put into parent content
     var bg = $(".show-detail__header:first-child").css("background");
     $(".show-detail__header:first-child") .css("background", "");
     $(".show-detail__header:first-child").parent().parent().css("background", bg);
-    console.log(bg);
 });
 
 
@@ -279,9 +279,12 @@ $(function() {
 
 
 (function($) {
-    $('.show-detail__image-body').click(function() {
-        var srcimg = $(this).children('img').clone().html('src');
+    $('.show-detail__image-body').click(function(e) {
+        e.preventDefault();
+        var srcimg = $(this).html();
+        console.log(srcimg);
         $('.photo').html(srcimg);
+        $('.photo .thumb-overlay').remove();
         $('.photo').css("height", "auto");
     })
     $(".photo").click(function(){$(this).css("height", 0)});

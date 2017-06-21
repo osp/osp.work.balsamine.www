@@ -862,6 +862,11 @@ p.show-detail__image-body img:hover {
 
 .show-detail__image-body:last-of-type img { float: none; }
 
+.show-detail__image-body { 
+    position: relative; 
+    display: inline-block;
+}
+
 .show-detail__image-body + .show-detail__image-body { text-indent: 0; }
 
 .show-detail__body-images {
@@ -871,6 +876,16 @@ p.show-detail__image-body img:hover {
     float: left;
     padding: 1em;
     box-sizing: border-box;
+}
+
+.thumb-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: rgba(0, 255, 0, 0.5);*/
+    z-index: 10000;
 }
 
 .show-detail__body {
@@ -890,6 +905,9 @@ p.show-detail__image-body img:hover {
     -webkit-transition: height 1s;
     overflow: hidden;
     height: auto;
+}
+.show-detail__body .photo iframe {
+    width: 100%;
 }
 
 .show-detail__body blockquote + p,

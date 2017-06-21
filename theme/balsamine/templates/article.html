@@ -70,7 +70,10 @@
     <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_4 }}" alt="Main image for {{ article.title }}"></p>
     {% endif %}
     {% if article.key_video_detail_1 %}
-    <p class="show-detail__image-body"><iframe src="{{ article.key_video_detail_1 }}"></iframe></p>
+    <p class="show-detail__image-body">
+        <span class="thumb-overlay"></span>
+        <iframe src="{{ article.key_video_detail_1 }}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </p>
     {% endif %}
   </div>
   <div class="show-detail__body">
