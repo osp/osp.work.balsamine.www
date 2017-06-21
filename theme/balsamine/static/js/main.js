@@ -271,8 +271,8 @@ $(function() {
 
 // scrollbars
 (function($) {
-    $(".main-content").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'});
-    $(".schedule__list").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa'});
+    $(".main-content").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa', suppressScrollX: false});
+    $(".schedule__list").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa', suppressScrollX: true});
 })(jQuery);
 
 
