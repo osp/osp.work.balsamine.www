@@ -29,7 +29,7 @@
       {% endif %}
       <br>{# date var #}
       {% if article.end_date %}
-        du {{article.date|strftime('%-d %B %Y') }} au&nbsp;{{article.end_date|strftime('%-d&nbsp;%B&nbsp;%Y')}}
+        du {{article.date|strftime('%A %-d %B %Y') }} au&nbsp;{{article.end_date|strftime('%A %-d&nbsp;%B&nbsp;%Y')}}
       {% else %}
         le {{article.locale_date}}
       {% endif %}
