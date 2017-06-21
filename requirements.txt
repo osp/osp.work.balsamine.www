@@ -1,4 +1,25 @@
-pelican==3.7.1
+# Fixes ultra slow generation by using code that is not yet merged into the
+# official pelican repository. See
+# <https://github.com/adeverteuil/pelican/commit/b46fbb78793a873e6280a791b37ab2d42055eefc>
+
+# Add two STATIC_ settings. Fix #1982
+# STATIC_CREATE_LINKS = False
+
+# Create links instead of copying files. If the content and output
+# directories are on the same device, then create hard links. Falls
+# back to symbolic links if the output directory is on a different
+# filesystem. If symlinks are created, don’t forget to add the -L or
+# --copy-links option to rsync when uploading your site.
+
+# STATIC_CHECK_IF_MODIFIED = False
+
+# If set to True, and STATIC_CREATE_LINKS is False, compare mtimes of
+# content and output files, and only copy content files that are newer
+# than existing output files.
+
+# pelican==3.7.1
+git+https://github.com/aleray/pelican.git
+
 markdown>=2,<3
 git+https://github.com/aleray/markdown-figures.git
 
