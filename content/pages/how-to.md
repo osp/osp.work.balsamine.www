@@ -131,4 +131,4 @@ dans l'entête du nouveau document, ecrire les clés:
 — Lang: <en / fr / nl / es>
 4. Traduire le contenu dans la langue du nouveau document.
 ```
-Ensuite, un bouton pour changer de langue deviendra actif sur la/les pages en question.
+Ensuite, un bouton pour changer de langue deviendra actif sur les pages en question.
