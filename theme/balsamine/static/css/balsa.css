@@ -818,6 +818,10 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .content .show-detail__header h1 { margin-bottom: 0em; }
 
+.content .show-detail__header .translations a {
+  border: 1px solid black;
+}
+
 .content .show-detail__header h2 {
     margin-top: 0.1em;
     margin-bottom: 0em;
