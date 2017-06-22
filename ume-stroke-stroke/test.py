@@ -22,13 +22,12 @@ for glyph in SVG_DIR:
     # letter_char.addExtrema('flags')
     # letter_char.simplify(10)
     # letter_char.square()
-#
 # font.selection.all()
 # font.addExtrema();
 # font.butt()
 # font.simplify();
 # font.butt()
-font.removeOverlap();
+# font.removeOverlap();
 # font.butt()
 # font.simplify();
 # font.butt()

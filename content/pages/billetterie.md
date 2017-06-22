@@ -3,8 +3,14 @@ Date: 2017/04
 
 ## Tarifs
 
-Tarif mécène[^1]
+Tarif mécène
 :  20 euros
+:  Être mécène, c’est participer à la pérennité des fondamentaux de la Balsamine que sont l’échange et le dialogue, la création et l’enjeu artistique et expérimental.
+C’est nous aider à soutenir la création artistique. C’est reconnaître et accompagner une politique qui soutient les jeunes artistes.
+C’est vous associer au pari de la jeunesse et de la rencontre des savoirs issus de différentes disciplines.
+C’est une opportunité singulière de nous permettre de poursuivre une politique tarifaire accessible à tous.
+{: .footnote }
+
 :  <br/>
 
 Tarif plein
@@ -12,9 +18,13 @@ Tarif plein
 :  prévente 12 €
 :  <br/>
 
-Tarif réduit[^2]
+Tarif réduit
 :  10 €
 :  prévente 7€
+:  5 €
+:  Étudiants, + de 60 ans, demandeurs d’emploi, professionnels du spectacle, schaerbeekois
+{: .footnote }
+
 :  <br/>
 
 Tarif enfant (- de 12 ans)
@@ -33,13 +43,6 @@ Tarif Mardis contemporains
 Article 27 et Arsène 50
 :  <br/>
 
-[^1]:Être mécène, c’est participer à la pérennité des fondamentaux de la Balsamine que sont l’échange et le dialogue, la création et l’enjeu artistique et expérimental.
-C’est nous aider à soutenir la création artistique. C’est reconnaître et accompagner une politique qui soutient les jeunes artistes.
-C’est vous associer au pari de la jeunesse et de la rencontre des savoirs issus de différentes disciplines.
-C’est une opportunité singulière de nous permettre de poursuivre une politique tarifaire accessible à tous.
-
-[^2]:Étudiants, + de 60 ans, demandeurs d’emploi, professionnels du spectacle, schaerbeekois
-
 Tarifs de groupe (à partir de 10 personnes)
 :  <br/> {: .no-display }
 Groupe adulte {: .sous-tarif }
@@ -49,19 +52,18 @@ Groupe adulte {: .sous-tarif }
 :  <br/> {: .no-display }
 Groupe étudiant {: .sous-tarif }
 :  6 € la place<br/> + 1 place offerte à l’enseignant
-:  <br/>
 :  Le paiement des réservations de groupe doit s’effectuer 10 jours avant la date de représentation choisie
-{: .footnotes }
+{: .footnote }
 
-///Footnotes Go Here///
 
 ## United Stages
 
-Au sein du Label United Stages[^3], la Balsamine réalise une grande collecte de fonds. Le premier bénéficiaire est : [REFUGEES WELCOME](http://www.bxlrefugees.be), plateforme citoyenne de soutien aux réfugiés.
+Au sein du Label ![logo label united stages](/images/label-united-stages-mini.png), la Balsamine réalise une grande collecte de fonds. Le premier bénéficiaire est : [REFUGEES WELCOME](http://www.bxlrefugees.be), plateforme citoyenne de soutien aux réfugiés.
 
 Vous pouvez être solidaire de cette initiative à tout moment de la saison. Il vous suffit d’ajouter le montant que vous souhaitez verser à celui des places achetées. La récolte de fonds sera intégralement reversée.
 
-[^3]:UNITED STAGES, charte éthique réunissant de nombreux partenaires du secteur culturel belge, désireux de ressembler et d’utiliser les forces vives des arts vivants et du monde associatif ainsi que la proximité qu’ils entretiennent avec leurs publics pour initier des actions concrètes porteuses d’un changement positif pour leurs bénéficiaires. Une initiative de Action Sud CCR, Beursschouwburg, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le Boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140…
+UNITED STAGES, charte éthique réunissant de nombreux partenaires du secteur culturel belge, désireux de ressembler et d’utiliser les forces vives des arts vivants et du monde associatif ainsi que la proximité qu’ils entretiennent avec leurs publics pour initier des actions concrètes porteuses d’un changement positif pour leurs bénéficiaires. Une initiative de Action Sud CCR, Beursschouwburg, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le Boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140…
+{: .footnote }
 
 ## Le Pass
 

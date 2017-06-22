@@ -1,0 +1,21 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" viewBox="0 -288 432 2048" id="svg6" sodipodi:docname="iacute.svg" width="432" height="2048" inkscape:version="0.92.1 r">
+  <metadata id="metadata12">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs10"></defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="2558" inkscape:window-height="1402" id="namedview8" showgrid="false" inkscape:zoom="0.19645197" inkscape:cx="-567.72784" inkscape:cy="1183.7192" inkscape:window-x="0" inkscape:window-y="18" inkscape:window-maximized="0" inkscape:current-layer="svg6"></sodipodi:namedview>
+  <g inkscape:groupmode="layer" id="layer2" inkscape:label="trace"></g>
+  <g id="g4492">
+    <path class="int" sodipodi:nodetypes="cc" inkscape:connector-curvature="0" id="path5236-3-9-6" d="M 238.5,1760 V 790" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 153.5; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;"></path>
+    <path class="ext" sodipodi:nodetypes="cc" inkscape:connector-curvature="0" id="path5236-7-5-3-1" d="M 200.7307,1760 V 790" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 150.6; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;"></path>
+    <path class="int" sodipodi:nodetypes="cc" inkscape:connector-curvature="0" id="path5200" d="M 64.56707,472.30113 375.66675,126.9633" style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 153.5; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;"></path>
+    <path class="ext" sodipodi:nodetypes="cc" inkscape:connector-curvature="0" id="path5200-6" d="M 47.44806,455.18216 392.78576,144.08233" style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 150.6; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;"></path>
+  </g>
+</svg>

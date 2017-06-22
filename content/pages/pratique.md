@@ -5,7 +5,9 @@ Translation: true
 Lang: fr
 
 ## Accès
-###Tous les chemins mènent à la Balsa.
+Tous les chemins mènent à la Balsa.
+
+###
 
 ![plan de la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
 
@@ -23,8 +25,8 @@ Réservation
 :   [+32 2 735 64 68](tel:+3227356468)
 :   [reservation@balsamine.be](mailto:reservation@balsamine.be)
 
-![logo-accessibilite](/images/pictogramme-personne-a-mobilite-reduite.png) L’accessibilité de nos salles aux personnes à mobilité réduite est possible mais n’est pas aisée. Lors de votre réservation, nous vous remercions de faire une demande pour cet accès.
-{: .production }
+![logo accessibilite](/images/pictogramme-personne-a-mobilite-reduite.png) L’accessibilité de nos salles aux personnes à mobilité réduite est possible mais n’est pas aisée. Lors de votre réservation, nous vous remercions de faire une demande pour cet accès.
+{: .footnote }
 
 
 ## Bar et restauration

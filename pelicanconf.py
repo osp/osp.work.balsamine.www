@@ -86,6 +86,12 @@ PAGE_SAVE_AS = '{slug}.html'
 
 #  JINJA_FILTERS = {'tac': tac_filter }
 
+def pagename(value, *args):
+    val = "%s" % value
+    return val.split("/")[-1].split(".")[0]
+
+JINJA_FILTERS = {'pagename': pagename }
+
 # Extra configuration settings for the Markdown processor. Refer to the Python
 # Markdown documentation’s Options section for a complete list of supported
 # options. The extensions option will be automatically computed from the

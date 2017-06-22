@@ -77,21 +77,21 @@
     font-family: 'Ume double stroke info pratique';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-info-pratique.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-condensed-int-180-ext-180.ttf') format('woff');
 }
 
 @font-face {
     font-family: 'Ume double stroke master expanded';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-master-expanded.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-expended-int-100-ext-100.ttf') format('woff');
 }
 
 @font-face {
     font-family: 'Ume double stroke master condensed';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-master-condensed.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-condensed-int-100-ext-100.ttf') format('woff');
 }
 
 @font-face {
@@ -160,11 +160,9 @@ a:hover {
     /* border-radius: 1em; */
     /* box-shadow: 3px 2px 6px 1px var(--primary-color);*/
     /* background-color: white; */
+    color: var(--pink-color);
 }
 
-/*  FIXME: make more specific rule */
-a:not(.timeline__point):hover {
-}
 
 em { font-family: 'Ume double stroke info pratique'; }
 
@@ -1042,6 +1040,7 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
       margin-top: 2em;
 }
 
+<<<<<<< HEAD
 .page-detail h2#acces + .section3 dl dd {
   display: block;
 }
@@ -1051,6 +1050,9 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
 .page-detail h2#tarifs + dl {
     column-width: 20em;
     column-gap: 2em; }
+=======
+.page-detail h2#tarifs + dl { column-width: 20em; }
+>>>>>>> 416de05f855e1da323ed73a136871735b2f6f85b
 
 .page-detail h2#tarifs + dl dd {
     display: block;
@@ -1092,12 +1094,11 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
 
 
 .page-detail .translations a {
+    text-transform: uppercase;
+    text-decoration: none;
     border: 1px solid black;
-
-    font-weight: bolder;
+    padding: 0.5em; 
 }
-
-.page-detail .translations { padding: 1em; }
 
 .page-detail .no-display { display: none; }
 
@@ -1413,20 +1414,23 @@ a.reservation-link:hover {
 
     width: 30px;
     height: 30px;
+    box-sizing: border-box;
+
+    padding-top: 15px;
 
     text-align: center;
     text-decoration: none;
 
-    color: var(--pink-color);
+    color: black;
     background-color: white;
-
-    font-weight: bold;
+    opacity: 0.75;
 }
 
 .jcarousel__control-prev:hover,
 .jcarousel__control-next:hover {
-    color: black;
-    background-color: aliceblue;
+    background-color: white;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
+    opacity: 1;
 }
 
 .jcarousel__control-prev { left: 10px; }
@@ -1468,3 +1472,25 @@ a.reservation-link:hover {
 /* .section2 { */
 /*     max-height: 300px; */
 /* } */
+
+
+/* ==========================================================================
+   HOME
+   ========================================================================== */
+
+#home .content div {
+    width: 50%;
+    padding: 0 1em;
+    box-sizing: border-box;
+    float: left;
+}
+
+#home .content div img {
+    margin-left: 0;
+
+}
+
+#home .content div#edito {
+    width: 100%;
+    margin-top: 1em;
+}

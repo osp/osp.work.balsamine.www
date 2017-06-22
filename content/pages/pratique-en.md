@@ -24,7 +24,7 @@ Reservations
 :  [reservation@balsamine.be](mailto:reservation@balsamine.be)
 
 
-![map of la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
+![map of la balsamine](/images/map.svg){: style="width: 100%; margin-left: auto; margin-right: auto;"}
 
 
 
