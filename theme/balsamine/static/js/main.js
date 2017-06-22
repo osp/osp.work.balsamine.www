@@ -144,78 +144,80 @@ $(function() {
 });
 
 
-// $(function() {
-//     $(".slideshow").each(function() {
-//         $(this)
-//             .addClass("jcarousel__inner")
-//             .wrap( "<div class='jcarousel'></div>" )
-//             .children()
-//                 .addClass("jcarousel__item")
-//         ;
-
-//         var nav = $('<nav class="jcarousel-controls"></nav>');
-//         var prev = $('<a href="#" class="jcarousel-control-prev">‹</a>');
-//         var next = $('<a href="#" class="jcarousel-control-next">›</a>');
-
-//         nav.append(prev, next);
-//         $(this).parent().append(nav);
-
-//         $(this).jcarousel({
-//             // wrap: wrap,
-//             animation: {
-//                 duration: 1000,
-//                 //easing:   'easeOutCubic',
-//                 complete: function() {}
-//             }
-//         })
-//         .jcarouselAutoscroll({
-//             interval: 5000,
-//             target: '+=1',
-//             autostart: true
-//         });
-
-//         $(this).parent().find('.jcarousel-control-prev').jcarouselControl({
-//             target: '-=1',
-//         });
-
-//         $(this).parent().find('.jcarousel-control-next').jcarouselControl({
-//             target: '+=1',
-//         });
-//     });
-// });
-
-// <nav class="jcarousel-controls">
-//     <a href="#" class="jcarousel-control-prev">‹</a>
-//     <a href="#" class="jcarousel-control-next">›</a>
-// </nav>
-
 $(function() {
-    $('.jcarousel').each(function() {
-        var wrap = $(this).attr('data-wrap') || null;
-        $(this).jcarousel({
-            wrap: true,
+    $(".jcarousel").each(function() {
+        $(this)
+            .removeClass("jcarousel")
+            .addClass("jcarousel__inner")
+            .wrap( "<div class='jcarousel'></div>" )
+            .children()
+                .addClass("jcarousel__item")
+        ;
+
+        var nav = $('<nav class="jcarousel__controls"></nav>');
+        var prev = $('<a href="#" class="jcarousel__control-prev">‹</a>');
+        var next = $('<a href="#" class="jcarousel__control-next">›</a>');
+
+        nav.append(prev, next);
+        $(this).parent().append(nav);
+
+        $(this).parent().jcarousel({
+            wrap: 'circular',
             animation: {
                 duration: 1000,
                 //easing:   'easeOutCubic',
                 complete: function() {}
             }
         });
-    })
-    .filter('[data-autoscroll]')
-    .jcarouselAutoscroll({
-        interval: 5000,
-        target: '+=1',
-        autostart: true
-    });
+        // .jcarouselAutoscroll({
+        //     interval: 5000,
+        //     target: '+=1',
+        //     autostart: true
+        // });
 
-    $('.jcarousel-control-prev').jcarouselControl({
-        target: '-=1',
-    });
 
-    $('.jcarousel-control-next').jcarouselControl({
-        target: '+=1',
+        prev.jcarouselControl({
+            target: '-=1',
+        });
+
+        next.jcarouselControl({
+            target: '+=1',
+        });
     });
 });
+
+// <nav class="jcarousel-controls">
+//     <a href="#" class="jcarousel-control-prev">‹</a>
+//     <a href="#" class="jcarousel-control-next">›</a>
+// </nav>
+
+// $(function() {
+//     $('.jcarousel').each(function() {
+//         var wrap = $(this).attr('data-wrap') || null;
+//         $(this).jcarousel({
+//             wrap: true,
+//             animation: {
+//                 duration: 1000,
+//                 //easing:   'easeOutCubic',
+//                 complete: function() {}
+//             }
+//         });
+//     })
+//     .filter('[data-autoscroll]')
+//     .jcarouselAutoscroll({
+//         interval: 5000,
+//         target: '+=1',
+//         autostart: true
+//     });
+
+//     $('.jcarousel-control-prev').jcarouselControl({
+//         target: '-=1',
+//     });
+
+//     $('.jcarousel-control-next').jcarouselControl({
+//         target: '+=1',
+//     });
+// });
 
 
 
@@ -299,3 +301,11 @@ $(function() {
 //         $drop.toggle();
 //     });
 // });
+
+// (function($) {
+//     $(".page-detail .section2").dotdotdot({
+//         after: '[title="more"]',
+//         watch: "window"
+//     });
+//     $("#wrapper").trigger("destroy");
+// })(jQuery);
