@@ -154,12 +154,15 @@ $(function() {
 
     $(".galerie").addClass("show-detail__body-images").insertBefore($(".show-detail__body"));
 
+    color = $(".content").attr("data-color");
+
     $('.show-detail__body-images iframe').each(function() {
         div = $("<p class='video-wrapper'>");
-        $(this).wrap(div);
+        $(this).css("outline-color", color).wrap(div);
         overlay = $("<span class='thumb-overlay'> </span>")
         overlay.insertBefore($(this));
     });
+    $('.show-detail__body-images img').css("outline-color", color);
 
     $('.show-detail__body-images p').click(function(e) {
         var srcimg = $(this).html();
