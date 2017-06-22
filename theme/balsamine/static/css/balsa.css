@@ -1028,6 +1028,18 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .page-detail dd { break-inside: avoid-column; }
 
+.page-detail p.sous-h2{
+  font-size: 1em;
+}
+.page-detail h2#un-theatre-a-letat-pur{
+  margin-bottom: 0em;
+      margin-top: 0em;
+}
+
+h3#un-projet-ethique-pour-les-5-saisons-a-venir {
+      margin-top: 2em;
+}
+
 .page-detail h2#tarifs + dl { column-width: 20em; }
 
 .page-detail h2#tarifs + dl dd {
@@ -1267,7 +1279,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     border: 1px solid black;
     border-radius: 16px;
     /*font-family: 'Ume double stroke master expanded fat';*/
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .content dd {

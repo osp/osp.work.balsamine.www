@@ -100,7 +100,8 @@ Pour exprimer haut et fort son soutien aux populations civiles en danger un peu 
 
 Plus d’informations  sur Facebook United Stages Belgium.
 
-Une initiative de Action Sud CCR, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140… {: footnotes }
+Une initiative de Action Sud CCR, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140…
+{: footnotes }
 
 ## Historique
 
