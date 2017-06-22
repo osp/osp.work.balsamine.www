@@ -9,9 +9,6 @@ Piece_authors: Denis Bosse
                Frédéric Dussenne
 Event_type: Création Vidéopéra<br/>En coproduction avec Ars Musica
 Key_image: shows/6-La-Lettre-Volee/inkwell-hd.png
-Key_image_detail_1: shows/6-La-Lettre-Volee/regency-desk-2-transparent.png
-Key_image_detail_2: shows/6-La-Lettre-Volee/pen-hd.png
-Key_image_detail_3: shows/6-La-Lettre-Volee/letter.png
 Key_image_detail_body: shows/6-La-Lettre-Volee/tiroir.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Une enquête palpitante à la recherche d’une lettre perdue. Lyrique et atypique.
@@ -63,3 +60,9 @@ Scénographie et vidéo
 
 Une production Quart de Ton – Janine Al-Asswad en coproduction avec le Théâtre la Balsamine et Ars musica, avec les soutiens de la Fédération Wallonie-Bruxelles  - conseil de la musique contemporaine,de Sturm und Klang, du Forum des compositeurs et du Festival Loop . En collaboration avec ARTS², Ecole Supérieure des Arts de Mons (Domaine Arts visuels – Musique et Théâtre).
 {: .production }
+
+<div class="galerie" markdown=true>
+![la lettre volée](/images/shows/6-La-Lettre-Volee/regency-desk-2-transparent.png)
+![la lettre volée](/images/shows/6-La-Lettre-Volee/pen-hd.png)
+![la lettre volée](/images/shows/6-La-Lettre-Volee/letter.png)
+</div>

@@ -3,9 +3,6 @@ Date: 2018/01/30
 End_date: 2018/02/10
 Time: 20h30 (relâche le dimanche)
 Key_image: shows/4-Les-Fortunes-de-la-Viande/sheep-weightpaint2.png
-Key_image_detail_1: shows/4-Les-Fortunes-de-la-Viande/agneau-wireframe.png
-Key_image_detail_2: shows/4-Les-Fortunes-de-la-Viande/SheepDiffuseSkin-Contours.png
-Key_image_detail_3: shows/4-Les-Fortunes-de-la-Viande/sheep-helpers.png
 Key_image_detail_body: shows/4-Les-Fortunes-de-la-Viande/fortunes-de-la-viande-anim-loop.gif
 Piece_author: Martine Wijckaert
 Event_type: Création théâtre
@@ -49,3 +46,9 @@ Régie spectacle
 
 Une production du Théâtre la Balsamine.
 {: .production }
+
+<div class="galerie" markdown=true>
+![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/agneau-wireframe.png)
+![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/SheepDiffuseSkin-Contours.png)
+![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/sheep-helpers.png)
+</div>

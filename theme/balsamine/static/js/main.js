@@ -280,16 +280,26 @@ $(function() {
 })(jQuery);
 
 
+// SHOW-DETAIL GALLERY
 (function($) {
-    $('.show-detail__image-body').click(function(e) {
-        e.preventDefault();
+
+    $(".galerie").addClass("show-detail__body-images").insertBefore($(".show-detail__body"));
+
+    $('.show-detail__body-images iframe').each(function() {
+        div = $("<p class='video-wrapper'>");
+        $(this).wrap(div);
+        overlay = $("<span class='thumb-overlay'> </span>")
+        overlay.insertBefore($(this));
+    });
+
+    $('.show-detail__body-images p').click(function(e) {
         var srcimg = $(this).html();
-        console.log(srcimg);
         $('.photo').html(srcimg);
         $('.photo .thumb-overlay').remove();
         $('.photo').css("height", "auto");
     })
     $(".photo").click(function(){$(this).css("height", 0)});
+
 })(jQuery);
 
 // dropdown

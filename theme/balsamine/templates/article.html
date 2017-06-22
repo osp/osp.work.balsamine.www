@@ -56,26 +56,17 @@
 
   </header>
 
-  <div class="show-detail__body-images">
-    {% if article.key_image_detail_1 %}
-    <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_1 }}" alt="Main image for {{ article.title }}" style="outline:1px solid {{article.color}};"></p>
-    {% endif %}
-    {% if article.key_image_detail_2 %}
-    <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_2 }}" alt="Main image for {{ article.title }}" style="outline:1px solid {{article.color}};"></p>
-    {% endif %}
-    {% if article.key_image_detail_3 %}
-    <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_3 }}" alt="Main image for {{ article.title }}" style="outline:1px solid {{article.color}};"></p>
-    {% endif %}
-    {% if article.key_image_detail_4 %}
-    <p class="show-detail__image-body"><img src="/images/{{ article.key_image_detail_4 }}" alt="Main image for {{ article.title }}" style="outline:1px solid {{article.color}};"></p>
-    {% endif %}
-    {% if article.key_video_detail_1 %}
-    <p class="show-detail__image-body" style="max-width:70px;">
-        <span class="thumb-overlay"></span>
-        <iframe src="{{ article.key_video_detail_1 }}" webkitallowfullscreen mozallowfullscreen allowfullscreen style="outline:1px solid {{article.color}}; max-width: 100%;"></iframe>
-    </p>
-    {% endif %}
-  </div>
+  <!--<div class="show-detail__body-images">-->
+    <!--{% if article.key_image_detail_1 %}-->
+    <!--<p class="show-detail__image-body"><img class="image-process-thumbnail" src="/images/{{ article.key_image_detail_1 }}" alt="Main image for {{ article.title }}" style="outline:1px solid {{article.color}};"></p>-->
+    <!--{% endif %}-->
+    <!--{% if article.key_video_detail_1 %}-->
+    <!--<p class="show-detail__image-body" style="max-width:70px;">-->
+        <!--<span class="thumb-overlay"></span>-->
+        <!--<iframe src="{{ article.key_video_detail_1 }}" webkitallowfullscreen mozallowfullscreen allowfullscreen style="outline:1px solid {{article.color}}; max-width: 100%;"></iframe>-->
+    <!--</p>-->
+    <!--{% endif %}-->
+  <!--</div>-->
   <div class="show-detail__body">
       <div class="photo"> </div>
       {{ article.content }}

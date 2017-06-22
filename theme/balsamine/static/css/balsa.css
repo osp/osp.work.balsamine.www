@@ -171,7 +171,6 @@ a:not(.timeline__point):hover {
     border-radius: 1em;
     background-color: white;
     box-shadow: 3px 2px 6px 1px var(--primary-color);
-    color: inherit;
 }
 
 em { font-family: 'Ume double stroke info pratique'; }
@@ -856,40 +855,11 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     line-height: 1.3em;
 }
 
-p.show-detail__image-body img:hover {
-    cursor: pointer;
-
-    background-image: url("/images/damier.png");
-    background-size: 10px;
-}
-
-.show-detail__image-body img,
-.show-detail__image-body iframe {
-  position: relative;
-  float: left;
-  max-height: 70px;
-  /* margin: 0px 10px; */
-  outline: 1px solid var(--pink-color);
-}
-
-.content .show-detail__image-body a { padding: 0em 0em; }
-
 .show-detail__image img {
     max-width: 100%;
 
     text-align: center;
 }
-
-.show-detail__image-body:last-of-type img { float: none; }
-
-.show-detail__image-body {
-    position: relative;
-
-    display: inline-block;
-    max-width: 70px;
-}
-
-.show-detail__image-body + .show-detail__image-body { text-indent: 0; }
 
 .show-detail__body-images {
     float: left;
@@ -900,6 +870,27 @@ p.show-detail__image-body img:hover {
     padding-bottom: 2em;
 
     background-color: white;
+}
+.show-detail__body-images p {
+    float: left;
+    text-indent: 0 !important;
+    margin-right: 1em;
+}
+
+.show-detail__body-images .video-wrapper {
+    position: relative;
+}
+
+.show-detail__body-images img,
+.show-detail__body-images iframe {
+    max-height: 70px;
+    outline: 1px solid var(--pink-color);
+    max-width: 100px;
+}
+.show-detail__body-images img:hover {
+    cursor: pointer;
+    background-image: url("/images/damier.png");
+    background-size: 10px;
 }
 
 .thumb-overlay {
