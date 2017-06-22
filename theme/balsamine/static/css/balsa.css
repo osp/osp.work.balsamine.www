@@ -868,9 +868,7 @@ p.show-detail__image-body img:hover {
   float: left;
   max-height: 70px;
   /* margin: 0px 10px; */
-  border: 1px solid var(--pink-color);
-
-    /*border: 1px solid black;*/
+  outline: 1px solid var(--pink-color);
 }
 
 .content .show-detail__image-body a { padding: 0em 0em; }
@@ -922,10 +920,15 @@ p.show-detail__image-body img:hover {
     background-color: white;
 }
 
+/*FIXME: See if we can find a more appropriate class name `.photo` */
 .show-detail__body .photo {
+    float: left;
     overflow: hidden;
 
     height: auto;
+    width: auto;
+    margin-right: 1.375em;
+    margin-bottom: 1.375em;
 
     cursor: n-resize;
     -webkit-transition: height 1s;
@@ -933,13 +936,20 @@ p.show-detail__image-body img:hover {
 
     background-image: url("/images/damier.png");
     background-size: 10px;
+
+    
 }
-.show-detail__body .photo iframe {
+.show-detail__body .photo img {
     width: 100%;
-    height: auto;
-
+    max-width: 500px;
+    outline: none !important;
 }
 
+.show-detail__body .photo iframe {
+    width: 600px;
+    height: 400px;
+
+}
 
 .show-detail__body blockquote + p,
 .show-detail__body p + blockquote { margin-top: 1em; }
@@ -980,16 +990,6 @@ p.show-detail__image-body img:hover {
 }
 
 
-/*FIXME: See if we can find a more appropriate class name `.photo` */
-
-.photo {
-    float: left;
-
-    width: 100%;
-    margin-bottom: 21pt;
-}
-
-.photo img { width: 100%; }
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
