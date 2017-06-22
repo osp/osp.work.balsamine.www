@@ -165,13 +165,14 @@ a:hover {
 }
 
 /*  FIXME: make more specific rule */
-/*a:not(.timeline__point):hover {
+a:not(.timeline__point):hover {
     position: relative;
     z-index: 1000;
     border-radius: 1em;
     background-color: white;
     box-shadow: 3px 2px 6px 1px var(--primary-color);
-}*/
+    color: inherit;
+}
 
 em { font-family: 'Ume double stroke info pratique'; }
 
