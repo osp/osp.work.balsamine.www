@@ -5,33 +5,47 @@ Translation: true
 Lang: fr
 
 ## Accès
-
-Tous les chemins mènent à la Balsa.
-
-* * *
-
-La Balsamine
-Avenue Félix Marchal, 1
-1030 Bruxelles
-
-* * *
-
-<!-- lien map -->
-
-Administration: [+32 2 732 96 18](tel:+3227329618) — [info@balsamine.be](mailto:info@balsamine.be)
-Réservation: [+32 2 735 64 68](tel:+3227356468) — [reservation@balsamine.be](mailto:reservation@balsamine.be)
+###Tous les chemins mènent à la Balsa.
 
 ![plan de la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
 
-* * *
 
-L’accessibilité de nos salles aux personnes à mobilité réduite est possible mais n’est pas aisée. Lors de votre réservation, nous vous remercions de faire une demande pour cet accès.
+La Balsamine  
+:   Avenue Félix Marchal, 1  
+:   1030 Bruxelles  
+
+
+Administration
+:   [+32 2 732 96 18](tel:+3227329618)
+:   [info@balsamine.be](mailto:info@balsamine.be)  
+
+Réservation
+:   [+32 2 735 64 68](tel:+3227356468)
+:   [reservation@balsamine.be](mailto:reservation@balsamine.be)
+
+![logo-accessibilite](/images/pictogramme-personne-a-mobilite-reduite.png) L’accessibilité de nos salles aux personnes à mobilité réduite est possible mais n’est pas aisée. Lors de votre réservation, nous vous remercions de faire une demande pour cet accès.
+{: .production }
+
 
 ## Bar et restauration
 
 Le bar est ouvert à 19h chaque soir de représentation. Une petite restauration délicieuse et faite sur place vous est proposée avant chaque spectacle.
 
-<!-- Menu de la semaine -->
+###Menu de la semaine
+Lundi  
+:   miam
+
+Mardi  
+:   miam miam
+
+Mercredi  
+:   mmmm
+
+Jeudi  
+:   gloup
+
+Vendredi  
+:   re miam   
 
 ## Autour des spectacles
 
@@ -58,16 +72,23 @@ Faire vivre l’expérience du contemporain aux jeunes peut être aussi une faç
 N’hésitez donc pas, si un spectacle de notre saison vous donnait l’envie de mettre en relation vos étudiants avec la pratique artistique, à nous faire part de vos idées.
 
 Nous organisons  régulièrement des dynamiques d’échanges entre étudiants et professionnels, sous différentes formes en fonction des projets spécifiques. ex : captations vidéo, stages d’observation, interviews d’artistes, séances de croquis, ateliers créatifs… Ces activités sont gratuites et construites à la carte.
+{: .en-block }
 
-* * *
 
-Contact conseils et organisation des activités pédagogiques:
-Noemi Tiberghien
-[+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
+Contact conseils et organisation des activités pédagogiques
+:  Noemi Tiberghien
+:  [+32 2 737 70 18](tel:+3227377018)
+:  [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
 
-<!-- + Guide pédagogique à télécharger -->
+
+[Télécharger le guide pédagogique ici]()
 
 ## Espace pro
+
+- [logo balsamine 17-18](/images/logo-balsa.svg)
+- [logo Label United Stages](/images/label-united-stages-txt.svg)
+- [fonts]()
+- [dossiers de diffusion]()
 
 <!-- Nouveau logo Balsa, Label United Stages, fonts et dossiers de
 diffusion à télécharger-->
@@ -75,6 +96,7 @@ diffusion à télécharger-->
 ## Technique
 
 Ici, vous trouverez tous les plans techniques de la Balsamine.
+{: .en-block}
 
 - [Balsa Petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf) 
 - [Balsa sol amphi.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf)

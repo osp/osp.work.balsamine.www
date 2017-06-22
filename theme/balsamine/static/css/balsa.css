@@ -141,7 +141,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
-    /* <<<<<<<<< */
+
 
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
@@ -635,7 +635,6 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 #kunstenfestivaldesarts { padding-bottom: 17%; }
 
-/* <<<<<<<<< */
 
 .schedule__timeline {
     top: 0;
@@ -1028,14 +1027,42 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .page-detail dd { break-inside: avoid-column; }
 
-.page-detail h2#tarifs + dl { column-width: 20em; }
-
-.page-detail h2#tarifs + dl dd {
-    display: block;
-
-    padding-left: 12px;
+.page-detail p.sous-h2{
+  font-size: 1em;
+}
+.page-detail h2#un-theatre-a-letat-pur{
+  margin-bottom: 0em;
 }
 
+.page-detail h2#tarifs + dl { column-width: 20em; }
+
+.content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p  {
+  position: relative;
+float: right;
+width: 65%;
+}
+.content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p img{
+  width: 100% !important;
+}
+.content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p + dl + p.production {
+      margin-top: 15pt;
+}
+.content.page-detail h3#tous-les-chemins-menent-a-la-balsa {
+      margin-bottom: 15pt;
+}
+
+.page-detail h2#tarifs + dl dd,
+.content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p + dl dd,
+.content.page-detail p.en-block + dl dd {
+    display: block;
+    padding-left: 12px;
+}
+.content.page-detail p.en-block {
+  margin-bottom: 15pt;
+}
+.content.page-detail p.en-block + dl {
+  margin-bottom: 15pt;
+}
 .page-detail h2#tarifs + dl dd + dt { margin-top: 10px; }
 
 .page-detail .no-display { display: none; }
@@ -1046,7 +1073,15 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     border: 0px solid black;
 }
 
-.page-detail .footnotes {
+.page-detail img[alt='logo-united-stages'],
+.page-detail img[alt='logo-accessibilite'] {
+  margin: 0;
+}
+
+.page-detail .footnotes,
+.page-detail p.production {
+  font-size: .9em;
+  line-height: 1.2em;
 }
 
 .page-detail .translations a {
@@ -1145,13 +1180,13 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .content.page-detail h3 a:hover,
 .content.page-detail h3 a:focus {
-    color: black;
-    background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);
+    /*color: black;*/
+    /*background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);*/
 }
 
 .content.page-detail h1 {
     margin-top: 1em;
-    margin-left: -1em;
+    margin-left: 0em;
 }
 
 @media (--mobile) {
@@ -1258,8 +1293,20 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
     font-family: 'Ume double stroke master expended fat';
 }
-
-.content li:before { content: "- "; }
+.content ul {
+margin-left: .8em;
+}
+.content li:before {
+  /*content: "- ";*/
+}
+.content li {
+  list-style-type: circle;
+  font-size: 0.7em;
+  line-height: 1.5em;
+}
+/*.page-detail li {
+  list-style-type: circle;
+}*/
 
 .content pre {
     margin-top: 1em;
@@ -1275,8 +1322,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     margin-left: 0em;
 }
 
-/* <<<<<<<<< */
-/* <<<<<<<<< */
+
 
 
 
@@ -1400,7 +1446,6 @@ a.reservation-link:hover {
 /* FIXME: !important should not be used */
 .jcarousel__inner a { border: none !important; }
 
-/* <<<<<<<<< */
 
 
 

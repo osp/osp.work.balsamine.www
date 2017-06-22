@@ -14,16 +14,19 @@ La Balsamine
 Avenue Félix Marchal, 1
 1030 Bruxelles
 
-* * *
+Administration
+:   [+32 2 732 96 18](tel:+3227329618)
+:   [info@balsamine.be](mailto:info@balsamine.be)  
 
-<!-- lien map -->
 
-Administration: [+32 2 732 96 18](tel:+3227329618) — [info@balsamine.be](mailto:info@balsamine.be)
-Reservations: [+32 2 735 64 68](tel:+3227356468) — [reservation@balsamine.be](mailto:reservation@balsamine.be)
+Reservations
+:  [+32 2 735 64 68](tel:+3227356468)
+:  [reservation@balsamine.be](mailto:reservation@balsamine.be)
+
 
 ![map of la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
 
-* * *
+
 
 Our facilities are not very easy to use for people with reduced mobility. If you are concerned by this, please let us know during your reservation.
 
