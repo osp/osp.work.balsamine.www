@@ -141,7 +141,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
-    /* <<<<<<<<< */
+
 
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
@@ -637,7 +637,6 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 #kunstenfestivaldesarts { padding-bottom: 17%; }
 
-/* <<<<<<<<< */
 
 .schedule__timeline {
     top: 0;
@@ -1035,6 +1034,13 @@ p.show-detail__image-body img:hover {
 
 .page-detail dd { break-inside: avoid-column; }
 
+.page-detail p.sous-h2{
+  font-size: 1em;
+}
+.page-detail h2#un-theatre-a-letat-pur{
+  margin-bottom: 0em;
+}
+
 .page-detail h2#tarifs + dl { column-width: 20em; }
 
 .content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p  {
@@ -1327,8 +1333,7 @@ margin-left: .8em;
     margin-left: 0em;
 }
 
-/* <<<<<<<<< */
-/* <<<<<<<<< */
+
 
 
 
@@ -1452,7 +1457,6 @@ a.reservation-link:hover {
 /* FIXME: !important should not be used */
 .jcarousel__inner a { border: none !important; }
 
-/* <<<<<<<<< */
 
 
 

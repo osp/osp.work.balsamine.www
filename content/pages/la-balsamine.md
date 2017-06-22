@@ -6,8 +6,9 @@ Date: 2017/04
 ## Un théâtre à l’état P.U.R.
 
 Partagé. Utopique. Responsable.
+{: .sous-h2}
 
-Un projet éthique pour les 5 saisons à venir.
+###Un projet éthique pour les 5 saisons à venir.
 
 Une Balsa à la mine épurée, apurée, en purée, certains soirs et selon les
 menus. Pur jus, pur théâtre. En l’état.
