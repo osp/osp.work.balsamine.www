@@ -9,6 +9,9 @@ Subhead: Dans le cadre de la Saison des arts numériques
 Key_image: shows/1-Helpers/helper-uppendown.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Color: #fac533
+Slug: up-pen-down
+Translation: true
+Lang: fr
 
 Les typographes d’Open Source Publishing et la chorégraphe Adva ZakaÏ reviennent avec un nouvel épisode de leur recherche entre corps et écriture — danse et typographie qui oscille entre des
 moments de type conférence, de prototypage de mouvement, de monstration de processus logiciels et de mouvements de traceurs (plotters).

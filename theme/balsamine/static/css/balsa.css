@@ -818,6 +818,10 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .content .show-detail__header h1 { margin-bottom: 0em; }
 
+.content .show-detail__header .translations a {
+  border: 1px solid black;
+}
+
 .content .show-detail__header h2 {
     margin-top: 0.1em;
     margin-bottom: 0em;
@@ -940,6 +944,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     height: 400px;
 
 }
+
 
 .show-detail__body blockquote + p,
 .show-detail__body p + blockquote { margin-top: 1em; }
@@ -1128,14 +1133,14 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     font-size: 1.5em;
 }
 
-.content.page-detail h3 {
-    margin-top: 1em;
+.content .page-detail h3 {
+    margin-top: .5em;
     /*margin-top: 1em;*/
-    /*margin-bottom: .5em;*/
-    color:black;
-    /*text-decoration: underline;*/
-    letter-spacing: 0.04em;
-    font-family: 'Ume double stroke info pratique';
+    margin-bottom: .5em;
+
+    text-decoration: underline;
+
+    font-family: 'Ume double stroke master condensed';
     font-size: 1em;
     /*line-height: 1.83333333em;*/
 }
@@ -1149,6 +1154,12 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 .content.page-detail h1 {
     margin-top: 1em;
     margin-left: -1em;
+}
+
+@media (--mobile) {
+  .content.page-detail h1 {
+      margin-left: 0em;
+  }
 }
 
 .content h4 {
@@ -1186,21 +1197,11 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     line-height: 1.1em;
 }
 
-.show-detail__body p.production, .page-detail .footnote ol li p {
+.show-detail__body p.production {
     font-size: .9em;
     line-height: 1.2em;
 }
-.page-detail .footnote ol li + li {
-margin-bottom: 1em;
-text-indent: 2em;
-}
-.page-detail .footnote ol li::before {
-content: " ";
-}
 
-.page-detail .footnote ol {
-  column-width: 20em;
-}
 .show-detail__body .section2 { /*padding-left: 5em;*/ }
 
 .content p,

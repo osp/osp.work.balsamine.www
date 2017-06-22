@@ -1,5 +1,6 @@
-Title: Pratique
+Title: Practical information
 Date: 2017/04
+Slug: pratique
 Lang: en
 Translation: true
 
@@ -9,15 +10,15 @@ All roads lead to la Balsa.
 
 * * *
 
-La Balsamine  
-Avenue Félix Marchal, 1  
-1030 Bruxelles  
+La Balsamine
+Avenue Félix Marchal, 1
+1030 Bruxelles
 
 * * *
 
 <!-- lien map -->
 
-Administration: [+32 2 732 96 18](tel:+3227329618) — [info@balsamine.be](mailto:info@balsamine.be)  
+Administration: [+32 2 732 96 18](tel:+3227329618) — [info@balsamine.be](mailto:info@balsamine.be)
 Reservations: [+32 2 735 64 68](tel:+3227356468) — [reservation@balsamine.be](mailto:reservation@balsamine.be)
 
 ![map of la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
@@ -60,26 +61,26 @@ Nous organisons  régulièrement des dynamiques d’échanges entre étudiants e
 
 * * *
 
-Contact conseils et organisation des activités pédagogiques:  
-Noemi Tiberghien  
-[+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)  
+Contact conseils et organisation des activités pédagogiques:
+Noemi Tiberghien
+[+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
 
 <!-- + Guide pédagogique à télécharger -->
 
-## Espace pro
+## Communication pack
 
 <!-- Nouveau logo Balsa, Label United Stages, fonts et dossiers de
 diffusion à télécharger-->
 
-## Technique
+## Technical plans
 
 Ici, vous trouverez tous les plans techniques de la Balsamine.
 
-- [Balsa Petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf) 
-- [Balsa sol amphi.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf)
-- [coupe grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/coupe%20grande%20salle.pdf)
-- [Grande Salle vierge.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grande%20Salle%20vierge.pdf)
-- [Grill grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20grande%20salle.pdf)
-- [Grill petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf)
-- [sol grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf)
-- [Sol petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf)
+- [Balsa Small room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf) 
+- [Balsa floor plan amphi.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf)
+- [Slice large room.pdf](http://balsamine.be/uploads/Balsamine.Technique/coupe%20grande%20salle.pdf)
+- [Large room blank.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grande%20Salle%20vierge.pdf)
+- [Grill large room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20grande%20salle.pdf)
+- [Grill small rom.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf)
+- [Floor plan large room.pdf](http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf)
+- [Floor plan small room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf)
