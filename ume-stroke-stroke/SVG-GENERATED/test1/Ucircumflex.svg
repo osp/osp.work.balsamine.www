@@ -1,0 +1,26 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" viewBox="0 -288 1312 2048" id="svg6" sodipodi:docname="Ucircumflex.svg" width="1312" height="2048" inkscape:version="0.92.1 r">
+  <metadata id="metadata12">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs10"></defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="2558" inkscape:window-height="1402" id="namedview8" showgrid="false" inkscape:zoom="0.18136117" inkscape:cx="1590.6572" inkscape:cy="420.1427" inkscape:window-x="0" inkscape:window-y="18" inkscape:window-maximized="0" inkscape:current-layer="layer3" inkscape:measure-start="120.108,85.841" inkscape:measure-end="120.108,197.642" showguides="false" inkscape:guide-bbox="true">
+    <sodipodi:guide position="338.36911,173.68415" orientation="0,1" id="guide106" inkscape:locked="false"></sodipodi:guide>
+  </sodipodi:namedview>
+  <g inkscape:groupmode="layer" id="layer3" inkscape:label="trace" transform="matrix(1,0,0,0.78761932,0,373.78977)">
+    <g id="g4540" transform="matrix(1,0,0,0.78761932,0,373.78977)">
+      <path class="ext" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 45.9; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1098.9546,210 V 1215.7832 C 1098.9546,1669.2589 830.07845,1730 658.8725,1730 487.66657,1730 218.79042,1664.1709 218.79042,1215.7832 V 210" id="path5829-3-3" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"></path>
+      <path class="int" style="display: inline; fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 0.1; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;" d="M 1062.7889,210 V 1221.4705 C 1062.7889,1583.1379 857.80412,1685 658.8725,1685 459.9409,1685 254.95612,1580.9279 254.95612,1221.4705 V 210" id="path5829-8-6-1" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"></path>
+    </g>
+    <g transform="matrix(1,0,0,0.78761932,0,373.78977)" style="display:inline" id="g4493">
+      <path class="int" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" id="path5200-66" d="M 897.05727,390.30113 648.59487,44.96331 400.13247,390.30116" style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 0.1; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;"></path>
+      <path class="ext" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" id="path5200-6-4" d="M 909.96406,373.18216 648.59487,62.08235 387.22568,373.18219" style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 45.9; stroke-linecap: round; stroke-linejoin: bevel; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;"></path>
+    </g>
+  </g>
+</svg>

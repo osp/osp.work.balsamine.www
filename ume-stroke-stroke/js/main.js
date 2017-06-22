@@ -5,8 +5,9 @@ var viewSet = false;
 function surMesure(){
 
   $(window).ready(function(){
-    // $('path').css('stroke-linecap', 'round');
-   // $('path').css('stroke-linecap', 'round');
+    // $('g').attr('transform', 'matrix(1,0,0,0.78761932,0,373.78977)');
+    // $('g').attr('transform','matrix(1,0,0,0.90,0,175)')
+    $('path').css('stroke-linecap', 'round');
     // var strokeInt = $('.ext');
     $('path').css('stroke-linejoin', 'bevel');
   // $('path.int').remove();

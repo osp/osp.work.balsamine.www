@@ -1,15 +1,15 @@
 var table = []
 
-table["0"] = "0";
-table["1"] = "1";
-table["2"] = "2";
-table["3"] = "3";
-table["4"] = "4";
-table["5"] = "5";
-table["6"] = "6";
-table["7"] = "7";
-table["8"] = "8";
-table["9"] = "9";
+table["0"] = "zero";
+table["1"] = "one";
+table["2"] = "two";
+table["3"] = "three";
+table["4"] = "four";
+table["5"] = "five";
+table["6"] = "six";
+table["7"] = "seven";
+table["8"] = "eight";
+table["9"] = "nine";
 table["a"] = "a";
 table["A"] = "A";
 table["b"] = "b";
@@ -62,12 +62,17 @@ table["y"] = "y";
 table["Y"] = "Y";
 table["z"] = "z";
 table["Z"] = "Z";
-
+table["@"] = "at";
+table["-"] = "hyphen";
+table["&"] = "ampersand";
+table["/"] = "slash";
+table["%"] = "percent";
+table["€"] = "Euro";
 table[" "] = "space";
 table["."] = "period";
 table[";"] = "semicolon";
 table[":"] = "colon";
-table["?"] = "question";
+table["?"] = "'uestion";
 table["!"] = "exclam";
 table["("] = "parenleft";
 table[")"] = "parenright";
@@ -84,4 +89,10 @@ table["é"] = "eacute";
 table["ç"] = "ccedilla";
 
 table["ó"] = "oacute";
+table["ò"] = "ograve";
+table["ô"] = 'ocircumflex';
+
+table["ú"] = "uacute";
+table["ù"] = "ugrave";
+table["û"] = 'ucircumflex';
 
