@@ -6,10 +6,10 @@ function surMesure(){
 
   $(window).ready(function(){
     // $('g').attr('transform', 'matrix(1,0,0,0.78761932,0,373.78977)');
-    // $('g').attr('transform','matrix(1,0,0,0.90,0,175)')
-    $('path').css('stroke-linecap', 'round');
+    $('g').attr('transform','matrix(1,0,0,0.90,0,175)')
+    // $('path').css('stroke-linecap', 'round');
     // var strokeInt = $('.ext');
-    $('path').css('stroke-linejoin', 'bevel');
+    // $('path').css('stroke-linejoin', 'bevel');
   // $('path.int').remove();
     // $('path.ext').css('transform', 'scale(1.1, 1 )');
     // $('path.int').css('transform-origin', 'center');

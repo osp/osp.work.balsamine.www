@@ -77,21 +77,21 @@
     font-family: 'Ume double stroke info pratique';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-info-pratique.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-condensed-int-180-ext-180.ttf') format('woff');
 }
 
 @font-face {
     font-family: 'Ume double stroke master expanded';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-master-expanded.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-expended-int-100-ext-100.ttf') format('woff');
 }
 
 @font-face {
     font-family: 'Ume double stroke master condensed';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-master-condensed.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-condensed-int-100-ext-100.ttf') format('woff');
 }
 
 @font-face {
