@@ -6,8 +6,9 @@ Date: 2017/04
 ## Un théâtre à l’état P.U.R.
 
 Partagé. Utopique. Responsable.
+{: .sous-h2}
 
-Un projet éthique pour les 5 saisons à venir.
+###Un projet éthique pour les 5 saisons à venir.
 
 Une Balsa à la mine épurée, apurée, en purée, certains soirs et selon les
 menus. Pur jus, pur théâtre. En l’état.
@@ -36,8 +37,8 @@ respecter les hommes et la nature, de vivre dans un développement durable et
 d’investir ses moyens dans tout ce que la créativité a de plus riche. Hier,
 aujourd’hui et demain.
 
-## Équipe
 
+## Équipe
 
 Direction générale et artistique
 :   [Monica Gomes](mailto:monica.gomes@balsamine.be)
@@ -91,7 +92,7 @@ La Balsamine est subventionnée par la Fédération Wallonie-Bruxelles et fait p
 
 La Balsamine reçoit aussi le soutien de Wallonie-Bruxelles Théâtre/Danse et de Wallonie-Bruxelles International.
 
-![](http://balsamine.be/uploads/Partenaires.Partenaires/logos2016.png)
+![](/images/logos-17-18.png)
 
 La Balsamine est signataire de la charte United Stages.
 
@@ -100,7 +101,7 @@ Pour exprimer haut et fort son soutien aux populations civiles en danger un peu 
 Plus d’informations  sur Facebook United Stages Belgium.
 
 Une initiative de Action Sud CCR, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140…
-
+{: footnotes }
 
 ## Historique
 
@@ -124,55 +125,13 @@ Tout en dirigeant la Balsamine installée dans les casernes, [Martine Wijckaert]
 
 L’activité va également se centraliser sur un lieu particulier de la caserne, baptisé « amphithéâtre » puis rapidement « amphi », en raison de ses caractéristiques architecturales : il s’agit en effet d’un ancien auditorium militaire, structuré en hémicycle.
 
-<div class="slideshow" markdown>
-
+<div class="jcarousel" markdown>
 !["historique 2"](http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg)
 :   -
 
 !["historiaue 3"](http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg)
 :   -
 </div>
-
-
-<!-- <aside class="jcarousel" data-wrap="both"> -->
-<!--     <div class="jcarousel-inner"> -->
-<!--         <figure class="jcarousel-item"> -->
-<!--             <img src="http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg"> -->
-<!--             <figcaption>1/2</figcaption> -->
-<!--         </figure> -->
-
-<!--         <figure class="jcarousel-item"> -->
-<!--             <img src="http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg"> -->
-<!--             <figcaption>2/2</figcaption> -->
-<!--         </figure> -->
-<!--     </div> -->
-
-<!--     <nav class="jcarousel-controls"> -->
-<!--         <a href="#" class="jcarousel-control-prev">‹</a> -->
-<!--         <a href="#" class="jcarousel-control-next">›</a> -->
-<!--     </nav> -->
-<!-- </aside> -->
-
-
-<!-- <div class="jcarousel-wrapper"> -->
-<!--     <div class="jcarousel"> -->
-<!--         <ul> -->
-<!--             <li><img src="http://balsamine.be/uploads/Balsamine.Historique/historique2.jpg" width="600" height="400" alt=""></li> -->
-<!--             <li><img src="http://balsamine.be/uploads/Balsamine.Historique/historique3.jpg" width="600" height="400" alt=""></li> -->
-<!--         </ul> -->
-<!--     </div> -->
-
-<!--     <p class="photo-credits"> -->
-<!--         Photos by <a href="http://www.mw-fotografie.de">Marc Wiegelmann</a> -->
-<!--     </p> -->
-
-<!--     <a href="#" class="jcarousel-control-prev">&lsaquo;</a> -->
-<!--     <a href="#" class="jcarousel-control-next">&rsaquo;</a> -->
-
-<!--     <p class="jcarousel-pagination"> -->
-
-<!--     </p> -->
-<!-- </div> -->
 
 Les premiers aménagements de l’amphi se feront selon la technique du recyclage absolu, le matériel nécessaire et encore utilisable étant démonté dans d’autres ailes de la caserne et remonté après
 transformation dans l’amphi.

@@ -5,12 +5,7 @@ Time: 20h30
 Piece_author: Simon Thomas
 Event_type: Reprise Théâtre
 Key_image: shows/7-should-i-stay-or-should-i-stay/should-i-stay-composition1.png
-Key_image_detail_1: shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.png
-Key_image_detail_2: shows/7-should-i-stay-or-should-i-stay/chat-3-queues.png
-Key_image_detail_3: shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-1.png
-Key_image_detail_4: shows/7-should-i-stay-or-should-i-stay/chat-3-queues-transparent.png
 Key_image_detail_body: shows/7-should-i-stay-or-should-i-stay/should-i-stay-or-anim-cat.gif
-Key_video_detail_1: http://vimeo.com/204352838
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Intro: Les quatre fantastiques reviennent et reprennent leur rengaine : Should I…
 Color: #3b4086
@@ -38,3 +33,19 @@ Avec
 
 Premières élaborations au sein de l'Institut National Supérieur des Arts du Spectacle et des Techniques de Diffusion de la Fédération Wallonie-Bruxelles. Réalisé avec les soutiens du Théâtre la Balsamine, avec l'aide de la Fédération Wallonie-Bruxelles - Service du Théâtre et le soutien du Fonds Marie-Paule Delvaux Godenne, géré par la Fondation Roi Baudouin.
 {: .production }
+
+<div class="galerie" markdown=true>
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.png){: .image-process-large}
+
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.png){: .image-process-detail}
+
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/chat-3-queues.png){: .image-process-large}
+
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-1.png){: .image-process-large}
+
+
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/chat-3-queues-transparent.png){: .image-process-large}
+
+<iframe class="video" src="http://player.vimeo.com/video/204352838?color=3b4086"></iframe>
+
+</div>

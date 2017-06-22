@@ -1,45 +1,3 @@
-// $(function() {
-//     // The total height
-//     var totalHeight = $(".schedule__list").outerHeight() - $(".schedule").last().outerHeight();
-
-//     var firstDate = Date.parse($(".schedule__item").first().find("time").attr("datetime"));
-//     var lastDate = Date.parse($(".schedule__item").last().find("time").attr("datetime"));
-
-//     console.log("firstDate", firstDate);
-//     console.log("lastDate", lastDate);
-
-//     var firstPos = (lastDate - firstDate) - (lastDate - firstDate);
-//     var lastPos = (lastDate - firstDate) - (lastDate - lastDate);
-
-//     console.log(firstPos);
-//     console.log(lastPos);
-
-//     $(".schedule__item").each(function() {
-//         var size = $(this).outerHeight();
-//         // console.log(size);
-//         var currentDate = Date.parse($(this).find("time").attr("datetime"));
-//         // console.log(currentDate);
-
-//         var pc = (1 - (lastDate - currentDate) / (lastDate - firstDate)) * 100;
-//         console.log(pc);
-
-//         var posY = (totalHeight / 100) * pc;
-//         // console.log(posY);
-//         var point = $("<div>").css({
-//             position: "fixed",
-//             width: "10px",
-//             height: "20px",
-//             borderRadius: "5px",
-//             top: pc + "%",
-//             right: "10px",
-//             backgroundColor: "white"
-//         });
-
-//         point.appendTo($(".schedule__timeline"));
-//     });
-// });
-
-
 $(function() {
     var monthNames = ["jan", "fév", "mars", "avril", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"];
 
@@ -113,9 +71,6 @@ $(function() {
         var color = $(this).data("color");
         gradient.push(color + " " + pc + "%");
 
-        //var value = $(this).css("background");
-        //value = value.replace("to left", (Math.round(Math.random()*360) + 1) + "deg");
-        //$(this).css("background", value);
     });
 
     $(".timeline").css("background", "linear-gradient(to bottom, " + gradient.join(", ") + ")" )
@@ -125,137 +80,55 @@ $(function() {
         $("#point" + window.location.hash.replace("#", "-")).css("background-image", 'url("/images/damier.png")');
     });
     $("#point" + window.location.hash.replace("#", "-")).css("background-image", 'url("/images/damier.png")');
+
+    // background of header put into parent content
+    var bg = $(".show-detail__header:first-child").css("background");
+    $(".show-detail__header:first-child") .css("background", "");
+    $(".show-detail__header:first-child").parent().parent().css("background", bg);
 });
 
 
-
 $(function() {
-    $(".schedule").on("mousewheel DOMMouseScroll", function(ev, delta) {
-        var scrollTop = $(this).scrollTop();
-        $(this).scrollTop(scrollTop-Math.round(ev.deltaY) * 30);
+    $(".jcarousel").each(function() {
+        $(this)
+            .removeClass("jcarousel")
+            .addClass("jcarousel__inner")
+            .wrap( "<div class='jcarousel'></div>" )
+            .children()
+                .addClass("jcarousel__item")
+        ;
 
-        // this.scrollTop -= (delta * 60);
+        var nav = $('<nav class="jcarousel__controls"></nav>');
+        var prev = $('<a href="#" class="jcarousel__control-prev">‹</a>');
+        var next = $('<a href="#" class="jcarousel__control-next">›</a>');
 
-        // event.preventDefault();
+        nav.append(prev, next);
+        $(this).parent().append(nav);
 
-    });
-});
-
-
-// $(function() {
-//     $(".slideshow").each(function() {
-//         $(this)
-//             .addClass("jcarousel__inner")
-//             .wrap( "<div class='jcarousel'></div>" )
-//             .children()
-//                 .addClass("jcarousel__item")
-//         ;
-
-//         var nav = $('<nav class="jcarousel-controls"></nav>');
-//         var prev = $('<a href="#" class="jcarousel-control-prev">‹</a>');
-//         var next = $('<a href="#" class="jcarousel-control-next">›</a>');
-
-//         nav.append(prev, next);
-//         $(this).parent().append(nav);
-
-//         $(this).jcarousel({
-//             // wrap: wrap,
-//             animation: {
-//                 duration: 1000,
-//                 //easing:   'easeOutCubic',
-//                 complete: function() {}
-//             }
-//         })
-//         .jcarouselAutoscroll({
-//             interval: 5000,
-//             target: '+=1',
-//             autostart: true
-//         });
-
-//         $(this).parent().find('.jcarousel-control-prev').jcarouselControl({
-//             target: '-=1',
-//         });
-
-//         $(this).parent().find('.jcarousel-control-next').jcarouselControl({
-//             target: '+=1',
-//         });
-//     });
-// });
-
-// <nav class="jcarousel-controls">
-//     <a href="#" class="jcarousel-control-prev">‹</a>
-//     <a href="#" class="jcarousel-control-next">›</a>
-// </nav>
-
-$(function() {
-    $('.jcarousel').each(function() {
-        var wrap = $(this).attr('data-wrap') || null;
-        $(this).jcarousel({
-            wrap: true,
+        $(this).parent().jcarousel({
+            wrap: 'circular',
             animation: {
                 duration: 1000,
                 //easing:   'easeOutCubic',
                 complete: function() {}
             }
         });
-    })
-    .filter('[data-autoscroll]')
-    .jcarouselAutoscroll({
-        interval: 5000,
-        target: '+=1',
-        autostart: true
-    });
+        // .jcarouselAutoscroll({
+        //     interval: 5000,
+        //     target: '+=1',
+        //     autostart: true
+        // });
 
-    $('.jcarousel-control-prev').jcarouselControl({
-        target: '-=1',
-    });
 
-    $('.jcarousel-control-next').jcarouselControl({
-        target: '+=1',
+        prev.jcarouselControl({
+            target: '-=1',
+        });
+
+        next.jcarouselControl({
+            target: '+=1',
+        });
     });
 });
-
-
-
-
-// (function($) {
-//     $(function() {
-//         $('.jcarousel').jcarousel();
-
-//         $('.jcarousel-control-prev')
-//             .on('jcarouselcontrol:active', function() {
-//                 $(this).removeClass('inactive');
-//             })
-//             .on('jcarouselcontrol:inactive', function() {
-//                 $(this).addClass('inactive');
-//             })
-//             .jcarouselControl({
-//                 target: '-=1'
-//             });
-
-//         $('.jcarousel-control-next')
-//             .on('jcarouselcontrol:active', function() {
-//                 $(this).removeClass('inactive');
-//             })
-//             .on('jcarouselcontrol:inactive', function() {
-//                 $(this).addClass('inactive');
-//             })
-//             .jcarouselControl({
-//                 target: '+=1'
-//             });
-
-//         $('.jcarousel-pagination')
-//             .on('jcarouselpagination:active', 'a', function() {
-//                 $(this).addClass('active');
-//             })
-//             .on('jcarouselpagination:inactive', 'a', function() {
-//                 $(this).removeClass('active');
-//             })
-//             .jcarouselPagination();
-//     });
-// })(jQuery);
-//
-//
 
 
 (function($) {
@@ -276,11 +149,29 @@ $(function() {
 })(jQuery);
 
 
+// SHOW-DETAIL GALLERY
 (function($) {
-    $('.show-detail__image-body').click(function() {
-        var srcimg = $(this).children('img').clone().html('src');
+
+    $(".galerie").addClass("show-detail__body-images").insertBefore($(".show-detail__body"));
+
+    $('.show-detail__body-images iframe').each(function() {
+        div = $("<p class='video-wrapper'>");
+        $(this).wrap(div);
+        overlay = $("<span class='thumb-overlay'> </span>")
+        overlay.insertBefore($(this));
+    });
+
+    $('.show-detail__body-images p').click(function(e) {
+        var srcimg = $(this).html();
         $('.photo').html(srcimg);
+        $('.photo .thumb-overlay').remove();
+        $('.photo').slideDown();
     })
+
+    $(".photo").click(function(){
+        $(this).slideUp();
+    });
+
 })(jQuery);
 
 // dropdown
@@ -292,3 +183,20 @@ $(function() {
 //         $drop.toggle();
 //     });
 // });
+
+(function($) {
+    // Sections are retracted on mobile using the `:target` pseudo-selector
+    // the code below shows the first section if no other is specified
+
+    var anchor = $(".page-detail .toclink").attr("href");
+
+    if (! location.hash) {
+        if (history.pushState) {
+            history.pushState(null, null, anchor);
+        } else {
+            location.hash = '#myhash';
+        }
+
+        window.scrollTo(0, 0);
+    }
+})(jQuery);

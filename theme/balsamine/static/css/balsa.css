@@ -8,7 +8,19 @@
 
 @custom-media --desktop only screen and (min-width: 768px);
 
+/* COLM PROPOSAL
 
+@custom-media --mobile only screen and (max-width: 320px);
+
+@custom-media --mobile-landscape only screen and (max-width: 767px) and (orientation: landscape);
+
+@custom-media --tablet only screen and (max-width: 600px);
+
+@custom-media --laptop only screen and (max-width: 1100px);
+
+@custom-media --desktop only screen and (max-width: 1500px);
+
+*/
 
 
 
@@ -20,6 +32,9 @@
     --primary-color: black;
     --secondary-color: #3b4086;
     --tertiary-color: #3b1b07;
+    --pink-color: #ff546d;
+    --blue-color: #3b4086;
+    --yellow-color: #fce761;
 }
 
 
@@ -121,7 +136,7 @@ html {
 body {
     overflow: hidden;
 
-    /* >>>>>>>>> FIXME: Move away from the reset section */
+    /*  FIXME: Move away from the reset section */
     background-image: url('../imgs/coin-de-boite-bas-gauche.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -134,25 +149,20 @@ body {
 }
 
 a {
-    /* <<<<<<<< */
-    text-decoration: none;
+    text-decoration: underline;
 
     color: inherit;
-    /*text-decoration: inherit;*/
-    /* >>>>>>>>> FIXME: should the links be all pink? If not, ake it more specific */
-    text-decoration-color: pink;
+    /*  FIXME: should the links be all pink? If not, ake it more specific */
+    text-decoration-color: var(--pink-color);
 }
 
-/* >>>>>>>>> FIXME: make more specific rule */
-a:not(.timeline__point)::hover {
-    position: relative;
-    z-index: 1000;
-
-    border-radius: 1em;
-    background-color: white;
-    box-shadow: 3px 2px 6px 1px var(--primary-color);
+a:hover {
+    /* border-radius: 1em; */
+    /* box-shadow: 3px 2px 6px 1px var(--primary-color);*/
+    /* background-color: white; */
+    color: var(--pink-color);
 }
-/* <<<<<<<< */
+
 
 em { font-family: 'Ume double stroke info pratique'; }
 
@@ -215,8 +225,15 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .main-menu a {
     padding: 0.25em 0.5em;
-
     text-decoration: none;
+}
+
+.main-menu a:hover {
+    position: relative;
+    z-index: 1000;
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
 
@@ -548,7 +565,9 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
-/* >>>>>>>>> FIXME: move to the pages itself */
+.schedule__booking:hover { background-color: white; }
+
+/*  FIXME: move to the pages itself */
 
 #lecole-des-maitres-2017  .schedule__main-image {
     width: 90%;
@@ -788,14 +807,18 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     padding: 1em;
 
     color: var(--primary-color);
-    background-image: url('../imgs/damier.png');
+    /*background-image: url('../imgs/damier.png');*/
     background-size: 25px;
 }
 
-/* >>>>>>>>> FIXME: decide what to do with `.content` */
-/* >>>>>>>>> FIXME: re-order rules */
+/*  FIXME: decide what to do with `.content` */
+/*  FIXME: re-order rules */
 
 .content .show-detail__header h1 { margin-bottom: 0em; }
+
+.content .show-detail__header .translations a {
+  border: 1px solid black;
+}
 
 .content .show-detail__header h2 {
     margin-top: 0.1em;
@@ -834,39 +857,92 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     line-height: 1.3em;
 }
 
-p.show-detail__image-body img:hover { outline: 2px solid red; }
-
-.show-detail__image-body img,
-.show-detail__image-body iframe {
-    position: relative;
-
-    float: left;
-
-    max-height: 110px;
-    padding: 0px 10px;
-
-    /*border: 1px solid black;*/
-}
-
-.content .show-detail__image-body a { padding: 0em 0em; }
-
 .show-detail__image img {
     max-width: 100%;
 
     text-align: center;
 }
 
-.show-detail__image-body:last-of-type img { float: none; }
+.show-detail__body-images {
+    float: left;
 
-.show-detail__image-body + .show-detail__image-body { text-indent: 0; }
+    box-sizing: border-box;
+    width: 60%;
+    padding: 2em;
+    margin-bottom: -8px;
+
+    background-color: white;
+}
+.show-detail__body-images p {
+    float: left;
+    text-indent: 0 !important;
+    margin-right: 1em;
+}
+
+.show-detail__body-images .video-wrapper {
+    position: relative;
+}
+
+.show-detail__body-images img,
+.show-detail__body-images iframe {
+    max-height: 70px;
+    outline: 1px solid var(--pink-color);
+    max-width: 100px;
+}
+.show-detail__body-images img:hover {
+    cursor: pointer;
+    background-image: url("/images/damier.png");
+    background-size: 10px;
+}
+
+.thumb-overlay {
+    position: absolute;
+    /*background-color: rgba(0, 255, 0, 0.5);*/
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 
 .show-detail__body {
     box-sizing: border-box;
-    margin-top: 2em;
     padding: 8px 12px;
+    padding-bottom: 2em;
 
     color: var(--primary-color);
+    background-color: white;
 }
+
+/*FIXME: See if we can find a more appropriate class name `.photo` */
+.show-detail__body .photo {
+    float: left;
+    overflow: hidden;
+    display: none;
+
+    height: auto;
+    width: auto;
+    margin-right: 1.375em;
+    margin-bottom: 1.375em;
+
+    cursor: n-resize;
+
+    background-image: url("/images/damier.png");
+    background-size: 10px;
+}
+
+.show-detail__body .photo img {
+    width: 100%;
+    max-width: 500px;
+    outline: none !important;
+}
+
+.show-detail__body .photo iframe {
+    width: 600px;
+    height: 400px;
+
+}
+
 
 .show-detail__body blockquote + p,
 .show-detail__body p + blockquote { margin-top: 1em; }
@@ -906,24 +982,12 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     text-indent: 3em;
 }
 
-/* <<<<<<<< */
-/* <<<<<<<< */
 
-/* >>>>>>>> FIXME: See if we can find a more appropriate class name `.photo` */
-
-.photo {
-    float: left;
-
-    width: 100%;
-    margin-bottom: 21pt;
-}
-
-.photo img { width: 100%; }
-
-/* <<<<<<<< */
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
+
+    .show-detail__body-images { width: 100%; }
 }
 
 @media (--desktop) {
@@ -953,15 +1017,76 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 
 .page-detail { color: var(--primary-color); }
 
-.page-detail dl { column-width: 15em; }
+/*.page-detail dl { column-width: 15em; }*/
 
 .page-detail dt { font-family: 'Ume double stroke affiche saison'; }
 
 .page-detail dd { break-before: avoid-column; }
 
-.page-detail dd + dt { float: left; }
+.page-detail dt + dd { margin-right: 10px; }
+/*.content dt:first-of-type { margin-left: 0px; }*/
 
 .page-detail dd { break-inside: avoid-column; }
+
+.page-detail p.sous-h2{
+  font-size: 1em;
+}
+.page-detail h2#un-theatre-a-letat-pur{
+  margin-bottom: 0em;
+      margin-top: 0em;
+}
+
+h3#un-projet-ethique-pour-les-5-saisons-a-venir {
+      margin-top: 2em;
+}
+
+.page-detail h2#tarifs + dl { column-width: 20em; }
+
+.page-detail h2#tarifs + dl dd {
+    display: block;
+
+    padding-left: 12px;
+}
+
+.page-detail h2#tarifs + dl dd + dt { margin-top: 10px; }
+
+.page-detail .no-display { display: none; }
+
+.page-detail .sous-tarif {
+    text-decoration: underline;
+
+    border: 0px solid black;
+}
+
+.page-detail .footnotes {
+}
+
+.show-detail__body p.production, 
+.page-detail .footnote p {
+    font-size: .9em;
+    line-height: 1.2em;
+}
+.page-detail .footnote ol li + li {
+    margin-bottom: 1em;
+    text-indent: 2em;
+}
+.page-detail .footnote ol li::before {
+    content: " ";
+}
+
+.page-detail .footnote ol {
+      column-width: 20em;
+  }
+
+
+.page-detail .translations a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.5em; 
+}
+
+.page-detail .no-display { display: none; }
 
 .page-detail img {
     max-width: 100%;
@@ -983,7 +1108,7 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     line-height: 30px;
 }
 
-.page-detail p { display: none; }
+/* .page-detail p { display: none; } */
 
 @media (--mobile) {
     .section2 h2 ~ * { display: none; }
@@ -999,14 +1124,22 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     }
 }
 
+@media (--mobile) {
+    .page-detail {
+        max-width: 92%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 
 
 /* ==========================================================================
    ???
    ========================================================================== */
 
-/* >>>>>>>>> FIXME: decide what to do with `.content` */
-/* >>>>>>>>> FIXME: Move `.show-detail` classes to the appropriate place */
+/*  FIXME: decide what to do with `.content` */
+/*  FIXME: Move `.show-detail` classes to the appropriate place */
 
 .content h1 {
     margin-top: 0em;
@@ -1027,16 +1160,33 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     font-size: 1.5em;
 }
 
-.content h3 {
-    margin-top: .5em;
+.content.page-detail h3 {
+    margin-top: 1em;
     /*margin-top: 1em;*/
-    margin-bottom: .5em;
+    margin-bottom: 0em;
 
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 
-    font-family: 'Ume double stroke master condensed';
+    font-family: 'Ume double stroke info pratique';
     font-size: 1em;
     /*line-height: 1.83333333em;*/
+}
+
+.content.page-detail h3 a:hover,
+.content.page-detail h3 a:focus {
+    color: black;
+    background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);
+}
+
+.content.page-detail h1 {
+    margin-top: 1em;
+    margin-left: -1em;
+}
+
+@media (--mobile) {
+  .content.page-detail h1 {
+      margin-left: 0em;
+  }
 }
 
 .content h4 {
@@ -1056,11 +1206,17 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 }
 
 .content a {
-    margin-right: -1em;
-    margin-left: -1em;
-    padding: 0.2em 1em;
+    /*margin-right: -1em;*/
+    /*margin-left: -1em;*/
+    /*padding: 0.2em 1em;*/
 
     border-radius: 1em;
+}
+
+.content a:hover,
+.schedule__title a:hover {
+    /*font-family: 'Ume double stroke master condensed';*/
+    color: var(--pink-color);
 }
 
 .show-detail__body p {
@@ -1123,10 +1279,8 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
     border: 1px solid black;
     border-radius: 16px;
     /*font-family: 'Ume double stroke master expanded fat';*/
-    font-size: .8em;
+    font-size: .9em;
 }
-
-.content dt:first-of-type { margin-left: 0px; }
 
 .content dd {
     padding-left: 0em;
@@ -1164,7 +1318,7 @@ p.show-detail__image-body img:hover { outline: 2px solid red; }
 /* Reservation link
    ========================================================================== */
 
-/* >>>>>>>>> FIXME: Merge with `.schedule__booking` and use `--` modifier */
+/*  FIXME: Merge with `.schedule__booking` and use `--` modifier */
 
 .reservation-link {
     display: inline-block;
@@ -1185,7 +1339,6 @@ a.reservation-link:hover {
     background-color: white !important;
 }
 
-/* <<<<<<<<< */
 
 
 
@@ -1194,7 +1347,7 @@ a.reservation-link:hover {
    ========================================================================== */
 
 
-/* >>>>>>>>> FIXME: rename .jcarousel to something more elegant */
+/*  FIXME: rename .jcarousel to something more elegant */
 
 .jcarousel {
     position: relative;
@@ -1204,24 +1357,24 @@ a.reservation-link:hover {
     width: 100%;
 }
 
-.jcarousel-inner {
+.jcarousel__inner {
     position: relative;
 
     width: 10000%;
 }
 
-.jcarousel-item {
+.jcarousel__item {
     float: left;
 
     width: 1%;
 }
 
-.jcarousel-item img { width: 100%; }
+.jcarousel__item img { width: 100%; }
 
-.jcarousel-item figcaption {
+.jcarousel__item figcaption {
 }
 
-.jcarousel-controls {
+.jcarousel__controls {
     position: absolute;
     top: 50%;
 
@@ -1230,37 +1383,40 @@ a.reservation-link:hover {
     background-color: yellow;
 }
 
-.jcarousel-control-prev,
-.jcarousel-control-next {
-    position: absolute;
+.jcarousel__control-prev,
+.jcarousel__control-next {
+    position: absolute !important;
     top: -15px;
 
     display: block;
 
     width: 30px;
     height: 30px;
+    box-sizing: border-box;
+
+    padding-top: 15px;
 
     text-align: center;
     text-decoration: none;
 
-    color: white;
-    background-color: @color;
-
-    font-weight: bold;
-}
-
-.jcarousel-control-prev:hover,
-.jcarousel-control-next:hover {
     color: black;
-    background-color: aliceblue;
+    background-color: white;
+    opacity: 0.75;
 }
 
-.jcarousel-control-prev { left: 10px; }
+.jcarousel__control-prev:hover,
+.jcarousel__control-next:hover {
+    background-color: white;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
+    opacity: 1;
+}
 
-.jcarousel-control-next { right: 10px; }
+.jcarousel__control-prev { left: 10px; }
 
-.jcarousel-control-prev.inactive,
-.jcarousel-control-next.inactive {
+.jcarousel__control-next { right: 10px; }
+
+.jcarousel__control-prev.inactive,
+.jcarousel__control-next.inactive {
     cursor: default;
 
     opacity: .5;
@@ -1274,7 +1430,7 @@ a.reservation-link:hover {
 .nojcarousel-item.active { opacity: 1; }
 
 /* FIXME: !important should not be used */
-.jcarousel-inner a { border: none !important; }
+.jcarousel__inner a { border: none !important; }
 
 /* <<<<<<<<< */
 
@@ -1290,3 +1446,7 @@ a.reservation-link:hover {
 .ps--theme_balsa:hover > .ps__scrollbar-y-rail > .ps__scrollbar-y { background-color: var(--tertiary-color); }
 
 .ps--theme_balsa:hover > .ps__scrollbar-y-rail:hover > .ps__scrollbar-y { background-color: var(--tertiary-color); }
+
+/* .section2 { */
+/*     max-height: 300px; */
+/* } */

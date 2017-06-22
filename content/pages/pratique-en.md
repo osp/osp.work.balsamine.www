@@ -1,55 +1,44 @@
-Title: Pratique
+Title: Practical information
 Date: 2017/04
 Slug: pratique
+Lang: en
 Translation: true
-Lang: fr
 
-## Accès
-###Tous les chemins mènent à la Balsa.
+## Access
 
-![plan de la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
+All roads lead to la Balsa.
 
+* * *
 
-La Balsamine  
-:   Avenue Félix Marchal, 1  
-:   1030 Bruxelles  
-
+La Balsamine
+Avenue Félix Marchal, 1
+1030 Bruxelles
 
 Administration
 :   [+32 2 732 96 18](tel:+3227329618)
 :   [info@balsamine.be](mailto:info@balsamine.be)  
 
-Réservation
-:   [+32 2 735 64 68](tel:+3227356468)
-:   [reservation@balsamine.be](mailto:reservation@balsamine.be)
 
-![logo-accessibilite](/images/pictogramme-personne-a-mobilite-reduite.png) L’accessibilité de nos salles aux personnes à mobilité réduite est possible mais n’est pas aisée. Lors de votre réservation, nous vous remercions de faire une demande pour cet accès.
-{: .production }
+Reservations
+:  [+32 2 735 64 68](tel:+3227356468)
+:  [reservation@balsamine.be](mailto:reservation@balsamine.be)
 
 
-## Bar et restauration
+![map of la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
 
-Le bar est ouvert à 19h chaque soir de représentation. Une petite restauration délicieuse et faite sur place vous est proposée avant chaque spectacle.
 
-###Menu de la semaine
-Lundi  
-:   miam
 
-Mardi  
-:   miam miam
+Our facilities are not very easy to use for people with reduced mobility. If you are concerned by this, please let us know during your reservation.
 
-Mercredi  
-:   mmmm
+## Bar and restaurant
 
-Jeudi  
-:   gloup
+The bar is open from 7pm every show night. A small yet delicious meal is prepared on site and is available to you before every show.
 
-Vendredi  
-:   re miam   
+<!-- Menu de la semaine -->
 
-## Autour des spectacles
+## Around the shows
 
-### Les aftershows
+### The aftershows
 
 A l’issue de toutes les deuxièmes représentations des créations, la Balsamine vous propose une rencontre avec l’équipe artistique. Un moment privilégié pour débattre et échanger en toute convivialité.
 Petite particularité, cette rencontre est menée par un autre artiste de la saison.
@@ -72,37 +61,29 @@ Faire vivre l’expérience du contemporain aux jeunes peut être aussi une faç
 N’hésitez donc pas, si un spectacle de notre saison vous donnait l’envie de mettre en relation vos étudiants avec la pratique artistique, à nous faire part de vos idées.
 
 Nous organisons  régulièrement des dynamiques d’échanges entre étudiants et professionnels, sous différentes formes en fonction des projets spécifiques. ex : captations vidéo, stages d’observation, interviews d’artistes, séances de croquis, ateliers créatifs… Ces activités sont gratuites et construites à la carte.
-{: .en-block }
 
+* * *
 
-Contact conseils et organisation des activités pédagogiques
-:  Noemi Tiberghien
-:  [+32 2 737 70 18](tel:+3227377018)
-:  [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
+Contact conseils et organisation des activités pédagogiques:
+Noemi Tiberghien
+[+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
 
+<!-- + Guide pédagogique à télécharger -->
 
-[Télécharger le guide pédagogique ici]()
-
-## Espace pro
-
-- [logo balsamine 17-18](/images/logo-balsa.svg)
-- [logo Label United Stages](/images/label-united-stages-txt.svg)
-- [fonts]()
-- [dossiers de diffusion]()
+## Communication pack
 
 <!-- Nouveau logo Balsa, Label United Stages, fonts et dossiers de
 diffusion à télécharger-->
 
-## Technique
+## Technical plans
 
 Ici, vous trouverez tous les plans techniques de la Balsamine.
-{: .en-block}
 
-- [Balsa Petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf) 
-- [Balsa sol amphi.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf)
-- [coupe grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/coupe%20grande%20salle.pdf)
-- [Grande Salle vierge.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grande%20Salle%20vierge.pdf)
-- [Grill grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20grande%20salle.pdf)
-- [Grill petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf)
-- [sol grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf)
-- [Sol petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf)
+- [Balsa Small room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf) 
+- [Balsa floor plan amphi.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf)
+- [Slice large room.pdf](http://balsamine.be/uploads/Balsamine.Technique/coupe%20grande%20salle.pdf)
+- [Large room blank.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grande%20Salle%20vierge.pdf)
+- [Grill large room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20grande%20salle.pdf)
+- [Grill small rom.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf)
+- [Floor plan large room.pdf](http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf)
+- [Floor plan small room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf)
