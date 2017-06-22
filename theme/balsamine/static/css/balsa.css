@@ -817,6 +817,10 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .content .show-detail__header h1 { margin-bottom: 0em; }
 
+.content .show-detail__header .translations a {
+  border: 1px solid black;
+}
+
 .content .show-detail__header h2 {
     margin-top: 0.1em;
     margin-bottom: 0em;
@@ -863,11 +867,12 @@ p.show-detail__image-body img:hover {
 
 .show-detail__image-body img,
 .show-detail__image-body iframe {
-  position: relative;
-  float: left;
-  max-height: 70px;
-  /* margin: 0px 10px; */
-  border: 1px solid var(--pink-color);
+    position: relative;
+
+    float: left;
+
+    max-height: 110px;
+    margin: 0px 10px;
 
     /*border: 1px solid black;*/
 }
@@ -886,7 +891,6 @@ p.show-detail__image-body img:hover {
     position: relative;
 
     display: inline-block;
-    max-width: 70px;
 }
 
 .show-detail__image-body + .show-detail__image-body { text-indent: 0; }
@@ -933,12 +937,8 @@ p.show-detail__image-body img:hover {
     background-image: url("/images/damier.png");
     background-size: 10px;
 }
-.show-detail__body .photo iframe {
-    width: 100%;
-    height: auto;
 
-}
-
+.show-detail__body .photo iframe { width: 100%; }
 
 .show-detail__body blockquote + p,
 .show-detail__body p + blockquote { margin-top: 1em; }
@@ -1173,14 +1173,14 @@ width: 65%;
     font-size: 1.5em;
 }
 
-.content.page-detail h3 {
-    margin-top: 1em;
+.content .page-detail h3 {
+    margin-top: .5em;
     /*margin-top: 1em;*/
-    /*margin-bottom: .5em;*/
-    color:black;
-    /*text-decoration: underline;*/
-    letter-spacing: 0.04em;
-    font-family: 'Ume double stroke info pratique';
+    margin-bottom: .5em;
+
+    text-decoration: underline;
+
+    font-family: 'Ume double stroke master condensed';
     font-size: 1em;
     /*line-height: 1.83333333em;*/
 }
@@ -1194,6 +1194,12 @@ width: 65%;
 .content.page-detail h1 {
     margin-top: 1em;
     margin-left: 0em;
+}
+
+@media (--mobile) {
+  .content.page-detail h1 {
+      margin-left: 0em;
+  }
 }
 
 .content h4 {
@@ -1231,21 +1237,11 @@ width: 65%;
     line-height: 1.1em;
 }
 
-.show-detail__body p.production, .page-detail .footnote ol li p {
+.show-detail__body p.production {
     font-size: .9em;
     line-height: 1.2em;
 }
-.page-detail .footnote ol li + li {
-margin-bottom: 1em;
-text-indent: 2em;
-}
-.page-detail .footnote ol li::before {
-content: " ";
-}
 
-.page-detail .footnote ol {
-  column-width: 20em;
-}
 .show-detail__body .section2 { /*padding-left: 5em;*/ }
 
 .content p,

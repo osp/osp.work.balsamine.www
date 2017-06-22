@@ -1,45 +1,3 @@
-// $(function() {
-//     // The total height
-//     var totalHeight = $(".schedule__list").outerHeight() - $(".schedule").last().outerHeight();
-
-//     var firstDate = Date.parse($(".schedule__item").first().find("time").attr("datetime"));
-//     var lastDate = Date.parse($(".schedule__item").last().find("time").attr("datetime"));
-
-//     console.log("firstDate", firstDate);
-//     console.log("lastDate", lastDate);
-
-//     var firstPos = (lastDate - firstDate) - (lastDate - firstDate);
-//     var lastPos = (lastDate - firstDate) - (lastDate - lastDate);
-
-//     console.log(firstPos);
-//     console.log(lastPos);
-
-//     $(".schedule__item").each(function() {
-//         var size = $(this).outerHeight();
-//         // console.log(size);
-//         var currentDate = Date.parse($(this).find("time").attr("datetime"));
-//         // console.log(currentDate);
-
-//         var pc = (1 - (lastDate - currentDate) / (lastDate - firstDate)) * 100;
-//         console.log(pc);
-
-//         var posY = (totalHeight / 100) * pc;
-//         // console.log(posY);
-//         var point = $("<div>").css({
-//             position: "fixed",
-//             width: "10px",
-//             height: "20px",
-//             borderRadius: "5px",
-//             top: pc + "%",
-//             right: "10px",
-//             backgroundColor: "white"
-//         });
-
-//         point.appendTo($(".schedule__timeline"));
-//     });
-// });
-
-
 $(function() {
     var monthNames = ["jan", "fév", "mars", "avril", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"];
 
@@ -130,20 +88,6 @@ $(function() {
 });
 
 
-
-$(function() {
-    $(".schedule").on("mousewheel DOMMouseScroll", function(ev, delta) {
-        var scrollTop = $(this).scrollTop();
-        $(this).scrollTop(scrollTop-Math.round(ev.deltaY) * 30);
-
-        // this.scrollTop -= (delta * 60);
-
-        // event.preventDefault();
-
-    });
-});
-
-
 $(function() {
     $(".jcarousel").each(function() {
         $(this)
@@ -186,81 +130,6 @@ $(function() {
     });
 });
 
-// <nav class="jcarousel-controls">
-//     <a href="#" class="jcarousel-control-prev">‹</a>
-//     <a href="#" class="jcarousel-control-next">›</a>
-// </nav>
-
-// $(function() {
-//     $('.jcarousel').each(function() {
-//         var wrap = $(this).attr('data-wrap') || null;
-//         $(this).jcarousel({
-//             wrap: true,
-//             animation: {
-//                 duration: 1000,
-//                 //easing:   'easeOutCubic',
-//                 complete: function() {}
-//             }
-//         });
-//     })
-//     .filter('[data-autoscroll]')
-//     .jcarouselAutoscroll({
-//         interval: 5000,
-//         target: '+=1',
-//         autostart: true
-//     });
-
-//     $('.jcarousel-control-prev').jcarouselControl({
-//         target: '-=1',
-//     });
-
-//     $('.jcarousel-control-next').jcarouselControl({
-//         target: '+=1',
-//     });
-// });
-
-
-
-
-// (function($) {
-//     $(function() {
-//         $('.jcarousel').jcarousel();
-
-//         $('.jcarousel-control-prev')
-//             .on('jcarouselcontrol:active', function() {
-//                 $(this).removeClass('inactive');
-//             })
-//             .on('jcarouselcontrol:inactive', function() {
-//                 $(this).addClass('inactive');
-//             })
-//             .jcarouselControl({
-//                 target: '-=1'
-//             });
-
-//         $('.jcarousel-control-next')
-//             .on('jcarouselcontrol:active', function() {
-//                 $(this).removeClass('inactive');
-//             })
-//             .on('jcarouselcontrol:inactive', function() {
-//                 $(this).addClass('inactive');
-//             })
-//             .jcarouselControl({
-//                 target: '+=1'
-//             });
-
-//         $('.jcarousel-pagination')
-//             .on('jcarouselpagination:active', 'a', function() {
-//                 $(this).addClass('active');
-//             })
-//             .on('jcarouselpagination:inactive', 'a', function() {
-//                 $(this).removeClass('active');
-//             })
-//             .jcarouselPagination();
-//     });
-// })(jQuery);
-//
-//
-
 
 (function($) {
     $(".main-area")
@@ -302,10 +171,19 @@ $(function() {
 //     });
 // });
 
-// (function($) {
-//     $(".page-detail .section2").dotdotdot({
-//         after: '[title="more"]',
-//         watch: "window"
-//     });
-//     $("#wrapper").trigger("destroy");
-// })(jQuery);
+(function($) {
+    // Sections are retracted on mobile using the `:target` pseudo-selector
+    // the code below shows the first section if no other is specified
+
+    var anchor = $(".page-detail .toclink").attr("href");
+
+    if (! location.hash) {
+        if (history.pushState) {
+            history.pushState(null, null, anchor);
+        } else {
+            location.hash = '#myhash';
+        }
+
+        window.scrollTo(0, 0);
+    }
+})(jQuery);
