@@ -854,12 +854,11 @@ p.show-detail__image-body img:hover {
 
 .show-detail__image-body img,
 .show-detail__image-body iframe {
-    position: relative;
-
-    float: left;
-
-    max-height: 110px;
-    margin: 0px 10px;
+  position: relative;
+  float: left;
+  max-height: 70px;
+  /* margin: 0px 10px; */
+  border: 1px solid var(--pink-color);
 
     /*border: 1px solid black;*/
 }
@@ -877,6 +876,7 @@ p.show-detail__image-body img:hover {
 .show-detail__image-body {
     position: relative;
     display: inline-block;
+    max-width: 70px;
 }
 
 .show-detail__image-body + .show-detail__image-body { text-indent: 0; }
@@ -920,6 +920,8 @@ p.show-detail__image-body img:hover {
 }
 .show-detail__body .photo iframe {
     width: 100%;
+    height: auto;
+
 }
 
 .show-detail__body blockquote + p,
@@ -1037,9 +1039,7 @@ p.show-detail__image-body img:hover {
   border: 0px solid black;
       text-decoration: underline;
 }
-.page-detail .footnotes{
 
-}
 .page-detail .no-display {
   display: none;
 }
@@ -1109,14 +1109,14 @@ p.show-detail__image-body img:hover {
     font-size: 1.5em;
 }
 
-.content .page-detail h3 {
-    margin-top: .5em;
+.content.page-detail h3 {
+    margin-top: 1em;
     /*margin-top: 1em;*/
-    margin-bottom: .5em;
-
-    text-decoration: underline;
-
-    font-family: 'Ume double stroke master condensed';
+    /*margin-bottom: .5em;*/
+    color:black;
+    /*text-decoration: underline;*/
+    letter-spacing: 0.04em;
+    font-family: 'Ume double stroke info pratique';
     font-size: 1em;
     /*line-height: 1.83333333em;*/
 }
@@ -1161,11 +1161,21 @@ p.show-detail__image-body img:hover {
     line-height: 1.1em;
 }
 
-.show-detail__body p.production {
+.show-detail__body p.production, .page-detail .footnote ol li p {
     font-size: .9em;
     line-height: 1.2em;
 }
+.page-detail .footnote ol li + li {
+margin-bottom: 1em;
+text-indent: 2em;
+}
+.page-detail .footnote ol li::before {
+content: " ";
+}
 
+.page-detail .footnote ol {
+  column-width: 20em;
+}
 .show-detail__body .section2 { /*padding-left: 5em;*/ }
 
 .content p,
