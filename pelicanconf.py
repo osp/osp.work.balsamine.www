@@ -114,6 +114,7 @@ MARKDOWN = {
 # configuration options
 IMAGE_PROCESS = {
     'timeline': ["scale_in 420 9999 True"],
+    'thumbnail': ["scale_in 70 9999 True"],
     #  'crisp': {
     #      'type': 'responsive-image',
     #      'srcset': [
@@ -136,7 +137,7 @@ IMAGE_PROCESS = {
     #  },
 }
 
-IGNORE_FILES = [".swo", ".swp"]
+IGNORE_FILES = ["*.swo", "*.swp"]
 
 
 # Fixes slow generation caused by overzealous copying of images
