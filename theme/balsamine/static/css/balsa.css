@@ -1173,14 +1173,14 @@ width: 65%;
     font-size: 1.5em;
 }
 
-.content .page-detail h3 {
-    margin-top: .5em;
+.content.page-detail h3 {
+    margin-top: 1em;
     /*margin-top: 1em;*/
-    margin-bottom: .5em;
+    margin-bottom: 0em;
 
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 
-    font-family: 'Ume double stroke master condensed';
+    font-family: 'Ume double stroke info pratique';
     font-size: 1em;
     /*line-height: 1.83333333em;*/
 }
