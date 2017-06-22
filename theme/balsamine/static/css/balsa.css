@@ -1450,3 +1450,25 @@ a.reservation-link:hover {
 /* .section2 { */
 /*     max-height: 300px; */
 /* } */
+
+
+/* ==========================================================================
+   HOME
+   ========================================================================== */
+
+#home .content div {
+    width: 50%;
+    padding: 0 1em;
+    box-sizing: border-box;
+    float: left;
+}
+
+#home .content div img {
+    margin-left: 0;
+
+}
+
+#home .content div#edito {
+    width: 100%;
+    margin-top: 1em;
+}
