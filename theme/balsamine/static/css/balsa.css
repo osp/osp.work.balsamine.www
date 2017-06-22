@@ -149,13 +149,11 @@ body {
 }
 
 a {
-    /*  */
-    text-decoration: none;
+    text-decoration: underline;
 
     color: inherit;
-    /*text-decoration: inherit;*/
     /*  FIXME: should the links be all pink? If not, ake it more specific */
-    text-decoration-color: pink;
+    text-decoration-color: var(--pink-color);
 }
 
 a:hover {
