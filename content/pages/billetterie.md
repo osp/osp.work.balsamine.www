@@ -55,7 +55,8 @@ Groupe étudiant {: .sous-tarif }
 
 ## United Stages
 
-Au sein du Label United Stages[^3], la Balsamine réalise une grande collecte de fonds. Le premier bénéficiaire est : REFUGEES WELCOME, plateforme citoyenne de soutien aux réfugiés. (mettre le lien vers leur site : http://www.bxlrefugees.be)
+
+Au sein du Label ![logo-united-stages](/images/label-united-stages-mini.png)[^3], la Balsamine réalise une grande collecte de fonds. Le premier bénéficiaire est : [REFUGEES WELCOME](http://www.bxlrefugees.be), plateforme citoyenne de soutien aux réfugiés.
 
 Vous pouvez être solidaire de cette initiative à tout moment de la saison. Il vous suffit d’ajouter le montant que vous souhaitez verser à celui des places achetées. La récolte de fonds sera intégralement reversée.
 

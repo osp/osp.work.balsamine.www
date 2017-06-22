@@ -94,7 +94,7 @@ La Balsamine est subventionnée par la Fédération Wallonie-Bruxelles et fait p
 
 La Balsamine reçoit aussi le soutien de Wallonie-Bruxelles Théâtre/Danse et de Wallonie-Bruxelles International.
 
-![](http://balsamine.be/uploads/Partenaires.Partenaires/logos2016.png)
+![](/images/logos-17-18.png)
 
 La Balsamine est signataire de la charte United Stages.
 
@@ -102,7 +102,7 @@ Pour exprimer haut et fort son soutien aux populations civiles en danger un peu 
 
 Plus d’informations  sur Facebook United Stages Belgium.
 
-Une initiative de Action Sud CCR, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140…
+Une initiative de Action Sud CCR, Choux de Bruxelles, Globe Aroma, Kaaitheater, La Bellone, La Vénerie, La Tentation, Le boson, Les Midis de la poésie, MET-X, Passa Porta, Théâtre de l’Ancre, Théâtre la Balsamine, Théâtre Océan Nord, Théâtre Varia, Théâtre 140… {: footnotes }
 
 ["Lire plus"](# "more")
 
