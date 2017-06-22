@@ -32,6 +32,7 @@ Une production Hotenslig en coproduction avec le Théâtre la Balsamine avec les
 {: .production }
 
 <div class="galerie" markdown=true>
-![iclit](/images/shows/5-i-clit/shoes-pillows-hd.png)
-![iclit](/images/shows/5-i-clit/i-clit-composition-gamma-ok.png)
+![iclit](/images/shows/5-i-clit/shoes-pillows-hd.png){: .image-process-large}
+
+![iclit](/images/shows/5-i-clit/i-clit-composition-gamma-ok.png){: .image-process-large}
 </div>

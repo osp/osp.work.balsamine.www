@@ -62,7 +62,9 @@ Une production Quart de Ton – Janine Al-Asswad en coproduction avec le Théât
 {: .production }
 
 <div class="galerie" markdown=true>
-![la lettre volée](/images/shows/6-La-Lettre-Volee/regency-desk-2-transparent.png)
-![la lettre volée](/images/shows/6-La-Lettre-Volee/pen-hd.png)
-![la lettre volée](/images/shows/6-La-Lettre-Volee/letter.png)
+![la lettre volée](/images/shows/6-La-Lettre-Volee/regency-desk-2-transparent.png){: .image-process-large}
+
+![la lettre volée](/images/shows/6-La-Lettre-Volee/pen-hd.png){: .image-process-large}
+
+![la lettre volée](/images/shows/6-La-Lettre-Volee/letter.png){: .image-process-large}
 </div>

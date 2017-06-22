@@ -42,7 +42,9 @@ Production déléguée Théâtre la Balsamine en collaboration avec Entropie Pro
 {: .production }
 
 <div class="galerie" markdown=true>
-![loup](/images/shows/2-Les-Loups/paramecie1.png)
-![loup](/images/shows/2-Les-Loups/compo4.png)
-![loup](/images/shows/2-Les-Loups/tex_0_transparent.png)
+![loup](/images/shows/2-Les-Loups/paramecie1.png){: .image-process-large}
+
+![loup](/images/shows/2-Les-Loups/compo4.png){: .image-process-large}
+
+![loup](/images/shows/2-Les-Loups/tex_0_transparent.png){: .image-process-large}
 </div>

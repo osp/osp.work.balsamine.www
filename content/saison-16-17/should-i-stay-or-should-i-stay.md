@@ -35,13 +35,16 @@ Premières élaborations au sein de l'Institut National Supérieur des Arts du S
 {: .production }
 
 <div class="galerie" markdown=true>
-![chat](/images/shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.png){: .image-process-thumbnail}
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.png){: .image-process-large}
 
-![chat](/images/shows/7-should-i-stay-or-should-i-stay/chat-3-queues.png){: .image-process-thumbnail}
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-3.png){: .image-process-detail}
 
-![chat](/images/shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-1.png){: .image-process-thumbnail}
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/chat-3-queues.png){: .image-process-large}
 
-![chat](/images/shows/7-should-i-stay-or-should-i-stay/chat-3-queues-transparent.png){: .image-process-thumbnail}
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/cat-bake-tex-split-1.png){: .image-process-large}
+
+
+![chat](/images/shows/7-should-i-stay-or-should-i-stay/chat-3-queues-transparent.png){: .image-process-large}
 
 <iframe class="video" src="http://player.vimeo.com/video/204352838?color=3b4086"></iframe>
 

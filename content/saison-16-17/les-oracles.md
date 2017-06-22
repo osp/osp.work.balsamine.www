@@ -37,7 +37,7 @@ Chorégraphie
 Interprètes pour la vidéo
 :    Fabien Piché et Ariane Voineau
 
-## Prototype no. 1
+## Prototype Nº1
 
 Auteure
 :    Martine Delvaux
@@ -53,8 +53,11 @@ Une production de Rhizome, coproduit par Transcultures avec les soutiens de Mano
 {: .production }
 
 <div class="galerie" markdown=true>
-![les oracles](/images/shows/12-Les-Oracles/crystal-ball-1.png)
-![les oracles](/images/shows/12-Les-Oracles/knuckebones.png)
-![les oracles](/images/shows/12-Les-Oracles/knucklebone-tex.png)
-![les oracles](/images/shows/12-Les-Oracles/les-oracles-creampot-1.png)
+![les oracles](/images/shows/12-Les-Oracles/crystal-ball-1.png){: .image-process-large}
+
+![les oracles](/images/shows/12-Les-Oracles/knuckebones.png){: .image-process-large}
+
+![les oracles](/images/shows/12-Les-Oracles/knucklebone-tex.png){: .image-process-large}
+
+![les oracles](/images/shows/12-Les-Oracles/les-oracles-creampot-1.png){: .image-process-large}
 </div>

@@ -296,9 +296,12 @@ $(function() {
         var srcimg = $(this).html();
         $('.photo').html(srcimg);
         $('.photo .thumb-overlay').remove();
-        $('.photo').css("height", "auto");
+        $('.photo').slideDown();
     })
-    $(".photo").click(function(){$(this).css("height", 0)});
+
+    $(".photo").click(function(){
+        $(this).slideUp();
+    });
 
 })(jQuery);
 

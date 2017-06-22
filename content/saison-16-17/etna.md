@@ -30,7 +30,9 @@ Une production de Thi-Mai Nguyen avec les soutiens du Théâtre la Balsamine.
 {: .production }
 
 <div class="galerie" markdown=true>
-![etna](/images/shows/9-Etna/etna-tex.png)
-![etna](/images/shows/9-Etna/etna-bag.png)
-![etna](/images/shows/9-Etna/etna-bake-tex-2.png)
+![etna](/images/shows/9-Etna/etna-tex.png){: .image-process-large}
+
+![etna](/images/shows/9-Etna/etna-bag.png){: .image-process-large}
+
+![etna](/images/shows/9-Etna/etna-bake-tex-2.png){: .image-process-large}
 </div>

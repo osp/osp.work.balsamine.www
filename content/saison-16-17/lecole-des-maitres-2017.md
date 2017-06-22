@@ -41,7 +41,9 @@ Avec la participation de
 :   DGArtes - Governo de Portugal / Secretário de Estado da Cultura (Portugal)
 
 <div class="galerie" markdown=true>
-![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/alambic-3.png)
-![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/calculette.png)
-![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/banknote-bake-tex.png)
+![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/alambic-3.png){: .image-process-large}
+
+![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/calculette.png){: .image-process-large}
+
+![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/banknote-bake-tex.png){: .image-process-large}
 </div>

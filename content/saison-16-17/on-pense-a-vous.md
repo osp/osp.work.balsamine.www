@@ -37,6 +37,7 @@ Création lumière et régie
 Une production du théâtre de Galafronie. Avec le soutien de la Fédération Wallonie-Bruxelles - Service du théâtre.{: production}
 
 <div class="galerie" markdown=true>
-![on pense à vous](/images/shows/8-On-pense-a-vous/enamel-teapot-corrected-gamma.png)
-![on pense à vous](/images/shows/8-On-pense-a-vous/carpette-mongole-tex-1.png)
+![on pense à vous](/images/shows/8-On-pense-a-vous/enamel-teapot-corrected-gamma.png){: .image-process-large}
+
+![on pense à vous](/images/shows/8-On-pense-a-vous/carpette-mongole-tex-1.png){: .image-process-large}
 </div>

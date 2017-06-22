@@ -48,7 +48,9 @@ Une production du Théâtre la Balsamine.
 {: .production }
 
 <div class="galerie" markdown=true>
-![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/agneau-wireframe.png)
-![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/SheepDiffuseSkin-Contours.png)
-![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/sheep-helpers.png)
+![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/agneau-wireframe.png){: .image-process-large}
+
+![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/SheepDiffuseSkin-Contours.png){: .image-process-large}
+
+![les fortures de la viande](/images/shows/4-Les-Fortunes-de-la-Viande/sheep-helpers.png){: .image-process-large}
 </div>
