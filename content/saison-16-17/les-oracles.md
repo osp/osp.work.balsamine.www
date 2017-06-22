@@ -6,10 +6,6 @@ Piece_author:
 Event_type: Création transversale danse / vidéo / musique / texte
 Subhead: En partenariat avec Rhizome et Transcultures
 Key_image: shows/12-Les-Oracles/les-oracles-compo.png
-Key_image_detail_1: shows/12-Les-Oracles/crystal-ball-1.png
-Key_image_detail_2: shows/12-Les-Oracles/knuckebones.png
-Key_image_detail_3: shows/12-Les-Oracles/knucklebone-tex.png
-Key_image_detail_4: shows/12-Les-Oracles/les-oracles-creampot-1.png
 Key_image_detail_body: shows/12-Les-Oracles/les-oracles-1.gif
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Color: #d2d373
@@ -41,7 +37,7 @@ Chorégraphie
 Interprètes pour la vidéo
 :    Fabien Piché et Ariane Voineau
 
-## Prototype no. 1
+## Prototype Nº1
 
 Auteure
 :    Martine Delvaux
@@ -55,3 +51,13 @@ Interprète et co-chorégraphe
 
 Une production de Rhizome, coproduit par Transcultures avec les soutiens de Manon fait de la danse, du Théâtre la Balsamine, du Conseil des Arts du Canada, du Conseil des arts et des lettres du Québec, du ministère des Relations internationales et Francophonie du Québec, de WBI et de la Rotonde.
 {: .production }
+
+<div class="galerie" markdown=true>
+![les oracles](/images/shows/12-Les-Oracles/crystal-ball-1.png){: .image-process-large}
+
+![les oracles](/images/shows/12-Les-Oracles/knuckebones.png){: .image-process-large}
+
+![les oracles](/images/shows/12-Les-Oracles/knucklebone-tex.png){: .image-process-large}
+
+![les oracles](/images/shows/12-Les-Oracles/les-oracles-creampot-1.png){: .image-process-large}
+</div>

@@ -17,7 +17,7 @@ Tarif réduit[^2]
 :  prévente 7€
 :  <br/>
 
-Tarif enfant ( - de 12 ans )
+Tarif enfant (- de 12 ans)
 :  5 €
 :  <br/>
 
@@ -30,10 +30,10 @@ Tarif Mardis contemporains
 :  tarif réduit 10 €
 :  <br/>
 
-Art. 27 et Arsène 50
+Article 27 et Arsène 50
 :  <br/>
 
-[^1]:Etre mécène, c’est participer à la pérennité des fondamentaux de la Balsamine que sont l’échange et le dialogue, la création et l’enjeu artistique et expérimental.
+[^1]:Être mécène, c’est participer à la pérennité des fondamentaux de la Balsamine que sont l’échange et le dialogue, la création et l’enjeu artistique et expérimental.
 C’est nous aider à soutenir la création artistique. C’est reconnaître et accompagner une politique qui soutient les jeunes artistes.
 C’est vous associer au pari de la jeunesse et de la rencontre des savoirs issus de différentes disciplines.
 C’est une opportunité singulière de nous permettre de poursuivre une politique tarifaire accessible à tous.
@@ -50,13 +50,14 @@ Groupe adulte {: .sous-tarif }
 Groupe étudiant {: .sous-tarif }
 :  6 € la place<br/> + 1 place offerte à l’enseignant
 :  <br/>
-:  Le paiement des réservations de groupe doit s’effectuer 10 jours avant la date de représentation choisie {: .footnotes }
-:  <br/>
+:  Le paiement des réservations de groupe doit s’effectuer 10 jours avant la date de représentation choisie
+{: .footnotes }
+
+///Footnotes Go Here///
 
 ## United Stages
 
-
-Au sein du Label ![logo-united-stages](/images/label-united-stages-mini.png)[^3], la Balsamine réalise une grande collecte de fonds. Le premier bénéficiaire est : [REFUGEES WELCOME](http://www.bxlrefugees.be), plateforme citoyenne de soutien aux réfugiés.
+Au sein du Label United Stages[^3], la Balsamine réalise une grande collecte de fonds. Le premier bénéficiaire est : [REFUGEES WELCOME](http://www.bxlrefugees.be), plateforme citoyenne de soutien aux réfugiés.
 
 Vous pouvez être solidaire de cette initiative à tout moment de la saison. Il vous suffit d’ajouter le montant que vous souhaitez verser à celui des places achetées. La récolte de fonds sera intégralement reversée.
 

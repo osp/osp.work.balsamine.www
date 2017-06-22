@@ -6,9 +6,6 @@ Price: Entrée libre mais réservation conseillée&nbsp;!
 Piece_author: XXVI<sup>e</sup> édition Transquinquennal
 Event_type: Théâtre
 Key_image: shows/10-Ecole-des-Maitres/billet.png
-Key_image_detail_1: shows/10-Ecole-des-Maitres/alambic-3.png
-Key_image_detail_2: shows/10-Ecole-des-Maitres/calculette.png
-Key_image_detail_3: shows/10-Ecole-des-Maitres/banknote-bake-tex.png
 Key_image_detail_body: shows/10-Ecole-des-Maitres/alambic-bake-2-contrasted.png
 Reservation_link: http://balsamine.billetterie.it/index.php?...
 Subhead: Une organisation du CREPA avec le soutien du Théâtre de Liège, du Centre des Arts Scéniques et de la Fédération Wallonie Bruxelles
@@ -42,3 +39,11 @@ Avec la participation de
 :   Ministère de la Culture et de la Communication, Fonds d'Assurance Formation des Activités du Spectacle (France)
 :   Universidade de Coimbra
 :   DGArtes - Governo de Portugal / Secretário de Estado da Cultura (Portugal)
+
+<div class="galerie" markdown=true>
+![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/alambic-3.png){: .image-process-large}
+
+![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/calculette.png){: .image-process-large}
+
+![l'école des maîtres](/images/shows/10-Ecole-des-Maitres/banknote-bake-tex.png){: .image-process-large}
+</div>

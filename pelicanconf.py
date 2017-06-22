@@ -114,6 +114,8 @@ MARKDOWN = {
 # configuration options
 IMAGE_PROCESS = {
     'timeline': ["scale_in 420 9999 True"],
+    'thumbnail': ["scale_in 9999 70 False"],
+    'detail': ["scale_in 9999 600 False"],
     #  'crisp': {
     #      'type': 'responsive-image',
     #      'srcset': [
@@ -123,20 +125,21 @@ IMAGE_PROCESS = {
     #      ],
     #      'default': '1x',
     #  },
-    #  'large-photo': {
-    #      'type': 'responsive-image',
-    #      'sizes': '(min-width: 1200px) 800px, (min-width: 992px) 650px, \
-    #                (min-width: 768px) 718px, 100vw',
-    #      'srcset': [
-    #          ('600w', ["scale_in 600 450 True"]),
-    #          ('800w', ["scale_in 800 600 True"]),
-    #          ('1600w', ["scale_in 1600 1200 True"]),
-    #      ],
-    #      'default': '800w',
-    #  },
+     'large': {
+         'type': 'responsive-image',
+         'sizes': '(min-width: 1200px) 800px, \
+                   (min-width: 992px) 650px, \
+                   (min-width: 768px) 718px, 100vw',
+         'srcset': [
+             ('70h', ["scale_in 999 70 True"]),
+             ('200w', ["scale_in 200 400 True"]),
+             ('500w', ["scale_in 500 600 True"]),
+         ],
+         'default': '500w',
+     },
 }
 
-IGNORE_FILES = [".swo", ".swp"]
+IGNORE_FILES = ["*.swo", "*.swp"]
 
 
 # Fixes slow generation caused by overzealous copying of images

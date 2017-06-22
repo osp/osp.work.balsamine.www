@@ -141,7 +141,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
-
+    /* <<<<<<<<< */
 
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
@@ -149,13 +149,11 @@ body {
 }
 
 a {
-    /*  */
-    text-decoration: none;
+    text-decoration: underline;
 
     color: inherit;
-    /*text-decoration: inherit;*/
     /*  FIXME: should the links be all pink? If not, ake it more specific */
-    text-decoration-color: pink;
+    text-decoration-color: var(--pink-color);
 }
 
 a:hover {
@@ -165,13 +163,8 @@ a:hover {
 }
 
 /*  FIXME: make more specific rule */
-/*a:not(.timeline__point):hover {
-    position: relative;
-    z-index: 1000;
-    border-radius: 1em;
-    background-color: white;
-    box-shadow: 3px 2px 6px 1px var(--primary-color);
-}*/
+a:not(.timeline__point):hover {
+}
 
 em { font-family: 'Ume double stroke info pratique'; }
 
@@ -234,8 +227,15 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .main-menu a {
     padding: 0.25em 0.5em;
-
     text-decoration: none;
+}
+
+.main-menu a:hover {
+    position: relative;
+    z-index: 1000;
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
 
@@ -637,6 +637,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 #kunstenfestivaldesarts { padding-bottom: 17%; }
 
+/* <<<<<<<<< */
 
 .schedule__timeline {
     top: 0;
@@ -858,52 +859,42 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     line-height: 1.3em;
 }
 
-p.show-detail__image-body img:hover {
-    cursor: pointer;
-
-    background-image: url("/images/damier.png");
-    background-size: 10px;
-}
-
-.show-detail__image-body img,
-.show-detail__image-body iframe {
-    position: relative;
-
-    float: left;
-
-    max-height: 110px;
-    margin: 0px 10px;
-
-    /*border: 1px solid black;*/
-}
-
-.content .show-detail__image-body a { padding: 0em 0em; }
-
 .show-detail__image img {
     max-width: 100%;
 
     text-align: center;
 }
 
-.show-detail__image-body:last-of-type img { float: none; }
-
-.show-detail__image-body {
-    position: relative;
-
-    display: inline-block;
-}
-
-.show-detail__image-body + .show-detail__image-body { text-indent: 0; }
-
 .show-detail__body-images {
     float: left;
 
     box-sizing: border-box;
     width: 60%;
-    padding: 1em;
-    padding-bottom: 2em;
+    padding: 2em;
+    margin-bottom: -8px;
 
     background-color: white;
+}
+.show-detail__body-images p {
+    float: left;
+    text-indent: 0 !important;
+    margin-right: 1em;
+}
+
+.show-detail__body-images .video-wrapper {
+    position: relative;
+}
+
+.show-detail__body-images img,
+.show-detail__body-images iframe {
+    max-height: 70px;
+    outline: 1px solid var(--pink-color);
+    max-width: 100px;
+}
+.show-detail__body-images img:hover {
+    cursor: pointer;
+    background-image: url("/images/damier.png");
+    background-size: 10px;
 }
 
 .thumb-overlay {
@@ -925,20 +916,35 @@ p.show-detail__image-body img:hover {
     background-color: white;
 }
 
+/*FIXME: See if we can find a more appropriate class name `.photo` */
 .show-detail__body .photo {
+    float: left;
     overflow: hidden;
+    display: none;
 
     height: auto;
+    width: auto;
+    margin-right: 1.375em;
+    margin-bottom: 1.375em;
 
     cursor: n-resize;
-    -webkit-transition: height 1s;
-    transition: height 1s;
 
     background-image: url("/images/damier.png");
     background-size: 10px;
 }
 
-.show-detail__body .photo iframe { width: 100%; }
+.show-detail__body .photo img {
+    width: 100%;
+    max-width: 500px;
+    outline: none !important;
+}
+
+.show-detail__body .photo iframe {
+    width: 600px;
+    height: 400px;
+
+}
+
 
 .show-detail__body blockquote + p,
 .show-detail__body p + blockquote { margin-top: 1em; }
@@ -979,16 +985,6 @@ p.show-detail__image-body img:hover {
 }
 
 
-/*FIXME: See if we can find a more appropriate class name `.photo` */
-
-.photo {
-    float: left;
-
-    width: 100%;
-    margin-bottom: 21pt;
-}
-
-.photo img { width: 100%; }
 
 @media (--mobile) {
     .show-detail__header { border-bottom: 2px solid; }
@@ -1034,6 +1030,7 @@ p.show-detail__image-body img:hover {
 
 .page-detail dd { break-inside: avoid-column; }
 
+<<<<<<< HEAD
 .page-detail p.sous-h2{
   font-size: 1em;
 }
@@ -1046,35 +1043,16 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
       margin-top: 2em;
 }
 
+=======
+>>>>>>> b72eb660a86f7f6d7abae97211aa4225c156cbc2
 .page-detail h2#tarifs + dl { column-width: 20em; }
 
-.content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p  {
-  position: relative;
-float: right;
-width: 65%;
-}
-.content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p img{
-  width: 100% !important;
-}
-.content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p + dl + p.production {
-      margin-top: 15pt;
-}
-.content.page-detail h3#tous-les-chemins-menent-a-la-balsa {
-      margin-bottom: 15pt;
-}
-
-.page-detail h2#tarifs + dl dd,
-.content.page-detail h3#tous-les-chemins-menent-a-la-balsa + p + dl dd,
-.content.page-detail p.en-block + dl dd {
+.page-detail h2#tarifs + dl dd {
     display: block;
+
     padding-left: 12px;
 }
-.content.page-detail p.en-block {
-  margin-bottom: 15pt;
-}
-.content.page-detail p.en-block + dl {
-  margin-bottom: 15pt;
-}
+
 .page-detail h2#tarifs + dl dd + dt { margin-top: 10px; }
 
 .page-detail .no-display { display: none; }
@@ -1085,16 +1063,26 @@ width: 65%;
     border: 0px solid black;
 }
 
-.page-detail img[alt='logo-united-stages'],
-.page-detail img[alt='logo-accessibilite'] {
-  margin: 0;
+.page-detail .footnotes {
 }
 
-.page-detail .footnotes,
-.page-detail p.production {
-  font-size: .9em;
-  line-height: 1.2em;
+.show-detail__body p.production, 
+.page-detail .footnote p {
+    font-size: .9em;
+    line-height: 1.2em;
 }
+.page-detail .footnote ol li + li {
+    margin-bottom: 1em;
+    text-indent: 2em;
+}
+.page-detail .footnote ol li::before {
+    content: " ";
+}
+
+.page-detail .footnote ol {
+      column-width: 20em;
+  }
+
 
 .page-detail .translations a {
     border: 1px solid black;
@@ -1192,13 +1180,13 @@ width: 65%;
 
 .content.page-detail h3 a:hover,
 .content.page-detail h3 a:focus {
-    /*color: black;*/
-    /*background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);*/
+    color: black;
+    background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);
 }
 
 .content.page-detail h1 {
     margin-top: 1em;
-    margin-left: 0em;
+    margin-left: -1em;
 }
 
 @media (--mobile) {
@@ -1224,9 +1212,9 @@ width: 65%;
 }
 
 .content a {
-    margin-right: -1em;
-    margin-left: -1em;
-    padding: 0.2em 1em;
+    /*margin-right: -1em;*/
+    /*margin-left: -1em;*/
+    /*padding: 0.2em 1em;*/
 
     border-radius: 1em;
 }
@@ -1305,20 +1293,8 @@ width: 65%;
 
     font-family: 'Ume double stroke master expended fat';
 }
-.content ul {
-margin-left: .8em;
-}
-.content li:before {
-  /*content: "- ";*/
-}
-.content li {
-  list-style-type: circle;
-  font-size: 0.7em;
-  line-height: 1.5em;
-}
-/*.page-detail li {
-  list-style-type: circle;
-}*/
+
+.content li:before { content: "- "; }
 
 .content pre {
     margin-top: 1em;
@@ -1334,7 +1310,8 @@ margin-left: .8em;
     margin-left: 0em;
 }
 
-
+/* <<<<<<<<< */
+/* <<<<<<<<< */
 
 
 
@@ -1458,6 +1435,7 @@ a.reservation-link:hover {
 /* FIXME: !important should not be used */
 .jcarousel__inner a { border: none !important; }
 
+/* <<<<<<<<< */
 
 
 
