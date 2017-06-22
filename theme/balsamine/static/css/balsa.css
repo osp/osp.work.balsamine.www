@@ -1039,6 +1039,11 @@ p.show-detail__image-body img:hover {
 }
 .page-detail h2#un-theatre-a-letat-pur{
   margin-bottom: 0em;
+      margin-top: 0em;
+}
+
+h3#un-projet-ethique-pour-les-5-saisons-a-venir {
+      margin-top: 2em;
 }
 
 .page-detail h2#tarifs + dl { column-width: 20em; }
@@ -1292,7 +1297,7 @@ width: 65%;
     border: 1px solid black;
     border-radius: 16px;
     /*font-family: 'Ume double stroke master expanded fat';*/
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .content dd {
@@ -1420,8 +1425,8 @@ a.reservation-link:hover {
     text-align: center;
     text-decoration: none;
 
-    color: white;
-    background-color: @color;
+    color: var(--pink-color);
+    background-color: white;
 
     font-weight: bold;
 }
