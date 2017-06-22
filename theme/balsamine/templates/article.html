@@ -48,6 +48,10 @@
       {% if article.reservation_link %}
       <br><a class="reservation-link" href="{{article.reservation_link}}" style="background:  {{article.color}};">Réservation</a>
       {% endif %}
+      {% if article.translations %}
+      {% import 'translations.html' as translations with context %}
+      {{ translations.translations_for(article) }}
+      {% endif %}
       {% if article.key_image_detail_body %}
       <p class="show-detail__image"><img src="/images/{{ article.key_image_detail_body }}" alt="Main image for {{ article.title }}"></p>
       {% endif %}
