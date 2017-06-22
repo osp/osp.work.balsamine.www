@@ -164,11 +164,6 @@ a:hover {
 
 /*  FIXME: make more specific rule */
 a:not(.timeline__point):hover {
-    position: relative;
-    z-index: 1000;
-    border-radius: 1em;
-    background-color: white;
-    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
 em { font-family: 'Ume double stroke info pratique'; }
@@ -232,8 +227,15 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .main-menu a {
     padding: 0.25em 0.5em;
-
     text-decoration: none;
+}
+
+.main-menu a:hover {
+    position: relative;
+    z-index: 1000;
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
 
@@ -1195,9 +1197,9 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 }
 
 .content a {
-    margin-right: -1em;
-    margin-left: -1em;
-    padding: 0.2em 1em;
+    /*margin-right: -1em;*/
+    /*margin-left: -1em;*/
+    /*padding: 0.2em 1em;*/
 
     border-radius: 1em;
 }
