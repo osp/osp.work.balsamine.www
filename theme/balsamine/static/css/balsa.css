@@ -1030,7 +1030,6 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .page-detail dd { break-inside: avoid-column; }
 
-<<<<<<< HEAD
 .page-detail p.sous-h2{
   font-size: 1em;
 }
@@ -1043,9 +1042,15 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
       margin-top: 2em;
 }
 
-=======
->>>>>>> b72eb660a86f7f6d7abae97211aa4225c156cbc2
-.page-detail h2#tarifs + dl { column-width: 20em; }
+.page-detail h2#acces + .section3 dl dd {
+  display: block;
+}
+.page-detail h2#acces + p  {
+  margin-bottom: 12pt;
+}
+.page-detail h2#tarifs + dl {
+    column-width: 20em;
+    column-gap: 2em; }
 
 .page-detail h2#tarifs + dl dd {
     display: block;
@@ -1063,13 +1068,15 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     border: 0px solid black;
 }
 
-.page-detail .footnotes {
-}
-
-.show-detail__body p.production, 
-.page-detail .footnote p {
+.show-detail__body p.production,
+.page-detail .footnote,
+.page-detail dd.footnote {
     font-size: .9em;
     line-height: 1.2em;
+    font-family: "Ume double stroke master condensed";
+    column-width: 20em;
+    margin-top: 12pt;
+    text-indent: 0pt;
 }
 .page-detail .footnote ol li + li {
     margin-bottom: 1em;
@@ -1098,6 +1105,14 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     max-width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+.page-detail img[alt="logo label united stages"],
+.page-detail img[alt="logo accessibilite"] {
+  margin: 0pt;
+  padding-right: 4pt;
+}
+.page-detail img[alt="plan de la balsamine"]{
+  float: right;
 }
 
 .page-detail p + p img { margin-left: -3em; }
@@ -1180,8 +1195,8 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
 
 .content.page-detail h3 a:hover,
 .content.page-detail h3 a:focus {
-    color: black;
-    background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);
+    /*color: black;
+    background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);*/
 }
 
 .content.page-detail h1 {
