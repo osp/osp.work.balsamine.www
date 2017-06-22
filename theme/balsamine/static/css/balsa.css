@@ -1161,6 +1161,12 @@ p.show-detail__image-body img:hover {
     margin-left: -1em;
 }
 
+@media (--mobile) {
+  .content.page-detail h1 {
+      margin-left: 0em;
+  }
+}
+
 .content h4 {
     margin-top: 1.375em;
     margin-bottom: 0em;
