@@ -160,11 +160,9 @@ a:hover {
     /* border-radius: 1em; */
     /* box-shadow: 3px 2px 6px 1px var(--primary-color);*/
     /* background-color: white; */
+    color: var(--pink-color);
 }
 
-/*  FIXME: make more specific rule */
-a:not(.timeline__point):hover {
-}
 
 em { font-family: 'Ume double stroke info pratique'; }
 
@@ -1070,12 +1068,11 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 
 .page-detail .translations a {
+    text-transform: uppercase;
+    text-decoration: none;
     border: 1px solid black;
-
-    font-weight: bolder;
+    padding: 0.5em; 
 }
-
-.page-detail .translations { padding: 1em; }
 
 .page-detail .no-display { display: none; }
 
@@ -1383,20 +1380,23 @@ a.reservation-link:hover {
 
     width: 30px;
     height: 30px;
+    box-sizing: border-box;
+
+    padding-top: 15px;
 
     text-align: center;
     text-decoration: none;
 
-    color: white;
-    background-color: @color;
-
-    font-weight: bold;
+    color: black;
+    background-color: white;
+    opacity: 0.75;
 }
 
 .jcarousel__control-prev:hover,
 .jcarousel__control-next:hover {
-    color: black;
-    background-color: aliceblue;
+    background-color: white;
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
+    opacity: 1;
 }
 
 .jcarousel__control-prev { left: 10px; }
