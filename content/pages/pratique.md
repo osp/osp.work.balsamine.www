@@ -1,5 +1,8 @@
 Title: Pratique
 Date: 2017/04
+Slug: pratique
+Translation: true
+Lang: fr
 
 ## Accès
 
@@ -7,15 +10,15 @@ Tous les chemins mènent à la Balsa.
 
 * * *
 
-La Balsamine  
-Avenue Félix Marchal, 1  
-1030 Bruxelles  
+La Balsamine
+Avenue Félix Marchal, 1
+1030 Bruxelles
 
 * * *
 
 <!-- lien map -->
 
-Administration: [+32 2 732 96 18](tel:+3227329618) — [info@balsamine.be](mailto:info@balsamine.be)  
+Administration: [+32 2 732 96 18](tel:+3227329618) — [info@balsamine.be](mailto:info@balsamine.be)
 Réservation: [+32 2 735 64 68](tel:+3227356468) — [reservation@balsamine.be](mailto:reservation@balsamine.be)
 
 ![plan de la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
@@ -58,9 +61,9 @@ Nous organisons  régulièrement des dynamiques d’échanges entre étudiants e
 
 * * *
 
-Contact conseils et organisation des activités pédagogiques:  
-Noemi Tiberghien  
-[+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)  
+Contact conseils et organisation des activités pédagogiques:
+Noemi Tiberghien
+[+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
 
 <!-- + Guide pédagogique à télécharger -->
 
