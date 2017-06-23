@@ -42,14 +42,14 @@
         </nav>
     </header>
 
-    <main class="main-area">
+    <main data-role="page" class="main-area">
         <div class="main-content ume-js">
         {% block content %}{% endblock %}
         </div>
 
         {% block sidebar %}
         <section class="schedule">
-            <div data-role="panel" class="schedule__list">
+            <div data-position="right" id="schedule" class="schedule__list">
                 {% for article in articles %}
                     {% include 'partials/event.html' %}
                 {% endfor %}
@@ -95,6 +95,7 @@
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-2.2.4.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mousewheel.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.jcarousel.min.js"></script>
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-ui.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.mobile-events.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/perfect-scrollbar.jquery.min.js"></script>
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/main.js"></script>

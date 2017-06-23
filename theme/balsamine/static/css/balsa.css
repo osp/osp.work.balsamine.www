@@ -443,7 +443,13 @@ hr + hr { border-top: 1px solid var(--primary-color); }
         height: 100%;
     }
 
-    .is-swiped .main-content { display: none;}
+    .is-swiped .main-content {
+      display: none;
+      -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+  }
 }
 
 @media (--tablet-laptop) {
@@ -691,7 +697,10 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
     .is-swiped .schedule {
       width: 100%;
-      transition: 1s;
+      -webkit-transition: all 1.5s ease;
+      -moz-transition: all 1.5s ease;
+      -o-transition: all 1.5s ease;
+      transition: all 1.5s ease;
      }
 
     .schedule__list {
@@ -707,7 +716,13 @@ hr + hr { border-top: 1px solid var(--primary-color); }
         height: 100%;
     }
 
-    .is-swiped .schedule__list { display: block; }
+    .is-swiped .schedule__list {
+      display: block;
+      -webkit-transition: all 1.5s ease;
+      -moz-transition: all 1.5s ease;
+      -o-transition: all 1.5s ease;
+      transition: all 1.5s ease;
+    }
 
     .schedule__timeline {
         position: absolute;
@@ -734,6 +749,10 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
     .is-swiped .schedule {
       width: 100%;
+      -webkit-transition: all 1.5s ease;
+      -moz-transition: all 1.5s ease;
+      -o-transition: all 1.5s ease;
+      transition: all 1.5s ease;
      }
 
     .schedule__list {
@@ -749,7 +768,10 @@ hr + hr { border-top: 1px solid var(--primary-color); }
         height: 100%;
     }
 
-    .is-swiped .schedule__list { display: block; }
+    .is-swiped .schedule__list { display: block;     -webkit-transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease;}
 
 
     .schedule__timeline {

@@ -134,13 +134,14 @@ $(function() {
 (function($) {
     $(".main-area")
         .swipeleft(function(){
-            $(this).addClass("is-swiped");
+            console.log("slipeleft");
+            $(this).addClass("is-swiped", 1000);
         })
         .swiperight(function(){
-            $(this).removeClass("is-swiped");
+            console.log("sliperight");
+            $(this).removeClass("is-swiped", 1000);
         });
 })(jQuery);
-
 
 // scrollbars
 (function($) {
