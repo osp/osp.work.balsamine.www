@@ -4,6 +4,8 @@ Translation: true
 Lang: fr
 Slug: billetterie
 
+[TOC]
+
 ## Tarifs
 
 Tarif mécène

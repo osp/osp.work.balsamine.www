@@ -4,6 +4,8 @@ Slug: pratique
 Translation: true
 Lang: fr
 
+[TOC]
+
 ## Accès
 Tous les chemins mènent à la Balsa.
 

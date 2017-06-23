@@ -3,15 +3,15 @@ Date: 2017/04
 Slug: la-balsamine
 Translation: true
 Lang: fr
+Subhead: Un théâtre à l’état P.U.R.
+Subsubhead: Partagé. Utopique. Responsable.
 
 <!-- Photo balsa -->
 
-## Un théâtre à l’état P.U.R.
 
-Partagé. Utopique. Responsable.
-{: .sous-h2}
+[TOC]
 
-###Un projet éthique pour les 5 saisons à venir.
+## Un projet éthique pour les 5 saisons à venir.
 
 Une Balsa à la mine épurée, apurée, en purée, certains soirs et selon les
 menus. Pur jus, pur théâtre. En l’état.
