@@ -152,3 +152,4 @@ IGNORE_FILES = ["*.swo", "*.swp"]
 # Requires patched version of Pelican (see requirements.txt), at
 # <https://github.com/aleray/pelican>
 STATIC_CHECK_IF_MODIFIED = True
+
