@@ -25,37 +25,37 @@ Responsible, finally. It is a green house, which attempts through its choices to
 
 ## Team
 General and artistic management
-:   [Monica Gomes](mailto:monica.gomes@balsamine.be)
+:   [Monica Gomes](mailto:&#109;&#111;&#110;&#105;&#099;&#097;&#046;&#103;&#111;&#109;&#101;&#115;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Financial and administrative management
-:   [Morgan Brunéa](mailto:morgan.brunea@balsamine.be)
+:   [Morgan Brunéa](mailto:&#109;&#111;&#114;&#103;&#097;&#110;&#046;&#098;&#114;&#117;&#110;&#101;&#097;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 General coordination – Communication – Welcoming companies
-:   [Fanny Arvieu](mailto:fanny.arvieu@balsamine.be)
+:   [Fanny Arvieu](mailto:&#102;&#097;&#110;&#110;&#121;&#046;&#097;&#114;&#118;&#105;&#101;&#117;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Press – Promotion – Public relations
-:   [Irène Polimeridis](mailto:relations.publiques@balsamine.be)
+:   [Irène Polimeridis](mailto:&#114;&#101;&#108;&#097;&#116;&#105;&#111;&#110;&#115;&#046;&#112;&#117;&#098;&#108;&#105;&#113;&#117;&#101;&#115;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Actress and Romanist – Mediation for schools and associations
-:   [Noemi Tiberghien](mailto:noemi.tiberghien@balsamine.be)
+:   [Noemi Tiberghien](mailto:&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Director and author – Associate artist
-:   [Martine Wijckaert](mailto:martine.wijckaert@balsamine.be)
+:   [Martine Wijckaert](mailto:&#109;&#097;&#114;&#116;&#105;&#110;&#101;&#046;&#119;&#105;&#106;&#099;&#107;&#097;&#101;&#114;&#116;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Artistic and administrative residency
 :   [Théâtre du Tilleuil](http://www.theatredutilleuil.be)
 
 Technical management
-:   [Jef Philips](mailto:jef.philips@balsamine.be)
+:   [Jef Philips](mailto:&#106;&#101;&#102;&#046;&#112;&#104;&#105;&#108;&#105;&#112;&#115;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Stage manager
-:   [Rémy Urbain](mailto:remy.urbain@balsamine.be)
+:   [Rémy Urbain](mailto:&#114;&#101;&#109;&#121;&#046;&#117;&#114;&#098;&#097;&#105;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Trainee stage manager
 :   Brice Agnes
 
 Bar manager
-:   [Franck Crabbé](mailto:franck.bar@balsamine.be)
+:   [Franck Crabbé](mailto:&#102;&#114;&#097;&#110;&#099;&#107;&#046;&#098;&#097;&#114;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Associate stage photographer
 :   Hichem Dahes
@@ -63,12 +63,20 @@ Associate stage photographer
 Associate graphic designers
 :   [Open Source Publishing](http://osp.kitchen)
 
-Visuals – associate artist, season 17-18
+Associate artist, visuals season 17-18
 :   [Julie Kern Donck](http://www.juliekerndonck.be)
 
-## Renting la Balsa
 
-[This page details how to rent la Balsamine](rent.html)
+## Renting la Balsamine
+
+Situated in a stone's throw from the European institutions, La Balsamine can offer you several of its spaces, comprising a technical and professional infrastructure as well as a convivial bar.
+
+Whether you are organizing a seminar, a workshop, a training day, a birthday or a wedding, contact us with your query and we will advise you. We will put at your disposal the most suitable space, equipment of the highest quality and a professional technical team.
+
+* * *
+
+[More info](/rent.html)
+
 
 ## Partners
 

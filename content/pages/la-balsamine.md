@@ -82,12 +82,20 @@ Photographe de plateau associé
 Designers graphique associés
 :   [Open Source Publishing](http://osp.kitchen)
 
-Visuels; artiste associée pour la saison 17-18
+Artiste associée, visuels de la saison 17-18
 :   [Julie Kern Donck](http://www.juliekerndonck.be)
+
 
 ## Location des espaces
 
-[Louer la Balsamine](rent.html)
+Située à quelques pas des institutions européennes, la Balsamine vous propose plusieurs de ses espaces intégrant une infrastructure technique et professionnelle ainsi qu’un bar convivial.
+
+Séminaires, workshops, mariages, anniversaires, formations… Proposez-nous vos événements et nous vous conseillerons.
+
+* * *
+
+[Plus d'infos](/louer.html)
+
 
 ## Partenaires
 

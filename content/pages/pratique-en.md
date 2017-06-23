@@ -69,13 +69,15 @@ Noemi Tiberghien
 
 <!-- Download the educational guide -->
 
+
 ## Communication pack
 
 - [logo balsamine 17-18](/images/logo-balsa.svg)
 - [logo Label United Stages](/images/label-united-stages-txt.svg)
 - [fonts]()
 - [dossiers de diffusion]()
-- 
+
+
 ## Technical plans
 
 You will find all of La Balsamine’s technical plans here.
@@ -89,3 +91,14 @@ You will find all of La Balsamine’s technical plans here.
 - [Grill small rom.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf)
 - [Floor plan large room.pdf](http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf)
 - [Floor plan small room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf)
+
+
+## Rent the Balsamine
+
+Situated in a stone's throw from the European institutions, La Balsamine can offer you several of its spaces, comprising a technical and professional infrastructure as well as a convivial bar.
+
+Whether you are organizing a seminar, a workshop, a training day, a birthday or a wedding, contact us with your query and we will advise you. We will put at your disposal the most suitable space, equipment of the highest quality and a professional technical team.
+
+* * *
+
+[More info](/louer-en.html)
