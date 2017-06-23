@@ -18,6 +18,7 @@
 */
 
 
+
 /* ==========================================================================
    Variables
    ========================================================================== */
@@ -92,14 +93,14 @@
     font-family: 'Ume double stroke master expended fat';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-expended-int-20-ext-145.ttf') format('woff');
+    src: url('../fonts/ume-stroke-stroke-expended-fat.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Ume double stroke affiche saison';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-condensed-int-120-ext-120-round.ttf') format('woff');
+    src: url('../fonts/ume-stroke-stroke-affiche-saison.woff') format('woff');
 }
 
 .cadra {
@@ -135,7 +136,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
-    /* <<<<<<<<< */
 
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
@@ -510,6 +510,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .schedule {
     position: relative;
+
     background-color: white;
 }
 
@@ -1125,9 +1126,15 @@ hr + hr { border-top: 1px solid var(--primary-color); }
    ========================================================================== */
 
 
-.page-detail { padding: 1em; }
+.page-detail { 
+    padding: 1em; 
+    color: var(--primary-color); 
+}
 
-.page-detail { color: var(--primary-color); }
+.page-detail__header,
+.page-detail__body {
+    box-sizing: border-box;
+}
 
 .page-detail dl { margin-top: 1em; }
 
@@ -1140,19 +1147,24 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .page-detail dd { break-inside: avoid-column; }
 
-.page-detail p.sous-h2{
-  font-size: 1em;
+.page-detail__header h2 {
+    margin-bottom: 0 !important;
 }
-.page-detail h2#un-theatre-a-letat-pur{
-  margin-bottom: 0em;
-      margin-top: 0em;
+.page-detail__header h3 {
+  font-size: 1em;
+    font-family: "Ume double stroke master condensed" !important;  
+    margin-top: 0.5em !important;
+}
+.page-detail h2#un-theatre-a-letat-pur,
+.page-detail h2#a-theatre-in-its-pure-state{
+    margin-bottom: 0em;
+    margin-top: 0em;
 }
 
 h3#un-projet-ethique-pour-les-5-saisons-a-venir {
       margin-top: 2em;
 }
 
-<<<<<<< HEAD
 .page-detail h2#acces + .section3 dl dd {
   display: block;
 }
@@ -1162,9 +1174,7 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
 .page-detail h2#tarifs + dl {
     column-width: 20em;
     column-gap: 2em; }
-=======
-.page-detail h2#tarifs + dl { column-width: 20em; }
->>>>>>> 416de05f855e1da323ed73a136871735b2f6f85b
+
 
 .page-detail h2#tarifs + dl dd {
     display: block;
@@ -1208,6 +1218,10 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
   }
 
 
+.page-detail .translations {
+    margin-top: 1em;
+    
+}
 .page-detail .translations a {
     text-transform: uppercase;
     text-decoration: none;
@@ -1215,9 +1229,6 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     padding: 0.5em;
     padding-top: 0.4em;
     font-family: 'Ume double stroke double fat Balsa';
-    position: relative;
-    top: -3em;
-    left: -6.5em;
 }
 .page-detail .translations a:hover {
     box-shadow: 3px 2px 6px 1px var(--primary-color);
@@ -1241,7 +1252,7 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
   width: 70%;
 }
 
-.page-detail p + p img { margin-left: -3em; }
+.page-detail p + p img { margin-left: -1.5em; }
 
 .page-detail h1 {
     /*width: 50%;*/
@@ -1263,19 +1274,41 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     .section2 h2:target ~ * { display: block; }
 }
 
-@media (--desktop) {
-    .page-detail {
-        max-width: 50em;
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
+/*@media (--desktop) {*/
+    /*.page-detail {*/
+        /*max-width: 50em;*/
+        /*margin-right: auto;*/
+        /*margin-left: auto;*/
+    /*}*/
+/*}*/
+
+/*@media (--mobile) {*/
+    /*.page-detail {*/
+        /*max-width: 92%;*/
+        /*margin-right: auto;*/
+        /*margin-left: auto;*/
+    /*}*/
+/*}*/
+
 
 @media (--mobile) {
-    .page-detail {
-        max-width: 92%;
-        margin-right: auto;
-        margin-left: auto;
+    .page-detail__header { border-bottom: 2px solid; }
+}
+
+@media (--desktop) {
+    .page-detail__header {
+        float: left;
+        width: 40%;
+        height: 100vh;
+        padding: 2rem;
+        position: fixed;
+    }
+
+    .page-detail__body {
+        float: left;
+        width: 60%;
+        margin-left: 40%;
+        padding: 2rem;
     }
 }
 
@@ -1325,17 +1358,7 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     background: linear-gradient(to bottom, var(--yellow-color) 0%, var(--pink-color) 30%, var(--pink-color) 70%, var(--blue-color) 100%);*/
 }
 
-.content.page-detail h1 {
-    margin-top: 1em;
-    margin-left: 0em;
-}
 
-@media (--desktop) only {
-  .content.page-detail h1 {
-      margin-left: -1em;
-  }
-}
-onl
 .content h4 {
     margin-top: 1.375em;
     margin-bottom: 0em;
@@ -1598,6 +1621,27 @@ a.reservation-link:hover {
 /*     max-height: 300px; */
 /* } */
 
+
+/* ==========================================================================
+   TABLE OF CONTENTS
+   ========================================================================== */
+@media (--desktop) {
+    .toc {
+        /*position: fixed;*/
+        /*top: 20%;*/
+        /*left: 4em;*/
+        /*width: 10em;*/
+        margin-left: 3em;
+    }
+    .toc ul {
+        font-size: 1em;
+        line-height: 1.3em;
+    }
+
+    .toclink {
+        text-decoration: none;
+    }
+}
 
 /* ==========================================================================
    HOME

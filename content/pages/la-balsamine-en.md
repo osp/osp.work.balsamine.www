@@ -3,13 +3,14 @@ Date: 2017/04
 Slug: la-balsamine
 Translation: true
 Lang: en
+Subhead: A theatre in its P.U.R.e state
+Subsubhead: Pooled. Utopian. Responsible.
+
+
+[TOC]
 
 <!-- Photo balsa -->
 
-## A theatre in its P.U.R.e state
-
-Pooled. Utopian. Responsible.
-{: .sous-h2}
 
 ### An ethical project for the 5 upcoming seasons.
 

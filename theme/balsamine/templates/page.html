@@ -4,10 +4,17 @@
 
 {% block content %}
 <article class="page-detail content">
-    <h1>{{ page.title }}</h1>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
+  <header class="page-detail__header">
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.subhead }}</h2>
+      <h3>{{ page.subsubhead }}</h3>
 
+      {% import 'translations.html' as translations with context %}
+      {{ translations.translations_for(page) }}
+  </header>
+
+  <div class="page-detail__body">
     {{ page.content }}
+    </div>
 </article>
 {% endblock %}

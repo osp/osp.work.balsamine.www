@@ -5,6 +5,7 @@ Lang: en
 Translation: true
 Status: hidden
 
+[TOC]
 
 Situated in a stone's throw from the European institutions, La Balsamine can offer you several of its spaces, comprising a technical and professional infrastructure as well as a convivial bar.
 

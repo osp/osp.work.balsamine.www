@@ -157,6 +157,6 @@ STATIC_CHECK_IF_MODIFIED = True
 MENU_ITEMS = (
     ('La Balsamine', 'la-balsamine.html'),        
     ('Pratique', 'pratique.html'),
-    ('Billeterie', 'billeterie.html'),
-    ('Location', 'louer.html'),
+    ('Billeterie', 'billetterie.html'),
+    ('Location', 'rent.html'),
 )

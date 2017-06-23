@@ -4,6 +4,8 @@ Slug: pratique
 Lang: en
 Translation: true
 
+[TOC]
+
 ## Access
 
 All roads lead to la Balsa.

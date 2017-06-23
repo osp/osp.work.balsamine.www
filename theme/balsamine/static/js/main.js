@@ -1,4 +1,5 @@
 $(function() {
+    // SMALL TIMELINE
     var monthNames = ["jan", "fév", "mars", "avril", "mai", "juin", "juil", "août", "sept", "oct", "nov", "déc"];
 
     function monthsWithinDateRange(start, end) {
@@ -87,7 +88,26 @@ $(function() {
     $(".show-detail__header:first-child").parent().parent().css("background", bg);
 });
 
+// SMALL TIMELINE ANCHOR LINKS
+(function($) {
+    // Sections are retracted on mobile using the `:target` pseudo-selector
+    // the code below shows the first section if no other is specified
 
+    var anchor = $(".page-detail .toclink").attr("href");
+
+    if (! location.hash) {
+        if (history.pushState) {
+            history.pushState(null, null, anchor);
+        } else {
+            location.hash = '#myhash';
+        }
+
+        window.scrollTo(0, 0);
+    }
+})(jQuery);
+
+
+// CAROUSEL
 $(function() {
     $(".jcarousel").each(function() {
         $(this)
@@ -131,6 +151,7 @@ $(function() {
 });
 
 
+// SWIPE MAIN TIMELINE ON MOBILE
 (function($) {
     $(".main-area")
         .swipeleft(function(){
@@ -143,7 +164,7 @@ $(function() {
         });
 })(jQuery);
 
-// scrollbars
+// SCROLLBARS
 (function($) {
     $(".main-content").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa', suppressScrollX: false});
     $(".schedule__list").css("overflow-y", "hidden").perfectScrollbar({theme: 'balsa', suppressScrollX: true});
@@ -181,6 +202,7 @@ $(function() {
 
 })(jQuery);
 
+
 // dropdown
 
 // $(function() {
@@ -191,19 +213,7 @@ $(function() {
 //     });
 // });
 
+// SHOW-DETAIL GALLERY
 (function($) {
-    // Sections are retracted on mobile using the `:target` pseudo-selector
-    // the code below shows the first section if no other is specified
-
-    var anchor = $(".page-detail .toclink").attr("href");
-
-    if (! location.hash) {
-        if (history.pushState) {
-            history.pushState(null, null, anchor);
-        } else {
-            location.hash = '#myhash';
-        }
-
-        window.scrollTo(0, 0);
-    }
+    $(".toc").appendTo(".page-detail__header:first-child");
 })(jQuery);

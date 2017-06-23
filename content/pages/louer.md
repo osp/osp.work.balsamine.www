@@ -4,6 +4,8 @@ Slug: rent
 Lang: fr
 Translation: true
 
+[TOC]
+
 Située à quelques pas des institutions européennes, la Balsamine vous propose plusieurs de ses espaces intégrant une infrastructure technique et professionnelle ainsi qu’un bar convivial.
 
 Séminaires, workshops, mariages, anniversaires, formations… Proposez-nous vos événements et nous vous conseillerons.
