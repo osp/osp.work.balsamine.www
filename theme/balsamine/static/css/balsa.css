@@ -130,21 +130,21 @@
 
 html {
     font-size: 16px;
-    line-height: 1.375em;
+    line-height: 1.3em;
 }
 
 body {
     overflow: hidden;
 
     /*  FIXME: Move away from the reset section */
-    background-image: url('../imgs/coin-de-boite-bas-gauche.svg');
+    background-image: url('/theme/imgs/coin-de-boite-bas-gauche.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
 
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
-    line-height: 1.375em;
+    line-height: 1.3em;
 }
 
 a {
@@ -366,7 +366,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 @media (--mobile-landscape) {
     body {
-        background-image: url('../imgs/coin-de-boite-haut-gauche.svg');
+        background-image: url('/theme/imgs/coin-de-boite-haut-gauche.svg');
         background-position: top left;
     }
 
@@ -805,7 +805,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     padding: 1em;
 
     color: var(--primary-color);
-    /*background-image: url('../imgs/damier.png');*/
+    /*background-image: url('/theme/imgs/damier.png');*/
     background-size: 25px;
 }
 
