@@ -122,15 +122,15 @@ IMAGE_PROCESS = {
     'timeline': ["scale_in 420 9999 True"],
     'thumbnail': ["scale_in 9999 70 False"],
     'detail': ["scale_in 9999 600 False"],
-    #  'crisp': {
-    #      'type': 'responsive-image',
-    #      'srcset': [
-    #          ('1x', ["scale_in 800 600 True"]),
-    #          ('2x', ["scale_in 1600 1200 True"]),
-    #          ('4x', ["scale_in 3200 2400 True"]),
-    #      ],
-    #      'default': '1x',
-    #  },
+    'responsive': {
+        'type': 'responsive-image',
+        'srcset': [
+            ('1x', ["scale_in 800 600 True"]),
+            ('2x', ["scale_in 1600 1200 True"]),
+            ('4x', ["scale_in 3200 2400 True"]),
+        ],
+        'default': '1x',
+    },
      'large': {
          'type': 'responsive-image',
          'sizes': '(min-width: 1200px) 800px, \
