@@ -1,5 +1,8 @@
 Title: La Balsamine
 Date: 2017/04
+Slug: la-balsamine
+Translation: true
+Lang: fr
 
 <!-- Photo balsa -->
 
@@ -84,7 +87,7 @@ Visuels; artiste associée pour la saison 17-18
 
 ## Location des espaces
 
-<!-- Ici le texte -->
+[Louer la Balsamine](rent.html)
 
 ## Partenaires
 

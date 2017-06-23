@@ -16,7 +16,7 @@ Avenue Félix Marchal, 1
 
 Administration
 :   [+32 2 732 96 18](tel:+3227329618)
-:   [info@balsamine.be](mailto:info@balsamine.be)  
+:   [info@balsamine.be](mailto:info@balsamine.be)
 
 
 Reservations
@@ -28,11 +28,11 @@ Reservations
 
 
 
-Our facilities are not very easy to use for people with reduced mobility. If you are concerned by this, please let us know during your reservation.
+The accessibility of our theatres for people with reduced mobility is possible but not easy. When making a reservation, we would thank you to make a request for this access.
 
-## Bar and restaurant
+## Bar and catering
 
-The bar is open from 7pm every show night. A small yet delicious meal is prepared on site and is available to you before every show.
+The bar is open from 19:00 every evening of a performance. Delicious light meals and snacks prepared on site are available before each show.
 
 <!-- Menu de la semaine -->
 
@@ -40,44 +40,46 @@ The bar is open from 7pm every show night. A small yet delicious meal is prepare
 
 ### The aftershows
 
-A l’issue de toutes les deuxièmes représentations des créations, la Balsamine vous propose une rencontre avec l’équipe artistique. Un moment privilégié pour débattre et échanger en toute convivialité.
-Petite particularité, cette rencontre est menée par un autre artiste de la saison.
+At the end of every second performance of new pieces, the Balsamine invites you to an encounter with the artistic team. A privileged moment to debate and exchange in a relaxed context.
+Note that this encounter is led by another of the season’s artists.
 
 ### Associations
 
-Défendre la nécessité de l’Art pour l’Art mais accessible au plus grand nombre est une utopie qui nous anime et dont nous entendons prendre responsabilité.
-Le Théâtre la Balsamine est une maison de création qui abrite et accompagne des artistes confrontés quotidiennement à la nécessité de s’interroger sur le sens, sur le cadre dans lequel ils exercent leur pratique, sur le style qu’ils élaborent et sur les valeurs qu’ils représentent. Quand un artiste entreprend de donner forme à sa perception, à sa compréhension du monde et à ce qu’il souhaite énoncer, il n’a pas pour projet d’être inoffensif, de conforter le consensus. La création contemporaine  est une forme mouvante et en perpétuel questionnement, qui renvoie le spectateur à sa capacité à créer du sens  et à vivre son  rapport au monde. Elle nous interpelle sur notre propre créativité et sur notre capacité à exprimer qui nous sommes.
-Elle interroge les normes, y compris celles du goût.
-C’est un questionnement précieux que nous entendons partager avec le grand public.
+Standing up for the necessity of Art for Art’s sake but one accessible to the largest number is a utopia which drives us and which we intend to take responsibility for.
+The Balsamine is a house of creation which accommodates and supports artists at work confronted on a daily basis with the necessity of asking themselves questions about the meaning, about the context in which they practice their Art, about the style they develop and about the values they represent. When an artist sets out to give form to his perception, to his understanding of the world and to what he wishes to express, he doesn’t plan to be inoffensive, to bolster the consensus. Contemporary creation is a fluctuating and perpetually challenging form, which forces the audience to create meaning and to experience its relation with the world. It calls us out on our own creativity and on our ability to express who we are.
+It questions the norms, including those of taste.
+It is a precious lesson which we intend to share with the general public.
 
-### Le public scolaire
+### School audiences
 
-Si le théâtre classique  offre des repères rassurants, il ne traduit pas toujours le caractère hybride et complexe du monde dans lequel nous sommes amenés à évoluer.
+If classical theatre offers reassuring terms of reference, it does not always translate the hybrid and complex character of the world in which we are led to live.
 
-Emmener les jeunes au théâtre pour y voir de la création contemporaine est une occasion de les familiariser avec des codes qui leurs sont inhabituels, les amener à déchiffrer des représentations de l’aujourd’hui.
+Bringing young people to the theatre to see contemporary plays offers the opportunity to familiarize them with codes which are unusual to them, to lead them to decipher representations of the reality of a world which are new and unusual for them.
+Introducing young people to contemporary theatre could be a way of helping them to deconstruct a widespread prejudice according to which theatrical art is a dusty and archaic discipline, alien to their culture and their questionings, which does not belong to them, which is inaccessible to them.
 
-Faire vivre l’expérience du contemporain aux jeunes peut être aussi une façon de les aider à démonter un préjugé trop souvent répandu selon lequel l’art théâtral serait une discipline poussiéreuse et archaïque, étrangère à leur culture et à leurs questionnements, qui ne leur appartiendrait pas, qui leur serait inaccessible.
+So, if one of our season’s shows makes you want to to put your students in contact with artistic practice, don’t hesitate to share your ideas with us.
 
-N’hésitez donc pas, si un spectacle de notre saison vous donnait l’envie de mettre en relation vos étudiants avec la pratique artistique, à nous faire part de vos idées.
-
-Nous organisons  régulièrement des dynamiques d’échanges entre étudiants et professionnels, sous différentes formes en fonction des projets spécifiques. ex : captations vidéo, stages d’observation, interviews d’artistes, séances de croquis, ateliers créatifs… Ces activités sont gratuites et construites à la carte.
+We regularly organise meetings for exchanges between students and professionals, in different forms depending on the specific projects (video recording, job shadowing, artist interviews, sketching sessions, creative workshops). These activities are free and developed à la carte.
 
 * * *
 
-Contact conseils et organisation des activités pédagogiques:
+Contact person for advice and the organisation of pedagogical activities:
 Noemi Tiberghien
 [+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
 
-<!-- + Guide pédagogique à télécharger -->
+<!-- Download the educational guide -->
 
 ## Communication pack
 
-<!-- Nouveau logo Balsa, Label United Stages, fonts et dossiers de
-diffusion à télécharger-->
-
+- [logo balsamine 17-18](/images/logo-balsa.svg)
+- [logo Label United Stages](/images/label-united-stages-txt.svg)
+- [fonts]()
+- [dossiers de diffusion]()
+- 
 ## Technical plans
 
-Ici, vous trouverez tous les plans techniques de la Balsamine.
+You will find all of La Balsamine’s technical plans here.
+{: .en-block}
 
 - [Balsa Small room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20Petite%20salle.pdf) 
 - [Balsa floor plan amphi.pdf](http://balsamine.be/uploads/Balsamine.Technique/Balsa%20sol%20amphi.pdf)
