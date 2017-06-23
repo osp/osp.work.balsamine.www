@@ -1,5 +1,8 @@
 Title: Billetterie
 Date: 2017/04
+Translation: true
+Lang: fr
+Slug: billetterie
 
 ## Tarifs
 
