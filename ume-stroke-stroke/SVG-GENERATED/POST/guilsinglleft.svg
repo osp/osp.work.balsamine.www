@@ -1,0 +1,24 @@
+<!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" viewBox="0 -288 1024 2048" id="svg6" sodipodi:docname="guilsingleft.svg" width="1024" height="2048" inkscape:version="0.92.1 r">
+  <metadata id="metadata12">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs10"></defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="2558" inkscape:window-height="1402" id="namedview8" showgrid="false" showguides="true" inkscape:guide-bbox="true" inkscape:zoom="0.16599152" inkscape:cx="1096.3669" inkscape:cy="14.990334" inkscape:window-x="0" inkscape:window-y="18" inkscape:window-maximized="0" inkscape:current-layer="layer2">
+    <sodipodi:guide position="855.00208,945.38285" orientation="1,0" id="guide4535" inkscape:locked="false"></sodipodi:guide>
+    <sodipodi:guide position="881.9422,864.04772" orientation="1,0" id="guide4537" inkscape:locked="false"></sodipodi:guide>
+  </sodipodi:namedview>
+  <g inkscape:groupmode="layer" id="layer1" inkscape:label="guide" style="display:inline" transform="matrix(1,0,0,0.90,0,175)"></g>
+  <g inkscape:groupmode="layer" id="layer2" inkscape:label="top" style="display:inline" transform="matrix(1,0,0,0.90,0,175)">
+    <g id="g4510" transform="matrix(1,0,0,0.90,0,175)">
+      <path class="int" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" id="path5200" d="M 861.42954,402.71454 191.81121,1023.1265 859.9859,1648.6511" style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;"></path>
+      <path class="ext" sodipodi:nodetypes="ccc" inkscape:connector-curvature="0" id="path5200-6" d="M 844.31054,389.80775 208.93025,1023.1265 842.8669,1661.5579" style="fill: none; fill-rule: evenodd; stroke: rgb(0, 0, 0); stroke-width: 100; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1;"></path>
+    </g>
+  </g>
+</svg>

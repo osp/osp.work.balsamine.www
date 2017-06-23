@@ -92,14 +92,14 @@
     font-family: 'Ume double stroke master expended fat';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-expended-fat.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-expended-int-20-ext-145.ttf') format('woff');
 }
 
 @font-face {
     font-family: 'Ume double stroke affiche saison';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-affiche-saison.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-condensed-int-120-ext-120-round.ttf') format('woff');
 }
 
 .cadra {
@@ -124,14 +124,14 @@
 
 html {
     font-size: 16px;
-    line-height: 1.375em;
+    line-height: 1.3em;
 }
 
 body {
     overflow: hidden;
 
     /*  FIXME: Move away from the reset section */
-    background-image: url('../imgs/coin-de-boite-bas-gauche.svg');
+    background-image: url('/theme/imgs/coin-de-boite-bas-gauche.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
@@ -139,7 +139,7 @@ body {
 
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
-    line-height: 1.375em;
+    line-height: 1.3em;
 }
 
 a {
@@ -383,7 +383,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 @media (--mobile-landscape) {
     body {
-        background-image: url('../imgs/coin-de-boite-haut-gauche.svg');
+        background-image: url('/theme/imgs/coin-de-boite-haut-gauche.svg');
         background-position: top left;
     }
 
@@ -901,7 +901,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     padding: 1em;
 
     color: var(--primary-color);
-    /*background-image: url('../imgs/damier.png');*/
+    /*background-image: url('/theme/imgs/damier.png');*/
     background-size: 25px;
 }
 
@@ -909,10 +909,6 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 /*  FIXME: re-order rules */
 
 .content .show-detail__header h1 { margin-bottom: 0em; }
-
-.content .show-detail__header .translations a {
-  border: 1px solid black;
-}
 
 .content .show-detail__header h2 {
     margin-top: 0.1em;
@@ -1111,7 +1107,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .page-detail { color: var(--primary-color); }
 
-/*.page-detail dl { column-width: 15em; }*/
+.page-detail dl { margin-top: 1em; }
 
 .page-detail dt { font-family: 'Ume double stroke affiche saison'; }
 
@@ -1174,6 +1170,9 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     margin-top: 12pt;
     text-indent: 0pt;
 }
+.page-detail dd.footnote {
+    margin-top: 0;
+}
 .page-detail .footnote ol li + li {
     margin-bottom: 1em;
     text-indent: 2em;
@@ -1192,6 +1191,14 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     text-decoration: none;
     border: 1px solid black;
     padding: 0.5em;
+    padding-top: 0.4em;
+    font-family: 'Ume double stroke double fat Balsa';
+    position: relative;
+    top: -3em;
+    left: -6.5em;
+}
+.page-detail .translations a:hover {
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
 .page-detail .no-display { display: none; }
@@ -1206,14 +1213,16 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
   margin: 0pt;
   padding-right: 4pt;
 }
-.page-detail img[alt="plan de la balsamine"]{
+
+.page-detail img.map {
   float: right;
+  width: 70%;
 }
 
 .page-detail p + p img { margin-left: -3em; }
 
 .page-detail h1 {
-    width: 50%;
+    /*width: 50%;*/
 
     /*text-align: center;*/
 }

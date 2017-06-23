@@ -44,37 +44,37 @@ aujourd’hui et demain.
 ## Équipe
 
 Direction générale et artistique
-:   [Monica Gomes](mailto:monica.gomes@balsamine.be)
+:   [Monica Gomes](mailto:&#109;&#111;&#110;&#105;&#099;&#097;&#046;&#103;&#111;&#109;&#101;&#115;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Direction financière et administrative
-:   [Morgan Brunéa](mailto:morgan.brunea@balsamine.be)
+:   [Morgan Brunéa](mailto:&#109;&#111;&#114;&#103;&#097;&#110;&#046;&#098;&#114;&#117;&#110;&#101;&#097;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Coordination générale, communication et accueil compagnies
-:   [Fanny Arvieu](mailto:fanny.arvieu@balsamine.be)
+:   [Fanny Arvieu](mailto:&#102;&#097;&#110;&#110;&#121;&#046;&#097;&#114;&#118;&#105;&#101;&#117;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Presse, promotion et relations publiques
-:   [Irène Polimeridis](mailto:relations.publiques@balsamine.be)
+:   [Irène Polimeridis](mailto:&#114;&#101;&#108;&#097;&#116;&#105;&#111;&#110;&#115;&#046;&#112;&#117;&#098;&#108;&#105;&#113;&#117;&#101;&#115;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Comédienne et romaniste - Médiation écoles et associations
-:   [Noemi Tiberghien](mailto:noemi.tiberghien@balsamine.be)
+:   [Noemi Tiberghien](mailto:&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Metteur en scène et auteur - Artiste associée
-:   [Martine Wijckaert](mailto:martine.wijckaert@balsamine.be)
+:   [Martine Wijckaert](mailto:&#109;&#097;&#114;&#116;&#105;&#110;&#101;&#046;&#119;&#105;&#106;&#099;&#107;&#097;&#101;&#114;&#116;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Résidence artistique et administrative
 :   [Théâtre du Tilleuil](http://www.theatredutilleuil.be)
 
 Direction technique
-:   [Jef Philips](mailto:jef.philips@balsamine.be)
+:   [Jef Philips](mailto:&#106;&#101;&#102;&#046;&#112;&#104;&#105;&#108;&#105;&#112;&#115;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Régisseur
-:   [Rémy Urbain](mailto:remy.urbain@balsamine.be)
+:   [Rémy Urbain](mailto:&#114;&#101;&#109;&#121;&#046;&#117;&#114;&#098;&#097;&#105;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Régisseur stagière
 :   Brice Agnes
 
 Responsable bar
-:   [Franck Crabbé](mailto:franck.bar@balsamine.be)
+:   [Franck Crabbé](mailto:&#102;&#114;&#097;&#110;&#099;&#107;&#046;&#098;&#097;&#114;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 Photographe de plateau associé
 :   Hichem Dahes
@@ -82,12 +82,20 @@ Photographe de plateau associé
 Designers graphique associés
 :   [Open Source Publishing](http://osp.kitchen)
 
-Visuels; artiste associé pour la saison 17-18
+Artiste associée, visuels de la saison 17-18
 :   [Julie Kern Donck](http://www.juliekerndonck.be)
+
 
 ## Location des espaces
 
-[Louer la Balsamine](rent.html)
+Située à quelques pas des institutions européennes, la Balsamine vous propose plusieurs de ses espaces intégrant une infrastructure technique et professionnelle ainsi qu’un bar convivial.
+
+Séminaires, workshops, mariages, anniversaires, formations… Proposez-nous vos événements et nous vous conseillerons.
+
+* * *
+
+[Plus d'infos](/louer.html)
+
 
 ## Partenaires
 
