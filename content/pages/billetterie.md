@@ -4,7 +4,7 @@ Date: 2017/04
 ## Tarifs
 
 Tarif mécène
-:  20 euros
+:  20 €
 :  Être mécène, c’est participer à la pérennité des fondamentaux de la Balsamine que sont l’échange et le dialogue, la création et l’enjeu artistique et expérimental.
 C’est nous aider à soutenir la création artistique. C’est reconnaître et accompagner une politique qui soutient les jeunes artistes.
 C’est vous associer au pari de la jeunesse et de la rencontre des savoirs issus de différentes disciplines.
@@ -15,12 +15,12 @@ C’est une opportunité singulière de nous permettre de poursuivre une politiq
 
 Tarif plein
 :  15 €
-:  prévente 12 €
+:  Prévente 12 €
 :  <br/>
 
 Tarif réduit
 :  10 €
-:  prévente 7€
+:  Prévente 7€
 :  5 €
 :  Étudiants, + de 60 ans, demandeurs d’emploi, professionnels du spectacle, schaerbeekois
 {: .footnote }
@@ -37,7 +37,7 @@ Tarif étudiants en écoles supérieures artistiques
 
 Tarif Mardis contemporains
 :  12 €
-:  tarif réduit 10 €
+:  Tarif réduit 10 €
 :  <br/>
 
 Article 27 et Arsène 50
