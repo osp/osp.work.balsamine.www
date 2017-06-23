@@ -6,7 +6,7 @@ Key_image: shows/5-i-clit/shoes.png
 Key_image_detail_body: shows/5-i-clit/scene-setup.png
 Piece_author: Mercedes Dassy
 Event_type: Création danse
-Reservation_link: http://balsamine.billetterie.it/index.php?...
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=24&cntnt01returnid=44
 Subhead: Dans le cadre de Brussels, dance ! Focus on contemporary dance.
 Intro: Un spectacle manifeste du corps, de la chair et du sexe féminin.
 Color: #fce761

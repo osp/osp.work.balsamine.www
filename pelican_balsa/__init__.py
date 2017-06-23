@@ -65,5 +65,5 @@ def obfuscate_emails(content):
 
 def register():
     signals.initialized.connect(add_metadata_processors)
-    signals.content_object_init.connect(obfuscate_emails)
+    #signals.content_object_init.connect(obfuscate_emails)
     signals.finalized.connect(process_css)

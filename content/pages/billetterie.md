@@ -1,10 +1,13 @@
 Title: Billetterie
 Date: 2017/04
+Translation: true
+Lang: fr
+Slug: billetterie
 
 ## Tarifs
 
 Tarif mécène
-:  20 euros
+:  20 €
 :  Être mécène, c’est participer à la pérennité des fondamentaux de la Balsamine que sont l’échange et le dialogue, la création et l’enjeu artistique et expérimental.
 C’est nous aider à soutenir la création artistique. C’est reconnaître et accompagner une politique qui soutient les jeunes artistes.
 C’est vous associer au pari de la jeunesse et de la rencontre des savoirs issus de différentes disciplines.
@@ -15,12 +18,12 @@ C’est une opportunité singulière de nous permettre de poursuivre une politiq
 
 Tarif plein
 :  15 €
-:  prévente 12 €
+:  Prévente 12 €
 :  <br/>
 
 Tarif réduit
 :  10 €
-:  prévente 7€
+:  Prévente 7€
 :  5 €
 :  Étudiants, + de 60 ans, demandeurs d’emploi, professionnels du spectacle, schaerbeekois
 {: .footnote }
@@ -37,7 +40,7 @@ Tarif étudiants en écoles supérieures artistiques
 
 Tarif Mardis contemporains
 :  12 €
-:  tarif réduit 10 €
+:  Tarif réduit 10 €
 :  <br/>
 
 Article 27 et Arsène 50
@@ -85,7 +88,7 @@ Le bureau des réservations est joignable au [+32 2 735 64 68](tel:+3227356468).
 
 ### Par e-mail
 
-En envoyant un e-mail à l’adresse [reservation@balsamine.be](mailto:reservation@balsamine.be) en précisant votre nom et votre prénom, le nom du spectacle, la date de représentation, le(s) tarif(s) dont vous bénéficiez et le nombre de places souhaitées. Un e-mail de confirmation vous sera ensuite renvoyé.
+En envoyant un e-mail à l’adresse [&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;) en précisant votre nom et votre prénom, le nom du spectacle, la date de représentation, le(s) tarif(s) dont vous bénéficiez et le nombre de places souhaitées. Un e-mail de confirmation vous sera ensuite renvoyé.
 
 ### Par le site internet
 
@@ -97,10 +100,10 @@ Accessible 24h/24, vous pouvez cliquer sur le lien « réserver » présent sur 
 
 Par virement bancaire au numéro de compte suivant : IBAN BE15 0680 6267 2030 — BIC GKCCBEBB
 
-Pour bénéficier du tarif prévente, le paiement doit avoir lieu 48 h avant la date de représentation choisie.
+Pour bénéficier du tarif prévente, le paiement doit avoir lieu 48h avant la date de représentation choisie.
 
 Nous vous remercions d’indiquer en communication votre nom, votre prénom, la date de représentation choisie et la communication structurée qui vous a été transmise soit par e-mail, soit par téléphone.
 
 ### Sur place
 
-La billetterie est ouverte les soirs de représentation à partir de 19 h.
+La billetterie est ouverte les soirs de représentation à partir de 19h00.

@@ -10,7 +10,7 @@ Piece_authors: Denis Bosse
 Event_type: Création Vidéopéra<br/>En coproduction avec Ars Musica
 Key_image: shows/6-La-Lettre-Volee/inkwell-hd.png
 Key_image_detail_body: shows/6-La-Lettre-Volee/tiroir.png
-Reservation_link: http://balsamine.billetterie.it/index.php?...
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=21&cntnt01returnid=44
 Intro: Une enquête palpitante à la recherche d’une lettre perdue. Lyrique et atypique.
 Color: #aa928c
 

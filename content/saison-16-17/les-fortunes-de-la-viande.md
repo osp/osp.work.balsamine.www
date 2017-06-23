@@ -6,7 +6,7 @@ Key_image: shows/4-Les-Fortunes-de-la-Viande/sheep-weightpaint2.png
 Key_image_detail_body: shows/4-Les-Fortunes-de-la-Viande/fortunes-de-la-viande-anim-loop.gif
 Piece_author: Martine Wijckaert
 Event_type: Création théâtre
-Reservation_link: http://balsamine.billetterie.it/index.php?...
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=23&cntnt01returnid=44
 Intro: Un aller simple pour le trou du cul du monde. Bienvenue dans l’anus planétaire.
 Color: #ecb9b3
 

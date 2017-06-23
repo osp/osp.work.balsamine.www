@@ -158,6 +158,9 @@ $(function() {
 
     $('.show-detail__body-images iframe').each(function() {
         div = $("<p class='video-wrapper'>");
+        $(this).attr("webkitallowfullscreen", true);
+        $(this).attr("mozallowfullscreen", true);
+        $(this).attr("allowfullscreen", true);
         $(this).css("outline-color", color).wrap(div);
         overlay = $("<span class='thumb-overlay'> </span>")
         overlay.insertBefore($(this));

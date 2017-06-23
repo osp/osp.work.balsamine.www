@@ -5,7 +5,7 @@ Time: 20h30
 Subhead: En partenariat avec Ars musica
 Event_type: Musique
 Key_image: shows/1-Helpers/helper-wind-grid.png
-Reservation_link: http://balsamine.billetterie.it/index.php?...
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=30&cntnt01returnid=44
 Color: #46cea0
 
 Les Mardis Contemporains proposent aux oreilles curieuses de découvrir des facettes de la musique d’aujourd’hui, dans un programme pluriel qui dialogue avec l’histoire, la philosophie, la sociologie, mais aussi le cirque, le cinéma, la science ou l’architecture…

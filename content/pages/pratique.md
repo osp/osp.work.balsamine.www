@@ -19,11 +19,11 @@ La Balsamine
 
 Administration
 :   [+32 2 732 96 18](tel:+3227329618)
-:   [info@balsamine.be](mailto:info@balsamine.be)  
+:   [&#105;&#110;&#102;&#111;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#105;&#110;&#102;&#111;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)  
 
 Réservation
 :   [+32 2 735 64 68](tel:+3227356468)
-:   [reservation@balsamine.be](mailto:reservation@balsamine.be)
+:   [&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 ![logo accessibilite](/images/pictogramme-personne-a-mobilite-reduite.png) L’accessibilité de nos salles aux personnes à mobilité réduite est possible mais n’est pas aisée. Lors de votre réservation, nous vous remercions de faire une demande pour cet accès.
 {: .footnote }
@@ -80,7 +80,7 @@ Nous organisons  régulièrement des dynamiques d’échanges entre étudiants e
 Contact conseils et organisation des activités pédagogiques
 :  Noemi Tiberghien
 :  [+32 2 737 70 18](tel:+3227377018)
-:  [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
+:  [&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 
 [Télécharger le guide pédagogique ici]()
@@ -108,3 +108,14 @@ Ici, vous trouverez tous les plans techniques de la Balsamine.
 - [Grill petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf)
 - [sol grande salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf)
 - [Sol petite salle.pdf](http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf)
+
+
+## Louer la Balsamine
+
+Située à quelques pas des institutions européennes, la Balsamine vous propose plusieurs de ses espaces intégrant une infrastructure technique et professionnelle ainsi qu’un bar convivial.
+
+Séminaires, workshops, mariages, anniversaires, formations… Proposez-nous vos événements et nous vous conseillerons.
+
+* * *
+
+[Plus d'infos](/location.html)
