@@ -153,3 +153,10 @@ IGNORE_FILES = ["*.swo", "*.swp"]
 # <https://github.com/aleray/pelican>
 STATIC_CHECK_IF_MODIFIED = True
 
+
+MENU_ITEMS = (
+    ('La Balsamine', 'la-balsamine.html'),        
+    ('Pratique', 'pratique.html'),
+    ('Billeterie', 'billeterie.html'),
+    ('Location', 'louer.html'),
+)

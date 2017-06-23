@@ -24,10 +24,3 @@ DELETE_OUTPUT_DIRECTORY = True
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
 
-
-MENU_ITEMS = (
-    ('La Balsamine', 'la-balsamine.html'),        
-    ('Pratique', 'pratique.html'),
-    ('Billeterie', 'billeterie.html'),
-    ('Location', 'louer.html'),
-)
