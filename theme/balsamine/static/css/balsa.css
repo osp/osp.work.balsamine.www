@@ -1011,7 +1011,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .page-detail { color: var(--primary-color); }
 
-/*.page-detail dl { column-width: 15em; }*/
+.page-detail dl { margin-top: 1em; }
 
 .page-detail dt { font-family: 'Ume double stroke affiche saison'; }
 
@@ -1111,8 +1111,10 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
   margin: 0pt;
   padding-right: 4pt;
 }
-.page-detail img[alt="plan de la balsamine"]{
+
+.page-detail img.map {
   float: right;
+  width: 70%;
 }
 
 .page-detail p + p img { margin-left: -3em; }

@@ -10,31 +10,46 @@ All roads lead to la Balsa.
 
 * * *
 
+![access map to la balsamine](/images/map.svg){: class="map"}
+
 La Balsamine
-Avenue Félix Marchal, 1
-1030 Bruxelles
+:   Avenue Félix Marchal, 1
+:   1030 Bruxelles
 
 Administration
 :   [+32 2 732 96 18](tel:+3227329618)
-:   [info@balsamine.be](mailto:info@balsamine.be)
+:   [&#105;&#110;&#102;&#111;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#105;&#110;&#102;&#111;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)  
 
 
 Reservations
 :  [+32 2 735 64 68](tel:+3227356468)
-:  [reservation@balsamine.be](mailto:reservation@balsamine.be)
+:   [&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 
-![map of la balsamine](/images/map.svg){: style="width: 100%; margin-left: auto; margin-right: auto;"}
+![logo accessibilite](/images/pictogramme-personne-a-mobilite-reduite.png) The accessibility of our theatres for people with reduced mobility is possible but not easy. When making a reservation, we would thank you to make a request for this access.
+{: .footnote }
 
-
-
-The accessibility of our theatres for people with reduced mobility is possible but not easy. When making a reservation, we would thank you to make a request for this access.
 
 ## Bar and catering
 
 The bar is open from 19:00 every evening of a performance. Delicious light meals and snacks prepared on site are available before each show.
 
-<!-- Menu de la semaine -->
+### Menu of the week
+
+Monday
+:   miam
+
+Tuesday 
+:   miam miam
+
+Wednesday
+:   mmmm
+
+Thursday
+:   gloup
+
+Friday  
+:   re miam   
 
 ## Around the shows
 
@@ -64,8 +79,9 @@ We regularly organise meetings for exchanges between students and professionals,
 * * *
 
 Contact person for advice and the organisation of pedagogical activities:
-Noemi Tiberghien
-[+32 2 737 70 18](tel:+3227377018) — [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
+:  Noemi Tiberghien
+:  [+32 2 737 70 18](tel:+3227377018)
+:  [&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 <!-- Download the educational guide -->
 
@@ -91,3 +107,14 @@ You will find all of La Balsamine’s technical plans here.
 - [Grill small rom.pdf](http://balsamine.be/uploads/Balsamine.Technique/Grill%20petite%20salle.pdf)
 - [Floor plan large room.pdf](http://balsamine.be/uploads/Balsamine.Technique/sol%20grande%20salle.pdf)
 - [Floor plan small room.pdf](http://balsamine.be/uploads/Balsamine.Technique/Sol%20petite%20salle.pdf)
+
+
+## Renting la Balsamine
+
+Situated in a stone's throw from the European institutions, La Balsamine can offer you several of its spaces, comprising a technical and professional infrastructure as well as a convivial bar.
+
+Whether you are organizing a seminar, a workshop, a training day, a birthday or a wedding, contact us with your query and we will advise you. We will put at your disposal the most suitable space, equipment of the highest quality and a professional technical team.
+
+* * *
+
+[More info](/rent.html)
