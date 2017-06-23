@@ -1071,6 +1071,9 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     margin-top: 12pt;
     text-indent: 0pt;
 }
+.page-detail dd.footnote {
+    margin-top: 0;
+}
 .page-detail .footnote ol li + li {
     margin-bottom: 1em;
     text-indent: 2em;
