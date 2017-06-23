@@ -98,14 +98,14 @@
     font-family: 'Ume double stroke master expended fat';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-expended-fat.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-expended-int-20-ext-145.ttf') format('woff');
 }
 
 @font-face {
     font-family: 'Ume double stroke affiche saison';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/ume-stroke-stroke-affiche-saison.woff') format('woff');
+    src: url('../fonts/ume-stroke-stroke-condensed-int-120-ext-120-round.ttf') format('woff');
 }
 
 .cadra {
