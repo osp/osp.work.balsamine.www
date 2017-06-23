@@ -23,7 +23,7 @@ Administration
 
 Réservation
 :   [+32 2 735 64 68](tel:+3227356468)
-:   [reservation@balsamine.be](mailto:reservation@balsamine.be)
+:   [&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 ![logo accessibilite](/images/pictogramme-personne-a-mobilite-reduite.png) L’accessibilité de nos salles aux personnes à mobilité réduite est possible mais n’est pas aisée. Lors de votre réservation, nous vous remercions de faire une demande pour cet accès.
 {: .footnote }
@@ -80,7 +80,7 @@ Nous organisons  régulièrement des dynamiques d’échanges entre étudiants e
 Contact conseils et organisation des activités pédagogiques
 :  Noemi Tiberghien
 :  [+32 2 737 70 18](tel:+3227377018)
-:  [noemi.tiberghien@balsamine.be](mailto:noemi.tiberghien@balsamine.be)
+:  [&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
 
 [Télécharger le guide pédagogique ici]()
