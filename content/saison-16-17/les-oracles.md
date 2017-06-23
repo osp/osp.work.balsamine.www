@@ -7,7 +7,7 @@ Event_type: Création transversale danse / vidéo / musique / texte
 Subhead: En partenariat avec Rhizome et Transcultures
 Key_image: shows/12-Les-Oracles/les-oracles-compo.png
 Key_image_detail_body: shows/12-Les-Oracles/les-oracles-1.gif
-Reservation_link: http://balsamine.billetterie.it/index.php?...
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=20&cntnt01returnid=44
 Color: #d2d373
 
 

@@ -6,7 +6,7 @@ Piece_author: Jean Le Peltier
 Event_type: Création théâtre
 Key_image: shows/2-Les-Loups/wolf7-hd.png
 Key_image_detail_body: shows/2-Les-Loups/compo3.png
-Reservation_link: http://balsamine.billetterie.it/index.php?...
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=26&cntnt01returnid=44
 Intro: Une histoire étonnante sur la solidarité entre les espèces, sur la survie en milieu hostile.
 Color: #72572d
 

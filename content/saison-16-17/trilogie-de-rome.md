@@ -5,7 +5,7 @@ Time: 20h30
 Piece_author: Théâtre de Galafronie
 Event_type: Création théâtre
 Key_image: shows/3-Trilogie-de-Rome/renders-hd.png
-Reservation_link: http://balsamine.billetterie.it/index.php?...
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=27&cntnt01returnid=44
 Intro: Qu’est devenue l’antiquité sinon une surface de projection ? L’histoire d’un crime qui s’est trouvé une scène.
 Color: #c6a545
 

@@ -6,7 +6,7 @@ Piece_author: Simon Thomas
 Event_type: Reprise Théâtre
 Key_image: shows/7-should-i-stay-or-should-i-stay/should-i-stay-composition1.png
 Key_image_detail_body: shows/7-should-i-stay-or-should-i-stay/should-i-stay-or-anim-cat.gif
-Reservation_link: http://balsamine.billetterie.it/index.php?...
+Reservation_link: http://balsamine.billetterie.it/index.php?mact=Agenda,cntnt01,DetailEvent,0&cntnt01id_event=22&cntnt01returnid=44
 Intro: Les quatre fantastiques reviennent et reprennent leur rengaine : Should I…
 Color: #3b4086
 
