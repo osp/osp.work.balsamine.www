@@ -814,10 +814,6 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .content .show-detail__header h1 { margin-bottom: 0em; }
 
-.content .show-detail__header .translations a {
-  border: 1px solid black;
-}
-
 .content .show-detail__header h2 {
     margin-top: 0.1em;
     margin-bottom: 0em;
@@ -1093,6 +1089,11 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
     text-decoration: none;
     border: 1px solid black;
     padding: 0.5em;
+    padding-top: 0.4em;
+    font-family: 'Ume double stroke double fat Balsa';
+}
+.page-detail .translations a:hover {
+    box-shadow: 3px 2px 6px 1px var(--primary-color);
 }
 
 .page-detail .no-display { display: none; }
