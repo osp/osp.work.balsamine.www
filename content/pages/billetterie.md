@@ -71,13 +71,9 @@ UNITED STAGES, charte éthique réunissant de nombreux partenaires du secteur cu
 ## Le Pass
 
 Et si vous tentiez le pass…
-
 Un pass nominatif vendu au prix de 20 euros et qui vous donne accès à huit spectacles de la saison.
-
 La réservation des places peut se faire à tout moment, sous réserve des places disponibles.
-
 Intéressé ? Contactez notre bureau des réservations.
-
 Attention, le pass ne peut s’acheter que du 15 mai au 30 septembre. Le nombre de pass mis en vente est limité.
 
 ## Réservations
@@ -86,23 +82,23 @@ Attention, le pass ne peut s’acheter que du 15 mai au 30 septembre. Le nombre 
 
 Le bureau des réservations est joignable au [+32 2 735 64 68](tel:+3227356468). Du lundi au vendredi, de 14 h à 18 h, la Balsamine prend vos réservations ou vous donne des renseignements complémentaires. En dehors de ces heures et le week-end, un répondeur prend vos réservations.
 
-### Par e-mail
+### Par e‑mail
 
-En envoyant un e-mail à l’adresse [&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;) en précisant votre nom et votre prénom, le nom du spectacle, la date de représentation, le(s) tarif(s) dont vous bénéficiez et le nombre de places souhaitées. Un e-mail de confirmation vous sera ensuite renvoyé.
+En envoyant un e‑mail à l’adresse [&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#114;&#101;&#115;&#101;&#114;&#118;&#097;&#116;&#105;&#111;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;) en précisant votre nom et votre prénom, le nom du spectacle, la date de représentation, le(s) tarif(s) dont vous bénéficiez et le nombre de places souhaitées. Un e‑mail de confirmation vous sera ensuite renvoyé.
 
 ### Par le site internet
 
-Accessible 24h/24, vous pouvez cliquer sur le lien « réserver » présent sur chaque page de spectacle du site et compléter le formulaire. Un e-mail de confirmation vous sera ensuite envoyé. Cette réservation en ligne concerne à la fois les places au tarif prévente mais aussi les places qui ne seront payées que le soir de votre venue.
+Accessible 24h/24, vous pouvez cliquer sur le lien « réserver » présent sur chaque page de spectacle du site et compléter le formulaire. Un e‑mail de confirmation vous sera ensuite envoyé. Cette réservation en ligne concerne à la fois les places au tarif prévente mais aussi les places qui ne seront payées que le soir de votre venue.
 
 ## Moyens de paiement et retrait des places
 
 ### Préventes
 
-Par virement bancaire au numéro de compte suivant : IBAN BE15 0680 6267 2030 — BIC GKCCBEBB
+Par virement bancaire au numéro de compte suivant : IBAN&nbsp;BE15&nbsp;0680&nbsp;6267&nbsp;2030 — BIC&nbsp;GKCCBEBB
 
 Pour bénéficier du tarif prévente, le paiement doit avoir lieu 48h avant la date de représentation choisie.
 
-Nous vous remercions d’indiquer en communication votre nom, votre prénom, la date de représentation choisie et la communication structurée qui vous a été transmise soit par e-mail, soit par téléphone.
+Nous vous remercions d’indiquer en communication votre nom, votre prénom, la date de représentation choisie et la communication structurée qui vous a été transmise soit par e‑mail, soit par téléphone.
 
 ### Sur place
 

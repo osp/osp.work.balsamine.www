@@ -7,9 +7,9 @@ Lang: fr
 ## Accès
 Tous les chemins mènent à la Balsa.
 
-###
+* * *
 
-![plan de la balsamine](/images/map.svg){: style="width: 70%; margin-left: auto; margin-right: auto;"}
+![plan d'accès de la balsamine](/images/map.svg){: class="map"}
 
 
 La Balsamine  
@@ -53,7 +53,7 @@ Vendredi
 
 ### Les aftershows
 
-A l’issue de toutes les deuxièmes représentations des créations, la Balsamine vous propose une rencontre avec l’équipe artistique. Un moment privilégié pour débattre et échanger en toute convivialité.
+À l’issue de toutes les deuxièmes représentations des créations, la Balsamine vous propose une rencontre avec l’équipe artistique. Un moment privilégié pour débattre et échanger en toute convivialité.
 Petite particularité, cette rencontre est menée par un autre artiste de la saison.
 
 ### Associations
@@ -82,8 +82,9 @@ Contact conseils et organisation des activités pédagogiques
 :  [+32 2 737 70 18](tel:+3227377018)
 :  [&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;](mailto:&#110;&#111;&#101;&#109;&#105;&#046;&#116;&#105;&#098;&#101;&#114;&#103;&#104;&#105;&#101;&#110;&#064;&#098;&#097;&#108;&#115;&#097;&#109;&#105;&#110;&#101;&#046;&#098;&#101;)
 
+* * *
 
-[Télécharger le guide pédagogique ici]()
+<!--[Télécharger le guide pédagogique]()-->
 
 ## Espace pro
 
@@ -118,4 +119,4 @@ Séminaires, workshops, mariages, anniversaires, formations… Proposez-nous vos
 
 * * *
 
-[Plus d'infos](/location.html)
+[Plus d'infos](/louer.html)
