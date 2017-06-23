@@ -49,7 +49,7 @@
 
         {% block sidebar %}
         <section class="schedule">
-            <div class="schedule__list">
+            <div data-role="panel" class="schedule__list">
                 {% for article in articles %}
                     {% include 'partials/event.html' %}
                 {% endfor %}
@@ -66,13 +66,13 @@
         <p class="address" translate="no">
             <span>
                 <a href="#">
-                    <span>Théâtre La Balsamine</span>
-                    <span>Avenue Félix Marchal, 1</span>
-                    <span>1030 Bruxelles</span>
+                    <span class="person">Théâtre La Balsamine</span>
+                    <span class="street">Avenue Félix Marchal, 1</span>
+                    <span class="locale">1030 Bruxelles</span>
                 </a>
             </span>
             <span>
-                <span>Administration: 02 732 96 18</span>
+                <span class="administration">Administration: 02 732 96 18</span>
                 <span><a href="tel:+32 735 64 68">Réservations: 02 735 64 68</a></span>
             </span>
         </p>

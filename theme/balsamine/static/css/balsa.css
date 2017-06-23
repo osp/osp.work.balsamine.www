@@ -6,22 +6,16 @@
 
 @custom-media --mobile-landscape only screen and (max-width: 767px) and (orientation: landscape);
 
-@custom-media --desktop only screen and (min-width: 768px);
+@custom-media --tablet-laptop only screen and (min-width: 768px) and (max-width: 1300px);
 
-/* COLM PROPOSAL
+@custom-media --desktop only screen and (min-width: 1300px);
 
-@custom-media --mobile only screen and (max-width: 320px);
+/*
+@custom-media --mobile only screen and (max-width: 600px);
 
 @custom-media --mobile-landscape only screen and (max-width: 767px) and (orientation: landscape);
 
-@custom-media --tablet only screen and (max-width: 600px);
-
-@custom-media --laptop only screen and (max-width: 1100px);
-
-@custom-media --desktop only screen and (max-width: 1500px);
-
 */
-
 
 
 /* ==========================================================================
@@ -141,6 +135,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
+    /* <<<<<<<<< */
 
     font-family: 'Ume double stroke master condensed';
     font-size: 1em;
@@ -267,11 +262,33 @@ hr + hr { border-top: 1px solid var(--primary-color); }
     line-height: 1;
 }
 
+@media (--mobile) {
+
+  .address > span{
+    display: inline-block;
+  }
+
+  .address span.street{
+    float: left;
+    margin-left: 10%;
+  }
+  .address span.person {
+      display: none;
+  }
+  .address span.locale {
+      display: none;
+  }
+  span.administration {
+      display: none;
+  }
+}
+@media (--tablet-laptop){
 .address > span { display: block; }
 
 .address > span + span:before { content: " — "; }
 
 .address > span span + span::before { content: '\00B7\00A0'; }
+}
 
 @media (--desktop) {
     .main-footer {
@@ -426,7 +443,24 @@ hr + hr { border-top: 1px solid var(--primary-color); }
         height: 100%;
     }
 
-    .is-swiped .main-content { display: none; }
+    .is-swiped .main-content { display: none;}
+}
+
+@media (--tablet-laptop) {
+    .main-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        overflow-y: scroll;
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding-right: 80px;
+
+        background-color: white;
+    }
 }
 
 @media (--desktop) {
@@ -470,7 +504,6 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 .schedule {
     position: relative;
-
     background-color: white;
 }
 
@@ -634,6 +667,7 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 
 #kunstenfestivaldesarts { padding-bottom: 17%; }
 
+/* <<<<<<<<< */
 
 .schedule__timeline {
     top: 0;
@@ -655,7 +689,10 @@ hr + hr { border-top: 1px solid var(--primary-color); }
         height: 100%;
     }
 
-    .is-swiped .schedule { width: 100%; }
+    .is-swiped .schedule {
+      width: 100%;
+      transition: 1s;
+     }
 
     .schedule__list {
         position: absolute;
@@ -678,6 +715,49 @@ hr + hr { border-top: 1px solid var(--primary-color); }
         right: 0;
 
         width: 30px;
+        height: 100%;
+    }
+}
+
+@media (--tablet-laptop) {
+    .schedule {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        overflow: hidden;
+
+        box-sizing: border-box;
+        width: 80px;
+        height: 100%;
+    }
+
+    .is-swiped .schedule {
+      width: 100%;
+     }
+
+    .schedule__list {
+        position: absolute;
+        top: 0;
+        right: 30px;
+        left: 0;
+
+        display: none;
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+        height: 100%;
+    }
+
+    .is-swiped .schedule__list { display: block; }
+
+
+    .schedule__timeline {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        width: 80px;
         height: 100%;
     }
 }
@@ -773,6 +853,22 @@ hr + hr { border-top: 1px solid var(--primary-color); }
 }
 
 .timeline__point:hover { transform: scale(1.5); }
+
+@media (--tablet-laptop){
+  .timeline__month {
+      right: 80px;
+
+      height: 80px;
+      padding-top: 60px;
+  }
+  .timeline__point { right: 55px; }
+
+  .timeline__point:nth-child(2n+0) { right: 45px; }
+
+  .timeline__point:nth-child(3n+0) { right: 35px; }
+
+  .timeline__point:nth-child(4n+0) { right: 25px; }
+}
 
 @media (--desktop) {
     .timeline__month {
@@ -1038,6 +1134,7 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
       margin-top: 2em;
 }
 
+<<<<<<< HEAD
 .page-detail h2#acces + .section3 dl dd {
   display: block;
 }
@@ -1047,7 +1144,9 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
 .page-detail h2#tarifs + dl {
     column-width: 20em;
     column-gap: 2em; }
-
+=======
+.page-detail h2#tarifs + dl { column-width: 20em; }
+>>>>>>> 416de05f855e1da323ed73a136871735b2f6f85b
 
 .page-detail h2#tarifs + dl dd {
     display: block;
@@ -1197,15 +1296,15 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
 
 .content.page-detail h1 {
     margin-top: 1em;
-    margin-left: -1em;
+    margin-left: 0em;
 }
 
-@media (--mobile) {
+@media (--desktop) only {
   .content.page-detail h1 {
-      margin-left: 0em;
+      margin-left: -1em;
   }
 }
-
+onl
 .content h4 {
     margin-top: 1.375em;
     margin-bottom: 0em;
@@ -1320,6 +1419,9 @@ h3#un-projet-ethique-pour-les-5-saisons-a-venir {
 
     margin-left: 0em;
 }
+
+/* <<<<<<<<< */
+/* <<<<<<<<< */
 
 
 
@@ -1446,6 +1548,7 @@ a.reservation-link:hover {
 /* FIXME: !important should not be used */
 .jcarousel__inner a { border: none !important; }
 
+/* <<<<<<<<< */
 
 
 
